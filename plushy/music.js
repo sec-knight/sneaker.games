@@ -45,4 +45,5 @@
 
   function setMuted(muted){if(master) master.gain.setTargetAtTime(muted?0:.72,ctx.currentTime,.03);}
   window.PlushyMusic={start:startMusic,setMuted};
+  for(const id of ['go','again']) document.querySelector('#'+id)?.addEventListener('click',startMusic);
 })();
