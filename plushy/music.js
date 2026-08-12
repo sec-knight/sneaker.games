@@ -52,10 +52,12 @@
   function scheduler(){if(!ctx)return;while(nextTime<ctx.currentTime+.22){scheduleStep(nextTime);nextTime+=beat;}}
 
   async function startMusic(){
-    if(!ensureAudio())return;
+    if(!ensureAudio())return false;
     if(ctx.state==='suspended')await ctx.resume();
-    if(started)return;
+    if(ctx.state!=='running')return false;
+    if(started)return true;
     started=true; nextTime=ctx.currentTime+.06; scheduler(); timer=setInterval(scheduler,90);
+    return true;
   }
 
   function wake(){if(!ensureAudio())return false;if(ctx.state==='suspended')ctx.resume();return true;}
@@ -124,7 +126,7 @@
   }
 
   function setMuted(muted){if(master)master.gain.setTargetAtTime(muted?0:.72,ctx.currentTime,.03);}
-  window.PlushyMusic={start:startMusic,setMuted,sfx:{attack,dodge,foot,hurt,heal,pickup,poof}};
-  for(const id of ['go','again'])document.querySelector('#'+id)?.addEventListener('click',startMusic);
+  window.PlushyMusic={beginFromGesture:startMusic,setMuted,sfx:{attack,dodge,foot,hurt,heal,pickup,poof}};
+  document.querySelector('#again')?.addEventListener('click',startMusic);
   hookTouch(); monitorHud();
 })();
