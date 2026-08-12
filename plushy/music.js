@@ -112,15 +112,12 @@
   const held=new Set();
   addEventListener('keydown',e=>{
     if(moveKeys.has(e.code)){held.add(e.code);setWalking(true);}
-    if(e.code==='Space'&&!e.repeat)attack();
-    if(e.code.includes('Shift')&&!e.repeat)dodge();
   });
   addEventListener('keyup',e=>{if(moveKeys.has(e.code)){held.delete(e.code);if(!held.size)setWalking(false);}});
   addEventListener('blur',()=>{held.clear();setWalking(false);});
 
   function hookTouch(){
-    const cast=document.querySelector('#cast'),dod=document.querySelector('#dodge'),stick=document.querySelector('#stick');
-    cast?.addEventListener('pointerdown',attack); dod?.addEventListener('pointerdown',dodge);
+    const stick=document.querySelector('#stick');
     stick?.addEventListener('pointerdown',()=>setWalking(true));
     stick?.addEventListener('pointerup',()=>setWalking(false));
     stick?.addEventListener('pointercancel',()=>setWalking(false));
