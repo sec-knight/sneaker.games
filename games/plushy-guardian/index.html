@@ -13,7 +13,7 @@
   <div class="site-shell">
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="../../"><img src="../../assets/logo.svg" alt="Sneaker Games mascot logo"><span>SNEAKER GAMES</span></a>
-      <div class="nav-links"><a href="../../#games">Games</a><a href="#build-notes">Build Notes</a><a href="../../writing.html">Writing</a></div>
+      <div class="nav-links"><a href="../../#games">Games</a><a href="#build-notes">Build Notes</a><a href="#feedback">Feedback</a><a href="../../writing.html">Writing</a></div>
     </nav>
 
     <main>
@@ -81,6 +81,28 @@
         </div>
       </section>
 
+      <section class="section feedback-section" id="feedback">
+        <div class="section-heading"><h2>How was it?</h2><p>Your note goes privately to the Sneaker Games workshop.</p></div>
+        <form class="feedback-form" data-feedback-form data-game="plushy-guardian" data-build="2026-08-13-adaptive-audio">
+          <fieldset>
+            <legend>What kind of note is this?</legend>
+            <div class="feedback-types">
+              <label><input type="radio" name="category" value="fun" required><span>👍 Fun</span></label>
+              <label><input type="radio" name="category" value="needs-work"><span>😐 Needs work</span></label>
+              <label><input type="radio" name="category" value="bug"><span>🐛 Found a bug</span></label>
+              <label><input type="radio" name="category" value="idea"><span>💡 Have an idea</span></label>
+            </div>
+          </fieldset>
+          <label class="feedback-message">Tell us more
+            <textarea name="message" minlength="3" maxlength="1200" rows="6" required placeholder="What happened? What felt especially good, confusing, difficult, or delightfully silly?"></textarea>
+          </label>
+          <label class="feedback-honeypot" aria-hidden="true">Website<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+          <div data-turnstile></div>
+          <div class="feedback-submit"><button class="button primary" type="submit" disabled>Send feedback</button><p data-feedback-status role="status" aria-live="polite">Feedback is being connected…</p></div>
+          <p class="feedback-privacy">No account, name, email address, upload, or public comment required.</p>
+        </form>
+      </section>
+
       <section class="section alt game-cta">
         <div><span class="card-kicker">The forest is waiting</span><h2>Ready to defend something very small?</h2></div>
         <a class="button primary" href="../../plushy/">Play Plushy Guardian</a>
@@ -90,5 +112,6 @@
     <footer class="footer"><span>© <span id="year"></span> Sneaker Games</span><span class="tiny">Built in public. Patch notes included.</span></footer>
   </div>
   <script src="../../script.js"></script>
+  <script src="../../feedback.js"></script>
 </body>
 </html>
