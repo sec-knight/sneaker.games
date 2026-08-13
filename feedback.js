@@ -50,7 +50,7 @@
       if(!response.ok)throw new Error(result.error||"Could not send feedback.");
       form.reset();say("Thank you. Your note landed safely in the workshop.","success");
     }catch(error){say(error.message||"Could not send feedback.","error");}
-    finally{token="";if(widgetId!==null&&window.turnstile)turnstile.reset(widgetId);submit.disabled=false;}
+    finally{token="";if(widgetId!==null&&window.turnstile)window.turnstile.reset(widgetId);submit.disabled=false;}
   });
   connect();
 })();
