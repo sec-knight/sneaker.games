@@ -1,0 +1,12 @@
+{
+  "name": "sneaker-games",
+  "pages_build_output_dir": ".",
+  "compatibility_date": "2026-08-13",
+  "d1_databases": [
+    {
+      "binding": "FEEDBACK_DB",
+      "database_name": "sneaker-feedback",
+      "database_id": "fd97956d-7eeb-4b19-bb11-84e0879aadd2"
+    }
+  ]
+}
