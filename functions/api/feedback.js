@@ -73,7 +73,11 @@ export async function onRequestPost({request, env}) {
   if (declaredLength > 8192) return json({error: "Submission is too large."}, 413);
 
   let body;
-  try { body = await request.json(); } catch { return json({error: "Invalid JSON."}, 400); }
+  try {
+    const raw = await request.text();
+    if (new TextEncoder().encode(raw).byteLength > 8192) return json({error: "Submission is too large."}, 413);
+    body = JSON.parse(raw);
+  } catch { return json({error: "Invalid JSON."}, 400); }
   if (!body || typeof body !== "object" || Array.isArray(body)) return json({error: "Invalid submission."}, 400);
   if (body.website) return json({ok: true}, 202);
 
