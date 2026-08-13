@@ -1,0 +1,8 @@
+.git
+.github
+wrangler.jsonc
+worker.js
+functions
+migrations
+CLOUDFLARE-FEEDBACK-SETUP.md
+README.md
