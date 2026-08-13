@@ -1,10 +1,25 @@
 (()=>{
   let ctx=null, master=null, musicBus=null, sfxBus=null, timer=null, nextTime=0, step=0, started=false;
-  let walking=false, footTimer=null, footSide=0, lastHp=100, lastForest=0;
-  const beat=.34;
-  const melody=[72,null,76,null,79,76,null,74,72,null,67,null,69,71,null,null,72,null,76,79,null,81,null,79,76,null,74,71,null,69,null,67,null];
-  const bass=[48,null,null,null,48,null,null,null,45,null,null,null,43,null,null,null,48,null,null,null,52,null,null,null,45,null,null,null,43,null,null,null];
+  let scene='menu', walking=false, footTimer=null, footSide=0, lastHp=100, lastForest=0;
   const hz=m=>440*Math.pow(2,(m-69)/12), rnd=(a,b)=>a+Math.random()*(b-a);
+  const themes={
+    menu:{
+      beat:.38,
+      melody:[72,null,76,null,79,76,null,74,72,null,67,null,69,71,null,null,72,null,76,79,null,81,null,79,76,null,74,71,null,69,null,67,null],
+      answer:[null,84,null,83,null,79,81,null,null,79,null,76,null,74,null,76,null,84,null,83,81,null,79,null,null,76,null,74,null,71,null,null],
+      bass:[48,null,null,null,48,null,null,null,45,null,null,null,43,null,null,null,48,null,null,null,52,null,null,null,45,null,null,null,43,null,null,null]
+    },
+    battle:{
+      beat:.205,
+      riff:[45,45,52,45,55,54,52,45,45,45,52,45,57,55,54,52],
+      lead:[69,null,69,72,null,74,72,null,69,null,76,74,72,null,69,null]
+    },
+    victory:{
+      beat:.27,
+      bass:[48,null,53,null,55,null,48,null,57,null,55,null,53,null,48,null],
+      melody:[72,76,79,84,81,79,76,79,84,88,86,84,81,79,84,null]
+    }
+  };
 
   function ensureAudio(){
     if(ctx)return true;
@@ -30,34 +45,78 @@
     osc.start(at); osc.stop(at+dur+.03);
   }
 
-  function noise(at,dur=.12,volume=.03,cutoff=1800){
+  function noise(at,dur=.12,volume=.03,cutoff=1800,bus=sfxBus){
     if(!ctx)return;
     const n=Math.max(1,Math.floor(ctx.sampleRate*dur)),buf=ctx.createBuffer(1,n,ctx.sampleRate),d=buf.getChannelData(0);
     for(let i=0;i<n;i++)d[i]=(Math.random()*2-1)*(1-i/n);
     const src=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),gain=ctx.createGain();
     src.buffer=buf; filter.type='lowpass'; filter.frequency.value=cutoff;
     gain.gain.setValueAtTime(volume,at); gain.gain.exponentialRampToValueAtTime(.0001,at+dur);
-    src.connect(filter); filter.connect(gain); gain.connect(sfxBus); src.start(at);
+    src.connect(filter); filter.connect(gain); gain.connect(bus); src.start(at);
+  }
+
+  function sleepyStep(at){
+    const t=themes.menu,i=step%t.melody.length;
+    tone(t.melody[i],at,t.beat*.68,'triangle',.04,2100);
+    tone(t.answer[i],at+t.beat*.18,t.beat*.72,'sine',.021,2600);
+    tone(t.bass[i],at,t.beat*1.8,'sine',.035,850);
+    if(i%8===6)tone(84+(i%16?0:2),at+t.beat*.5,t.beat*.38,'square',.009,2800);
+  }
+
+  function battleStep(at){
+    const t=themes.battle,i=step%t.riff.length,root=t.riff[i];
+    tone(root,at,t.beat*.78,'sawtooth',.032,820);
+    tone(root+7,at,t.beat*.7,'square',.014,1150);
+    if(i%2===0)tone(36,at,.09,'sine',.045,240,musicBus,31);
+    if(i%4===2)noise(at,.075,.022,2300,musicBus);
+    if(i%4===0)tone(t.lead[i],at+t.beat*.08,t.beat*1.5,'triangle',.027,2400);
+    if(i%8===7)tone(57,at,t.beat*.8,'square',.013,1500);
+  }
+
+  function victoryStep(at){
+    const t=themes.victory,i=step%t.melody.length,m=t.melody[i];
+    tone(t.bass[i],at,t.beat*1.55,'sine',.032,900);
+    tone(m,at,t.beat*.78,'sawtooth',.034,2500);
+    tone(m==null?null:m+7,at+.018,t.beat*.7,'square',.014,3000);
+    if(i%4===0)tone(84,at+t.beat*.55,t.beat*.28,'triangle',.018,3300);
   }
 
   function scheduleStep(at){
-    const i=step%melody.length;
-    tone(melody[i],at,beat*.64,'triangle',.045,2100);
-    tone(bass[i],at,beat*1.7,'sine',.038,900);
-    if(i%8===6&&Math.random()<.65)tone(84+(Math.random()<.5?0:2),at+beat*.48,beat*.34,'square',.012,2600);
-    if(i%16===14&&Math.random()<.5)tone(67,at+beat*.72,beat*.5,'triangle',.018,1500);
+    if(scene==='battle')battleStep(at);
+    else if(scene==='victory')victoryStep(at);
+    else sleepyStep(at);
     step++;
   }
 
-  function scheduler(){if(!ctx)return;while(nextTime<ctx.currentTime+.22){scheduleStep(nextTime);nextTime+=beat;}}
+  function currentBeat(){return themes[scene]?.beat||themes.menu.beat;}
+  function scheduler(){if(!ctx)return;while(nextTime<ctx.currentTime+.22){scheduleStep(nextTime);nextTime+=currentBeat();}}
+
+  function fanfare(){
+    if(!ctx)return;
+    const t=ctx.currentTime+.035,notes=[72,76,79,84];
+    notes.forEach((m,i)=>{
+      tone(m,t+i*.13,.22,'sawtooth',.055,2800);
+      tone(m+7,t+i*.13+.015,.2,'square',.018,3200);
+    });
+    tone(84,t+.62,.72,'sawtooth',.06,3100);
+    tone(88,t+.64,.68,'square',.024,3500);
+    tone(91,t+.66,.65,'triangle',.025,3800);
+  }
 
   async function startMusic(){
     if(!ensureAudio())return false;
     if(ctx.state==='suspended')await ctx.resume();
     if(ctx.state!=='running')return false;
     if(started)return true;
-    started=true; nextTime=ctx.currentTime+.06; scheduler(); timer=setInterval(scheduler,90);
+    started=true; scene='menu'; step=0; nextTime=ctx.currentTime+.06; scheduler(); timer=setInterval(scheduler,70);
     return true;
+  }
+
+  function setScene(next){
+    if(!themes[next])next='menu';
+    if(scene===next)return;
+    scene=next; step=0;
+    if(ctx){nextTime=Math.max(ctx.currentTime+.055,nextTime);if(next==='victory')fanfare();}
   }
 
   function wake(){if(!ensureAudio())return false;if(ctx.state==='suspended')ctx.resume();return true;}
@@ -112,9 +171,7 @@
 
   const moveKeys=new Set(['KeyW','KeyA','KeyS','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight']);
   const held=new Set();
-  addEventListener('keydown',e=>{
-    if(moveKeys.has(e.code)){held.add(e.code);setWalking(true);}
-  });
+  addEventListener('keydown',e=>{if(moveKeys.has(e.code)){held.add(e.code);setWalking(true);}});
   addEventListener('keyup',e=>{if(moveKeys.has(e.code)){held.delete(e.code);if(!held.size)setWalking(false);}});
   addEventListener('blur',()=>{held.clear();setWalking(false);});
 
@@ -126,7 +183,6 @@
   }
 
   function setMuted(muted){if(master)master.gain.setTargetAtTime(muted?0:.72,ctx.currentTime,.03);}
-  window.PlushyMusic={beginFromGesture:startMusic,setMuted,sfx:{attack,dodge,foot,hurt,heal,pickup,poof}};
-  document.querySelector('#again')?.addEventListener('click',startMusic);
+  window.PlushyMusic={beginFromGesture:startMusic,setScene,setMuted,sfx:{attack,dodge,foot,hurt,heal,pickup,poof}};
   hookTouch(); monitorHud();
 })();
