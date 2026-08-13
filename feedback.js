@@ -3,7 +3,7 @@
   if(!form)return;
   const status=form.querySelector("[data-feedback-status]");
   const submit=form.querySelector("button[type=submit]");
-  const turnstile=form.querySelector("[data-turnstile]");
+  const turnstileContainer=form.querySelector("[data-turnstile]");
   let token="",widgetId=null;
 
   const device=()=>{
@@ -24,7 +24,7 @@
       script.src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
       script.async=true;script.defer=true;
       script.onload=()=>{
-        widgetId=turnstile.render(turnstile,{sitekey:config.siteKey,theme:"light",callback:value=>{token=value;say("");}, "expired-callback":()=>{token="";say("Verification expired. Please try again.","error");}});
+        widgetId=window.turnstile.render(turnstileContainer,{sitekey:config.siteKey,theme:"light",callback:value=>{token=value;say("");}, "expired-callback":()=>{token="";say("Verification expired. Please try again.","error");}});
         submit.disabled=false;say("");
       };
       script.onerror=()=>say("Human verification could not load.","error");
