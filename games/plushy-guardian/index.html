@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plushy Guardian of the Tiny Forest — a tiny browser action game, its story, controls, and newest-first development notes.">
+  <meta name="theme-color" content="#f8f4f3">
+  <title>Plushy Guardian · Sneaker Games</title>
+  <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../../"><img src="../../assets/logo.svg" alt="Sneaker Games mascot logo"><span>SNEAKER GAMES</span></a>
+      <div class="nav-links"><a href="../../#games">Games</a><a href="#build-notes">Build Notes</a><a href="../../writing.html">Writing</a></div>
+    </nav>
+
+    <main>
+      <section class="game-hero">
+        <div>
+          <div class="eyebrow">Playable prototype · Desktop & touch</div>
+          <h1>PLUSHY<br>GUARDIAN</h1>
+          <p class="page-intro">A very small guardian defends a very tiny forest from slimes, bats, angry mushrooms, and several deeply unreasonable old trees.</p>
+          <div class="actions">
+            <a class="button primary" href="../../plushy/">Play now</a>
+            <a class="button secondary" href="#build-notes">Read the build notes</a>
+          </div>
+        </div>
+        <aside class="game-fact-card" aria-label="Game details">
+          <span class="card-kicker">Plushy Guardian of the Tiny Forest</span>
+          <dl>
+            <div><dt>Status</dt><dd>In development</dd></div>
+            <div><dt>Genre</dt><dd>Tiny arena action</dd></div>
+            <div><dt>Input</dt><dd>Touch or keyboard</dd></div>
+            <div><dt>Current build</dt><dd>Three forest levels</dd></div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section alt">
+        <div class="section-heading"><h2>About the game</h2><p>Small, readable, and just derpy enough.</p></div>
+        <div class="game-copy">
+          <p>Guide the Plushy Guardian through corrupted pockets of the Tiny Forest. Survive three enemy waves, recover lost stuffing, and cleanse the blighted tree waiting at the heart of each level.</p>
+          <p>The prototype is built directly for the browser, with quick sessions and phone-friendly controls so a new idea can go from conversation to something playable without becoming a six-month production.</p>
+        </div>
+        <div class="control-grid" aria-label="Game controls">
+          <div><strong>Move</strong><span>WASD, arrow keys, or left thumb</span></div>
+          <div><strong>Vine spell</strong><span>Space or the sparkle button</span></div>
+          <div><strong>Dodge</strong><span>Shift or the leaf button</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="build-notes">
+        <div class="section-heading"><h2>Build Notes</h2><p>Newest changes first. Every patch leaves a footprint.</p></div>
+        <div class="patch-list">
+          <article class="patch">
+            <div class="patch-date"><time datetime="2026-08-13">August 13, 2026</time><span>Level 3</span></div>
+            <div><h3>The Crimson Capwood</h3><ul><li>Added the third playable forest level with a red, spore-lit palette.</li><li>Made mushrooms the dominant enemy and added skittering, standard, and bruiser-like procedural variants.</li><li>Added the Sporeheart Tree finale and a complete three-level progression.</li></ul></div>
+          </article>
+          <article class="patch">
+            <div class="patch-date"><time datetime="2026-08-12">August 12, 2026</time><span>Level 2</span></div>
+            <div><h3>The Violet Canopy</h3><ul><li>Added a purple forest region led by bat swarms.</li><li>Introduced bat size, stretch, color, and movement variation without multiplying the art workload.</li><li>Added level-to-level victory flow and the Twilight Old Tree encounter.</li></ul></div>
+          </article>
+          <article class="patch">
+            <div class="patch-date"><time datetime="2026-08-12">August 12, 2026</time><span>Enemies</span></div>
+            <div><h3>The forest gets crowded</h3><ul><li>Added the three core enemy families: slime, bat, and mushroom.</li><li>Gave each family a distinct procedural movement style so simple art still reads with personality.</li><li>Added controlled scaling, stretching, and hue variation for lightweight enemy variety.</li></ul></div>
+          </article>
+          <article class="patch">
+            <div class="patch-date"><time datetime="2026-08-12">August 12, 2026</time><span>Audio</span></div>
+            <div><h3>Boops, doots, and forest noises</h3><ul><li>Added a light procedural background track with a cheerful starting-area feel.</li><li>Added varied attack, dodge, movement, hurt, and healing sound effects.</li><li>Kept audio behind the welcome interaction so it starts reliably on desktop and mobile.</li></ul></div>
+          </article>
+          <article class="patch">
+            <div class="patch-date"><time datetime="2026-08-12">August 12, 2026</time><span>First playable</span></div>
+            <div><h3>The Slime Clearing</h3><ul><li>Published the first playable browser build with keyboard and touch controls.</li><li>Added the Guardian, aiming wisp, vine spell, dodge, recoverable stuffing, three waves, and a blighted-tree finale.</li><li>Made aim direction persist after movement so attacks remain predictable on touch screens.</li></ul></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt game-cta">
+        <div><span class="card-kicker">The forest is waiting</span><h2>Ready to defend something very small?</h2></div>
+        <a class="button primary" href="../../plushy/">Play Plushy Guardian</a>
+      </section>
+    </main>
+
+    <footer class="footer"><span>© <span id="year"></span> Sneaker Games</span><span class="tiny">Built in public. Patch notes included.</span></footer>
+  </div>
+  <script src="../../script.js"></script>
+</body>
+</html>
