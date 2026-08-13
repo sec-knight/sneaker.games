@@ -5,7 +5,9 @@
   "assets": {
     "directory": ".",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*"],
+    "run_worker_first": [
+      "/api/*"
+    ],
     "html_handling": "auto-trailing-slash"
   },
   "d1_databases": [
@@ -14,5 +16,6 @@
       "database_name": "sneaker-feedback",
       "database_id": "fd97956d-7eeb-4b19-bb11-84e0879aadd2"
     }
-  ]
+  ],
+  "keep_vars": true
 }
