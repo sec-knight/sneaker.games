@@ -1,7 +1,13 @@
 {
   "name": "sneaker-games",
-  "pages_build_output_dir": ".",
+  "main": "worker.js",
   "compatibility_date": "2026-08-13",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"],
+    "html_handling": "auto-trailing-slash"
+  },
   "d1_databases": [
     {
       "binding": "FEEDBACK_DB",
