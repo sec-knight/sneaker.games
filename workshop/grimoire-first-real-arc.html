@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="What a week of using Grimoire across ChatGPT, Codex, and Claude taught me about durable context, scoped work, and session continuity.">
+  <meta name="theme-color" content="#f8f4f3">
+  <title>What a Week of Using Grimoire Taught Me — Sneaker Games</title>
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html#top"><img src="../assets/logo.svg" alt="Sneaker Games mascot logo"><span>SNEAKER GAMES</span></a>
+      <div class="nav-links"><a href="../index.html#games">Games</a><a href="../index.html#workshop">Workshop</a><a href="../writing.html">Writing</a></div>
+    </nav>
+    <main>
+      <section class="section writing-hero">
+        <div class="eyebrow">Workshop · Grimoire field report · August 19, 2026</div>
+        <h1 class="page-title">WHAT A WEEK OF USING GRIMOIRE TAUGHT ME</h1>
+        <p class="page-intro">I finally used Grimoire the way I intended: plan an arc in ChatGPT, execute scoped slices across Codex and Claude, preserve the results, then come back and plan the next arc.</p>
+      </section>
+      <section class="section alt">
+        <article class="wisdom-entry">
+          <p>This week I got to use Grimoire the way I actually intended it to work.</p>
+
+          <p>I was able to sit down in ChatGPT and brainstorm an entire arc of work for a project. From that conversation, I could turn the plan into a set of scoped slices and save them into the project's architecture repository.</p>
+
+          <p>From there, I could move into implementation.</p>
+
+          <p>I opened separate Codex and Claude authoring sessions for each slice. With very little prompting, those sessions were able to follow the Grimoire, recover the architecture and current project context, understand the scope of the slice they were responsible for, and get to work.</p>
+
+          <p>When a session finished, the results were written back into the project repositories through the session-close flow. The activity record preserved what happened, <code>CURRENT.md</code> moved the project forward, and the next session could pick up from there without needing me to reconstruct everything manually.</p>
+
+          <p>That meant I could work through an arc one bounded session at a time while still keeping the larger architecture intact.</p>
+
+          <p>Once that arc was finished, I went back to ChatGPT, reviewed where the project had landed, and planned the next arc.</p>
+
+          <p>That was the loop I wanted Grimoire to enable:</p>
+
+          <blockquote><strong>brainstorm the architecture → define the work slices → execute them across different AI tools → preserve the results → return to architecture and plan the next arc.</strong></blockquote>
+
+          <p>And for the most part, it worked.</p>
+
+          <h2>The Problems I Found</h2>
+
+          <p>The interesting problems I found were not failures of that core workflow. They were smaller protocol issues exposed by actually using it.</p>
+
+          <p>One session trusted an older work pointer in <code>AGENTS.md</code> instead of the newer <code>CURRENT.md</code>. Another local session had an out-of-date checkout of the architecture repository and therefore thought an already-completed slice still needed validation.</p>
+
+          <p>Both problems came down to knowing where the authoritative state lives and making sure the session is reading the current copy of it.</p>
+
+          <h2>Applying the Lessons</h2>
+
+          <p>I recorded those findings in my personal Grimoire, fixed the behavior there, and then pushed the lessons back into the main Grimoire repository.</p>
+
+          <p>The protocol now has clearer ownership of project state, and the resume flow does more of the work automatically: checking repository freshness, loading the right context, and following the correct source of truth without me having to repeatedly remind the session how to use Grimoire.</p>
+
+          <p>The authority rules are intentionally simple:</p>
+
+          <ul>
+            <li><code>architecture/</code> owns durable intent, constraints, structure, and promoted design decisions.</li>
+            <li><code>activity/CURRENT.md</code> owns current execution state and the single next action.</li>
+            <li>dated activity records preserve evidence and history.</li>
+            <li><code>AGENTS.md</code> and <code>FAMILIAR.md</code> explain how the repository should be read and operated.</li>
+          </ul>
+
+          <p>And when a session is using a local checkout, it now verifies that the checkout is current with its configured upstream before trusting the project state.</p>
+
+          <blockquote><strong>Know which artifact owns the truth, then make sure you are reading the current copy of it.</strong></blockquote>
+
+          <h2>The Result</h2>
+
+          <p>So the biggest result from this week is that the basic idea held up.</p>
+
+          <p>I was able to maintain context between ChatGPT brainstorming sessions, Codex implementation sessions, and Claude implementation sessions while moving through real project work. The architecture and source repositories remained the shared durable context between all of them.</p>
+
+          <p>The workflow was not theoretical anymore. I used it to architect an arc, execute its slices, preserve each session's results, finish the arc, and come back to ChatGPT to plan the next one.</p>
+
+          <p>The friction I found was mostly around state freshness and protocol enforcement, not around the central idea of routing context through Git.</p>
+
+          <p>I've added those findings, fixed them in the main Grimoire repository, and now I get to try the next arc with less manual prompting and a cleaner session startup.</p>
+
+          <p><strong>That is exactly the kind of iteration I wanted this project to produce.</strong></p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer"><span>© <span id="year"></span> Sneaker Games</span><span class="tiny">Made with curiosity, stubbornness, and suspicious amounts of experimentation.</span></footer>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>
