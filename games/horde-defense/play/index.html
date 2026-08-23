@@ -111,6 +111,24 @@ body {
 			<div id="status-notice"></div>
 		</div>
 
+		<!-- horde-wasm-cachebust -->
+		<script>
+		(function () {
+			var orig = window.fetch;
+			window.fetch = function (input, init) {
+				try {
+					var url = typeof input === 'string' ? input : (input && input.url);
+					if (typeof url === 'string' && /(?:^|\/)index\.wasm$/.test(url.split('?')[0])) {
+						var next = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'v=gunzip1';
+						if (typeof input === 'string') return orig.call(this, next, init);
+						return orig.call(this, new Request(next, input), init);
+					}
+				} catch (e) {}
+				return orig.call(this, input, init);
+			};
+		})();
+		</script>
+		<!-- /horde-wasm-cachebust -->
 		<script src="index.js"></script>
 		<script>
 const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":333320,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
