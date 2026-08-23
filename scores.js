@@ -148,6 +148,7 @@
   }
 
   window.onHordeGameOver = (raw) => {
+    window.hordeScorePayload = null;
     const payload = asPayload(raw);
     if (!overlay || !form || !payload) return;
     pending = payload;
@@ -160,9 +161,17 @@
     if (!coarse) nameInput?.focus();
     bootOverlay();
   };
+  window.hordeOpenScoreOverlay = function (raw) {
+    window.hordeScorePayload = raw;
+    window.onHordeGameOver(raw);
+  };
   window.addEventListener("horde-game-over", (event) => {
     window.onHordeGameOver(event.detail);
   });
+  setInterval(() => {
+    if (window.hordeScorePayload == null || window.hordeScorePayload === "") return;
+    window.onHordeGameOver(window.hordeScorePayload);
+  }, 250);
 
   if (skip) skip.addEventListener("click", hideOverlay);
 

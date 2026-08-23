@@ -236,7 +236,7 @@ const engine = new Engine(GODOT_CONFIG);
 }());
 		</script>
 	<!-- horde-score-overlay -->
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="/style.css">
 <style>html.horde-play,html.horde-play body{background:#060910!important;color:#fff;overflow:hidden;margin:0}html.horde-overlay-open #canvas{pointer-events:none!important;visibility:hidden!important}html.horde-overlay-open,html.horde-overlay-open body{touch-action:auto!important;overflow:auto!important}</style>
 <script>document.documentElement.classList.add("horde-play");</script>
 <div class="score-overlay" data-score-overlay hidden>
@@ -258,7 +258,13 @@ const engine = new Engine(GODOT_CONFIG);
     <p class="feedback-privacy">Top 20 is public. No account or email. Three posts per ten minutes.</p>
   </form>
 </div>
-<script src="../../scores.js"></script>
+<script src="/scores.js?v=6"></script>
+<script>
+window.hordeOpenScoreOverlay = function (raw) {
+	window.hordeScorePayload = raw;
+	if (typeof window.onHordeGameOver === "function") window.onHordeGameOver(raw);
+};
+</script>
 <!-- /horde-score-overlay -->
 </body>
 </html>
