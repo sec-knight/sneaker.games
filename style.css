@@ -21,14 +21,16 @@
 .scoreboard-meta{display:flex;gap:14px;font-weight:800;text-align:right;white-space:nowrap}
 .scoreboard-meta span{opacity:.7}
 .scoreboard-empty{display:block;padding:28px 22px;font-weight:800}
-.score-overlay{position:fixed;inset:0;z-index:40;display:flex;align-items:center;justify-content:center;background:rgba(6,9,16,.72);padding:24px}
+.score-overlay{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;background:rgba(6,9,16,.72);padding:24px;touch-action:auto;-webkit-overflow-scrolling:touch}
 .score-overlay[hidden]{display:none!important}
 .score-overlay-card{max-width:440px;width:min(100%,440px);color:#111}
 .score-overlay-card h2{margin:10px 0 8px;font-size:2rem;letter-spacing:-.04em}
-.score-overlay-card [data-score-summary]{font-weight:800;margin:0 0 18px}
-.score-overlay-card [data-score-status]{margin:14px 0 0;font-weight:800}
-.score-overlay-card [data-score-status][data-state=error]{color:#9b1c1c}
+.score-overlay-card [data-score-summary],[data-name-hint]{font-weight:800;margin:0 0 18px}
+.score-overlay-card [data-score-status],[data-name-status]{margin:14px 0 0;font-weight:800}
+.score-overlay-card [data-score-status][data-state=error],[data-name-status][data-state=error]{color:#9b1c1c}
 .score-overlay-card [data-score-status][data-state=success]{color:#23682c}
-.feedback-message input{display:block;width:100%;margin-top:10px;padding:15px;border:2px solid #111;border-radius:16px;background:#f8f4f3;color:#111;font:inherit}
+.feedback-message input{display:block;width:100%;margin-top:10px;padding:15px;border:2px solid #111;border-radius:16px;background:#f8f4f3;color:#111;font:inherit;font-size:16px}
 .feedback-message input:focus{outline:3px solid #f79be5;outline-offset:2px}
 .score-overlay .button.secondary{background:#fff;color:#111;cursor:pointer}
+html.horde-overlay-open #canvas{pointer-events:none!important}
+html.horde-overlay-open,html.horde-overlay-open body{touch-action:auto!important;overflow:auto!important}

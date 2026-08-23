@@ -10,6 +10,12 @@
   const turnstileContainer = form ? form.querySelector("[data-turnstile]") : null;
   const submit = form ? form.querySelector("button[type=submit]") : null;
   const nameInput = form ? form.querySelector("input[name=playerName]") : null;
+  const nameOverlay = document.querySelector("[data-name-overlay]");
+  const nameForm = document.querySelector("[data-name-form]");
+  const defenderInput = nameForm ? nameForm.querySelector("input[name=defenderName]") : null;
+  const nameStatus = document.querySelector("[data-name-status]");
+  const nameCancel = document.querySelector("[data-name-cancel]");
+  const coarse = window.matchMedia("(pointer: coarse)").matches || "ontouchstart" in window;
   let token = "";
   let widgetId = null;
   let pending = null;
@@ -21,12 +27,35 @@
     if (w < 1000) return "tablet";
     return "desktop";
   };
-  const say = (message, state = "") => {
-    if (!status) return;
-    status.textContent = message;
-    status.dataset.state = state;
+  const say = (target, message, state = "") => {
+    if (!target) return;
+    target.textContent = message;
+    target.dataset.state = state;
   };
   const sanitizeName = (raw) => String(raw || "").replace(/[^A-Za-z0-9 _-]/g, "").replace(/\s+/g, " ").trim().slice(0, 16);
+  const asPayload = (payload) => {
+    if (typeof payload === "string") {
+      try { return JSON.parse(payload); } catch { return null; }
+    }
+    return payload && typeof payload === "object" ? payload : null;
+  };
+  const syncOverlayLock = () => {
+    const open = Boolean((overlay && !overlay.hidden) || (nameOverlay && !nameOverlay.hidden));
+    document.documentElement.classList.toggle("horde-overlay-open", open);
+    const canvas = document.getElementById("canvas");
+    if (canvas) canvas.style.pointerEvents = open ? "none" : "";
+  };
+  const setOpen = (el, open) => {
+    if (!el) return;
+    el.hidden = !open;
+    syncOverlayLock();
+  };
+  const sendNameToGodot = (value) => {
+    const cb = window.hordeOnNameEntered;
+    if (!cb) return;
+    try { cb(value); return; } catch {}
+    try { cb.apply(null, [value]); } catch {}
+  };
 
   function renderBoard(scores) {
     if (!board) return;
@@ -71,8 +100,7 @@
   }
 
   function hideOverlay() {
-    if (!overlay) return;
-    overlay.hidden = true;
+    setOpen(overlay, false);
     pending = null;
   }
 
@@ -81,8 +109,8 @@
     widgetId = window.turnstile.render(turnstileContainer, {
       sitekey: siteKey,
       theme: "light",
-      callback: (value) => { token = value; say(""); },
-      "expired-callback": () => { token = ""; say("Verification expired. Please try again.", "error"); }
+      callback: (value) => { token = value; say(status, ""); },
+      "expired-callback": () => { token = ""; say(status, "Verification expired. Please try again.", "error"); }
     });
     turnstileReady = true;
     if (submit) submit.disabled = false;
@@ -94,6 +122,10 @@
       const response = await fetch("/api/scores/horde-defense", {headers: {accept: "application/json"}});
       const data = await response.json();
       if (!response.ok || !data.ready || !data.siteKey) throw new Error();
+      if (data.boardReady === false) {
+        say(status, "The public board is not connected yet. Local best still saves in the game.", "error");
+        return;
+      }
       if (!window.turnstile) {
         await new Promise((resolve, reject) => {
           const script = document.createElement("script");
@@ -106,39 +138,62 @@
         });
       }
       await ensureTurnstile(data.siteKey);
-      say("");
+      say(status, "");
     } catch {
-      say("Scores post on sneaker.games after deploy. Local play keeps a private best.", "error");
+      say(status, "Scores post on sneaker.games after deploy. Local play keeps a private best.", "error");
     }
   }
 
-  window.onHordeGameOver = (payload) => {
+  window.onHordeNamePrompt = (current) => {
+    if (!nameOverlay || !nameForm) return;
+    if (defenderInput) defenderInput.value = sanitizeName(current);
+    say(nameStatus, coarse ? "Tap the name field to open the keyboard." : "");
+    setOpen(nameOverlay, true);
+    if (!coarse) defenderInput?.focus();
+  };
+
+  window.onHordeGameOver = (raw) => {
+    const payload = asPayload(raw);
     if (!overlay || !form || !payload) return;
     pending = payload;
     if (summary) {
       summary.textContent = `Score ${Number(payload.score).toLocaleString()} · Wave ${payload.wave} · ${payload.kills} kills · ${Math.floor(payload.seconds)}s`;
     }
     if (nameInput) nameInput.value = sanitizeName(payload.name || "");
-    overlay.hidden = false;
-    nameInput?.focus();
+    setOpen(overlay, true);
+    if (!coarse) nameInput?.focus();
     bootOverlay();
   };
 
   if (skip) skip.addEventListener("click", hideOverlay);
+  if (nameCancel) nameCancel.addEventListener("click", () => setOpen(nameOverlay, false));
+
+  if (nameForm) {
+    nameForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const playerName = sanitizeName(defenderInput ? defenderInput.value : "");
+      if (!NAME_RE.test(playerName) || playerName.length < 2) {
+        say(nameStatus, "Name must be 2–16 letters, numbers, spaces, - or _.", "error");
+        return;
+      }
+      sendNameToGodot(playerName);
+      setOpen(nameOverlay, false);
+    });
+  }
 
   if (form) {
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
-      if (!pending) { say("Play a run first.", "error"); return; }
+      if (!pending) { say(status, "Play a run first.", "error"); return; }
       const playerName = sanitizeName(nameInput ? nameInput.value : "");
       if (!NAME_RE.test(playerName) || playerName.length < 2) {
-        say("Name must be 2–16 letters, numbers, spaces, - or _.", "error");
+        say(status, "Name must be 2–16 letters, numbers, spaces, - or _.", "error");
         return;
       }
-      if (!token) { say("Please complete the human verification.", "error"); return; }
+      if (!token) { say(status, "Please complete the human verification.", "error"); return; }
       const data = new FormData(form);
       submit.disabled = true;
-      say("Sending…");
+      say(status, "Sending…");
       try {
         const response = await fetch("/api/scores/horde-defense", {
           method: "POST",
@@ -159,10 +214,10 @@
         });
         const result = await response.json();
         if (!response.ok) throw new Error(result.error || "Could not submit score.");
-        say("Posted. The wall remembers.", "success");
+        say(status, "Posted. The wall remembers.", "success");
         setTimeout(hideOverlay, 1200);
       } catch (error) {
-        say(error.message || "Could not submit score.", "error");
+        say(status, error.message || "Could not submit score.", "error");
       } finally {
         token = "";
         if (widgetId !== null && window.turnstile) window.turnstile.reset(widgetId);

@@ -173,13 +173,14 @@ function sanitizePlayerName(raw) {
 }
 
 function expectedHordeScore(kills, wavesCleared, seconds) {
-  return kills * 10 + wavesCleared * 100 + Math.floor(seconds * 2);
+  return kills * 10 + wavesCleared * 100 + Math.floor(Number(seconds) * 2 + 1e-9);
 }
 
 async function hordeScores(request, env) {
   if (request.method === "GET") {
     const ready = Boolean(env.TURNSTILE_SITE_KEY && env.FEEDBACK_DB);
     let scores = [];
+    let boardReady = false;
     if (env.FEEDBACK_DB) {
       try {
         const result = await env.FEEDBACK_DB.prepare(`
@@ -189,11 +190,12 @@ async function hordeScores(request, env) {
           LIMIT 20
         `).all();
         scores = result.results || [];
+        boardReady = true;
       } catch (error) {
         console.error("Horde score list failed", error);
       }
     }
-    return json({ready, siteKey: env.TURNSTILE_SITE_KEY || "", scores}, 200, {"cache-control": "public, max-age=60"});
+    return json({ready, boardReady, siteKey: env.TURNSTILE_SITE_KEY || "", scores}, 200, {"cache-control": "public, max-age=60"});
   }
 
   if (request.method !== "POST") return json({error: "Method not allowed."}, 405);
@@ -226,7 +228,8 @@ async function hordeScores(request, env) {
 
   if (game !== "horde-defense" || !GAME_BUILDS[game]?.has(build)) return json({error: "Unknown game build."}, 400);
   if (!playerName) return json({error: "Name must be 2–16 letters, numbers, spaces, - or _."}, 400);
-  if (!Number.isInteger(score) || score <= 0 || score > 999999) return json({error: "Invalid score."}, 400);
+  if (!Number.isInteger(score) || score < 0 || score > 999999) return json({error: "Invalid score."}, 400);
+  if (score <= 0) return json({error: "Survive a little longer before posting."}, 400);
   if (!Number.isInteger(kills) || kills < 0 || kills > 20000) return json({error: "Invalid kill count."}, 400);
   if (!Number.isInteger(wavesCleared) || wavesCleared < 0 || wavesCleared > 200) return json({error: "Invalid wave count."}, 400);
   if (!Number.isInteger(waveReached) || waveReached < 1) return json({error: "Invalid wave."}, 400);

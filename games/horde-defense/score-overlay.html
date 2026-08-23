@@ -1,10 +1,25 @@
+<div class="score-overlay" data-name-overlay hidden>
+  <form class="feedback-form score-overlay-card" data-name-form>
+    <span class="card-kicker">Defender</span>
+    <h2>Name your defender</h2>
+    <p data-name-hint>Tap the field so the keyboard can open.</p>
+    <label class="feedback-message">Name
+      <input name="defenderName" type="text" inputmode="text" enterkeyhint="done" autocapitalize="off" autocomplete="nickname" spellcheck="false" minlength="2" maxlength="16" required>
+    </label>
+    <div class="feedback-submit">
+      <button class="button primary" type="submit">Save name</button>
+      <button class="button secondary" type="button" data-name-cancel>Cancel</button>
+    </div>
+    <p data-name-status role="status" aria-live="polite"></p>
+  </form>
+</div>
 <div class="score-overlay" data-score-overlay hidden>
   <form class="feedback-form score-overlay-card" data-score-form>
     <span class="card-kicker">Global board</span>
     <h2>Post this run</h2>
     <p data-score-summary></p>
     <label class="feedback-message">Name
-      <input name="playerName" type="text" minlength="2" maxlength="16" required autocomplete="nickname" spellcheck="false">
+      <input name="playerName" type="text" inputmode="text" enterkeyhint="done" autocapitalize="off" autocomplete="nickname" spellcheck="false" minlength="2" maxlength="16" required>
     </label>
     <label class="feedback-honeypot" aria-hidden="true">Website<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
     <div data-turnstile></div>
