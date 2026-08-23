@@ -1,0 +1,7 @@
+/games/horde-defense/play/index.wasm.gz
+  Content-Type: application/gzip
+  Cache-Control: public, max-age=86400
+
+/games/horde-defense/play/*.pck
+  Content-Type: application/octet-stream
+  Cache-Control: public, max-age=86400

@@ -2,7 +2,7 @@ const CATEGORIES = new Set(["fun", "needs-work", "bug", "idea"]);
 const DEVICES = new Set(["phone", "tablet", "desktop", "unknown"]);
 const INPUTS = new Set(["touch", "keyboard", "unknown"]);
 const STATUSES = new Set(["new", "useful", "planned", "fixed", "dismissed"]);
-const GAME_BUILDS = {"plushy-guardian": new Set(["2026-08-13-adaptive-audio"])};
+const GAME_BUILDS = {"plushy-guardian": new Set(["2026-08-13-adaptive-audio"]), "horde-defense": new Set(["2026-08-23-web-v1"])};
 
 const json = (data, status = 200, headers = {}) => new Response(JSON.stringify(data), {
   status,
@@ -129,12 +129,119 @@ async function adminFeedback(request, env) {
   return json({error: "Method not allowed."}, 405);
 }
 
+async function checkHordeScoreRateLimit(request, env) {
+  const key = await visitorKey(request, env);
+  const now = Date.now(), windowMs = 10 * 60 * 1000;
+  await env.FEEDBACK_DB.prepare("DELETE FROM horde_score_rate_limits WHERE window_started < ?").bind(now - windowMs * 2).run();
+  const row = await env.FEEDBACK_DB.prepare(`
+    INSERT INTO horde_score_rate_limits(visitor_key, window_started, submission_count)
+    VALUES (?, ?, 1)
+    ON CONFLICT(visitor_key) DO UPDATE SET
+      window_started = CASE WHEN window_started < ? THEN excluded.window_started ELSE window_started END,
+      submission_count = CASE WHEN window_started < ? THEN 1 ELSE submission_count + 1 END
+    RETURNING submission_count
+  `).bind(key, now, now - windowMs, now - windowMs).first();
+  return Number(row?.submission_count || 99) <= 3;
+}
+
+function sanitizePlayerName(raw) {
+  const cleaned = String(raw || "").replace(/[^A-Za-z0-9 _-]/g, "").replace(/\s+/g, " ").trim().slice(0, 16);
+  return cleaned.length >= 2 && cleaned.length <= 16 ? cleaned : "";
+}
+
+function expectedHordeScore(kills, wavesCleared, seconds) {
+  return kills * 10 + wavesCleared * 100 + Math.floor(seconds * 2);
+}
+
+async function hordeScores(request, env) {
+  if (request.method === "GET") {
+    const ready = Boolean(env.TURNSTILE_SITE_KEY && env.FEEDBACK_DB);
+    let scores = [];
+    if (env.FEEDBACK_DB) {
+      try {
+        const result = await env.FEEDBACK_DB.prepare(`
+          SELECT player_name AS playerName, score, wave_reached AS waveReached, kills, survival_seconds AS survivalSeconds
+          FROM horde_scores
+          ORDER BY score DESC, created_at ASC
+          LIMIT 20
+        `).all();
+        scores = result.results || [];
+      } catch (error) {
+        console.error("Horde score list failed", error);
+      }
+    }
+    return json({ready, siteKey: env.TURNSTILE_SITE_KEY || "", scores}, 200, {"cache-control": "public, max-age=60"});
+  }
+
+  if (request.method !== "POST") return json({error: "Method not allowed."}, 405);
+  if (!env.FEEDBACK_DB || !env.TURNSTILE_SECRET_KEY || !env.RATE_LIMIT_SALT) return json({error: "Scores are not connected yet."}, 503);
+  if (!sameSite(request)) return json({error: "Invalid submission origin."}, 403);
+  if (!(request.headers.get("content-type") || "").toLowerCase().startsWith("application/json")) return json({error: "Expected JSON."}, 415);
+  const declaredLength = Number(request.headers.get("content-length") || 0);
+  if (declaredLength > 8192) return json({error: "Submission is too large."}, 413);
+
+  let body;
+  try {
+    const raw = await request.text();
+    if (new TextEncoder().encode(raw).byteLength > 8192) return json({error: "Submission is too large."}, 413);
+    body = JSON.parse(raw);
+  } catch {
+    return json({error: "Invalid JSON."}, 400);
+  }
+  if (!body || typeof body !== "object" || Array.isArray(body)) return json({error: "Invalid submission."}, 400);
+  if (body.website) return json({ok: true}, 202);
+
+  const game = typeof body.game === "string" ? body.game : "";
+  const build = typeof body.build === "string" ? body.build : "";
+  const playerName = sanitizePlayerName(body.playerName);
+  const score = Number(body.score);
+  const waveReached = Number(body.waveReached);
+  const wavesCleared = Number(body.wavesCleared);
+  const kills = Number(body.kills);
+  const survivalSeconds = Number(body.survivalSeconds);
+  const device = DEVICES.has(body.device) ? body.device : "unknown";
+
+  if (game !== "horde-defense" || !GAME_BUILDS[game]?.has(build)) return json({error: "Unknown game build."}, 400);
+  if (!playerName) return json({error: "Name must be 2–16 letters, numbers, spaces, - or _."}, 400);
+  if (!Number.isInteger(score) || score <= 0 || score > 999999) return json({error: "Invalid score."}, 400);
+  if (!Number.isInteger(kills) || kills < 0 || kills > 20000) return json({error: "Invalid kill count."}, 400);
+  if (!Number.isInteger(wavesCleared) || wavesCleared < 0 || wavesCleared > 200) return json({error: "Invalid wave count."}, 400);
+  if (!Number.isInteger(waveReached) || waveReached < 1) return json({error: "Invalid wave."}, 400);
+  if (waveReached !== wavesCleared && waveReached !== wavesCleared + 1) return json({error: "Wave does not match this run."}, 400);
+  if (!Number.isFinite(survivalSeconds) || survivalSeconds < 0 || survivalSeconds > 86400) return json({error: "Invalid time."}, 400);
+  if (score !== expectedHordeScore(kills, wavesCleared, survivalSeconds)) return json({error: "Score does not match this run."}, 400);
+  if (!(await verifyTurnstile(request, env, body.turnstileToken))) return json({error: "Human verification failed. Please try again."}, 403);
+  if (!(await checkHordeScoreRateLimit(request, env))) return json({error: "Too many score posts. Please try again in ten minutes."}, 429, {"retry-after": "600"});
+
+  await env.FEEDBACK_DB.prepare(`
+    INSERT INTO horde_scores(id, player_name, score, wave_reached, kills, survival_seconds, build_id, device_class, created_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `).bind(crypto.randomUUID(), playerName, score, waveReached, kills, survivalSeconds, build, device, new Date().toISOString()).run();
+  return json({ok: true}, 201);
+}
+
+async function hordeWasm(request, env) {
+  const gzUrl = new URL("/games/horde-defense/play/index.wasm.gz", request.url);
+  const asset = await env.ASSETS.fetch(new Request(gzUrl, {method: "GET"}));
+  if (!asset.ok) return asset;
+  return new Response(asset.body, {
+    status: 200,
+    headers: {
+      "content-type": "application/wasm",
+      "content-encoding": "gzip",
+      "cache-control": "public, max-age=86400"
+    }
+  });
+}
+
 export default {
   async fetch(request, env) {
     const pathname = new URL(request.url).pathname;
     try {
       if (pathname === "/api/feedback") return await publicFeedback(request, env);
       if (pathname === "/api/admin/feedback") return await adminFeedback(request, env);
+      if (pathname === "/api/scores/horde-defense") return await hordeScores(request, env);
+      if (pathname === "/games/horde-defense/play/index.wasm") return await hordeWasm(request, env);
       return env.ASSETS.fetch(request);
     } catch (error) {
       console.error("Request failed", error);

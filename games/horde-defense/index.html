@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Horde Defense — a browser wave-defense combat demo from Spheres of Influence. Sword, shield, and a cube horde.">
+  <meta name="theme-color" content="#f8f4f3">
+  <title>Horde Defense · Sneaker Games</title>
+  <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../../"><img src="../../assets/logo.svg" alt="Sneaker Games mascot logo"><span>SNEAKER GAMES</span></a>
+      <div class="nav-links"><a href="../../#games">Games</a><a href="#leaderboard">Board</a><a href="#build-notes">Build Notes</a><a href="#feedback">Feedback</a><a href="../../writing.html">Writing</a></div>
+    </nav>
+
+    <main>
+      <section class="game-hero">
+        <div>
+          <div class="eyebrow">Playable prototype · Desktop &amp; touch</div>
+          <h1>HORDE<br>DEFENSE</h1>
+          <p class="page-intro">Hold the siege gate. A cube horde pours from the far portal in ring ranks. Sword, shield, spin, slam, dodge — a Spheres of Influence combat demo in the browser.</p>
+          <div class="actions">
+            <a class="button primary" href="play/">Play now</a>
+            <a class="button secondary" href="#leaderboard">See the board</a>
+          </div>
+        </div>
+        <aside class="game-fact-card" aria-label="Game details">
+          <span class="card-kicker">Horde Defense</span>
+          <dl>
+            <div><dt>Status</dt><dd>First web build</dd></div>
+            <div><dt>Genre</dt><dd>Wave horde defense</dd></div>
+            <div><dt>Input</dt><dd>Mouse + keyboard, or touch</dd></div>
+            <div><dt>Current build</dt><dd>Browser WASM, 300-enemy cap</dd></div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section alt">
+        <div class="section-heading"><h2>About the game</h2><p>Combat feel first. Survive as long as the gate stands.</p></div>
+        <div class="game-copy">
+          <p>Horde Defense is a spin-off demo, not the full Spheres of Influence stack. No planet, no voxels, no multiplayer — just the melee kit against a mass of cubes so we can tell whether the fight feels right in a browser tab.</p>
+          <p>Waves escalate until you fall or the gate is breached. Click the canvas to capture the mouse. Esc pauses. First load downloads a WebAssembly engine, so give it a few seconds.</p>
+        </div>
+        <div class="control-grid" aria-label="Game controls">
+          <div><strong>Move / look</strong><span>WASD and mouse, or left stick + right-side drag</span></div>
+          <div><strong>Sword &amp; shield</strong><span>LMB light, RMB heavy, R block, LMB/RMB from block to push</span></div>
+          <div><strong>Specials</strong><span>Q spin, F slam, Shift dodge, Space jump, V camera</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="leaderboard">
+        <div class="section-heading"><h2>Board</h2><p>Top 20 runs. Name, score, wave, and kills.</p></div>
+        <ol class="scoreboard" data-scoreboard>
+          <li class="scoreboard-empty">The wall is unclaimed. Be the first.</li>
+        </ol>
+      </section>
+
+      <section class="section" id="build-notes">
+        <div class="section-heading"><h2>Build Notes</h2><p>Newest changes first.</p></div>
+        <div class="patch-list">
+          <article class="patch">
+            <div class="patch-date"><time datetime="2026-08-23">August 23, 2026</time><span>Leaderboard</span></div>
+            <div>
+              <h3>The wall keeps score</h3>
+              <ul>
+                <li>Added a public top 20 on this page.</li>
+                <li>Game over on the play build can post a verified run after Turnstile.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="patch">
+            <div class="patch-date"><time datetime="2026-08-23">August 23, 2026</time><span>Web export</span></div>
+            <div>
+              <h3>Playable in the browser</h3>
+              <ul>
+                <li>Shipped the first Godot WASM build, single-threaded for broad host compatibility.</li>
+                <li>Web quality preset caps the live horde at 300 and turns off shadows.</li>
+                <li>Touch controls ride along; desktop still wants a mouse capture click.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section feedback-section" id="feedback">
+        <div class="section-heading"><h2>How was it?</h2><p>Your note goes privately to the Sneaker Games workshop.</p></div>
+        <form class="feedback-form" data-feedback-form data-game="horde-defense" data-build="2026-08-23-web-v1">
+          <fieldset>
+            <legend>What kind of note is this?</legend>
+            <div class="feedback-types">
+              <label><input type="radio" name="category" value="fun" required><span>👍 Fun</span></label>
+              <label><input type="radio" name="category" value="needs-work"><span>😐 Needs work</span></label>
+              <label><input type="radio" name="category" value="bug"><span>🐛 Found a bug</span></label>
+              <label><input type="radio" name="category" value="idea"><span>💡 Have an idea</span></label>
+            </div>
+          </fieldset>
+          <label class="feedback-message">Tell us more
+            <textarea name="message" minlength="3" maxlength="1200" rows="6" required placeholder="Did combat feel right? Was the horde too mushy, too lethal, too slow to load?"></textarea>
+          </label>
+          <label class="feedback-honeypot" aria-hidden="true">Website<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+          <div data-turnstile></div>
+          <div class="feedback-submit"><button class="button primary" type="submit" disabled>Send feedback</button><p data-feedback-status role="status" aria-live="polite">Feedback is being connected…</p></div>
+          <p class="feedback-privacy">No account, name, email address, upload, or public comment required.</p>
+        </form>
+      </section>
+
+      <section class="section alt game-cta">
+        <div><span class="card-kicker">The gate is waiting</span><h2>Ready to hold the wall?</h2></div>
+        <a class="button primary" href="play/">Play Horde Defense</a>
+      </section>
+    </main>
+
+    <footer class="footer"><span>© <span id="year"></span> Sneaker Games</span><span class="tiny">Built in public. Patch notes included.</span></footer>
+  </div>
+  <script src="../../script.js"></script>
+  <script src="../../scores.js"></script>
+  <script src="../../feedback.js"></script>
+</body>
+</html>

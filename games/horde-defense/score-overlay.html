@@ -1,0 +1,18 @@
+<div class="score-overlay" data-score-overlay hidden>
+  <form class="feedback-form score-overlay-card" data-score-form>
+    <span class="card-kicker">Global board</span>
+    <h2>Post this run</h2>
+    <p data-score-summary></p>
+    <label class="feedback-message">Name
+      <input name="playerName" type="text" minlength="2" maxlength="16" required autocomplete="nickname" spellcheck="false">
+    </label>
+    <label class="feedback-honeypot" aria-hidden="true">Website<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+    <div data-turnstile></div>
+    <div class="feedback-submit">
+      <button class="button primary" type="submit" disabled>Submit score</button>
+      <button class="button secondary" type="button" data-score-skip>Skip</button>
+    </div>
+    <p data-score-status role="status" aria-live="polite"></p>
+    <p class="feedback-privacy">Top 20 is public. No account or email. Three posts per ten minutes.</p>
+  </form>
+</div>

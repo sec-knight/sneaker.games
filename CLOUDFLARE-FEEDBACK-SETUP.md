@@ -35,7 +35,16 @@ Allow only the owner's email address. Add a Pages environment variable:
 
 The admin API rejects requests unless both the Cloudflare Access assertion and matching authenticated-email header are present.
 
-## 5. Redeploy
+## 5. Horde Defense leaderboard
+
+In the same `sneaker-feedback` D1 Console, execute `migrations/002_horde_scores.sql`. No new database, Turnstile widget, or secrets are required.
+
+Then verify:
+
+- Public board: `https://sneaker.games/games/horde-defense/#leaderboard`
+- Submit overlay: finish a run at `https://sneaker.games/games/horde-defense/play/`
+
+## 6. Redeploy
 
 Redeploy the Pages project after bindings and variables are added. Then verify:
 
@@ -50,7 +59,8 @@ Redeploy the Pages project after bindings and variables are added. Then verify:
 - Game/build/category allowlists
 - Message length and control-character validation
 - Honeypot field
-- Five submissions per ten-minute privacy-preserving visitor key
+- Five feedback submissions / three score posts per ten-minute privacy-preserving visitor key
+- Horde scores must match `kills * 10 + waves_cleared * 100 + floor(seconds * 2)`
 - Parameterized D1 statements
 - Fail-closed administrative endpoint
 - HTML escaping in the inbox
