@@ -119,7 +119,7 @@ body {
 				try {
 					var url = typeof input === 'string' ? input : (input && input.url);
 					if (typeof url === 'string' && /(?:^|\/)index\.(wasm|pck)$/.test(url.split('?')[0])) {
-						var next = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'v=proto2';
+						var next = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'v=proto4';
 						if (typeof input === 'string') return orig.call(this, next, init);
 						return orig.call(this, new Request(next, input), init);
 					}
@@ -131,7 +131,7 @@ body {
 		<!-- /horde-wasm-cachebust -->
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":335316,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":334292,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
@@ -237,28 +237,14 @@ const engine = new Engine(GODOT_CONFIG);
 		</script>
 	<!-- horde-score-overlay -->
 <link rel="stylesheet" href="../../style.css">
-<style>html.horde-play,html.horde-play body{background:#060910!important;color:#fff;overflow:hidden;margin:0}html.horde-overlay-open #canvas{pointer-events:none!important}html.horde-overlay-open,html.horde-overlay-open body{touch-action:auto!important;overflow:auto!important}</style>
+<style>html.horde-play,html.horde-play body{background:#060910!important;color:#fff;overflow:hidden;margin:0}html.horde-overlay-open #canvas{pointer-events:none!important;visibility:hidden!important}html.horde-overlay-open,html.horde-overlay-open body{touch-action:auto!important;overflow:auto!important}</style>
 <script>document.documentElement.classList.add("horde-play");</script>
-<div class="score-overlay" data-name-overlay hidden>
-  <form class="feedback-form score-overlay-card" data-name-form>
-    <span class="card-kicker">Defender</span>
-    <h2>Name your defender</h2>
-    <p data-name-hint>Tap the field so the keyboard can open.</p>
-    <label class="feedback-message">Name
-      <input name="defenderName" type="text" inputmode="text" enterkeyhint="done" autocapitalize="off" autocomplete="nickname" spellcheck="false" minlength="2" maxlength="16" required>
-    </label>
-    <div class="feedback-submit">
-      <button class="button primary" type="submit">Save name</button>
-      <button class="button secondary" type="button" data-name-cancel>Cancel</button>
-    </div>
-    <p data-name-status role="status" aria-live="polite"></p>
-  </form>
-</div>
 <div class="score-overlay" data-score-overlay hidden>
   <form class="feedback-form score-overlay-card" data-score-form>
     <span class="card-kicker">Global board</span>
     <h2>Post this run</h2>
     <p data-score-summary></p>
+    <p data-name-hint>Tap the name field so the keyboard can open.</p>
     <label class="feedback-message">Name
       <input name="playerName" type="text" inputmode="text" enterkeyhint="done" autocapitalize="off" autocomplete="nickname" spellcheck="false" minlength="2" maxlength="16" required>
     </label>
@@ -266,7 +252,7 @@ const engine = new Engine(GODOT_CONFIG);
     <div data-turnstile></div>
     <div class="feedback-submit">
       <button class="button primary" type="submit" disabled>Submit score</button>
-      <button class="button secondary" type="button" data-score-skip>Skip</button>
+      <button class="button secondary" type="button" data-score-skip>Back</button>
     </div>
     <p data-score-status role="status" aria-live="polite"></p>
     <p class="feedback-privacy">Top 20 is public. No account or email. Three posts per ten minutes.</p>
