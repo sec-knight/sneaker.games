@@ -247,14 +247,25 @@ async function hordeWasm(request, env) {
   const gzUrl = new URL("/games/horde-defense/play/index.wasm.gz", request.url);
   const asset = await env.ASSETS.fetch(new Request(gzUrl, {method: "GET"}));
   if (!asset.ok) return asset;
-  return new Response(asset.body, {
-    status: 200,
-    headers: {
-      "content-type": "application/wasm",
-      "content-encoding": "gzip",
-      "cache-control": "public, max-age=86400"
-    }
-  });
+
+  const headers = {
+    "content-type": "application/wasm",
+    "cache-control": "public, max-age=86400"
+  };
+  if (request.method === "HEAD" || !asset.body) {
+    return new Response(null, {status: 200, headers});
+  }
+
+  // Cloudflare strips Content-Encoding from Worker responses, and Godot's
+  // loader also clones the fetch with only content-type: application/wasm.
+  // Serving gzip bytes as WASM hangs compile at ~25% of the loading bar.
+  const [probe, rest] = asset.body.tee();
+  const reader = probe.getReader();
+  const {value} = await reader.read();
+  await reader.cancel();
+  const gzip = value && value.length >= 2 && value[0] === 0x1f && value[1] === 0x8b;
+  const body = gzip ? rest.pipeThrough(new DecompressionStream("gzip")) : rest;
+  return new Response(body, {status: 200, headers});
 }
 
 export default {
