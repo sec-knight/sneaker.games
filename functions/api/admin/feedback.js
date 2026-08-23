@@ -1,16 +1,14 @@
+import { authorize } from "./auth.js";
 const STATUSES = new Set(["new", "useful", "planned", "fixed", "dismissed"]);
 const json = (data, status = 200) => new Response(JSON.stringify(data), {
   status, headers: {"content-type": "application/json; charset=utf-8", "cache-control": "no-store"}
 });
 
-function authorized(request, env) {
-  const email = request.headers.get("Cf-Access-Authenticated-User-Email");
-  const assertion = request.headers.get("Cf-Access-Jwt-Assertion");
-  return Boolean(env.ADMIN_EMAIL && assertion && email && email.toLowerCase() === env.ADMIN_EMAIL.toLowerCase());
-}
 
 export async function onRequest({request, env}) {
-  if (!env.FEEDBACK_DB || !authorized(request, env)) return json({error: "Not authorized."}, 403);
+if (!env.FEEDBACK_DB || !(await authorize(request, env))) {
+  return json({error: "Not authorized."}, 403);
+}
 
   if (request.method === "GET") {
     const url = new URL(request.url);

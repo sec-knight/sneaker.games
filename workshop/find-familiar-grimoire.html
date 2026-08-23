@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find Familiar, Grimoire, and the problem of maintaining durable context across creative work.">
+  <meta name="theme-color" content="#f8f4f3">
+  <title>Find Familiar, Grimoire, and the Problem of Remembering What We Were Doing — Sneaker Games</title>
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html#top"><img src="../assets/logo.svg" alt="Sneaker Games mascot logo"><span>SNEAKER GAMES</span></a>
+      <div class="nav-links"><a href="../index.html#games">Games</a><a href="../index.html#devlog">Devlog</a><a href="../index.html#workshop">Workshop</a><a href="../writing.html">Writing</a></div>
+    </nav>
+    <main>
+      <section class="section writing-hero">
+        <div class="eyebrow">Workshop · AI-assisted making · August 14, 2026</div>
+        <h1 class="page-title">FIND FAMILIAR, GRIMOIRE, AND THE PROBLEM OF REMEMBERING WHAT WE WERE DOING</h1>
+        <p class="page-intro">A first draft about durable context, creative work, and why the most useful part of an AI system may be the knowledge architecture underneath it.</p>
+      </section>
+      <section class="section alt">
+        <article class="wisdom-entry">
+          <p>I keep running into the same problem when I make things with AI:</p>
+          <p><strong>The model is usually capable enough. The context is not.</strong></p>
+          <p>I might spend one evening working on a game, another designing a website feature, another thinking through architecture, and another doing something completely unrelated like writing a D&amp;D campaign.</p>
+          <p>The individual conversations can be productive. The problem appears when I come back.</p>
+          <p>What did we decide?</p>
+          <p>Why did we decide it?</p>
+          <p>Which ideas were experiments and which became architecture?</p>
+          <p>What is actually true in the project now?</p>
+          <p>And perhaps most importantly:</p>
+          <blockquote>How does the next tool know any of this?</blockquote>
+          <p>That question eventually became <strong>Find Familiar</strong>.</p>
+
+          <h2>Find Familiar</h2>
+          <p>Find Familiar started as an attempt to give my AI tools durable memory and a shared project-management layer.</p>
+          <p>The idea grew into a system with projects, durable knowledge, plans, work slices, worker sessions, reviews, approvals, and a web interface I call the <strong>Demiplane</strong>.</p>
+          <p>Different AI workers could be summoned to do different jobs. A planner could reason about a change. An implementer could work on it. A reviewer could inspect what happened. The system could keep records of those interactions instead of depending entirely on whatever happened to still fit inside a chat window.</p>
+          <p>It works.</p>
+          <p>And building it has taught me an enormous amount about what AI-assisted development actually needs.</p>
+          <p>But Find Familiar also exposed an interesting possibility:</p>
+          <blockquote>Maybe the most important part of the system isn't the orchestration. Maybe it is the architecture of the context itself.</blockquote>
+
+          <h2>The Context Accumulation Problem</h2>
+          <p>Saving everything isn't memory.</p>
+          <p>It's storage.</p>
+          <p>If I dump every conversation, prompt, response, plan, log, and implementation result into a giant bucket, the next AI has technically been given more information.</p>
+          <p>It may actually understand the project <em>less</em>.</p>
+          <p>Useful context has structure.</p>
+          <p>Some things are durable:</p>
+          <ul>
+            <li>the purpose of the project</li>
+            <li>architectural decisions</li>
+            <li>important constraints</li>
+            <li>dependencies</li>
+            <li>current goals</li>
+          </ul>
+          <p>Other things are temporary:</p>
+          <ul>
+            <li>today's experiment</li>
+            <li>a debugging session</li>
+            <li>implementation chatter</li>
+            <li>an abandoned idea</li>
+            <li>raw tool output</li>
+          </ul>
+          <p>And some things matter mostly because they explain <strong>why the durable things changed</strong>.</p>
+          <p>That distinction became increasingly important while building Find Familiar.</p>
+          <p>The system began evolving from “store the AI history” toward something closer to:</p>
+          <blockquote>Maintain a living body of project knowledge and compile the right context for the work being done.</blockquote>
+          <p>That is a much more interesting problem.</p>
+
+          <h2>Then I Realized Git Already Does Half the Job</h2>
+          <p>I had been building infrastructure for durable knowledge while already using a tool specifically designed to maintain durable, inspectable, versioned information:</p>
+          <p><strong>Git.</strong></p>
+          <p>Every AI development tool I use already understands repositories.</p>
+          <p>Git gives me history.</p>
+          <p>It gives me diffs.</p>
+          <p>It gives me branches.</p>
+          <p>It gives me provenance.</p>
+          <p>It gives humans and machines a common filesystem full of boring text files.</p>
+          <p>And boring text files are remarkably good infrastructure.</p>
+          <p>That led to a smaller experiment.</p>
+          <p>I called it <strong>Grimoire</strong>.</p>
+
+          <h2>Grimoire</h2>
+          <p>The first version of Grimoire is deliberately much less ambitious than Find Familiar.</p>
+          <p>It is essentially a Git-native context routing protocol for human/AI work.</p>
+          <p>The basic shape is:</p>
+          <blockquote>Public Grimoire<br>↓ fork or clone<br>Personal Grimoire<br>↓ routes tools to<br>Project Architecture Repositories<br>↓ optionally reference<br>Project Source or Content Repositories</blockquote>
+          <p>The Grimoire doesn't need to contain every piece of knowledge itself.</p>
+          <p>It needs to tell an AI:</p>
+          <ul>
+            <li>what projects exist</li>
+            <li>where their authoritative knowledge lives</li>
+            <li>what their current state is</li>
+            <li>how work should be recorded</li>
+            <li>how one session should hand useful context to the next</li>
+          </ul>
+          <p>A game can have an architecture repository and a source repository.</p>
+          <p>A writing project can have an architecture repository without any source code at all.</p>
+          <p>A website, D&amp;D campaign, research project, home project, or ridiculous weekend experiment can all use essentially the same pattern.</p>
+          <p>That is important to me because I don't want a giant enterprise project-management system for my hobbies.</p>
+          <p>I already have those at work.</p>
+          <p>I want something a solo creator can understand.</p>
+
+          <h2>Find Familiar Wasn't a Wrong Turn</h2>
+          <p>Grimoire isn't replacing Find Familiar.</p>
+          <p>At least I don't think it is.</p>
+          <p>The relationship is becoming clearer.</p>
+          <p>Find Familiar is an experiment in <strong>active orchestration</strong>.</p>
+          <p>Grimoire is an experiment in <strong>durable context architecture</strong>.</p>
+          <p>One can summon workers, track execution, enforce approvals, compile context, and provide a management interface.</p>
+          <p>The other asks whether the underlying knowledge can remain simple enough to survive independently of any particular AI service.</p>
+          <p>That separation is useful.</p>
+          <p>A Grimoire repository doesn't care whether I open it with ChatGPT, Codex, Claude Code, some future local model, or a tool that doesn't exist yet.</p>
+          <p>The knowledge remains mine.</p>
+          <p>The protocol is readable without the software that created it.</p>
+          <p>That is a property I increasingly value.</p>
+
+          <h2>The Current Experiment</h2>
+          <p>So that is where the workshop is today.</p>
+          <p>Rather than immediately making Find Familiar larger, I am taking what it taught me about context and reducing those lessons to their simplest possible form.</p>
+          <p>The first public Grimoire is intentionally bare.</p>
+          <p>I have created a private personal Grimoire alongside it and am beginning to use it on real projects.</p>
+          <p>One of the first case studies will be a small Godot game project with separate architecture, source, and archive repositories.</p>
+          <p>That gives me somewhere to discover what the protocol actually needs instead of designing every possible feature in advance.</p>
+          <p>When something proves useful in daily work, it can move back into the public Grimoire.</p>
+          <p>When something proves unnecessary, it can disappear.</p>
+          <p>And if the experiment succeeds, Find Familiar eventually gets something extremely valuable:</p>
+          <blockquote><strong>a stable context substrate underneath all of its clever machinery.</strong></blockquote>
+          <p>That feels like a much stronger foundation than trying to make the machinery remember everything itself.</p>
+          <p>For now, Grimoire is just text files, conventions, Git history, and a few ideas about how humans and AI should leave the workshop ready for whoever walks in next.</p>
+          <p>That may be enough.</p>
+          <p><strong>And finding out whether it is enough is the project.</strong></p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer"><span>© <span id="year"></span> Sneaker Games</span><span class="tiny">Made with curiosity, stubbornness, and suspicious amounts of experimentation.</span></footer>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>

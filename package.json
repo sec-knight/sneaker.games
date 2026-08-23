@@ -1,0 +1,24 @@
+{
+  "name": "sneaker.games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "feedback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sec-knight/sneaker.games.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sec-knight/sneaker.games/issues"
+  },
+  "homepage": "https://github.com/sec-knight/sneaker.games#readme",
+  "dependencies": {
+    "jose": "^6.2.9"
+  }
+}
