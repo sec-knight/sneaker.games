@@ -160,6 +160,9 @@
     if (!coarse) nameInput?.focus();
     bootOverlay();
   };
+  window.addEventListener("horde-game-over", (event) => {
+    window.onHordeGameOver(event.detail);
+  });
 
   if (skip) skip.addEventListener("click", hideOverlay);
 
