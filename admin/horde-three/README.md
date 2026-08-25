@@ -1,10 +1,10 @@
 # Horde Defense · Three.js (admin)
 
-Private playable build of the Three.js horde demo (combat-feel polish).
+Private playable build of the Three.js horde demo (Admin Studio + combat polish).
 
 - URL: `https://sneaker.games/admin/horde-three/`
 - Access: Cloudflare Access on `/admin/*`
-- Source: `sec-knight/godot-horde-demo` branch `cursor/combat-feel-polish-1460`
+- Source: `sec-knight/godot-horde-demo` branch `cursor/admin-bundle-studio-1460`
 
 Rebuild from that repo with:
 
