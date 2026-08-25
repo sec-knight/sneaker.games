@@ -65,3 +65,12 @@ Redeploy the Pages project after bindings and variables are added. Then verify:
 - Fail-closed administrative endpoint
 - HTML escaping in the inbox
 - No names, email addresses, uploads, or raw IP storage
+
+## 7. Private Three.js horde prototype
+
+The Cloudflare Access app that already covers `sneaker.games/admin/*` also protects:
+
+- `https://sneaker.games/admin/` — workshop hub
+- `https://sneaker.games/admin/horde-three/` — Three.js Horde Defense feel demo
+
+No new Access policy is required. Log in with the allowed admin email, then open the hub or the direct play URL.
