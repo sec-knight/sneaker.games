@@ -1,6 +1,6 @@
 # Horde Defense · Three.js (admin)
 
-Private playable build of the Three.js horde demo (Admin Studio + combat polish).
+Private playable build of the Three.js horde demo (Admin Studio + Domain Workshop).
 
 - URL: `https://sneaker.games/admin/horde-three/`
 - Access: Cloudflare Access on `/admin/*`
