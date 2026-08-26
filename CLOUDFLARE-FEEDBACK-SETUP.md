@@ -72,5 +72,6 @@ The Cloudflare Access app that already covers `sneaker.games/admin/*` also prote
 
 - `https://sneaker.games/admin/` — workshop hub
 - `https://sneaker.games/admin/horde-three/` — Three.js Horde Defense feel demo
+- `https://sneaker.games/admin/pink-bloom/` — Pink Bloom night-shift prototype
 
 No new Access policy is required. Log in with the allowed admin email, then open the hub or the direct play URL.
