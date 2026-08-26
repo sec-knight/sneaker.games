@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>PINK BLOOM — Night Shift</title>
+    <link rel="icon" href="/assets/logo.svg" type="image/svg+xml" />
+    <script type="module" crossorigin src="/admin/pink-bloom/assets/index-LnwbXxuq.js"></script>
+    <link rel="stylesheet" crossorigin href="/admin/pink-bloom/assets/index-PhDiN1V-.css">
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+
+    <div id="loading" class="screen">
+      <div class="logo-wrap">
+        <img class="star" alt="" width="72" height="72" />
+        <h1>PINK BLOOM</h1>
+        <p class="tag">Night shift at the end of Lightyear City</p>
+      </div>
+      <div class="bar-shell">
+        <div id="loading-bar"></div>
+      </div>
+      <p id="loading-text">Waking the asset vault…</p>
+    </div>
+
+    <div id="title-screen" class="screen hidden">
+      <div class="panel title-panel">
+        <div class="title-header">PINK BLOOM</div>
+        <p class="blurb">
+          A pink tear opened under the industrial lots. The dead clocked in. You still have a register to run,
+          a city to loot, and a portal to seal.
+        </p>
+        <label class="seed-row">
+          City seed
+          <input id="seed-input" type="text" maxlength="16" />
+        </label>
+        <p class="pick">Pick a survivor</p>
+        <div id="char-grid"></div>
+        <button id="btn-play" class="fancy-btn">START SHIFT</button>
+        <p id="admin-back" class="controls hidden"><a href="/admin/">← Workshop</a></p>
+        <p class="controls">
+          WASD move · Shift sprint · Mouse / arrows look · Click shoot · E interact · F drive · 1-9 weapons · R reload · P pause
+        </p>
+      </div>
+    </div>
+
+    <div id="hud" class="hidden">
+      <div id="hp-wrap">
+        <div id="hp-bg"><div id="hp-fill"></div></div>
+        <span id="hp-text">100 / 100</span>
+      </div>
+      <div id="stats">
+        <div><span id="wave-text">Night 1</span></div>
+        <div><span id="clock-text">18:00</span></div>
+        <div>₡ <span id="coins-text">0</span></div>
+        <div id="ammo-text">6 / 24</div>
+      </div>
+      <div id="weapon-slots"></div>
+      <canvas id="minimap" width="160" height="160"></canvas>
+      <div id="prompt"></div>
+      <div id="crosshair">+</div>
+      <div id="look-hint">Click the city to capture the mouse</div>
+    </div>
+
+    <div id="dialogue" class="hidden">
+      <p id="dialogue-text"></p>
+    </div>
+
+    <div id="toast"></div>
+
+    <div id="pause-screen" class="screen hidden">
+      <div class="panel">
+        <h2>On break</h2>
+        <p>The Bloom does not take breaks.</p>
+        <button id="btn-resume" class="fancy-btn">BACK ON THE CLOCK</button>
+      </div>
+    </div>
+
+    <div id="death-screen" class="screen hidden">
+      <div class="panel">
+        <h2>Shift over</h2>
+        <p id="death-stats"></p>
+        <button id="btn-again" class="fancy-btn">CLOCK IN AGAIN</button>
+      </div>
+    </div>
+
+    <div id="win-screen" class="screen hidden">
+      <div class="panel">
+        <h2>The Bloom is sealed</h2>
+        <p id="win-stats"></p>
+        <p>Lightyear City still needs a night clerk.</p>
+        <button id="btn-win-again" class="fancy-btn">ANOTHER SEED</button>
+      </div>
+    </div>
+
+  </body>
+</html>
