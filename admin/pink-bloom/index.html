@@ -6,8 +6,8 @@
     <meta name="robots" content="noindex,nofollow" />
     <title>PINK BLOOM — Night Shift</title>
     <link rel="icon" href="/assets/logo.svg" type="image/svg+xml" />
-    <script type="module" crossorigin src="/admin/pink-bloom/assets/index-LnwbXxuq.js"></script>
-    <link rel="stylesheet" crossorigin href="/admin/pink-bloom/assets/index-PhDiN1V-.css">
+    <script type="module" crossorigin src="/admin/pink-bloom/assets/index-DA8pIaqj.js"></script>
+    <link rel="stylesheet" crossorigin href="/admin/pink-bloom/assets/index-CUcqx2-a.css">
   </head>
   <body>
     <canvas id="game"></canvas>
@@ -36,11 +36,17 @@
           <input id="seed-input" type="text" maxlength="16" />
         </label>
         <p class="pick">Pick a survivor</p>
-        <div id="char-grid"></div>
+        <div class="char-select">
+          <div class="char-preview-wrap">
+            <canvas id="char-preview" width="240" height="300"></canvas>
+            <p id="char-name" class="char-name">Survivor A</p>
+          </div>
+          <div id="char-grid"></div>
+        </div>
         <button id="btn-play" class="fancy-btn">START SHIFT</button>
         <p id="admin-back" class="controls hidden"><a href="/admin/">← Workshop</a></p>
         <p class="controls">
-          WASD move · Shift sprint · Mouse / arrows look · Click shoot · E interact · F drive · 1-9 weapons · R reload · P pause
+          WASD move · Shift sprint · Mouse / arrows look · Click shoot · E loot / talk · F drive · 1-9 weapons · R reload · P pause
         </p>
       </div>
     </div>
