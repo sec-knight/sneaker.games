@@ -82,9 +82,11 @@ async function prepare(src, dest, { preferCombatIdle = false, dropNamed = [], re
   for (const child of [...scene.listChildren()]) {
     if (drop.has(child.getName())) nuke(child);
   }
-  // Nested leftovers (Midnight's Shirt was parented under Rig, not the scene root).
+  // Nested leftovers: Midnight's scrapped modular clothes (Shirt) lived under Rig.
   for (const node of [...root.listNodes()]) {
-    if (drop.has(node.getName())) nuke(node);
+    if (drop.has(node.getName()) || /^(shirt|pants|shoes|clothes|clothing)(\.\d+)?$/i.test(node.getName())) {
+      nuke(node);
+    }
   }
 
   const claimed = new Set();
