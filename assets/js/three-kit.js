@@ -31,16 +31,21 @@ export function createRenderer(canvas, { alpha = false } = {}) {
     powerPreference: 'high-performance',
   });
   const gl = renderer.getContext();
-  const info = gl.getExtension('WEBGL_debug_renderer_info');
-  const gpu = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : '';
-  const software = /swiftshader|llvmpipe|software|microsoft basic render/i.test(gpu);
+  let software = false;
+  try {
+    const info = gl.getExtension('WEBGL_debug_renderer_info');
+    const gpu = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : '';
+    software = /swiftshader|llvmpipe|software|microsoft basic render/i.test(gpu);
+  } catch {
+    software = false;
+  }
   renderer.setPixelRatio(software ? 1 : Math.min(window.devicePixelRatio || 1, 2));
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.shadowMap.enabled = !software;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.08;
-  renderer.userData.software = software;
+  renderer.softwareWebGL = software;
   return renderer;
 }
 

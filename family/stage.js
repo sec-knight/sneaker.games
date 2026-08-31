@@ -136,7 +136,7 @@ async function boot() {
   controls.target.copy(cameraTarget);
 
   lights = createStudioLights(scene, { rim: PALETTE.pink });
-  if (renderer.userData.software) lights.key.castShadow = false;
+  if (renderer.softwareWebGL) lights.key.castShadow = false;
   scene.add(createStageFloor(3.6));
   spark = createSparkBurst(scene, { count: 70 });
 
