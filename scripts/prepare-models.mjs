@@ -77,9 +77,14 @@ async function prepare(src, dest, { preferCombatIdle = false, dropNamed = [], re
 
   if (retarget) retargetClips(document, retarget.from, retarget.to);
 
+  const drop = new Set(dropNamed);
   const scene = root.getDefaultScene();
   for (const child of [...scene.listChildren()]) {
-    if (dropNamed.includes(child.getName())) nuke(child);
+    if (drop.has(child.getName())) nuke(child);
+  }
+  // Nested leftovers (Midnight's Shirt was parented under Rig, not the scene root).
+  for (const node of [...root.listNodes()]) {
+    if (drop.has(node.getName())) nuke(node);
   }
 
   const claimed = new Set();
@@ -125,6 +130,6 @@ await prepare(
   'assets/models/midnight.min.glb',
   {
     retarget: { from: 'Rig.001', to: 'Rig' },
-    dropNamed: ['Mannequin', 'Rig.001', 'Plane'],
+    dropNamed: ['Mannequin', 'Rig.001', 'Plane', 'Shirt'],
   },
 );

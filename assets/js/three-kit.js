@@ -155,6 +155,9 @@ export async function loadCharacter(url, { height = 1.68 } = {}) {
   const loader = new GLTFLoader();
   const gltf = await loader.loadAsync(url);
   const root = gltf.scene;
+  root.traverse((obj) => {
+    if (/^shirt$/i.test(obj.name)) obj.visible = false;
+  });
   enableShadows(root);
   fitCharacter(root, height);
   const mixer = new THREE.AnimationMixer(root);
