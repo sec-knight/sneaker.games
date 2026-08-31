@@ -266,7 +266,7 @@ async function boot() {
     });
     if (!id) return;
     setSelected(id);
-    const greeting = actors[id].clips.wave ? 'wave' : (actors[id].clips.look ? 'look' : 'idle');
+    const greeting = actors[id].clips.drink ? 'drink' : (actors[id].clips.look ? 'look' : 'idle');
     act(greeting, { solo: true });
   }
 
@@ -322,7 +322,7 @@ async function boot() {
     const map = { 1: 'sneaker', 2: 'nezuko', 3: 'midnight' };
     if (map[event.key]) {
       setSelected(map[event.key]);
-      act('wave', { solo: true });
+      act('drink', { solo: true });
     }
     if (event.key === 'e' || event.key === 'E') act('dance');
     if (event.key === 'f') act('flip');

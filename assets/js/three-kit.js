@@ -173,6 +173,8 @@ export async function loadAnimationLibrary(url) {
 
 export function mergeClips(actor, library) {
   actor.clips = { ...actor.clips, ...library };
+  // Character GLBs labeled KayKit Interact as "wave". It is a button press.
+  delete actor.clips.wave;
 }
 
 export function clipLoops(name) {

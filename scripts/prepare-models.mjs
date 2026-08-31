@@ -23,7 +23,6 @@ const KEEP = {
   dance: (name) => /Dance_Loop/i.test(name),
   celebrate: (name) => /Celebration/i.test(name),
   flip: (name) => /BackFlip_Rig\.001/i.test(name),
-  wave: (name) => /Interact_Rig/i.test(name),
   punch: (name) => /Punch_Jab/i.test(name),
   block: (name) => name === 'Block',
 };
@@ -61,7 +60,7 @@ const UAL_KEEP = {
   jump: /^Jump_Start$/,
   flip: /^BackFlip$/,
   celebrate: /^Celebration$/,
-  wave: /^Interact$/,
+  drink: /^Drink$/,
   punch: /^Punch_Jab$/,
   kick: /^Kick$/,
 };
