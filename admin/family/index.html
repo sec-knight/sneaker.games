@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Meet Sneaker, Nezuko, and Midnight — the Sneaker Games family, playable in Three.js.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Private Three.js stage for Sneaker, Nezuko, and Midnight.">
   <meta name="theme-color" content="#f8f4f3">
-  <title>The Family — Sneaker Games</title>
-  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../style.css">
+  <title>The Family · Workshop · Sneaker Games</title>
+  <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
   <script type="importmap">
   {
     "imports": {
@@ -19,13 +20,19 @@
 </head>
 <body>
   <div class="site-shell">
-    <nav class="nav" aria-label="Primary navigation">
-      <a class="brand" href="../"><img src="../assets/logo.svg" alt="Sneaker Games mascot logo"><span>SNEAKER GAMES</span></a>
-      <div class="nav-links"><a href="../#games">Games</a><a href="../#workshop">Workshop</a><a href="./">Family</a><a href="../writing.html">Writing</a></div>
+    <nav class="nav" aria-label="Admin navigation">
+      <a class="brand" href="../"><img src="../../assets/logo.svg" alt=""><span>SNEAKER GAMES</span></a>
+      <div class="nav-links">
+        <a href="../">Admin</a>
+        <a href="./">Family</a>
+        <a href="../character-designer/">Character designer</a>
+        <a href="../horde-three/">Horde Three.js</a>
+        <a href="../pink-bloom/">Pink Bloom</a>
+      </div>
     </nav>
     <main>
       <section class="section family-hero">
-        <div class="eyebrow">Three.js toy · The siblings</div>
+        <div class="eyebrow">Private workshop · Three.js toy · The siblings</div>
         <h1 class="page-title">THE<br>FAMILY</h1>
         <p class="page-intro">Sneaker is the mascot. Nezuko and Midnight are his sisters. This is the three of them in a browser, on a pink stage, waiting for someone to make them dance.</p>
       </section>
@@ -98,9 +105,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer"><span>© <span id="year"></span> Sneaker Games</span><span class="tiny">Three.js, Mixamo leftovers, and a pink floor.</span></footer>
+    <footer class="footer"><span>Private · Cloudflare Access on /admin/*</span><span class="tiny">Three.js, Mixamo leftovers, and a pink floor.</span></footer>
   </div>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script type="module" src="stage.js"></script>
 </body>
 </html>

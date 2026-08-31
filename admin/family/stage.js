@@ -13,7 +13,7 @@ import {
   projectToScreen,
   resizeRenderer,
   webglAvailable,
-} from '../assets/js/three-kit.js';
+} from '../../assets/js/three-kit.js';
 
 const stage = document.querySelector('[data-family-stage]');
 const canvas = document.querySelector('[data-family-canvas]');
@@ -27,7 +27,7 @@ const labels = {
 
 const CAST = {
   sneaker: {
-    url: '../assets/models/sneaker.min.glb',
+    url: '../../assets/models/sneaker.min.glb',
     x: 0,
     z: 0.18,
     height: 1.7,
@@ -37,7 +37,7 @@ const CAST = {
     line: 'Mascot. Center of gravity. Will flip instead of dancing if you let him.',
   },
   nezuko: {
-    url: '../assets/models/nezuko.min.glb',
+    url: '../../assets/models/nezuko.min.glb',
     x: -1.55,
     z: 0,
     height: 1.62,
@@ -47,7 +47,7 @@ const CAST = {
     line: 'Sister. Starts the dance. Keeps the sketch-mask energy.',
   },
   midnight: {
-    url: '../assets/models/midnight.min.glb',
+    url: '../../assets/models/midnight.min.glb',
     x: 1.55,
     z: 0,
     height: 1.62,
