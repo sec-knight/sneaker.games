@@ -26,7 +26,8 @@ if (host && webglAvailable()) {
   const camera = new THREE.PerspectiveCamera(32, 1, 0.1, 40);
   camera.position.set(0, 1.18, 3.35);
   camera.lookAt(0, 0.82, 0);
-  createStudioLights(scene);
+  const lights = createStudioLights(scene);
+  if (renderer.userData.software) lights.key.castShadow = false;
 
   const spark = createSparkBurst(scene, { count: 36 });
   const clock = new THREE.Clock();
@@ -52,6 +53,8 @@ if (host && webglAvailable()) {
     if (fallback) fallback.hidden = true;
     if (hint) hint.hidden = false;
     host.classList.add('is-live');
+    const rect = host.getBoundingClientRect();
+    resizeRenderer(renderer, camera, rect.width, rect.height);
   } catch (err) {
     console.warn('Hero stage failed to load', err);
   }

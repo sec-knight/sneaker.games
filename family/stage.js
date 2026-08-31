@@ -136,6 +136,7 @@ async function boot() {
   controls.target.copy(cameraTarget);
 
   lights = createStudioLights(scene, { rim: PALETTE.pink });
+  if (renderer.userData.software) lights.key.castShadow = false;
   scene.add(createStageFloor(3.6));
   spark = createSparkBurst(scene, { count: 70 });
 
@@ -168,6 +169,8 @@ async function boot() {
   if (loading) loading.hidden = true;
   canvas.hidden = false;
   stage.classList.add('is-live');
+  const rect = stage.getBoundingClientRect();
+  resizeRenderer(renderer, camera, rect.width, rect.height);
   setSelected('sneaker');
   setStatus('Sneaker, Nezuko, and Midnight. Click a sibling. Then make trouble.');
 
