@@ -240,6 +240,17 @@ async function prepare(src, dest, { preferCombatIdle = false, dropNamed = [], re
     if (combat && !idle) combat.setName('idle');
   }
 
+  // Blender exported Sneaker's "Black" material with no baseColorFactor, so it
+  // came out white and dedup merged it with the body. Paint it actually black.
+  for (const material of root.listMaterials()) {
+    const name = material.getName() || '';
+    if (/^black$/i.test(name)) {
+      material.setBaseColorFactor([0, 0, 0, 1]);
+    } else if (name === 'Material' && !material.getBaseColorTexture()) {
+      material.setBaseColorFactor([1, 1, 1, 1]);
+    }
+  }
+
   await document.transform(
     resample({ tolerance: 1e-3 }),
     textureCompress({ resize: [512, 512] }),
