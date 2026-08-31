@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Private Three.js stage for Sneaker, Nezuko, and Midnight.">
+  <meta name="theme-color" content="#f8f4f3">
+  <title>The Family · Workshop · Sneaker Games</title>
+  <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="nav" aria-label="Admin navigation">
+      <a class="brand" href="../"><img src="../../assets/logo.svg" alt=""><span>SNEAKER GAMES</span></a>
+      <div class="nav-links">
+        <a href="../">Admin</a>
+        <a href="./">Family</a>
+        <a href="../character-designer/">Character designer</a>
+        <a href="../horde-three/">Horde Three.js</a>
+        <a href="../pink-bloom/">Pink Bloom</a>
+      </div>
+    </nav>
+    <main>
+      <section class="section family-hero">
+        <div class="eyebrow">Private workshop · Three.js toy · The siblings</div>
+        <h1 class="page-title">THE<br>FAMILY</h1>
+        <p class="page-intro">Sneaker is the mascot. Nezuko and Midnight are his sisters. This is the three of them in a browser, on a pink stage, waiting for someone to make them dance.</p>
+      </section>
+
+      <section class="section family-stage-section">
+        <div class="family-stage" data-family-stage>
+          <canvas data-family-canvas hidden></canvas>
+          <div class="stage-loading" data-family-loading>Summoning siblings…</div>
+          <div class="stage-label" data-label="nezuko">Nezuko</div>
+          <div class="stage-label" data-label="sneaker">Sneaker</div>
+          <div class="stage-label" data-label="midnight">Midnight</div>
+          <p class="stage-hint" data-family-status>Drag to look around. Click a sibling. Then press Dance.</p>
+          <div class="stage-toolbar" role="toolbar" aria-label="Family actions">
+            <button type="button" class="button secondary" data-act="idle">Idle</button>
+            <button type="button" class="button primary" data-act="dance">Dance</button>
+            <button type="button" class="button secondary" data-act="flip">Flip</button>
+            <button type="button" class="button secondary" data-act="celebrate">Celebrate</button>
+            <button type="button" class="button secondary" data-act="wave">Wave</button>
+            <button type="button" class="button secondary" data-act="punch" data-solo="true">Punch</button>
+          </div>
+        </div>
+        <p class="stage-keys">Keys: 1 Sneaker · 2 Nezuko · 3 Midnight · D dance · F flip · C celebrate · I idle</p>
+      </section>
+
+      <section class="section alt" id="cast">
+        <div class="section-heading">
+          <h2>The cast</h2>
+          <p>Click a card to put them in the spotlight. The models are the real studio meshes, animation-pruned so a phone can actually load them.</p>
+        </div>
+        <div class="grid">
+          <article class="card is-active" data-cast="sneaker">
+            <span class="card-kicker">Mascot · center</span>
+            <h3>Sneaker</h3>
+            <p>The namesake. Combat idle, backflip on request, four faces hiding in one texture. If the sisters dance, he flips. That is not a bug. That is character.</p>
+          </article>
+          <article class="card" data-cast="nezuko">
+            <span class="card-kicker">Sister · stage left</span>
+            <h3>Nezuko</h3>
+            <p>Sketch-mask, sharp silhouette, first on the dance floor. She will look around, wave, celebrate, and punch if you ask her to.</p>
+          </article>
+          <article class="card" data-cast="midnight">
+            <span class="card-kicker">Sister · stage right</span>
+            <h3>Midnight</h3>
+            <p>Same unclothed base as Nezuko, cooler lamp. After dark still counts as a showtime.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <h2>How to play with it</h2>
+          <p>This is a lab bench, not a cutscene. Drag, click, mash the toolbar, and see which sibling has opinions.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <span class="card-kicker">Look</span>
+            <h3>Orbit the stage</h3>
+            <p>Drag to walk around the family. Scroll to move in. The camera will slide toward whoever you last clicked.</p>
+          </article>
+          <article class="card">
+            <span class="card-kicker">Touch</span>
+            <h3>Pick a sibling</h3>
+            <p>Click the model or the card. They greet you. Punch is solo on purpose — some manners are personal.</p>
+          </article>
+          <article class="card featured">
+            <span class="card-kicker">Chaos</span>
+            <h3>Dance break</h3>
+            <p>Nezuko and Midnight have a real dance clip. Sneaker does not, so he backflips through the chorus. Family portraits should be a little unfair.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><span>Private · Cloudflare Access on /admin/*</span><span class="tiny">Three.js, Mixamo leftovers, and a pink floor.</span></footer>
+  </div>
+  <script type="module" src="stage.js"></script>
+</body>
+</html>

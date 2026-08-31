@@ -5,3 +5,7 @@
 /games/horde-defense/play/*.pck
   Content-Type: application/octet-stream
   Cache-Control: public, max-age=86400
+
+/assets/models/*
+  Content-Type: model/gltf-binary
+  Cache-Control: public, max-age=604800
