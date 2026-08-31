@@ -56,7 +56,7 @@ html.horde-overlay-open,html.horde-overlay-open body{touch-action:auto!important
 .stage-loading{position:absolute;inset:0;display:grid;place-items:center;font-weight:900;letter-spacing:.04em;background:radial-gradient(circle at 50% 40%,#ffe6f7,#f8f4f3);z-index:4}
 .stage-label{position:absolute;top:0;left:0;padding:6px 12px;border:2px solid #111;border-radius:999px;background:#fff;font-weight:900;font-size:.82rem;pointer-events:none;white-space:nowrap;box-shadow:3px 3px 0 #111;z-index:3}
 .stage-label.is-active{background:#f79be5}
-.stage-hint{position:absolute;left:16px;right:16px;bottom:78px;margin:0;padding:8px 14px;border:2px solid #111;border-radius:999px;background:rgba(248,244,243,.92);font-weight:800;text-align:center;pointer-events:none;z-index:3}
+.stage-hint{position:absolute;left:16px;right:16px;bottom:118px;margin:0;padding:8px 14px;border:2px solid #111;border-radius:999px;background:rgba(248,244,243,.92);font-weight:800;text-align:center;pointer-events:none;z-index:3}
 .stage-toolbar{position:absolute;left:12px;right:12px;bottom:14px;z-index:3;display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
 .stage-toolbar .button{cursor:pointer;font:inherit;color:#111;padding:10px 16px;box-shadow:3px 3px 0 #111}
 .stage-keys{margin:16px 0 0;font-weight:800;opacity:.7}
@@ -67,7 +67,7 @@ html.horde-overlay-open,html.horde-overlay-open body{touch-action:auto!important
   .hero-art{width:min(72vw,330px)}
   .hero-stage{width:100%}
   .family-stage{height:64vh;min-height:420px}
-  .stage-hint{font-size:.85rem;bottom:88px;border-radius:20px}
+  .stage-hint{font-size:.85rem;bottom:128px;border-radius:20px}
 }
 @media(max-width:620px){
   .hero-art{width:min(86vw,330px)}

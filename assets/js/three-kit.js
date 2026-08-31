@@ -165,7 +165,21 @@ export async function loadCharacter(url, { height = 1.68 } = {}) {
   return { root, mixer, clips, gltf };
 }
 
-export function playClip(actor, name, { loop = true, fade = 0.18, timeScale = 1 } = {}) {
+export async function loadAnimationLibrary(url) {
+  const loader = new GLTFLoader();
+  const gltf = await loader.loadAsync(url);
+  return Object.fromEntries(gltf.animations.map((clip) => [clip.name, clip]));
+}
+
+export function mergeClips(actor, library) {
+  actor.clips = { ...actor.clips, ...library };
+}
+
+export function clipLoops(name) {
+  return /^(idle|dance|look|combat|talk|sit|groundsit|crouch|walk|jog|sprint)/.test(name);
+}
+
+export function playClip(actor, name, { loop = clipLoops(name), fade = 0.18, timeScale = 1 } = {}) {
   const clip = actor.clips[name];
   if (!clip) return null;
   const next = actor.mixer.clipAction(clip);
