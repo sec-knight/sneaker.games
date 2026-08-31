@@ -34,7 +34,7 @@
       <section class="section family-hero">
         <div class="eyebrow">Private workshop · Three.js toy · The siblings</div>
         <h1 class="page-title">THE<br>FAMILY</h1>
-        <p class="page-intro">Sneaker is the mascot. Nezuko and Midnight are his sisters. This is the three of them in a browser, on a pink stage, waiting for someone to make them dance.</p>
+        <p class="page-intro">Sneaker is the mascot. Nezuko and Midnight are his sisters. One UAL1 animation library drives all three — idle, dance, sit, crouch, and eight-way locomotion.</p>
       </section>
 
       <section class="section family-stage-section">
@@ -44,17 +44,21 @@
           <div class="stage-label" data-label="nezuko">Nezuko</div>
           <div class="stage-label" data-label="sneaker">Sneaker</div>
           <div class="stage-label" data-label="midnight">Midnight</div>
-          <p class="stage-hint" data-family-status>Drag to look around. Click a sibling. Then press Dance.</p>
+          <p class="stage-hint" data-family-status>Drag to look around. Click a sibling. WASD to walk. Then make them dance.</p>
           <div class="stage-toolbar" role="toolbar" aria-label="Family actions">
             <button type="button" class="button secondary" data-act="idle">Idle</button>
             <button type="button" class="button primary" data-act="dance">Dance</button>
+            <button type="button" class="button secondary" data-act="sit">Sit</button>
+            <button type="button" class="button secondary" data-act="crouch">Crouch</button>
+            <button type="button" class="button secondary" data-act="walk">Walk</button>
+            <button type="button" class="button secondary" data-act="jog">Jog</button>
             <button type="button" class="button secondary" data-act="flip">Flip</button>
             <button type="button" class="button secondary" data-act="celebrate">Celebrate</button>
-            <button type="button" class="button secondary" data-act="wave">Wave</button>
+            <button type="button" class="button secondary" data-act="drink">Drink</button>
             <button type="button" class="button secondary" data-act="punch" data-solo="true">Punch</button>
           </div>
         </div>
-        <p class="stage-keys">Keys: 1 Sneaker · 2 Nezuko · 3 Midnight · D dance · F flip · C celebrate · I idle</p>
+        <p class="stage-keys">Keys: 1 Sneaker · 2 Nezuko · 3 Midnight · WASD / arrows walk · Shift walk · Ctrl sprint · E dance · X sit · V crouch · F flip · C celebrate · I idle</p>
       </section>
 
       <section class="section alt" id="cast">
@@ -66,12 +70,12 @@
           <article class="card is-active" data-cast="sneaker">
             <span class="card-kicker">Mascot · center</span>
             <h3>Sneaker</h3>
-            <p>The namesake. Combat idle, backflip on request, four faces hiding in one texture. If the sisters dance, he flips. That is not a bug. That is character.</p>
+            <p>The namesake. Combat idle still lives in his file, but the family stage now plays the UAL1 idle and dance like everyone else. Backflip on request. Four faces hiding in one texture.</p>
           </article>
           <article class="card" data-cast="nezuko">
             <span class="card-kicker">Sister · stage left</span>
             <h3>Nezuko</h3>
-            <p>Sketch-mask, sharp silhouette, first on the dance floor. She will look around, wave, celebrate, and punch if you ask her to.</p>
+            <p>Sketch-mask, sharp silhouette, first on the dance floor. She will look around, drink, celebrate, and punch if you ask her to.</p>
           </article>
           <article class="card" data-cast="midnight">
             <span class="card-kicker">Sister · stage right</span>
@@ -95,12 +99,12 @@
           <article class="card">
             <span class="card-kicker">Touch</span>
             <h3>Pick a sibling</h3>
-            <p>Click the model or the card. They greet you. Punch is solo on purpose — some manners are personal.</p>
+            <p>Click the model or the card. They take a sip. Punch is solo on purpose — some manners are personal.</p>
           </article>
           <article class="card featured">
             <span class="card-kicker">Chaos</span>
             <h3>Dance break</h3>
-            <p>Nezuko and Midnight have a real dance clip. Sneaker does not, so he backflips through the chorus. Family portraits should be a little unfair.</p>
+            <p>UAL1 is the KayKit template Sneaker was built on. Dance, sit, crouch, walk, jog, sprint — all three siblings share the same clips now. WASD takes whoever is in the spotlight for a lap around the floor.</p>
           </article>
         </div>
       </section>
