@@ -5,3 +5,7 @@ node_modules/
 # Uncompressed Godot WASM exceeds Cloudflare's 25 MB file limit.
 # Publish index.wasm.gz instead; worker.js serves it as application/wasm.
 games/horde-defense/play/index.wasm
+
+# Source Mixamo dumps. The site ships the pruned *.min.glb files.
+assets/models/*.glb
+!assets/models/*.min.glb
