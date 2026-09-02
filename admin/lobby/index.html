@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Private Three.js dungeon lobby for Sneaker, Nezuko, and Midnight.">
+  <meta name="theme-color" content="#1a1218">
+  <title>Lobby · Workshop · Sneaker Games</title>
+  <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="nav" aria-label="Admin navigation">
+      <a class="brand" href="../"><img src="../../assets/logo.svg" alt=""><span>SNEAKER GAMES</span></a>
+      <div class="nav-links">
+        <a href="../">Admin</a>
+        <a href="./">Lobby</a>
+        <a href="../family/">Family</a>
+        <a href="../character-designer/">Character designer</a>
+        <a href="../horde-three/">Horde Three.js</a>
+        <a href="../pink-bloom/">Pink Bloom</a>
+      </div>
+    </nav>
+    <main>
+      <section class="section lobby-hero">
+        <div class="eyebrow">Private workshop · Three.js · KayKit dungeon</div>
+        <h1 class="page-title">THE<br>LOBBY</h1>
+        <p class="page-intro">A square dungeon room built from the modular asset pack. Walk around as Sneaker, Nezuko, or Midnight — every UAL1 animation is on the menu.</p>
+      </section>
+
+      <section class="section lobby-stage-section">
+        <div class="lobby-stage" data-lobby-stage>
+          <canvas data-lobby-canvas hidden></canvas>
+          <div class="stage-loading" data-lobby-loading>Raising the dungeon…</div>
+          <p class="stage-hint lobby-hint" data-lobby-status>Drag to look. WASD to walk. Pick a character and an animation.</p>
+
+          <div class="lobby-sidebar">
+            <div class="lobby-panel">
+              <h3 class="lobby-panel-title">Character</h3>
+              <div class="lobby-characters" role="group" aria-label="Character selection">
+                <button type="button" class="button secondary is-active" data-character="sneaker">Sneaker</button>
+                <button type="button" class="button secondary" data-character="nezuko">Nezuko</button>
+                <button type="button" class="button secondary" data-character="midnight">Midnight</button>
+              </div>
+            </div>
+            <div class="lobby-panel lobby-panel-animations">
+              <h3 class="lobby-panel-title">UAL1 animations</h3>
+              <div class="lobby-anim-list" data-anim-list role="listbox" aria-label="Animation list"></div>
+            </div>
+          </div>
+        </div>
+        <p class="stage-keys">Keys: 1 Sneaker · 2 Nezuko · 3 Midnight · WASD walk · Shift walk · Ctrl sprint · Space jump</p>
+      </section>
+    </main>
+    <footer class="footer"><span>Private · Cloudflare Access on /admin/*</span><span class="tiny">KayKit dungeon tiles, studio mascots, UAL1 library.</span></footer>
+  </div>
+  <script type="module" src="lobby.js"></script>
+</body>
+</html>
