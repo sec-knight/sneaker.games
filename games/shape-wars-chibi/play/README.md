@@ -1,21 +1,20 @@
 # Shape Wars - Chibi! play build
 
-Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `d2c693f0ecb319b0cc0675461b4dd1093986410e`.
+Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `1ac05e8f998aaf4b7051f9dadcbe9e0519ced1fa`.
 
 This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Assets resolve under `/games/shape-wars-chibi/play/`.
 
-## Included from main (empty-picker init-order fix)
+## Included from main (picker preview fidelity)
 
-Rebuild of `d2c693f` — *Fix title pickers when View init fails or blocks (#5)*:
+Rebuild of `1ac05e8` — *Fix pre-battle color and face picker previews to match in-game tint (#6)*:
 
-- **Empty-picker fix** — `hud.bind()` (color/face pickers) runs before `new View()` so title swatches and face presets still populate when WebGL or geometry init fails or blocks
-- **Pre-battle color pick** — on the title screen before Battle!, choose a faction tint; that color becomes your one faction color for the match
-- **Pre-battle chibi face pick** — choose a chibi face preset; it applies to SVG title buddies and in-world unit faces
-- **Prior playtest fixes** (`cf0343f`) — iso pan remap, unified faction colors, selection / AI isolation, auto workers, Eco / War HUD
+- **Solid mainHex swatches** — color picker buttons use a solid faction main fill (no accent gradient), matching in-match body tint
+- **Faction-neutral faceChip** — pre-battle face chips render on a round chibi body tinted to the selected army color, matching in-game faces
+- **Prior fixes** — empty-picker init-order fix (#5), pre-battle color/face pick, playtest HUD and AI fixes (#3)
 
 ## Files
 
 - `index.html`
 - `favicon.svg`
-- `assets/index-DRiudZiL.js`
+- `assets/index-B9bvEnD_.js`
 - `assets/index-SojUHsEh.css`
