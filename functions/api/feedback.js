@@ -1,7 +1,7 @@
 const CATEGORIES = new Set(["fun", "needs-work", "bug", "idea"]);
 const DEVICES = new Set(["phone", "tablet", "desktop", "unknown"]);
 const INPUTS = new Set(["touch", "keyboard", "unknown"]);
-const GAME_BUILDS = {"plushy-guardian": new Set(["2026-08-13-adaptive-audio"])};
+const GAME_BUILDS = {"plushy-guardian": new Set(["2026-08-13-adaptive-audio"]), "shape-wars-chibi": new Set(["2026-09-07-web-v1"])};
 const json = (data, status = 200, headers = {}) => new Response(JSON.stringify(data), {
   status,
   headers: {"content-type": "application/json; charset=utf-8", "cache-control": "no-store", ...headers}
