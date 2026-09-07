@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#f8f4f3">
+  <meta name="description" content="Shape Wars - Chibi! Playable geometric RTS. Pips versus Tets.">
+  <title>Shape Wars - Chibi!</title>
+  <script type="module" crossorigin src="./assets/index-BBnBUQwG.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-D9cgB1eK.css">
+</head>
+<body>
+  <div id="app">
+    <canvas id="field"></canvas>
+
+    <header class="hud-top" aria-live="polite">
+      <div class="buddy pip-buddy" data-buddy="pip">
+        <div class="buddy-face" aria-hidden="true"></div>
+        <div>
+          <strong>Pips</strong>
+          <span data-pip-score>0 pts</span>
+        </div>
+      </div>
+      <p class="speech" data-speech>Tap a Pip, then tap a point.</p>
+      <div class="buddy tet-buddy" data-buddy="tet">
+        <div>
+          <strong>Tets</strong>
+          <span data-tet-score>0 pts</span>
+        </div>
+        <div class="buddy-face" aria-hidden="true"></div>
+      </div>
+    </header>
+
+    <div class="stars" aria-label="Build stars">★ <span data-stars>0</span></div>
+
+    <div class="hud-bottom">
+      <a class="chip quiet" href="../">Back</a>
+      <button type="button" class="chip" data-build="wall" disabled>Wall · 2★</button>
+      <button type="button" class="chip" data-build="tower" disabled>Tower · 3★</button>
+    </div>
+
+    <div class="veil" data-veil>
+      <div class="card">
+        <p class="kicker">Playable prototype</p>
+        <h1>SHAPE WARS<br>CHIBI!</h1>
+        <p>Pips versus Tets. Capture the points. Raise a wall if they get rude.</p>
+        <button type="button" class="go" data-start>Play now</button>
+      </div>
+    </div>
+
+    <div class="veil hidden" data-end>
+      <div class="card">
+        <p class="kicker" data-end-kicker>The field is still</p>
+        <h1 data-end-title>You win</h1>
+        <p data-end-copy>The Pips held the points.</p>
+        <div class="end-actions">
+          <button type="button" class="go" data-again>Play again</button>
+          <a class="go secondary" href="../">Game page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

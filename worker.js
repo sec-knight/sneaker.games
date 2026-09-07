@@ -4,7 +4,7 @@ const CATEGORIES = new Set(["fun", "needs-work", "bug", "idea"]);
 const DEVICES = new Set(["phone", "tablet", "desktop", "unknown"]);
 const INPUTS = new Set(["touch", "keyboard", "unknown"]);
 const STATUSES = new Set(["new", "useful", "planned", "fixed", "dismissed"]);
-const GAME_BUILDS = {"plushy-guardian": new Set(["2026-08-13-adaptive-audio"]), "horde-defense": new Set(["2026-08-23-web-v1"])};
+const GAME_BUILDS = {"plushy-guardian": new Set(["2026-08-13-adaptive-audio"]), "horde-defense": new Set(["2026-08-23-web-v1"]), "shape-wars-chibi": new Set(["2026-09-07-web-v1"])};
 
 const IDENTIFY_PROJECTS = [
   {id:"plushy-godot", name:"Plushy Godot Project", emblem:"◆", architecture:"https://github.com/sec-knight/plushy-godot-architecture.git", source:"https://github.com/sec-knight/plushy-godot-source.git", archive:"https://github.com/sec-knight/plushy-godot-archive.git"},
