@@ -17,8 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@700;800&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="./assets/index-CnbIL_PX.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CAQeU48P.css">
+    <script type="module" crossorigin src="./assets/index-BDz3aPk8.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C1LdeDgI.css">
   </head>
   <body>
     <div id="app">
@@ -87,7 +87,7 @@
             <span id="hud-army-buddy" class="chip-buddy"></span>
             <div>
               <div class="chip-label">Army</div>
-              <div class="chip-value"><span id="army-count">0</span><small id="mesh-count">0/300</small></div>
+              <div class="chip-value"><span id="army-count">0</span><small id="mesh-count">0/220 · 0/300</small></div>
             </div>
           </div>
           <button type="button" id="btn-pause" class="icon-btn" aria-label="Pause">II</button>
@@ -96,9 +96,13 @@
         <div id="toast" class="toast hidden"></div>
         <div id="hint" class="hint"></div>
         <div id="selection-label" class="selection-label hidden"></div>
+        <div id="build-cap" class="build-cap"></div>
 
         <nav class="hud-mgmt" aria-label="Command bar">
           <div id="mgmt-sheet" class="mgmt-sheet hidden"></div>
+          <button type="button" class="cmd demolish hidden" id="cmd-demolish">
+            <span>Demolish</span><small>free cap</small>
+          </button>
           <div id="train-row" class="train-row hidden">
             <button type="button" class="cmd produce" data-kind="0" id="cmd-worker">
               <span>Worker</span><small>40</small>
