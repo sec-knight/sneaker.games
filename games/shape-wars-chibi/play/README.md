@@ -1,7 +1,5 @@
-Playable Shape Wars - Chibi! browser build.
+# Shape Wars - Chibi! play build
 
-Vite production output with `base: './'` so assets resolve under
-`/games/shape-wars-chibi/play/`.
+Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `daa48e395dae87bcd0f997e43aefdd40fdfbb258`.
 
-Intended source: https://github.com/sec-knight/shape-wars-chibi
-(`npm install && npm run build` → copy `dist/` over this folder).
+This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Assets resolve under `/games/shape-wars-chibi/play/`.
