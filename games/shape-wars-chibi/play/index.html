@@ -1,64 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
-  <meta name="theme-color" content="#f8f4f3">
-  <meta name="description" content="Shape Wars - Chibi! Playable geometric RTS. Pips versus Tets.">
-  <title>Shape Wars - Chibi!</title>
-  <script type="module" crossorigin src="./assets/index-BjL61CCP.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-D9cgB1eK.css">
-</head>
-<body>
-  <div id="app">
-    <canvas id="field"></canvas>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no, maximum-scale=1"
+    />
+    <meta name="theme-color" content="#16122a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Shape Wars - Chibi!</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="./assets/index-BeKV-BFa.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DH35rQPr.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game"></canvas>
+      <canvas id="overlay"></canvas>
 
-    <header class="hud-top" aria-live="polite">
-      <div class="buddy pip-buddy" data-buddy="pip">
-        <div class="buddy-face" aria-hidden="true"></div>
-        <div>
-          <strong>Pips</strong>
-          <span data-pip-score>0 pts</span>
+      <div id="title" class="overlay-screen">
+        <div class="sparkles" aria-hidden="true"></div>
+        <div class="title-card">
+          <div class="title-buddies">
+            <div id="title-pip" class="buddy-wrap bounce"></div>
+            <div id="title-tria" class="buddy-wrap bounce delay"></div>
+            <div id="title-cubi" class="buddy-wrap bounce delay2"></div>
+          </div>
+          <h1>Shape Wars</h1>
+          <p class="subtitle">Chibi!</p>
+          <p class="tagline">Cute geometry. Serious capturing.</p>
+          <p class="blurb">
+            Gather stars, raise a tiny army, drag walls like a fortress sketch,
+            and snag hollow nodes before the other shape family does.
+          </p>
+          <div class="faction-pick">
+            <button type="button" class="faction-btn selected" data-faction="0" id="pick-pip">
+              <span class="faction-ico" id="pick-pip-ico"></span>
+              Play Pips
+            </button>
+            <button type="button" class="faction-btn" data-faction="1" id="pick-tet">
+              <span class="faction-ico" id="pick-tet-ico"></span>
+              Play Tets
+            </button>
+          </div>
+          <button type="button" id="btn-play" class="btn primary">Battle!</button>
+          <details class="howto">
+            <summary>How to play</summary>
+            <ul>
+              <li>Command centers sit in the four corners (v1 is 1v1 on opposite corners)</li>
+              <li>Grab the nearby POC for safe stars · fight the mid-ring · contest the center gem</li>
+              <li>Tap pals to select · drag a box to grab a bunch</li>
+              <li>Workers sip star patches · barracks trains Sparks, Buddies, Chunks</li>
+              <li>Wall tool: drag a line · Tower tool: tap to plant</li>
+              <li>Two fingers pan & pinch · mouse wheel zooms, right-drag pans</li>
+            </ul>
+          </details>
         </div>
       </div>
-      <p class="speech" data-speech>Tap a Pip, then tap a point.</p>
-      <div class="buddy tet-buddy" data-buddy="tet">
-        <div>
-          <strong>Tets</strong>
-          <span data-tet-score>0 pts</span>
+
+      <div id="hud" class="hidden" aria-live="polite">
+        <header class="hud-top">
+          <div class="hud-chip stars">
+            <span id="hud-star-buddy" class="chip-buddy"></span>
+            <div>
+              <div class="chip-label">Stars</div>
+              <div class="chip-value"><span id="star-count">0</span><small id="star-rate">+0/s</small></div>
+            </div>
+          </div>
+          <div class="hud-chip army">
+            <span id="hud-army-buddy" class="chip-buddy"></span>
+            <div>
+              <div class="chip-label">Army</div>
+              <div class="chip-value"><span id="army-count">0</span><small id="mesh-count">0/300</small></div>
+            </div>
+          </div>
+          <button type="button" id="btn-pause" class="icon-btn" aria-label="Pause">II</button>
+        </header>
+
+        <div id="toast" class="toast hidden"></div>
+        <div id="hint" class="hint"></div>
+        <div id="selection-label" class="selection-label hidden"></div>
+
+        <nav class="hud-bottom" aria-label="Command bar">
+          <button type="button" class="cmd" id="cmd-select-all">All</button>
+          <button type="button" class="cmd produce" data-kind="0" id="cmd-worker">
+            <span>Worker</span><small>40</small>
+          </button>
+          <button type="button" class="cmd produce" data-kind="1" id="cmd-small">
+            <span>Spark</span><small>22</small>
+          </button>
+          <button type="button" class="cmd produce" data-kind="2" id="cmd-med">
+            <span>Buddy</span><small>48</small>
+          </button>
+          <button type="button" class="cmd produce" data-kind="3" id="cmd-large">
+            <span>Chunk</span><small>88</small>
+          </button>
+          <button type="button" class="cmd mode" data-mode="wall" id="cmd-wall">
+            <span>Wall</span><small>8</small>
+          </button>
+          <button type="button" class="cmd mode" data-mode="tower" id="cmd-tower">
+            <span>Tower</span><small>75</small>
+          </button>
+          <button type="button" class="cmd mode" data-mode="barracks" id="cmd-rax">
+            <span>Rax</span><small>110</small>
+          </button>
+        </nav>
+      </div>
+
+      <div id="pause" class="overlay-screen hidden">
+        <div class="title-card skinny">
+          <div class="title-buddies sm">
+            <div id="pause-pip" class="buddy-wrap bounce"></div>
+            <div id="pause-cubi" class="buddy-wrap bounce delay"></div>
+          </div>
+          <h2>Paused</h2>
+          <button type="button" id="btn-resume" class="btn primary">Back to battle</button>
+          <button type="button" id="btn-quit" class="btn">Title</button>
         </div>
-        <div class="buddy-face" aria-hidden="true"></div>
       </div>
-    </header>
 
-    <div class="stars" aria-label="Build stars">★ <span data-stars>0</span></div>
-
-    <div class="hud-bottom">
-      <a class="chip quiet" href="../">Back</a>
-      <button type="button" class="chip" data-build="wall" disabled>Wall · 2★</button>
-      <button type="button" class="chip" data-build="tower" disabled>Tower · 3★</button>
-    </div>
-
-    <div class="veil" data-veil>
-      <div class="card">
-        <p class="kicker">Playable prototype</p>
-        <h1>SHAPE WARS<br>CHIBI!</h1>
-        <p>Pips versus Tets. Capture the points. Raise a wall if they get rude.</p>
-        <button type="button" class="go" data-start>Play now</button>
-      </div>
-    </div>
-
-    <div class="veil hidden" data-end>
-      <div class="card">
-        <p class="kicker" data-end-kicker>The field is still</p>
-        <h1 data-end-title>You win</h1>
-        <p data-end-copy>The Pips held the points.</p>
-        <div class="end-actions">
-          <button type="button" class="go" data-again>Play again</button>
-          <a class="go secondary" href="../">Game page</a>
+      <div id="end" class="overlay-screen hidden">
+        <div class="title-card">
+          <div class="title-buddies">
+            <div id="end-left" class="buddy-wrap bounce"></div>
+            <div id="end-right" class="buddy-wrap bounce delay"></div>
+          </div>
+          <h1 id="end-title">Victory!</h1>
+          <p id="end-flavor" class="tagline">The shapes cheer.</p>
+          <button type="button" id="btn-again" class="btn primary">Play again</button>
+          <button type="button" id="btn-end-menu" class="btn">Title</button>
         </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
