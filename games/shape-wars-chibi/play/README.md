@@ -1,22 +1,22 @@
 # Shape Wars - Chibi! play build
 
-Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `d11336fac0fa67a0a42e82b1f96cf239c9554a99`.
+Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `108c57ec60bf18c16f483977ad5b51d57323aca9`.
 
 This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Assets resolve under `/games/shape-wars-chibi/play/`.
 
-## Included from main (juice polish #10, keeps frown #9)
+## Included from main (#12 HUD caps + demolish + build-territory zones)
 
-Rebuild of `d11336f` — *Juice polish pass: saturated palette + unit hop animations (#10)*:
+Rebuild of `108c57e` — *Add HUD caps, demolish, and build-territory zones (#12)*:
 
-- **Saturated primary palette** — PLAYER_COLOR_OPTIONS and faction defaults retuned to clear primary hues (cyan, red, green, purple, orange, yellow) instead of pastel watercolor; swatches still flow through mainHex/playerMatchColors into buddies and in-match army tint
-- **Unit hop/squash/wiggle** — cheap view-layer animation for moving units
-- **Worker eco bob** — gentle bob for idle/gathering workers at eco sites
-- **Buddy cheek blush** — frown face accent pink aligned with saturated palette
-- **Keeps frown #9** — happy → frown across SVG buddies, 3D cubi faces, face picker chips; Tet default face is frown; Pips keep classic
+- **HUD caps** — unit/live mesh and wall caps shown in the army chip and build readout
+- **Demolish** — demolish own walls, towers, and barracks to free capacity
+- **Build-territory zones** — hard-limit wall/tower/barracks placement to owned HQ and eco POC zones; dotted territory rings and red ghost preview outside the zone
+- **Keeps juice #10** — saturated primary palette, unit hop/squash/wiggle, worker eco bob
+- **Keeps frown #9** — frown mouths across SVG buddies, 3D cubi faces, face picker chips; Tet default face is frown; Pips keep classic; buddy blush `#ff4081`
 
 ## Files
 
 - `index.html`
 - `favicon.svg`
-- `assets/index-CnbIL_PX.js`
-- `assets/index-CAQeU48P.css`
+- `assets/index-BDz3aPk8.js`
+- `assets/index-C1LdeDgI.css`
