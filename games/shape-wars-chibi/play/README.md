@@ -1,16 +1,19 @@
 # Shape Wars - Chibi! play build
 
-Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `744ce8d8e5063e06441ac5c9dd7fe0abf9ac21e0`.
+Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `e77e168544a56910dae7f463cffc48dee868a22a`.
 
 This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Assets resolve under `/games/shape-wars-chibi/play/`.
 
-## Included from main (#16 per-player caps + score screen)
+## Included from main (#17 mini update)
 
-Rebuild of `744ce8d` — *Per-player caps, HUD refresh, and post-match score screen (#16)*:
+Rebuild of `e77e168` — *Chibi mini update: eco worker cap, POC upgrades, Spheerz/Coobz, spears (#17)*:
 
-- **Per-player caps** — each faction limited to **300 units**, **100 walls**, **30 towers**, **3 barracks** (CAP 100/30/3/300); demolish frees the owning player's slot
-- **HUD refresh** — local army count shows `/300`; construction chips show W/T/R caps
-- **Post-match score screen** — end screen with kills, POC captures, and match duration
+- **Eco worker cap** — workers capped at **20 per eco POC** (mine-adjacent nodes only)
+- **Exclusive POC upgrades** — non-eco owned POCs: pick **money star** OR **defender squad** (one slot, not both)
+- **Defender squads** — block capture while alive; respawn ~20s when wiped
+- **Faction rename** — player-facing **Pips/Tets** → **Spheerz/Coobz**
+- **Melee spears** — combat units get faction-tipped spears with attack lunge
+- **Keeps #16** — per-player caps (300 units / 100 walls / 30 towers / 3 barracks), HUD refresh, post-match score screen
 - **Keeps #15** — Select All in top-left HUD for iPhone reach
 - **Keeps #14** — compact bottom bar, expandable Resource / Recruit / Build sheets, corner demolish chip
 - **Keeps #13** — attack lunge, tower beams, X-eye corpses
@@ -22,5 +25,5 @@ Rebuild of `744ce8d` — *Per-player caps, HUD refresh, and post-match score scr
 
 - `index.html`
 - `favicon.svg`
-- `assets/index-HW408Uk8.js`
-- `assets/index-BU0uhsVb.css`
+- `assets/index-DU3k9Rtd.js`
+- `assets/index-8BtEnhk-.css`
