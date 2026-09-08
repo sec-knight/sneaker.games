@@ -1,16 +1,16 @@
 # Shape Wars - Chibi! play build
 
-Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `db35d45355a612be202a3922c90f7523f1bfa496`.
+Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `499bf5b138e6af54d315a2092ffeb69c94d115ef`.
 
 This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Assets resolve under `/games/shape-wars-chibi/play/`.
 
-## Included from main (#14 HUD refine)
+## Included from main (#15 Select All HUD)
 
-Rebuild of `db35d45` — *Refine in-match HUD into expandable Resource/Recruit/Build menus (#14)*:
+Rebuild of `499bf5b` — *Move Select All to top-left HUD for iPhone reach (#15)*:
 
-- **Compact bottom bar** — collapses the always-visible command wall into Resource / Recruit / Build buttons
-- **Expandable sheets** — Resource and Recruit expand site pickers plus train rows; Build expands placement and select-all controls
-- **Corner demolish chip** — small demolish control shown only for demolishable owned buildings
+- **Select All in top-left HUD** — always-visible All button sits under the stars/army chips in `hud-top` for easier iPhone reach
+- **Build sheet trimmed** — Build expander now only shows Wall, Tower, and Rax (Select All removed from Build)
+- **Keeps #14** — compact bottom bar, expandable Resource / Recruit / Build sheets, corner demolish chip
 - **Keeps #13** — attack lunge, tower beams, X-eye corpses
 - **Keeps #12** — HUD caps, demolish, build-territory zones
 - **Keeps juice #10** — saturated primary palette, unit hop/squash/wiggle, worker eco bob
@@ -20,5 +20,5 @@ Rebuild of `db35d45` — *Refine in-match HUD into expandable Resource/Recruit/B
 
 - `index.html`
 - `favicon.svg`
-- `assets/index-LJTB032M.js`
-- `assets/index-HrwnGtLN.css`
+- `assets/index-pGpuju1m.js`
+- `assets/index-C7cj40V4.css`
