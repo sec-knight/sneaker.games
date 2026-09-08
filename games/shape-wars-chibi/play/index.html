@@ -17,8 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@700;800&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="./assets/index-LJTB032M.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-HrwnGtLN.css">
+    <script type="module" crossorigin src="./assets/index-pGpuju1m.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C7cj40V4.css">
   </head>
   <body>
     <div id="app">
@@ -76,21 +76,31 @@
 
       <div id="hud" class="hidden" aria-live="polite">
         <header class="hud-top">
-          <div class="hud-chip stars">
-            <span id="hud-star-buddy" class="chip-buddy"></span>
-            <div>
-              <div class="chip-label">Stars</div>
-              <div class="chip-value"><span id="star-count">0</span><small id="star-rate">+0/s</small></div>
+          <div class="hud-top-row">
+            <div class="hud-chip stars">
+              <span id="hud-star-buddy" class="chip-buddy"></span>
+              <div>
+                <div class="chip-label">Stars</div>
+                <div class="chip-value"><span id="star-count">0</span><small id="star-rate">+0/s</small></div>
+              </div>
             </div>
-          </div>
-          <div class="hud-chip army">
-            <span id="hud-army-buddy" class="chip-buddy"></span>
-            <div>
-              <div class="chip-label">Army</div>
-              <div class="chip-value"><span id="army-count">0</span><small id="mesh-count">0/220 · 0/300</small></div>
+            <div class="hud-chip army">
+              <span id="hud-army-buddy" class="chip-buddy"></span>
+              <div>
+                <div class="chip-label">Army</div>
+                <div class="chip-value"><span id="army-count">0</span><small id="mesh-count">0/220 · 0/300</small></div>
+              </div>
             </div>
+            <button type="button" id="btn-pause" class="icon-btn" aria-label="Pause">II</button>
           </div>
-          <button type="button" id="btn-pause" class="icon-btn" aria-label="Pause">II</button>
+          <button
+            type="button"
+            class="select-all-chip"
+            id="cmd-select-all"
+            aria-label="Select all army"
+          >
+            All
+          </button>
         </header>
 
         <div id="toast" class="toast hidden"></div>
@@ -130,7 +140,6 @@
               </button>
             </div>
             <div id="build-sheet" class="build-sheet hidden">
-              <button type="button" class="cmd" id="cmd-select-all">All</button>
               <button type="button" class="cmd mode" data-mode="wall" id="cmd-wall">
                 <span>Wall</span><small>8</small>
               </button>
