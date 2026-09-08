@@ -1,18 +1,18 @@
 # Shape Wars - Chibi! play build
 
-Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `e77e168544a56910dae7f463cffc48dee868a22a`.
+Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `b422d925998467f385a6a6b3c0b492d0550f36e0`.
 
 This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Assets resolve under `/games/shape-wars-chibi/play/`.
 
-## Included from main (#17 mini update)
+## Included from main (#18 spear/yaw fix)
 
-Rebuild of `e77e168` — *Chibi mini update: eco worker cap, POC upgrades, Spheerz/Coobz, spears (#17)*:
+Rebuild of `b422d92` — *Fix spear pose and stabilize unit facing (#18)*:
 
-- **Eco worker cap** — workers capped at **20 per eco POC** (mine-adjacent nodes only)
-- **Exclusive POC upgrades** — non-eco owned POCs: pick **money star** OR **defender squad** (one slot, not both)
-- **Defender squads** — block capture while alive; respawn ~20s when wiped
-- **Faction rename** — player-facing **Pips/Tets** → **Spheerz/Coobz**
-- **Melee spears** — combat units get faction-tipped spears with attack lunge
+- **Spear pose** — melee spears held upright at the unit side instead of pointing forward
+- **Attack bonk** — spear swings forward on attack via roll juice layered on lunge
+- **Stable facing** — yaw derived from goal intent, not separation/obstacle velocity noise
+- **Idle facing** — skip facing updates when idle or already at destination
+- **Keeps #17** — eco worker cap, exclusive POC upgrades, defender squads, Spheerz/Coobz rename, melee spears
 - **Keeps #16** — per-player caps (300 units / 100 walls / 30 towers / 3 barracks), HUD refresh, post-match score screen
 - **Keeps #15** — Select All in top-left HUD for iPhone reach
 - **Keeps #14** — compact bottom bar, expandable Resource / Recruit / Build sheets, corner demolish chip
@@ -25,5 +25,5 @@ Rebuild of `e77e168` — *Chibi mini update: eco worker cap, POC upgrades, Sphee
 
 - `index.html`
 - `favicon.svg`
-- `assets/index-DU3k9Rtd.js`
+- `assets/index-D-3l2524.js`
 - `assets/index-8BtEnhk-.css`
