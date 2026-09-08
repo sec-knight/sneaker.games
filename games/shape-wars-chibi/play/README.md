@@ -1,16 +1,17 @@
 # Shape Wars - Chibi! play build
 
-Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `7d886de6e713f38bdea2b1fcf4f307211452c02e`.
+Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`, commit `db35d45355a612be202a3922c90f7523f1bfa496`.
 
 This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Assets resolve under `/games/shape-wars-chibi/play/`.
 
-## Included from main (#13 combat juice)
+## Included from main (#14 HUD refine)
 
-Rebuild of `7d886de` — *Add combat juice: attack lunge, tower beams, X-eye corpses (#13)*:
+Rebuild of `db35d45` — *Refine in-match HUD into expandable Resource/Recruit/Build menus (#14)*:
 
-- **Attack lunge** — unit swings tracked via `atkAnim` with view-layer punch/lunge/recoil
-- **Tower beams** — brief tower beam zaps drawn on the overlay canvas
-- **X-eye corpses** — capped corpses (24 max, 2.4s linger) with X eyes and tongue flop
+- **Compact bottom bar** — collapses the always-visible command wall into Resource / Recruit / Build buttons
+- **Expandable sheets** — Resource and Recruit expand site pickers plus train rows; Build expands placement and select-all controls
+- **Corner demolish chip** — small demolish control shown only for demolishable owned buildings
+- **Keeps #13** — attack lunge, tower beams, X-eye corpses
 - **Keeps #12** — HUD caps, demolish, build-territory zones
 - **Keeps juice #10** — saturated primary palette, unit hop/squash/wiggle, worker eco bob
 - **Keeps frown #9** — frown mouths across SVG buddies, 3D cubi faces, face picker chips; Tet default face is frown; Pips keep classic; buddy blush `#ff4081`
@@ -19,5 +20,5 @@ Rebuild of `7d886de` — *Add combat juice: attack lunge, tower beams, X-eye cor
 
 - `index.html`
 - `favicon.svg`
-- `assets/index-BOx8HjC9.js`
-- `assets/index-C1LdeDgI.css`
+- `assets/index-LJTB032M.js`
+- `assets/index-HrwnGtLN.css`
