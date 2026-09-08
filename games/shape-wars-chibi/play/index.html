@@ -17,8 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@700;800&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="./assets/index-BOx8HjC9.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C1LdeDgI.css">
+    <script type="module" crossorigin src="./assets/index-LJTB032M.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-HrwnGtLN.css">
   </head>
   <body>
     <div id="app">
@@ -66,7 +66,7 @@
               <li>Command centers sit in the four corners (v1 is 1v1 on opposite corners)</li>
               <li>Grab the nearby POC for safe stars · fight the mid-ring · contest the center gem</li>
               <li>Tap pals to select · drag a box to grab a bunch (workers busy themselves — not troops)</li>
-              <li>Eco: pick HQ or an owned POC to hire a worker · War: pick a barracks, then queue Sparks, Buddies, Chunks</li>
+              <li>Resource: pick HQ or an owned POC to hire a worker · Recruit: pick a barracks, then queue Sparks, Buddies, Chunks</li>
               <li>Wall tool: drag a line · Tower tool: tap to plant</li>
               <li>Two fingers pan & pinch · mouse wheel zooms, right-drag pans</li>
             </ul>
@@ -98,42 +98,54 @@
         <div id="selection-label" class="selection-label hidden"></div>
         <div id="build-cap" class="build-cap"></div>
 
+        <button
+          type="button"
+          class="demolish-chip hidden"
+          id="cmd-demolish"
+          aria-label="Demolish building"
+          title="Demolish (free cap)"
+        >
+          <span aria-hidden="true">✕</span>
+        </button>
+
         <nav class="hud-mgmt" aria-label="Command bar">
-          <div id="mgmt-sheet" class="mgmt-sheet hidden"></div>
-          <button type="button" class="cmd demolish hidden" id="cmd-demolish">
-            <span>Demolish</span><small>free cap</small>
-          </button>
-          <div id="train-row" class="train-row hidden">
-            <button type="button" class="cmd produce" data-kind="0" id="cmd-worker">
-              <span>Worker</span><small>40</small>
-              <span class="q-badge hidden" data-q="0">0</span>
-            </button>
-            <button type="button" class="cmd produce" data-kind="1" id="cmd-small">
-              <span>Spark</span><small>22</small>
-              <span class="q-badge hidden" data-q="1">0</span>
-            </button>
-            <button type="button" class="cmd produce" data-kind="2" id="cmd-med">
-              <span>Buddy</span><small>48</small>
-              <span class="q-badge hidden" data-q="2">0</span>
-            </button>
-            <button type="button" class="cmd produce" data-kind="3" id="cmd-large">
-              <span>Chunk</span><small>88</small>
-              <span class="q-badge hidden" data-q="3">0</span>
-            </button>
+          <div id="mgmt-panel" class="mgmt-panel hidden">
+            <div id="mgmt-sheet" class="mgmt-sheet hidden"></div>
+            <div id="train-row" class="train-row hidden">
+              <button type="button" class="cmd produce" data-kind="0" id="cmd-worker">
+                <span>Worker</span><small>40</small>
+                <span class="q-badge hidden" data-q="0">0</span>
+              </button>
+              <button type="button" class="cmd produce" data-kind="1" id="cmd-small">
+                <span>Spark</span><small>22</small>
+                <span class="q-badge hidden" data-q="1">0</span>
+              </button>
+              <button type="button" class="cmd produce" data-kind="2" id="cmd-med">
+                <span>Buddy</span><small>48</small>
+                <span class="q-badge hidden" data-q="2">0</span>
+              </button>
+              <button type="button" class="cmd produce" data-kind="3" id="cmd-large">
+                <span>Chunk</span><small>88</small>
+                <span class="q-badge hidden" data-q="3">0</span>
+              </button>
+            </div>
+            <div id="build-sheet" class="build-sheet hidden">
+              <button type="button" class="cmd" id="cmd-select-all">All</button>
+              <button type="button" class="cmd mode" data-mode="wall" id="cmd-wall">
+                <span>Wall</span><small>8</small>
+              </button>
+              <button type="button" class="cmd mode" data-mode="tower" id="cmd-tower">
+                <span>Tower</span><small>75</small>
+              </button>
+              <button type="button" class="cmd mode" data-mode="barracks" id="cmd-rax">
+                <span>Rax</span><small>110</small>
+              </button>
+            </div>
           </div>
-          <div class="cmd-row">
-            <button type="button" class="cmd" id="cmd-select-all">All</button>
-            <button type="button" class="cmd" id="cmd-eco">Eco</button>
-            <button type="button" class="cmd" id="cmd-war">War</button>
-            <button type="button" class="cmd mode" data-mode="wall" id="cmd-wall">
-              <span>Wall</span><small>8</small>
-            </button>
-            <button type="button" class="cmd mode" data-mode="tower" id="cmd-tower">
-              <span>Tower</span><small>75</small>
-            </button>
-            <button type="button" class="cmd mode" data-mode="barracks" id="cmd-rax">
-              <span>Rax</span><small>110</small>
-            </button>
+          <div class="mgmt-bar">
+            <button type="button" class="mgmt-primary" id="cmd-resource">Resource</button>
+            <button type="button" class="mgmt-primary" id="cmd-recruit">Recruit</button>
+            <button type="button" class="mgmt-primary" id="cmd-build">Build</button>
           </div>
         </nav>
       </div>
