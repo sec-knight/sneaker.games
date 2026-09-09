@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Shape Wars - Chibi! — a mobile-first Three.js geometric RTS. Pips versus Tets, capture the points, cute HUD buddies.">
+  <meta name="description" content="Shape Wars - Chibi! — a mobile-first Three.js geometric RTS. Spheerz versus Coobz, capture the points, cute HUD buddies.">
   <meta name="theme-color" content="#f8f4f3">
   <title>Shape Wars - Chibi! · Sneaker Games</title>
   <link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
@@ -21,7 +21,7 @@
         <div>
           <div class="eyebrow">Playable prototype · Current demo</div>
           <h1>SHAPE WARS<br>CHIBI!</h1>
-          <p class="page-intro">A mobile-first Three.js geometric RTS. Pips (spheres) versus Tets (cubes). Capture the POCs, raise walls and towers, and keep an eye on the cute HUD buddies calling the fight.</p>
+          <p class="page-intro">A mobile-first Three.js geometric RTS. Spheerz (spheres) versus Coobz (cubes). Capture the POCs, raise walls and towers, and keep an eye on the cute HUD buddies calling the fight.</p>
           <div class="actions">
             <a class="button primary" href="play/">Play now</a>
             <a class="button secondary" href="#build-notes">Read the build notes</a>
@@ -44,7 +44,7 @@
           <div class="creator-note-copy">
             <span class="card-kicker">Dev note</span>
             <h2>Spheres, cubes, and a phone in your hand</h2>
-            <p>Shape Wars - Chibi! is the current public demo: a small geometric war you can actually tap. Pips roll in as spheres. Tets stack up as cubes. The map is a handful of points of control, plus the walls and towers you throw up to keep them.</p>
+            <p>Shape Wars - Chibi! is the current public demo: a small geometric war you can actually tap. Spheerz roll in as spheres. Coobz stack up as cubes. The map is a handful of points of control, plus the walls and towers you throw up to keep them.</p>
             <p>This is not the long game. No lore dump, no engine manifesto. Just whether capturing a point with cute little shapes feels fun on a phone, and whether the HUD buddies make the fight readable.</p>
             <p><strong>Try it. Then tell us if the war is cute enough.</strong></p>
           </div>
@@ -54,12 +54,12 @@
       <section class="section alt">
         <div class="section-heading"><h2>About the game</h2><p>Take the points. Keep the points. Look adorable doing it.</p></div>
         <div class="game-copy">
-          <p>Two sides, two shapes. Pips and Tets contest a field of points of control. Hold a POC and it works for you. Lose it and the map starts leaning the other way. Walls and towers are how a cute army gets stubborn.</p>
+          <p>Two sides, two shapes. Spheerz and Coobz contest a field of points of control. Hold a POC and it works for you. Lose it and the map starts leaning the other way. Walls and towers are how a cute army gets stubborn.</p>
           <p>The prototype is built for the browser with a phone-first layout, so a session can start on the couch. Desktop still works — click instead of tap.</p>
         </div>
         <div class="control-grid" aria-label="Game controls">
-          <div><strong>Command</strong><span>Tap or click units and points of control</span></div>
-          <div><strong>Build</strong><span>Raise walls and towers from the field UI</span></div>
+          <div><strong>Command</strong><span>Tap empty ground to walk there. Atk-move (under All) fights along the path</span></div>
+          <div><strong>Build</strong><span>Drag walls, tap towers — they raise 3 at a time. Smash ghosts before they harden</span></div>
           <div><strong>Look around</strong><span>Drag the map; pinch or scroll to zoom</span></div>
         </div>
       </section>
@@ -68,12 +68,24 @@
         <div class="section-heading"><h2>Build Notes</h2><p>Newest changes first.</p></div>
         <div class="patch-list">
           <article class="patch">
+            <div class="patch-date"><time datetime="2026-09-09">September 9, 2026</time><span>AI walls, ghosts, attack-move</span></div>
+            <div>
+              <h3>Coobz now build. You can break the line.</h3>
+              <ul>
+                <li>The balanced computer queues walls at HQ and every captured POC, then plants a tower once the curtain hardens. No more instant fortify-on-capture.</li>
+                <li>Construction is a ghost: walls raise in 1.2s, towers 10s, barracks 18s. Three jobs at a time — smash a line while it's still low HP.</li>
+                <li>Default move is walk-straight. <strong>Atk-move</strong> sits under All and fights anything on the way.</li>
+                <li>🛡 Squad defenders chase enemies that get too close or enter the POC build zone, then leash home.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="patch">
             <div class="patch-date"><time datetime="2026-09-07">September 7, 2026</time><span>First web build</span></div>
             <div>
               <h3>The war is in the browser</h3>
               <ul>
                 <li>Shipped the first public playable build of Shape Wars - Chibi! under this game page.</li>
-                <li>Mobile-first Three.js field: Pips versus Tets, capture POCs, walls and towers, HUD buddies along for the ride.</li>
+                <li>Mobile-first Three.js field: Spheerz versus Coobz, capture POCs, walls and towers, HUD buddies along for the ride.</li>
                 <li>Relative asset paths so the demo stays happy under a site subpath.</li>
               </ul>
             </div>
@@ -83,7 +95,7 @@
 
       <section class="section feedback-section" id="feedback">
         <div class="section-heading"><h2>How was it?</h2><p>Your note goes privately to the Sneaker Games workshop.</p></div>
-        <form class="feedback-form" data-feedback-form data-game="shape-wars-chibi" data-build="2026-09-07-web-v1">
+        <form class="feedback-form" data-feedback-form data-game="shape-wars-chibi" data-build="2026-09-09-ai-build-atkmove">
           <fieldset>
             <legend>What kind of note is this?</legend>
             <div class="feedback-types">

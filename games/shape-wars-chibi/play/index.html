@@ -17,8 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@700;800&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="./assets/index-DGcw0lnC.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BU0uhsVb.css">
+    <script type="module" crossorigin src="./assets/index-H8ux6lwj.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-YvOBSyHL.css">
   </head>
   <body>
     <div id="app">
@@ -66,9 +66,10 @@
               <li>Command centers sit in the four corners (v1 is 1v1 on opposite corners)</li>
               <li>Grab the nearby POC for safe stars · fight the mid-ring · contest the center gem</li>
               <li>Tap pals to select · drag a box to grab a bunch (workers busy themselves — not troops)</li>
+              <li>Tap empty ground to walk straight there · Atk-move (under All) fights anything on the way</li>
               <li>Resource: pick HQ or an eco POC to hire a worker (20 max per mine site) · Recruit: pick a barracks, then queue Sparks, Buddies, Chunks</li>
               <li>Battle POCs: tap one to pick ★ Star or 🛡 Squad above it (lost if captured)</li>
-              <li>Wall tool: drag a line · Tower tool: tap to plant</li>
+              <li>Wall tool: drag a line · Tower tool: tap to plant · they raise 3 at a time — smash ghosts before they harden</li>
               <li>Two fingers pan & pinch · mouse wheel zooms, right-drag pans</li>
             </ul>
           </details>
@@ -94,14 +95,25 @@
             </div>
             <button type="button" id="btn-pause" class="icon-btn" aria-label="Pause">II</button>
           </div>
-          <button
-            type="button"
-            class="select-all-chip"
-            id="cmd-select-all"
-            aria-label="Select all army"
-          >
-            All
-          </button>
+          <div class="hud-top-cmds">
+            <button
+              type="button"
+              class="select-all-chip"
+              id="cmd-select-all"
+              aria-label="Select all army"
+            >
+              All
+            </button>
+            <button
+              type="button"
+              class="select-all-chip"
+              id="cmd-attack-move"
+              aria-label="Toggle attack-move"
+              aria-pressed="false"
+            >
+              Atk-move
+            </button>
+          </div>
         </header>
 
         <div id="toast" class="toast hidden"></div>
