@@ -1,19 +1,20 @@
 # Shape Wars - Chibi! play build
 
-Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main`.
+Official production dist from [`sec-knight/shape-wars-chibi`](https://github.com/sec-knight/shape-wars-chibi) `@ main` (`bc0d68f`).
 
-This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Assets resolve under `/games/shape-wars-chibi/play/`.
+This is the real Vite `npm ci && npm run build` output (`base: './'`), not a stand-in. Drop into sneaker.games `games/shape-wars-chibi/play/`.
 
 ## This drop
 
-- **AI fortifies** — balanced Coobz queue walls at HQ and each captured POC, then a tower once the curtain hardens. No instant walls on capture.
-- **Ghost construction** — walls 1.2s, towers 10s, barracks 18s. Three jobs at a time; extras wait in queue. HP starts at 20% so you can smash a line in progress.
-- **Attack-move** — default order is walk-straight. **Atk-move** under All fights anything on the way.
-- **Defender chase** — 🛡 Squad pals chase enemies that enter the POC build zone, then leash back.
+- **Star / Guard chips** over battle POCs — tap an owned upgradeable battle POC to pick ★ Star or 🛡 Guard on the world overlay (not in Resource / Recruit / Build).
+- **Overlay hidden** while Resource, Recruit, or Build sheets are open, while paused, or in wall / tower / barracks placement modes.
+- **Eco worker hire** stays in the Resource sheet.
+
+Source: merged PR #21 (`bc0d68f` Hide battle POC upgrade overlay when mgmt menus are open).
 
 ## Files
 
 - `index.html`
 - `favicon.svg`
-- `assets/index-H8ux6lwj.js`
+- `assets/index-DkVSO23Z.js`
 - `assets/index-YvOBSyHL.css`
