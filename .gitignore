@@ -2,6 +2,10 @@ node_modules/
 .dev.vars
 .env
 
+# wrangler build/tmp state (local dev). The local D1 state itself lives outside
+# the repo via --persist-to; see package.json "dev" / WRANGLER_PERSIST_DIR.
+.wrangler/
+
 # Uncompressed Godot WASM exceeds Cloudflare's 25 MB file limit.
 # Publish index.wasm.gz instead; worker.js serves it as application/wasm.
 games/horde-defense/play/index.wasm

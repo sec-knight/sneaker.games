@@ -4,6 +4,9 @@
   "description": "",
   "main": "feedback.js",
   "scripts": {
+    "dev": "wrangler dev --persist-to ${WRANGLER_PERSIST_DIR:-$HOME/.wrangler-state/sneaker-games}",
+    "db:migrate:local": "wrangler d1 execute FEEDBACK_DB --local --persist-to ${WRANGLER_PERSIST_DIR:-$HOME/.wrangler-state/sneaker-games} --file=migrations/001_feedback.sql && wrangler d1 execute FEEDBACK_DB --local --persist-to ${WRANGLER_PERSIST_DIR:-$HOME/.wrangler-state/sneaker-games} --file=migrations/002_horde_scores.sql",
+    "dev:setup": "[ -f .dev.vars ] || cp .dev.vars.example .dev.vars; npm run db:migrate:local",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,8 @@
   "homepage": "https://github.com/sec-knight/sneaker.games#readme",
   "dependencies": {
     "jose": "^6.2.9"
+  },
+  "devDependencies": {
+    "wrangler": "^4.126.0"
   }
 }
