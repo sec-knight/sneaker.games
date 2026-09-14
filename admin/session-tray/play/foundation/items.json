@@ -1,0 +1,5335 @@
+{
+  "_meta": {
+    "packId": "srd-foundation",
+    "file": "items.json",
+    "readOnly": true
+  },
+  "entries": [
+    {
+      "key": "acid",
+      "name": "Acid",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. gear · 25 GP · 1 lb..",
+      "thingStub": {
+        "name": "Acid",
+        "kind": "gear",
+        "srdTemplate": "Acid",
+        "notes": "SRD item. gear · 25 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "airship",
+      "name": "Airship",
+      "kind": "gear",
+      "equipmentType": "vehicle",
+      "category": "vehicle",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "40,000 GP",
+      "notes": "SRD item. vehicle · 40,000 GP.",
+      "thingStub": {
+        "name": "Airship",
+        "kind": "gear",
+        "srdTemplate": "Airship",
+        "notes": "SRD item. vehicle · 40,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "alchemists-fire",
+      "name": "Alchemist’s Fire",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. gear · 50 GP · 1 lb..",
+      "thingStub": {
+        "name": "Alchemist’s Fire",
+        "kind": "gear",
+        "srdTemplate": "Alchemist’s Fire",
+        "notes": "SRD item. gear · 50 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "alchemists-supplies",
+      "name": "Alchemist's Supplies",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "8 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. tool · 50 GP · 8 lb..",
+      "thingStub": {
+        "name": "Alchemist's Supplies",
+        "kind": "gear",
+        "srdTemplate": "Alchemist's Supplies",
+        "notes": "SRD item. tool · 50 GP · 8 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "ale-mug",
+      "name": "Ale (mug)",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "4 CP",
+      "notes": "SRD item. service · 4 CP.",
+      "thingStub": {
+        "name": "Ale (mug)",
+        "kind": "gear",
+        "srdTemplate": "Ale (mug)",
+        "notes": "SRD item. service · 4 CP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "ammunition",
+      "name": "Ammunition",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. gear.",
+      "thingStub": {
+        "name": "Ammunition",
+        "kind": "gear",
+        "srdTemplate": "Ammunition",
+        "notes": "SRD item. gear.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "amulet-worn-or-held",
+      "name": "Amulet (worn or held)",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. focus · 5 GP · 1 lb..",
+      "thingStub": {
+        "name": "Amulet (worn or held)",
+        "kind": "gear",
+        "srdTemplate": "Amulet (worn or held)",
+        "notes": "SRD item. focus · 5 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "antitoxin",
+      "name": "Antitoxin",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "50 GP",
+      "notes": "SRD item. gear · 50 GP.",
+      "thingStub": {
+        "name": "Antitoxin",
+        "kind": "gear",
+        "srdTemplate": "Antitoxin",
+        "notes": "SRD item. gear · 50 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "arcane-focus",
+      "name": "Arcane Focus",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. gear.",
+      "thingStub": {
+        "name": "Arcane Focus",
+        "kind": "gear",
+        "srdTemplate": "Arcane Focus",
+        "notes": "SRD item. gear.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "aristocratic",
+      "name": "Aristocratic",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "4 GP",
+      "notes": "SRD item. service · 4 GP.",
+      "thingStub": {
+        "name": "Aristocratic",
+        "kind": "gear",
+        "srdTemplate": "Aristocratic",
+        "notes": "SRD item. service · 4 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "aristocratic-2",
+      "name": "Aristocratic",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "6 SP",
+      "notes": "SRD item. service · 6 SP.",
+      "thingStub": {
+        "name": "Aristocratic",
+        "kind": "gear",
+        "srdTemplate": "Aristocratic",
+        "notes": "SRD item. service · 6 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "arrows",
+      "name": "Arrows",
+      "kind": "gear",
+      "equipmentType": "ammunition",
+      "category": "ammunition",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. ammunition · 1 GP · 1 lb..",
+      "thingStub": {
+        "name": "Arrows",
+        "kind": "gear",
+        "srdTemplate": "Arrows",
+        "notes": "SRD item. ammunition · 1 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "backpack",
+      "name": "Backpack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 5 lb..",
+      "thingStub": {
+        "name": "Backpack",
+        "kind": "gear",
+        "srdTemplate": "Backpack",
+        "notes": "SRD item. gear · 2 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "ball-bearings",
+      "name": "Ball Bearings",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 2 lb..",
+      "thingStub": {
+        "name": "Ball Bearings",
+        "kind": "gear",
+        "srdTemplate": "Ball Bearings",
+        "notes": "SRD item. gear · 1 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "barrel",
+      "name": "Barrel",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "70 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 70 lb..",
+      "thingStub": {
+        "name": "Barrel",
+        "kind": "gear",
+        "srdTemplate": "Barrel",
+        "notes": "SRD item. gear · 2 GP · 70 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "basket",
+      "name": "Basket",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "4 SP",
+      "notes": "SRD item. gear · 4 SP · 2 lb..",
+      "thingStub": {
+        "name": "Basket",
+        "kind": "gear",
+        "srdTemplate": "Basket",
+        "notes": "SRD item. gear · 4 SP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "battleaxe",
+      "name": "Battleaxe",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Slashing. Versatile (1d10).",
+      "thingStub": {
+        "name": "Battleaxe",
+        "kind": "weapon",
+        "srdTemplate": "Battleaxe",
+        "notes": "SRD item. Martial weapon. 1d8 Slashing. Versatile (1d10).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "bedroll",
+      "name": "Bedroll",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "7 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 7 lb..",
+      "thingStub": {
+        "name": "Bedroll",
+        "kind": "gear",
+        "srdTemplate": "Bedroll",
+        "notes": "SRD item. gear · 1 GP · 7 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "bell",
+      "name": "Bell",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP.",
+      "thingStub": {
+        "name": "Bell",
+        "kind": "gear",
+        "srdTemplate": "Bell",
+        "notes": "SRD item. gear · 1 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "blanket",
+      "name": "Blanket",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "5 SP",
+      "notes": "SRD item. gear · 5 SP · 3 lb..",
+      "thingStub": {
+        "name": "Blanket",
+        "kind": "gear",
+        "srdTemplate": "Blanket",
+        "notes": "SRD item. gear · 5 SP · 3 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "block-and-tackle",
+      "name": "Block and Tackle",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 5 lb..",
+      "thingStub": {
+        "name": "Block and Tackle",
+        "kind": "gear",
+        "srdTemplate": "Block and Tackle",
+        "notes": "SRD item. gear · 1 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "blowgun",
+      "name": "Blowgun",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Ammunition (Range 25/100; Needle)",
+        "Loading"
+      ],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Martial weapon. 1 Piercing. Ammunition (Range 25/100; Needle), Loading.",
+      "thingStub": {
+        "name": "Blowgun",
+        "kind": "weapon",
+        "srdTemplate": "Blowgun",
+        "notes": "SRD item. Martial weapon. 1 Piercing. Ammunition (Range 25/100; Needle), Loading.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "bolts",
+      "name": "Bolts",
+      "kind": "gear",
+      "equipmentType": "ammunition",
+      "category": "ammunition",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 1/2 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. ammunition · 1 GP · 1 1/2 lb..",
+      "thingStub": {
+        "name": "Bolts",
+        "kind": "gear",
+        "srdTemplate": "Bolts",
+        "notes": "SRD item. ammunition · 1 GP · 1 1/2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "book",
+      "name": "Book",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. gear · 25 GP · 5 lb..",
+      "thingStub": {
+        "name": "Book",
+        "kind": "gear",
+        "srdTemplate": "Book",
+        "notes": "SRD item. gear · 25 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "bottle-glass",
+      "name": "Bottle, Glass",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 2 lb..",
+      "thingStub": {
+        "name": "Bottle, Glass",
+        "kind": "gear",
+        "srdTemplate": "Bottle, Glass",
+        "notes": "SRD item. gear · 2 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "bread-loaf",
+      "name": "Bread (loaf)",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "2 CP",
+      "notes": "SRD item. service · 2 CP.",
+      "thingStub": {
+        "name": "Bread (loaf)",
+        "kind": "gear",
+        "srdTemplate": "Bread (loaf)",
+        "notes": "SRD item. service · 2 CP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "breastplate",
+      "name": "Breastplate",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Medium",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "14 + Dex modifier (max 2)",
+      "weight": "20 lb.",
+      "cost": "400 GP",
+      "notes": "SRD item. Medium armor. AC 14 + Dex modifier (max 2).",
+      "thingStub": {
+        "name": "Breastplate",
+        "kind": "armor",
+        "srdTemplate": "Breastplate",
+        "notes": "SRD item. Medium armor. AC 14 + Dex modifier (max 2).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "brewers-supplies",
+      "name": "Brewer's Supplies",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "9 lb.",
+      "cost": "20 GP",
+      "notes": "SRD item. tool · 20 GP · 9 lb..",
+      "thingStub": {
+        "name": "Brewer's Supplies",
+        "kind": "gear",
+        "srdTemplate": "Brewer's Supplies",
+        "notes": "SRD item. tool · 20 GP · 9 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "bucket",
+      "name": "Bucket",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "5 CP",
+      "notes": "SRD item. gear · 5 CP · 2 lb..",
+      "thingStub": {
+        "name": "Bucket",
+        "kind": "gear",
+        "srdTemplate": "Bucket",
+        "notes": "SRD item. gear · 5 CP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "bullets-firearm",
+      "name": "Bullets, Firearm",
+      "kind": "gear",
+      "equipmentType": "ammunition",
+      "category": "ammunition",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "3 GP",
+      "notes": "SRD item. ammunition · 3 GP · 2 lb..",
+      "thingStub": {
+        "name": "Bullets, Firearm",
+        "kind": "gear",
+        "srdTemplate": "Bullets, Firearm",
+        "notes": "SRD item. ammunition · 3 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "bullets-sling",
+      "name": "Bullets, Sling",
+      "kind": "gear",
+      "equipmentType": "ammunition",
+      "category": "ammunition",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 1/2 lb.",
+      "cost": "4 CP",
+      "notes": "SRD item. ammunition · 4 CP · 1 1/2 lb..",
+      "thingStub": {
+        "name": "Bullets, Sling",
+        "kind": "gear",
+        "srdTemplate": "Bullets, Sling",
+        "notes": "SRD item. ammunition · 4 CP · 1 1/2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "burglars-pack",
+      "name": "Burglar’s Pack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "42 lb.",
+      "cost": "16 GP",
+      "notes": "SRD item. gear · 16 GP · 42 lb..",
+      "thingStub": {
+        "name": "Burglar’s Pack",
+        "kind": "gear",
+        "srdTemplate": "Burglar’s Pack",
+        "notes": "SRD item. gear · 16 GP · 42 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "calligraphers-supplies",
+      "name": "Calligrapher's Supplies",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. tool · 10 GP · 5 lb..",
+      "thingStub": {
+        "name": "Calligrapher's Supplies",
+        "kind": "gear",
+        "srdTemplate": "Calligrapher's Supplies",
+        "notes": "SRD item. tool · 10 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "caltrops",
+      "name": "Caltrops",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 2 lb..",
+      "thingStub": {
+        "name": "Caltrops",
+        "kind": "gear",
+        "srdTemplate": "Caltrops",
+        "notes": "SRD item. gear · 1 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "camel",
+      "name": "Camel",
+      "kind": "gear",
+      "equipmentType": "mount",
+      "category": "mount",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "50 GP",
+      "notes": "SRD item. mount · 50 GP.",
+      "thingStub": {
+        "name": "Camel",
+        "kind": "gear",
+        "srdTemplate": "Camel",
+        "notes": "SRD item. mount · 50 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "candle",
+      "name": "Candle",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 CP",
+      "notes": "SRD item. gear · 1 CP.",
+      "thingStub": {
+        "name": "Candle",
+        "kind": "gear",
+        "srdTemplate": "Candle",
+        "notes": "SRD item. gear · 1 CP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "carpenters-tools",
+      "name": "Carpenter's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "6 lb.",
+      "cost": "8 GP",
+      "notes": "SRD item. tool · 8 GP · 6 lb..",
+      "thingStub": {
+        "name": "Carpenter's Tools",
+        "kind": "gear",
+        "srdTemplate": "Carpenter's Tools",
+        "notes": "SRD item. tool · 8 GP · 6 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "carriage",
+      "name": "Carriage",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "600 lb.",
+      "cost": "100 GP",
+      "notes": "SRD item. gear · 100 GP · 600 lb..",
+      "thingStub": {
+        "name": "Carriage",
+        "kind": "gear",
+        "srdTemplate": "Carriage",
+        "notes": "SRD item. gear · 100 GP · 600 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "cart",
+      "name": "Cart",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "200 lb.",
+      "cost": "15 GP",
+      "notes": "SRD item. gear · 15 GP · 200 lb..",
+      "thingStub": {
+        "name": "Cart",
+        "kind": "gear",
+        "srdTemplate": "Cart",
+        "notes": "SRD item. gear · 15 GP · 200 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "cartographers-tools",
+      "name": "Cartographer's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "6 lb.",
+      "cost": "15 GP",
+      "notes": "SRD item. tool · 15 GP · 6 lb..",
+      "thingStub": {
+        "name": "Cartographer's Tools",
+        "kind": "gear",
+        "srdTemplate": "Cartographer's Tools",
+        "notes": "SRD item. tool · 15 GP · 6 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "case-crossbow-bolt",
+      "name": "Case, Crossbow Bolt",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 1 lb..",
+      "thingStub": {
+        "name": "Case, Crossbow Bolt",
+        "kind": "gear",
+        "srdTemplate": "Case, Crossbow Bolt",
+        "notes": "SRD item. gear · 1 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "case-map-or-scroll",
+      "name": "Case, Map or Scroll",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 1 lb..",
+      "thingStub": {
+        "name": "Case, Map or Scroll",
+        "kind": "gear",
+        "srdTemplate": "Case, Map or Scroll",
+        "notes": "SRD item. gear · 1 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "chain",
+      "name": "Chain",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "10 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. gear · 5 GP · 10 lb..",
+      "thingStub": {
+        "name": "Chain",
+        "kind": "gear",
+        "srdTemplate": "Chain",
+        "notes": "SRD item. gear · 5 GP · 10 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "chain-mail",
+      "name": "Chain Mail",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Heavy",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "16",
+      "weight": "55 lb.",
+      "cost": "75 GP",
+      "notes": "SRD item. Heavy armor. AC 16.",
+      "thingStub": {
+        "name": "Chain Mail",
+        "kind": "armor",
+        "srdTemplate": "Chain Mail",
+        "notes": "SRD item. Heavy armor. AC 16.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "chain-shirt",
+      "name": "Chain Shirt",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Medium",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "13 + Dex modifier (max 2)",
+      "weight": "20 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. Medium armor. AC 13 + Dex modifier (max 2).",
+      "thingStub": {
+        "name": "Chain Shirt",
+        "kind": "armor",
+        "srdTemplate": "Chain Shirt",
+        "notes": "SRD item. Medium armor. AC 13 + Dex modifier (max 2).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "chariot",
+      "name": "Chariot",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "100 lb.",
+      "cost": "250 GP",
+      "notes": "SRD item. gear · 250 GP · 100 lb..",
+      "thingStub": {
+        "name": "Chariot",
+        "kind": "gear",
+        "srdTemplate": "Chariot",
+        "notes": "SRD item. gear · 250 GP · 100 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "cheese-wedge",
+      "name": "Cheese (wedge)",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 SP",
+      "notes": "SRD item. service · 1 SP.",
+      "thingStub": {
+        "name": "Cheese (wedge)",
+        "kind": "gear",
+        "srdTemplate": "Cheese (wedge)",
+        "notes": "SRD item. service · 1 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "chest",
+      "name": "Chest",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "25 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. gear · 5 GP · 25 lb..",
+      "thingStub": {
+        "name": "Chest",
+        "kind": "gear",
+        "srdTemplate": "Chest",
+        "notes": "SRD item. gear · 5 GP · 25 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "climbers-kit",
+      "name": "Climber’s Kit",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "12 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. gear · 25 GP · 12 lb..",
+      "thingStub": {
+        "name": "Climber’s Kit",
+        "kind": "gear",
+        "srdTemplate": "Climber’s Kit",
+        "notes": "SRD item. gear · 25 GP · 12 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "clothes-fine",
+      "name": "Clothes, Fine",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "6 lb.",
+      "cost": "15 GP",
+      "notes": "SRD item. gear · 15 GP · 6 lb..",
+      "thingStub": {
+        "name": "Clothes, Fine",
+        "kind": "gear",
+        "srdTemplate": "Clothes, Fine",
+        "notes": "SRD item. gear · 15 GP · 6 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "clothes-travelers",
+      "name": "Clothes, Traveler’s",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 4 lb..",
+      "thingStub": {
+        "name": "Clothes, Traveler’s",
+        "kind": "gear",
+        "srdTemplate": "Clothes, Traveler’s",
+        "notes": "SRD item. gear · 2 GP · 4 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "club",
+      "name": "Club",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d4 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [
+        "Light"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "1 SP",
+      "notes": "SRD item. Simple weapon. 1d4 Bludgeoning. Light.",
+      "thingStub": {
+        "name": "Club",
+        "kind": "weapon",
+        "srdTemplate": "Club",
+        "notes": "SRD item. Simple weapon. 1d4 Bludgeoning. Light.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "cobblers-tools",
+      "name": "Cobbler's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. tool · 5 GP · 5 lb..",
+      "thingStub": {
+        "name": "Cobbler's Tools",
+        "kind": "gear",
+        "srdTemplate": "Cobbler's Tools",
+        "notes": "SRD item. tool · 5 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "comfortable",
+      "name": "Comfortable",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "8 SP",
+      "notes": "SRD item. service · 8 SP.",
+      "thingStub": {
+        "name": "Comfortable",
+        "kind": "gear",
+        "srdTemplate": "Comfortable",
+        "notes": "SRD item. service · 8 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "comfortable-2",
+      "name": "Comfortable",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "2 SP",
+      "notes": "SRD item. service · 2 SP.",
+      "thingStub": {
+        "name": "Comfortable",
+        "kind": "gear",
+        "srdTemplate": "Comfortable",
+        "notes": "SRD item. service · 2 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "common",
+      "name": "Common",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "2 SP",
+      "notes": "SRD item. service · 2 SP.",
+      "thingStub": {
+        "name": "Common",
+        "kind": "gear",
+        "srdTemplate": "Common",
+        "notes": "SRD item. service · 2 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "component-pouch",
+      "name": "Component Pouch",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. gear · 25 GP · 2 lb..",
+      "thingStub": {
+        "name": "Component Pouch",
+        "kind": "gear",
+        "srdTemplate": "Component Pouch",
+        "notes": "SRD item. gear · 25 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "cooks-utensils",
+      "name": "Cook's Utensils",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "8 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. tool · 1 GP · 8 lb..",
+      "thingStub": {
+        "name": "Cook's Utensils",
+        "kind": "gear",
+        "srdTemplate": "Cook's Utensils",
+        "notes": "SRD item. tool · 1 GP · 8 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "costume",
+      "name": "Costume",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. gear · 5 GP · 4 lb..",
+      "thingStub": {
+        "name": "Costume",
+        "kind": "gear",
+        "srdTemplate": "Costume",
+        "notes": "SRD item. gear · 5 GP · 4 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "crowbar",
+      "name": "Crowbar",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 5 lb..",
+      "thingStub": {
+        "name": "Crowbar",
+        "kind": "gear",
+        "srdTemplate": "Crowbar",
+        "notes": "SRD item. gear · 2 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "crystal",
+      "name": "Crystal",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. focus · 10 GP · 1 lb..",
+      "thingStub": {
+        "name": "Crystal",
+        "kind": "gear",
+        "srdTemplate": "Crystal",
+        "notes": "SRD item. focus · 10 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "dagger",
+      "name": "Dagger",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d4 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Finesse",
+        "Light",
+        "Thrown (Range 20/60)"
+      ],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. Simple weapon. 1d4 Piercing. Finesse, Light, Thrown (Range 20/60).",
+      "thingStub": {
+        "name": "Dagger",
+        "kind": "weapon",
+        "srdTemplate": "Dagger",
+        "notes": "SRD item. Simple weapon. 1d4 Piercing. Finesse, Light, Thrown (Range 20/60).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "dart",
+      "name": "Dart",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d4 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Finesse",
+        "Thrown (Range 20/60)"
+      ],
+      "armorClass": null,
+      "weight": "1/4 lb.",
+      "cost": "5 CP",
+      "notes": "SRD item. Simple weapon. 1d4 Piercing. Finesse, Thrown (Range 20/60).",
+      "thingStub": {
+        "name": "Dart",
+        "kind": "weapon",
+        "srdTemplate": "Dart",
+        "notes": "SRD item. Simple weapon. 1d4 Piercing. Finesse, Thrown (Range 20/60).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "diplomats-pack",
+      "name": "Diplomat’s Pack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "39 lb.",
+      "cost": "39 GP",
+      "notes": "SRD item. gear · 39 GP · 39 lb..",
+      "thingStub": {
+        "name": "Diplomat’s Pack",
+        "kind": "gear",
+        "srdTemplate": "Diplomat’s Pack",
+        "notes": "SRD item. gear · 39 GP · 39 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "disguise-kit",
+      "name": "Disguise Kit",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. tool · 25 GP · 3 lb..",
+      "thingStub": {
+        "name": "Disguise Kit",
+        "kind": "gear",
+        "srdTemplate": "Disguise Kit",
+        "notes": "SRD item. tool · 25 GP · 3 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "druidic-focus",
+      "name": "Druidic Focus",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. gear.",
+      "thingStub": {
+        "name": "Druidic Focus",
+        "kind": "gear",
+        "srdTemplate": "Druidic Focus",
+        "notes": "SRD item. gear.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "dungeoneers-pack",
+      "name": "Dungeoneer’s Pack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "55 lb.",
+      "cost": "12 GP",
+      "notes": "SRD item. gear · 12 GP · 55 lb..",
+      "thingStub": {
+        "name": "Dungeoneer’s Pack",
+        "kind": "gear",
+        "srdTemplate": "Dungeoneer’s Pack",
+        "notes": "SRD item. gear · 12 GP · 55 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "elephant",
+      "name": "Elephant",
+      "kind": "gear",
+      "equipmentType": "mount",
+      "category": "mount",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "200 GP",
+      "notes": "SRD item. mount · 200 GP.",
+      "thingStub": {
+        "name": "Elephant",
+        "kind": "gear",
+        "srdTemplate": "Elephant",
+        "notes": "SRD item. mount · 200 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "emblem-borne-on-fabric-or-a-shield",
+      "name": "Emblem (borne on fabric or a Shield)",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "5 GP",
+      "notes": "SRD item. focus · 5 GP.",
+      "thingStub": {
+        "name": "Emblem (borne on fabric or a Shield)",
+        "kind": "gear",
+        "srdTemplate": "Emblem (borne on fabric or a Shield)",
+        "notes": "SRD item. focus · 5 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "entertainers-pack",
+      "name": "Entertainer’s Pack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "58 1/2 lb.",
+      "cost": "40 GP",
+      "notes": "SRD item. gear · 40 GP · 58 1/2 lb..",
+      "thingStub": {
+        "name": "Entertainer’s Pack",
+        "kind": "gear",
+        "srdTemplate": "Entertainer’s Pack",
+        "notes": "SRD item. gear · 40 GP · 58 1/2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "exotic",
+      "name": "Exotic",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "40 lb.",
+      "cost": "60 GP",
+      "notes": "SRD item. gear · 60 GP · 40 lb..",
+      "thingStub": {
+        "name": "Exotic",
+        "kind": "gear",
+        "srdTemplate": "Exotic",
+        "notes": "SRD item. gear · 60 GP · 40 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "explorers-pack",
+      "name": "Explorer’s Pack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "55 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. gear · 10 GP · 55 lb..",
+      "thingStub": {
+        "name": "Explorer’s Pack",
+        "kind": "gear",
+        "srdTemplate": "Explorer’s Pack",
+        "notes": "SRD item. gear · 10 GP · 55 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "feed-per-day",
+      "name": "Feed per day",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "10 lb.",
+      "cost": "5 CP",
+      "notes": "SRD item. gear · 5 CP · 10 lb..",
+      "thingStub": {
+        "name": "Feed per day",
+        "kind": "gear",
+        "srdTemplate": "Feed per day",
+        "notes": "SRD item. gear · 5 CP · 10 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "fine",
+      "name": "Fine",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "10 GP",
+      "notes": "SRD item. service · 10 GP.",
+      "thingStub": {
+        "name": "Fine",
+        "kind": "gear",
+        "srdTemplate": "Fine",
+        "notes": "SRD item. service · 10 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "flail",
+      "name": "Flail",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Bludgeoning.",
+      "thingStub": {
+        "name": "Flail",
+        "kind": "weapon",
+        "srdTemplate": "Flail",
+        "notes": "SRD item. Martial weapon. 1d8 Bludgeoning.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "flask",
+      "name": "Flask",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "2 CP",
+      "notes": "SRD item. gear · 2 CP · 1 lb..",
+      "thingStub": {
+        "name": "Flask",
+        "kind": "gear",
+        "srdTemplate": "Flask",
+        "notes": "SRD item. gear · 2 CP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "forgery-kit",
+      "name": "Forgery Kit",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "15 GP",
+      "notes": "SRD item. tool · 15 GP · 5 lb..",
+      "thingStub": {
+        "name": "Forgery Kit",
+        "kind": "gear",
+        "srdTemplate": "Forgery Kit",
+        "notes": "SRD item. tool · 15 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "galley",
+      "name": "Galley",
+      "kind": "gear",
+      "equipmentType": "vehicle",
+      "category": "vehicle",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "30,000 GP",
+      "notes": "SRD item. vehicle · 30,000 GP.",
+      "thingStub": {
+        "name": "Galley",
+        "kind": "gear",
+        "srdTemplate": "Galley",
+        "notes": "SRD item. vehicle · 30,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "gaming-set",
+      "name": "Gaming Set",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. tool.",
+      "thingStub": {
+        "name": "Gaming Set",
+        "kind": "gear",
+        "srdTemplate": "Gaming Set",
+        "notes": "SRD item. tool.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "glaive",
+      "name": "Glaive",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d10 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "6 lb.",
+      "cost": "20 GP",
+      "notes": "SRD item. Martial weapon. 1d10 Slashing. Heavy, Reach, Two-Handed.",
+      "thingStub": {
+        "name": "Glaive",
+        "kind": "weapon",
+        "srdTemplate": "Glaive",
+        "notes": "SRD item. Martial weapon. 1d10 Slashing. Heavy, Reach, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "glassblowers-tools",
+      "name": "Glassblower's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "30 GP",
+      "notes": "SRD item. tool · 30 GP · 5 lb..",
+      "thingStub": {
+        "name": "Glassblower's Tools",
+        "kind": "gear",
+        "srdTemplate": "Glassblower's Tools",
+        "notes": "SRD item. tool · 30 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "grappling-hook",
+      "name": "Grappling Hook",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 4 lb..",
+      "thingStub": {
+        "name": "Grappling Hook",
+        "kind": "gear",
+        "srdTemplate": "Grappling Hook",
+        "notes": "SRD item. gear · 2 GP · 4 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "greataxe",
+      "name": "Greataxe",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d12 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "7 lb.",
+      "cost": "30 GP",
+      "notes": "SRD item. Martial weapon. 1d12 Slashing. Heavy, Two-Handed.",
+      "thingStub": {
+        "name": "Greataxe",
+        "kind": "weapon",
+        "srdTemplate": "Greataxe",
+        "notes": "SRD item. Martial weapon. 1d12 Slashing. Heavy, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "greatclub",
+      "name": "Greatclub",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d8 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "10 lb.",
+      "cost": "2 SP",
+      "notes": "SRD item. Simple weapon. 1d8 Bludgeoning. Two-Handed.",
+      "thingStub": {
+        "name": "Greatclub",
+        "kind": "weapon",
+        "srdTemplate": "Greatclub",
+        "notes": "SRD item. Simple weapon. 1d8 Bludgeoning. Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "greatsword",
+      "name": "Greatsword",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "2d6 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "6 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. Martial weapon. 2d6 Slashing. Heavy, Two-Handed.",
+      "thingStub": {
+        "name": "Greatsword",
+        "kind": "weapon",
+        "srdTemplate": "Greatsword",
+        "notes": "SRD item. Martial weapon. 2d6 Slashing. Heavy, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "halberd",
+      "name": "Halberd",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d10 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "6 lb.",
+      "cost": "20 GP",
+      "notes": "SRD item. Martial weapon. 1d10 Slashing. Heavy, Reach, Two-Handed.",
+      "thingStub": {
+        "name": "Halberd",
+        "kind": "weapon",
+        "srdTemplate": "Halberd",
+        "notes": "SRD item. Martial weapon. 1d10 Slashing. Heavy, Reach, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "half-plate-armor",
+      "name": "Half Plate Armor",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Medium",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "15 + Dex modifier (max 2)",
+      "weight": "40 lb.",
+      "cost": "750 GP",
+      "notes": "SRD item. Medium armor. AC 15 + Dex modifier (max 2).",
+      "thingStub": {
+        "name": "Half Plate Armor",
+        "kind": "armor",
+        "srdTemplate": "Half Plate Armor",
+        "notes": "SRD item. Medium armor. AC 15 + Dex modifier (max 2).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "hand-crossbow",
+      "name": "Hand Crossbow",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d6 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Ammunition (Range 30/120; Bolt)",
+        "Light",
+        "Loading"
+      ],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "75 GP",
+      "notes": "SRD item. Martial weapon. 1d6 Piercing. Ammunition (Range 30/120; Bolt), Light, Loading.",
+      "thingStub": {
+        "name": "Hand Crossbow",
+        "kind": "weapon",
+        "srdTemplate": "Hand Crossbow",
+        "notes": "SRD item. Martial weapon. 1d6 Piercing. Ammunition (Range 30/120; Bolt), Light, Loading.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "handaxe",
+      "name": "Handaxe",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d6 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Light",
+        "Thrown (Range 20/60)"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. Simple weapon. 1d6 Slashing. Light, Thrown (Range 20/60).",
+      "thingStub": {
+        "name": "Handaxe",
+        "kind": "weapon",
+        "srdTemplate": "Handaxe",
+        "notes": "SRD item. Simple weapon. 1d6 Slashing. Light, Thrown (Range 20/60).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "healers-kit",
+      "name": "Healer’s Kit",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. gear · 5 GP · 3 lb..",
+      "thingStub": {
+        "name": "Healer’s Kit",
+        "kind": "gear",
+        "srdTemplate": "Healer’s Kit",
+        "notes": "SRD item. gear · 5 GP · 3 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "heavy-crossbow",
+      "name": "Heavy Crossbow",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d10 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Ammunition (Range 100/400; Bolt)",
+        "Heavy",
+        "Loading",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "18 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. Martial weapon. 1d10 Piercing. Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed.",
+      "thingStub": {
+        "name": "Heavy Crossbow",
+        "kind": "weapon",
+        "srdTemplate": "Heavy Crossbow",
+        "notes": "SRD item. Martial weapon. 1d10 Piercing. Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "herbalism-kit",
+      "name": "Herbalism Kit",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. tool · 5 GP · 3 lb..",
+      "thingStub": {
+        "name": "Herbalism Kit",
+        "kind": "gear",
+        "srdTemplate": "Herbalism Kit",
+        "notes": "SRD item. tool · 5 GP · 3 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "hide-armor",
+      "name": "Hide Armor",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Medium",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "12 + Dex modifier (max 2)",
+      "weight": "12 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Medium armor. AC 12 + Dex modifier (max 2).",
+      "thingStub": {
+        "name": "Hide Armor",
+        "kind": "armor",
+        "srdTemplate": "Hide Armor",
+        "notes": "SRD item. Medium armor. AC 12 + Dex modifier (max 2).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "holy-symbol",
+      "name": "Holy Symbol",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. gear.",
+      "thingStub": {
+        "name": "Holy Symbol",
+        "kind": "gear",
+        "srdTemplate": "Holy Symbol",
+        "notes": "SRD item. gear.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "holy-water",
+      "name": "Holy Water",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. gear · 25 GP · 1 lb..",
+      "thingStub": {
+        "name": "Holy Water",
+        "kind": "gear",
+        "srdTemplate": "Holy Water",
+        "notes": "SRD item. gear · 25 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "horse-draft",
+      "name": "Horse, Draft",
+      "kind": "gear",
+      "equipmentType": "mount",
+      "category": "mount",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "50 GP",
+      "notes": "SRD item. mount · 50 GP.",
+      "thingStub": {
+        "name": "Horse, Draft",
+        "kind": "gear",
+        "srdTemplate": "Horse, Draft",
+        "notes": "SRD item. mount · 50 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "horse-riding",
+      "name": "Horse, Riding",
+      "kind": "gear",
+      "equipmentType": "mount",
+      "category": "mount",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "75 GP",
+      "notes": "SRD item. mount · 75 GP.",
+      "thingStub": {
+        "name": "Horse, Riding",
+        "kind": "gear",
+        "srdTemplate": "Horse, Riding",
+        "notes": "SRD item. mount · 75 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "hunting-trap",
+      "name": "Hunting Trap",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "25 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. gear · 5 GP · 25 lb..",
+      "thingStub": {
+        "name": "Hunting Trap",
+        "kind": "gear",
+        "srdTemplate": "Hunting Trap",
+        "notes": "SRD item. gear · 5 GP · 25 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "ink",
+      "name": "Ink",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "10 GP",
+      "notes": "SRD item. gear · 10 GP.",
+      "thingStub": {
+        "name": "Ink",
+        "kind": "gear",
+        "srdTemplate": "Ink",
+        "notes": "SRD item. gear · 10 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "ink-pen",
+      "name": "Ink Pen",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "2 CP",
+      "notes": "SRD item. gear · 2 CP.",
+      "thingStub": {
+        "name": "Ink Pen",
+        "kind": "gear",
+        "srdTemplate": "Ink Pen",
+        "notes": "SRD item. gear · 2 CP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "javelin",
+      "name": "Javelin",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d6 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Thrown (Range 30/120)"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "5 SP",
+      "notes": "SRD item. Simple weapon. 1d6 Piercing. Thrown (Range 30/120).",
+      "thingStub": {
+        "name": "Javelin",
+        "kind": "weapon",
+        "srdTemplate": "Javelin",
+        "notes": "SRD item. Simple weapon. 1d6 Piercing. Thrown (Range 30/120).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "jewelers-tools",
+      "name": "Jeweler's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. tool · 25 GP · 2 lb..",
+      "thingStub": {
+        "name": "Jeweler's Tools",
+        "kind": "gear",
+        "srdTemplate": "Jeweler's Tools",
+        "notes": "SRD item. tool · 25 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "jug",
+      "name": "Jug",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "2 CP",
+      "notes": "SRD item. gear · 2 CP · 4 lb..",
+      "thingStub": {
+        "name": "Jug",
+        "kind": "gear",
+        "srdTemplate": "Jug",
+        "notes": "SRD item. gear · 2 CP · 4 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "keelboat",
+      "name": "Keelboat",
+      "kind": "gear",
+      "equipmentType": "vehicle",
+      "category": "vehicle",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "3,000 GP",
+      "notes": "SRD item. vehicle · 3,000 GP.",
+      "thingStub": {
+        "name": "Keelboat",
+        "kind": "gear",
+        "srdTemplate": "Keelboat",
+        "notes": "SRD item. vehicle · 3,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "ladder",
+      "name": "Ladder",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "25 lb.",
+      "cost": "1 SP",
+      "notes": "SRD item. gear · 1 SP · 25 lb..",
+      "thingStub": {
+        "name": "Ladder",
+        "kind": "gear",
+        "srdTemplate": "Ladder",
+        "notes": "SRD item. gear · 1 SP · 25 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "lamp",
+      "name": "Lamp",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "5 SP",
+      "notes": "SRD item. gear · 5 SP · 1 lb..",
+      "thingStub": {
+        "name": "Lamp",
+        "kind": "gear",
+        "srdTemplate": "Lamp",
+        "notes": "SRD item. gear · 5 SP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "lance",
+      "name": "Lance",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d10 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed (unless mounted)"
+      ],
+      "armorClass": null,
+      "weight": "6 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Martial weapon. 1d10 Piercing. Heavy, Reach, Two-Handed (unless mounted).",
+      "thingStub": {
+        "name": "Lance",
+        "kind": "weapon",
+        "srdTemplate": "Lance",
+        "notes": "SRD item. Martial weapon. 1d10 Piercing. Heavy, Reach, Two-Handed (unless mounted).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "lantern-bullseye",
+      "name": "Lantern, Bullseye",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. gear · 10 GP · 2 lb..",
+      "thingStub": {
+        "name": "Lantern, Bullseye",
+        "kind": "gear",
+        "srdTemplate": "Lantern, Bullseye",
+        "notes": "SRD item. gear · 10 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "lantern-hooded",
+      "name": "Lantern, Hooded",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. gear · 5 GP · 2 lb..",
+      "thingStub": {
+        "name": "Lantern, Hooded",
+        "kind": "gear",
+        "srdTemplate": "Lantern, Hooded",
+        "notes": "SRD item. gear · 5 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "leather-armor",
+      "name": "Leather Armor",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Light",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "11 + Dex modifier",
+      "weight": "10 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Light armor. AC 11 + Dex modifier.",
+      "thingStub": {
+        "name": "Leather Armor",
+        "kind": "armor",
+        "srdTemplate": "Leather Armor",
+        "notes": "SRD item. Light armor. AC 11 + Dex modifier.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "leatherworkers-tools",
+      "name": "Leatherworker's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. tool · 5 GP · 5 lb..",
+      "thingStub": {
+        "name": "Leatherworker's Tools",
+        "kind": "gear",
+        "srdTemplate": "Leatherworker's Tools",
+        "notes": "SRD item. tool · 5 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "light-crossbow",
+      "name": "Light Crossbow",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d8 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Ammunition (Range 80/320; Bolt)",
+        "Loading",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. Simple weapon. 1d8 Piercing. Ammunition (Range 80/320; Bolt), Loading, Two-Handed.",
+      "thingStub": {
+        "name": "Light Crossbow",
+        "kind": "weapon",
+        "srdTemplate": "Light Crossbow",
+        "notes": "SRD item. Simple weapon. 1d8 Piercing. Ammunition (Range 80/320; Bolt), Loading, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "light-hammer",
+      "name": "Light Hammer",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d4 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [
+        "Light",
+        "Thrown (Range 20/60)"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. Simple weapon. 1d4 Bludgeoning. Light, Thrown (Range 20/60).",
+      "thingStub": {
+        "name": "Light Hammer",
+        "kind": "weapon",
+        "srdTemplate": "Light Hammer",
+        "notes": "SRD item. Simple weapon. 1d4 Bludgeoning. Light, Thrown (Range 20/60).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "lock",
+      "name": "Lock",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. gear · 10 GP · 1 lb..",
+      "thingStub": {
+        "name": "Lock",
+        "kind": "gear",
+        "srdTemplate": "Lock",
+        "notes": "SRD item. gear · 10 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "longbow",
+      "name": "Longbow",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Ammunition (Range 150/600; Arrow)",
+        "Heavy",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Piercing. Ammunition (Range 150/600; Arrow), Heavy, Two-Handed.",
+      "thingStub": {
+        "name": "Longbow",
+        "kind": "weapon",
+        "srdTemplate": "Longbow",
+        "notes": "SRD item. Martial weapon. 1d8 Piercing. Ammunition (Range 150/600; Arrow), Heavy, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "longship",
+      "name": "Longship",
+      "kind": "gear",
+      "equipmentType": "vehicle",
+      "category": "vehicle",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "10,000 GP",
+      "notes": "SRD item. vehicle · 10,000 GP.",
+      "thingStub": {
+        "name": "Longship",
+        "kind": "gear",
+        "srdTemplate": "Longship",
+        "notes": "SRD item. vehicle · 10,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "longsword",
+      "name": "Longsword",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "15 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Slashing. Versatile (1d10).",
+      "thingStub": {
+        "name": "Longsword",
+        "kind": "weapon",
+        "srdTemplate": "Longsword",
+        "notes": "SRD item. Martial weapon. 1d8 Slashing. Versatile (1d10).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "mace",
+      "name": "Mace",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d6 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. Simple weapon. 1d6 Bludgeoning.",
+      "thingStub": {
+        "name": "Mace",
+        "kind": "weapon",
+        "srdTemplate": "Mace",
+        "notes": "SRD item. Simple weapon. 1d6 Bludgeoning.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "magnifying-glass",
+      "name": "Magnifying Glass",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "100 GP",
+      "notes": "SRD item. gear · 100 GP.",
+      "thingStub": {
+        "name": "Magnifying Glass",
+        "kind": "gear",
+        "srdTemplate": "Magnifying Glass",
+        "notes": "SRD item. gear · 100 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "manacles",
+      "name": "Manacles",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "6 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 6 lb..",
+      "thingStub": {
+        "name": "Manacles",
+        "kind": "gear",
+        "srdTemplate": "Manacles",
+        "notes": "SRD item. gear · 2 GP · 6 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "map",
+      "name": "Map",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP.",
+      "thingStub": {
+        "name": "Map",
+        "kind": "gear",
+        "srdTemplate": "Map",
+        "notes": "SRD item. gear · 1 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "masons-tools",
+      "name": "Mason's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "8 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. tool · 10 GP · 8 lb..",
+      "thingStub": {
+        "name": "Mason's Tools",
+        "kind": "gear",
+        "srdTemplate": "Mason's Tools",
+        "notes": "SRD item. tool · 10 GP · 8 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "mastiff",
+      "name": "Mastiff",
+      "kind": "gear",
+      "equipmentType": "mount",
+      "category": "mount",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "25 GP",
+      "notes": "SRD item. mount · 25 GP.",
+      "thingStub": {
+        "name": "Mastiff",
+        "kind": "gear",
+        "srdTemplate": "Mastiff",
+        "notes": "SRD item. mount · 25 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "maul",
+      "name": "Maul",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "2d6 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "10 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Martial weapon. 2d6 Bludgeoning. Heavy, Two-Handed.",
+      "thingStub": {
+        "name": "Maul",
+        "kind": "weapon",
+        "srdTemplate": "Maul",
+        "notes": "SRD item. Martial weapon. 2d6 Bludgeoning. Heavy, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "messenger",
+      "name": "Messenger",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. service.",
+      "thingStub": {
+        "name": "Messenger",
+        "kind": "gear",
+        "srdTemplate": "Messenger",
+        "notes": "SRD item. service.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "military",
+      "name": "Military",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "30 lb.",
+      "cost": "20 GP",
+      "notes": "SRD item. gear · 20 GP · 30 lb..",
+      "thingStub": {
+        "name": "Military",
+        "kind": "gear",
+        "srdTemplate": "Military",
+        "notes": "SRD item. gear · 20 GP · 30 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "mirror",
+      "name": "Mirror",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1/2 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. gear · 5 GP · 1/2 lb..",
+      "thingStub": {
+        "name": "Mirror",
+        "kind": "gear",
+        "srdTemplate": "Mirror",
+        "notes": "SRD item. gear · 5 GP · 1/2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "modest",
+      "name": "Modest",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "5 SP",
+      "notes": "SRD item. service · 5 SP.",
+      "thingStub": {
+        "name": "Modest",
+        "kind": "gear",
+        "srdTemplate": "Modest",
+        "notes": "SRD item. service · 5 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "modest-2",
+      "name": "Modest",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 SP",
+      "notes": "SRD item. service · 1 SP.",
+      "thingStub": {
+        "name": "Modest",
+        "kind": "gear",
+        "srdTemplate": "Modest",
+        "notes": "SRD item. service · 1 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "morningstar",
+      "name": "Morningstar",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Piercing",
+      "damageType": "Piercing",
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "15 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Piercing.",
+      "thingStub": {
+        "name": "Morningstar",
+        "kind": "weapon",
+        "srdTemplate": "Morningstar",
+        "notes": "SRD item. Martial weapon. 1d8 Piercing.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "mule",
+      "name": "Mule",
+      "kind": "gear",
+      "equipmentType": "mount",
+      "category": "mount",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "8 GP",
+      "notes": "SRD item. mount · 8 GP.",
+      "thingStub": {
+        "name": "Mule",
+        "kind": "gear",
+        "srdTemplate": "Mule",
+        "notes": "SRD item. mount · 8 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "musical-instrument",
+      "name": "Musical Instrument",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. tool.",
+      "thingStub": {
+        "name": "Musical Instrument",
+        "kind": "gear",
+        "srdTemplate": "Musical Instrument",
+        "notes": "SRD item. tool.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "musket",
+      "name": "Musket",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d12 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Ammunition (Range 40/120; Bullet)",
+        "Loading",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "10 lb.",
+      "cost": "500 GP",
+      "notes": "SRD item. Martial weapon. 1d12 Piercing. Ammunition (Range 40/120; Bullet), Loading, Two-Handed.",
+      "thingStub": {
+        "name": "Musket",
+        "kind": "weapon",
+        "srdTemplate": "Musket",
+        "notes": "SRD item. Martial weapon. 1d12 Piercing. Ammunition (Range 40/120; Bullet), Loading, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "navigators-tools",
+      "name": "Navigator's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. tool · 25 GP · 2 lb..",
+      "thingStub": {
+        "name": "Navigator's Tools",
+        "kind": "gear",
+        "srdTemplate": "Navigator's Tools",
+        "notes": "SRD item. tool · 25 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "needles",
+      "name": "Needles",
+      "kind": "gear",
+      "equipmentType": "ammunition",
+      "category": "ammunition",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. ammunition · 1 GP · 1 lb..",
+      "thingStub": {
+        "name": "Needles",
+        "kind": "gear",
+        "srdTemplate": "Needles",
+        "notes": "SRD item. ammunition · 1 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "net",
+      "name": "Net",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 3 lb..",
+      "thingStub": {
+        "name": "Net",
+        "kind": "gear",
+        "srdTemplate": "Net",
+        "notes": "SRD item. gear · 1 GP · 3 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "oil",
+      "name": "Oil",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "1 SP",
+      "notes": "SRD item. gear · 1 SP · 1 lb..",
+      "thingStub": {
+        "name": "Oil",
+        "kind": "gear",
+        "srdTemplate": "Oil",
+        "notes": "SRD item. gear · 1 SP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "orb",
+      "name": "Orb",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "20 GP",
+      "notes": "SRD item. focus · 20 GP · 3 lb..",
+      "thingStub": {
+        "name": "Orb",
+        "kind": "gear",
+        "srdTemplate": "Orb",
+        "notes": "SRD item. focus · 20 GP · 3 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "padded-armor",
+      "name": "Padded Armor",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Light",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "11 + Dex modifier",
+      "weight": "8 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. Light armor. AC 11 + Dex modifier.",
+      "thingStub": {
+        "name": "Padded Armor",
+        "kind": "armor",
+        "srdTemplate": "Padded Armor",
+        "notes": "SRD item. Light armor. AC 11 + Dex modifier.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "painters-supplies",
+      "name": "Painter's Supplies",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. tool · 10 GP · 5 lb..",
+      "thingStub": {
+        "name": "Painter's Supplies",
+        "kind": "gear",
+        "srdTemplate": "Painter's Supplies",
+        "notes": "SRD item. tool · 10 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "paper",
+      "name": "Paper",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "2 SP",
+      "notes": "SRD item. gear · 2 SP.",
+      "thingStub": {
+        "name": "Paper",
+        "kind": "gear",
+        "srdTemplate": "Paper",
+        "notes": "SRD item. gear · 2 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "parchment",
+      "name": "Parchment",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 SP",
+      "notes": "SRD item. gear · 1 SP.",
+      "thingStub": {
+        "name": "Parchment",
+        "kind": "gear",
+        "srdTemplate": "Parchment",
+        "notes": "SRD item. gear · 1 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "perfume",
+      "name": "Perfume",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "5 GP",
+      "notes": "SRD item. gear · 5 GP.",
+      "thingStub": {
+        "name": "Perfume",
+        "kind": "gear",
+        "srdTemplate": "Perfume",
+        "notes": "SRD item. gear · 5 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "pike",
+      "name": "Pike",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d10 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "18 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. Martial weapon. 1d10 Piercing. Heavy, Reach, Two-Handed.",
+      "thingStub": {
+        "name": "Pike",
+        "kind": "weapon",
+        "srdTemplate": "Pike",
+        "notes": "SRD item. Martial weapon. 1d10 Piercing. Heavy, Reach, Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "pistol",
+      "name": "Pistol",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d10 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Ammunition (Range 30/90; Bullet)",
+        "Loading"
+      ],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "250 GP",
+      "notes": "SRD item. Martial weapon. 1d10 Piercing. Ammunition (Range 30/90; Bullet), Loading.",
+      "thingStub": {
+        "name": "Pistol",
+        "kind": "weapon",
+        "srdTemplate": "Pistol",
+        "notes": "SRD item. Martial weapon. 1d10 Piercing. Ammunition (Range 30/90; Bullet), Loading.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "plate-armor",
+      "name": "Plate Armor",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Heavy",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "18",
+      "weight": "65 lb.",
+      "cost": "1,500 GP",
+      "notes": "SRD item. Heavy armor. AC 18.",
+      "thingStub": {
+        "name": "Plate Armor",
+        "kind": "armor",
+        "srdTemplate": "Plate Armor",
+        "notes": "SRD item. Heavy armor. AC 18.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "poison-basic",
+      "name": "Poison, Basic",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "100 GP",
+      "notes": "SRD item. gear · 100 GP.",
+      "thingStub": {
+        "name": "Poison, Basic",
+        "kind": "gear",
+        "srdTemplate": "Poison, Basic",
+        "notes": "SRD item. gear · 100 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "poisoners-kit",
+      "name": "Poisoner's Kit",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. tool · 50 GP · 2 lb..",
+      "thingStub": {
+        "name": "Poisoner's Kit",
+        "kind": "gear",
+        "srdTemplate": "Poisoner's Kit",
+        "notes": "SRD item. tool · 50 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "pole",
+      "name": "Pole",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "7 lb.",
+      "cost": "5 CP",
+      "notes": "SRD item. gear · 5 CP · 7 lb..",
+      "thingStub": {
+        "name": "Pole",
+        "kind": "gear",
+        "srdTemplate": "Pole",
+        "notes": "SRD item. gear · 5 CP · 7 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "pony",
+      "name": "Pony",
+      "kind": "gear",
+      "equipmentType": "mount",
+      "category": "mount",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "30 GP",
+      "notes": "SRD item. mount · 30 GP.",
+      "thingStub": {
+        "name": "Pony",
+        "kind": "gear",
+        "srdTemplate": "Pony",
+        "notes": "SRD item. mount · 30 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "poor",
+      "name": "Poor",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 SP",
+      "notes": "SRD item. service · 1 SP.",
+      "thingStub": {
+        "name": "Poor",
+        "kind": "gear",
+        "srdTemplate": "Poor",
+        "notes": "SRD item. service · 1 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "poor-2",
+      "name": "Poor",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "2 CP",
+      "notes": "SRD item. service · 2 CP.",
+      "thingStub": {
+        "name": "Poor",
+        "kind": "gear",
+        "srdTemplate": "Poor",
+        "notes": "SRD item. service · 2 CP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "pot-iron",
+      "name": "Pot, Iron",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "10 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 10 lb..",
+      "thingStub": {
+        "name": "Pot, Iron",
+        "kind": "gear",
+        "srdTemplate": "Pot, Iron",
+        "notes": "SRD item. gear · 2 GP · 10 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "potion-of-healing",
+      "name": "Potion of Healing",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1/2 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. gear · 50 GP · 1/2 lb..",
+      "thingStub": {
+        "name": "Potion of Healing",
+        "kind": "gear",
+        "srdTemplate": "Potion of Healing",
+        "notes": "SRD item. gear · 50 GP · 1/2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "potters-tools",
+      "name": "Potter's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. tool · 10 GP · 3 lb..",
+      "thingStub": {
+        "name": "Potter's Tools",
+        "kind": "gear",
+        "srdTemplate": "Potter's Tools",
+        "notes": "SRD item. tool · 10 GP · 3 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "pouch",
+      "name": "Pouch",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "5 SP",
+      "notes": "SRD item. gear · 5 SP · 1 lb..",
+      "thingStub": {
+        "name": "Pouch",
+        "kind": "gear",
+        "srdTemplate": "Pouch",
+        "notes": "SRD item. gear · 5 SP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "priests-pack",
+      "name": "Priest’s Pack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "29 lb.",
+      "cost": "33 GP",
+      "notes": "SRD item. gear · 33 GP · 29 lb..",
+      "thingStub": {
+        "name": "Priest’s Pack",
+        "kind": "gear",
+        "srdTemplate": "Priest’s Pack",
+        "notes": "SRD item. gear · 33 GP · 29 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "quarterstaff",
+      "name": "Quarterstaff",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d6 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [
+        "Versatile (1d8)"
+      ],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "2 SP",
+      "notes": "SRD item. Simple weapon. 1d6 Bludgeoning. Versatile (1d8).",
+      "thingStub": {
+        "name": "Quarterstaff",
+        "kind": "weapon",
+        "srdTemplate": "Quarterstaff",
+        "notes": "SRD item. Simple weapon. 1d6 Bludgeoning. Versatile (1d8).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "quiver",
+      "name": "Quiver",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 1 lb..",
+      "thingStub": {
+        "name": "Quiver",
+        "kind": "gear",
+        "srdTemplate": "Quiver",
+        "notes": "SRD item. gear · 1 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "ram-portable",
+      "name": "Ram, Portable",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "35 lb.",
+      "cost": "4 GP",
+      "notes": "SRD item. gear · 4 GP · 35 lb..",
+      "thingStub": {
+        "name": "Ram, Portable",
+        "kind": "gear",
+        "srdTemplate": "Ram, Portable",
+        "notes": "SRD item. gear · 4 GP · 35 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "rapier",
+      "name": "Rapier",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Finesse"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Piercing. Finesse.",
+      "thingStub": {
+        "name": "Rapier",
+        "kind": "weapon",
+        "srdTemplate": "Rapier",
+        "notes": "SRD item. Martial weapon. 1d8 Piercing. Finesse.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "rations",
+      "name": "Rations",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "5 SP",
+      "notes": "SRD item. gear · 5 SP · 2 lb..",
+      "thingStub": {
+        "name": "Rations",
+        "kind": "gear",
+        "srdTemplate": "Rations",
+        "notes": "SRD item. gear · 5 SP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "reliquary-held",
+      "name": "Reliquary (held)",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. focus · 5 GP · 2 lb..",
+      "thingStub": {
+        "name": "Reliquary (held)",
+        "kind": "gear",
+        "srdTemplate": "Reliquary (held)",
+        "notes": "SRD item. focus · 5 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "riding",
+      "name": "Riding",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "25 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. gear · 10 GP · 25 lb..",
+      "thingStub": {
+        "name": "Riding",
+        "kind": "gear",
+        "srdTemplate": "Riding",
+        "notes": "SRD item. gear · 10 GP · 25 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "ring-mail",
+      "name": "Ring Mail",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Heavy",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "14",
+      "weight": "40 lb.",
+      "cost": "30 GP",
+      "notes": "SRD item. Heavy armor. AC 14.",
+      "thingStub": {
+        "name": "Ring Mail",
+        "kind": "armor",
+        "srdTemplate": "Ring Mail",
+        "notes": "SRD item. Heavy armor. AC 14.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "robe",
+      "name": "Robe",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 4 lb..",
+      "thingStub": {
+        "name": "Robe",
+        "kind": "gear",
+        "srdTemplate": "Robe",
+        "notes": "SRD item. gear · 1 GP · 4 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "rod",
+      "name": "Rod",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. focus · 10 GP · 2 lb..",
+      "thingStub": {
+        "name": "Rod",
+        "kind": "gear",
+        "srdTemplate": "Rod",
+        "notes": "SRD item. focus · 10 GP · 2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "rope",
+      "name": "Rope",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 5 lb..",
+      "thingStub": {
+        "name": "Rope",
+        "kind": "gear",
+        "srdTemplate": "Rope",
+        "notes": "SRD item. gear · 1 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "rowboat",
+      "name": "Rowboat",
+      "kind": "gear",
+      "equipmentType": "vehicle",
+      "category": "vehicle",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "50 GP",
+      "notes": "SRD item. vehicle · 50 GP.",
+      "thingStub": {
+        "name": "Rowboat",
+        "kind": "gear",
+        "srdTemplate": "Rowboat",
+        "notes": "SRD item. vehicle · 50 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "sack",
+      "name": "Sack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1/2 lb.",
+      "cost": "1 CP",
+      "notes": "SRD item. gear · 1 CP · 1/2 lb..",
+      "thingStub": {
+        "name": "Sack",
+        "kind": "gear",
+        "srdTemplate": "Sack",
+        "notes": "SRD item. gear · 1 CP · 1/2 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "saddle",
+      "name": "Saddle",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. gear.",
+      "thingStub": {
+        "name": "Saddle",
+        "kind": "gear",
+        "srdTemplate": "Saddle",
+        "notes": "SRD item. gear.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "sailing-ship",
+      "name": "Sailing Ship",
+      "kind": "gear",
+      "equipmentType": "vehicle",
+      "category": "vehicle",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "10,000 GP",
+      "notes": "SRD item. vehicle · 10,000 GP.",
+      "thingStub": {
+        "name": "Sailing Ship",
+        "kind": "gear",
+        "srdTemplate": "Sailing Ship",
+        "notes": "SRD item. vehicle · 10,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "scale-mail",
+      "name": "Scale Mail",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Medium",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "14 + Dex modifier (max 2)",
+      "weight": "45 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. Medium armor. AC 14 + Dex modifier (max 2).",
+      "thingStub": {
+        "name": "Scale Mail",
+        "kind": "armor",
+        "srdTemplate": "Scale Mail",
+        "notes": "SRD item. Medium armor. AC 14 + Dex modifier (max 2).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "scholars-pack",
+      "name": "Scholar’s Pack",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "22 lb.",
+      "cost": "40 GP",
+      "notes": "SRD item. gear · 40 GP · 22 lb..",
+      "thingStub": {
+        "name": "Scholar’s Pack",
+        "kind": "gear",
+        "srdTemplate": "Scholar’s Pack",
+        "notes": "SRD item. gear · 40 GP · 22 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "scimitar",
+      "name": "Scimitar",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d6 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Finesse",
+        "Light"
+      ],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. Martial weapon. 1d6 Slashing. Finesse, Light.",
+      "thingStub": {
+        "name": "Scimitar",
+        "kind": "weapon",
+        "srdTemplate": "Scimitar",
+        "notes": "SRD item. Martial weapon. 1d6 Slashing. Finesse, Light.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "shield",
+      "name": "Shield",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Shield",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "+2",
+      "weight": "6 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Shield armor. AC +2.",
+      "thingStub": {
+        "name": "Shield",
+        "kind": "armor",
+        "srdTemplate": "Shield",
+        "notes": "SRD item. Shield armor. AC +2.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "shortbow",
+      "name": "Shortbow",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d6 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Ammunition (Range 80/320; Arrow)",
+        "Two-Handed"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. Simple weapon. 1d6 Piercing. Ammunition (Range 80/320; Arrow), Two-Handed.",
+      "thingStub": {
+        "name": "Shortbow",
+        "kind": "weapon",
+        "srdTemplate": "Shortbow",
+        "notes": "SRD item. Simple weapon. 1d6 Piercing. Ammunition (Range 80/320; Arrow), Two-Handed.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "shortsword",
+      "name": "Shortsword",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d6 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Finesse",
+        "Light"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. Martial weapon. 1d6 Piercing. Finesse, Light.",
+      "thingStub": {
+        "name": "Shortsword",
+        "kind": "weapon",
+        "srdTemplate": "Shortsword",
+        "notes": "SRD item. Martial weapon. 1d6 Piercing. Finesse, Light.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "shovel",
+      "name": "Shovel",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 5 lb..",
+      "thingStub": {
+        "name": "Shovel",
+        "kind": "gear",
+        "srdTemplate": "Shovel",
+        "notes": "SRD item. gear · 2 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "sickle",
+      "name": "Sickle",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d4 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Light"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. Simple weapon. 1d4 Slashing. Light.",
+      "thingStub": {
+        "name": "Sickle",
+        "kind": "weapon",
+        "srdTemplate": "Sickle",
+        "notes": "SRD item. Simple weapon. 1d4 Slashing. Light.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "signal-whistle",
+      "name": "Signal Whistle",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "5 CP",
+      "notes": "SRD item. gear · 5 CP.",
+      "thingStub": {
+        "name": "Signal Whistle",
+        "kind": "gear",
+        "srdTemplate": "Signal Whistle",
+        "notes": "SRD item. gear · 5 CP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "skilled-hireling",
+      "name": "Skilled hireling",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. service.",
+      "thingStub": {
+        "name": "Skilled hireling",
+        "kind": "gear",
+        "srdTemplate": "Skilled hireling",
+        "notes": "SRD item. service.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "sled",
+      "name": "Sled",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "300 lb.",
+      "cost": "20 GP",
+      "notes": "SRD item. gear · 20 GP · 300 lb..",
+      "thingStub": {
+        "name": "Sled",
+        "kind": "gear",
+        "srdTemplate": "Sled",
+        "notes": "SRD item. gear · 20 GP · 300 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "sling",
+      "name": "Sling",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d4 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [
+        "Ammunition (Range 30/120; Bullet)"
+      ],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 SP",
+      "notes": "SRD item. Simple weapon. 1d4 Bludgeoning. Ammunition (Range 30/120; Bullet).",
+      "thingStub": {
+        "name": "Sling",
+        "kind": "weapon",
+        "srdTemplate": "Sling",
+        "notes": "SRD item. Simple weapon. 1d4 Bludgeoning. Ammunition (Range 30/120; Bullet).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "smiths-tools",
+      "name": "Smith's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "8 lb.",
+      "cost": "20 GP",
+      "notes": "SRD item. tool · 20 GP · 8 lb..",
+      "thingStub": {
+        "name": "Smith's Tools",
+        "kind": "gear",
+        "srdTemplate": "Smith's Tools",
+        "notes": "SRD item. tool · 20 GP · 8 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spear",
+      "name": "Spear",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Simple",
+      "damage": "1d6 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Thrown (Range 20/60)",
+        "Versatile (1d8)"
+      ],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. Simple weapon. 1d6 Piercing. Thrown (Range 20/60), Versatile (1d8).",
+      "thingStub": {
+        "name": "Spear",
+        "kind": "weapon",
+        "srdTemplate": "Spear",
+        "notes": "SRD item. Simple weapon. 1d6 Piercing. Thrown (Range 20/60), Versatile (1d8).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spell-scroll-cantrip",
+      "name": "Spell Scroll (Cantrip)",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "30 GP",
+      "notes": "SRD item. gear · 30 GP.",
+      "thingStub": {
+        "name": "Spell Scroll (Cantrip)",
+        "kind": "gear",
+        "srdTemplate": "Spell Scroll (Cantrip)",
+        "notes": "SRD item. gear · 30 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spell-scroll-level-1",
+      "name": "Spell Scroll (Level 1)",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "50 GP",
+      "notes": "SRD item. gear · 50 GP.",
+      "thingStub": {
+        "name": "Spell Scroll (Level 1)",
+        "kind": "gear",
+        "srdTemplate": "Spell Scroll (Level 1)",
+        "notes": "SRD item. gear · 50 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spellcasting-service-1",
+      "name": "Spellcasting Service: 1",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "50 GP",
+      "notes": "SRD item. service · 50 GP.",
+      "thingStub": {
+        "name": "Spellcasting Service: 1",
+        "kind": "gear",
+        "srdTemplate": "Spellcasting Service: 1",
+        "notes": "SRD item. service · 50 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spellcasting-service-2",
+      "name": "Spellcasting Service: 2",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "200 GP",
+      "notes": "SRD item. service · 200 GP.",
+      "thingStub": {
+        "name": "Spellcasting Service: 2",
+        "kind": "gear",
+        "srdTemplate": "Spellcasting Service: 2",
+        "notes": "SRD item. service · 200 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spellcasting-service-3",
+      "name": "Spellcasting Service: 3",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "300 GP",
+      "notes": "SRD item. service · 300 GP.",
+      "thingStub": {
+        "name": "Spellcasting Service: 3",
+        "kind": "gear",
+        "srdTemplate": "Spellcasting Service: 3",
+        "notes": "SRD item. service · 300 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spellcasting-service-4-5",
+      "name": "Spellcasting Service: 4–5",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "2,000 GP",
+      "notes": "SRD item. service · 2,000 GP.",
+      "thingStub": {
+        "name": "Spellcasting Service: 4–5",
+        "kind": "gear",
+        "srdTemplate": "Spellcasting Service: 4–5",
+        "notes": "SRD item. service · 2,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spellcasting-service-6-8",
+      "name": "Spellcasting Service: 6–8",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "20,000 GP",
+      "notes": "SRD item. service · 20,000 GP.",
+      "thingStub": {
+        "name": "Spellcasting Service: 6–8",
+        "kind": "gear",
+        "srdTemplate": "Spellcasting Service: 6–8",
+        "notes": "SRD item. service · 20,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spellcasting-service-9",
+      "name": "Spellcasting Service: 9",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "100,000 GP",
+      "notes": "SRD item. service · 100,000 GP.",
+      "thingStub": {
+        "name": "Spellcasting Service: 9",
+        "kind": "gear",
+        "srdTemplate": "Spellcasting Service: 9",
+        "notes": "SRD item. service · 100,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spellcasting-service-cantrip",
+      "name": "Spellcasting Service: Cantrip",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "30 GP",
+      "notes": "SRD item. service · 30 GP.",
+      "thingStub": {
+        "name": "Spellcasting Service: Cantrip",
+        "kind": "gear",
+        "srdTemplate": "Spellcasting Service: Cantrip",
+        "notes": "SRD item. service · 30 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spikes-iron",
+      "name": "Spikes, Iron",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP · 5 lb..",
+      "thingStub": {
+        "name": "Spikes, Iron",
+        "kind": "gear",
+        "srdTemplate": "Spikes, Iron",
+        "notes": "SRD item. gear · 1 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "splint-armor",
+      "name": "Splint Armor",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Heavy",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "17",
+      "weight": "60 lb.",
+      "cost": "200 GP",
+      "notes": "SRD item. Heavy armor. AC 17.",
+      "thingStub": {
+        "name": "Splint Armor",
+        "kind": "armor",
+        "srdTemplate": "Splint Armor",
+        "notes": "SRD item. Heavy armor. AC 17.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "sprig-of-mistletoe",
+      "name": "Sprig of mistletoe",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 GP",
+      "notes": "SRD item. focus · 1 GP.",
+      "thingStub": {
+        "name": "Sprig of mistletoe",
+        "kind": "gear",
+        "srdTemplate": "Sprig of mistletoe",
+        "notes": "SRD item. focus · 1 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "spyglass",
+      "name": "Spyglass",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "1,000 GP",
+      "notes": "SRD item. gear · 1,000 GP · 1 lb..",
+      "thingStub": {
+        "name": "Spyglass",
+        "kind": "gear",
+        "srdTemplate": "Spyglass",
+        "notes": "SRD item. gear · 1,000 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "squalid",
+      "name": "Squalid",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "7 CP",
+      "notes": "SRD item. service · 7 CP.",
+      "thingStub": {
+        "name": "Squalid",
+        "kind": "gear",
+        "srdTemplate": "Squalid",
+        "notes": "SRD item. service · 7 CP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "squalid-2",
+      "name": "Squalid",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 CP",
+      "notes": "SRD item. service · 1 CP.",
+      "thingStub": {
+        "name": "Squalid",
+        "kind": "gear",
+        "srdTemplate": "Squalid",
+        "notes": "SRD item. service · 1 CP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "stabling-per-day",
+      "name": "Stabling per day",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "5 SP",
+      "notes": "SRD item. gear · 5 SP.",
+      "thingStub": {
+        "name": "Stabling per day",
+        "kind": "gear",
+        "srdTemplate": "Stabling per day",
+        "notes": "SRD item. gear · 5 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "staff-also-a-quarterstaff",
+      "name": "Staff (also a Quarterstaff)",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. focus · 5 GP · 4 lb..",
+      "thingStub": {
+        "name": "Staff (also a Quarterstaff)",
+        "kind": "gear",
+        "srdTemplate": "Staff (also a Quarterstaff)",
+        "notes": "SRD item. focus · 5 GP · 4 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "string",
+      "name": "String",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 SP",
+      "notes": "SRD item. gear · 1 SP.",
+      "thingStub": {
+        "name": "String",
+        "kind": "gear",
+        "srdTemplate": "String",
+        "notes": "SRD item. gear · 1 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "studded-leather-armor",
+      "name": "Studded Leather Armor",
+      "kind": "armor",
+      "equipmentType": "armor",
+      "category": "Light",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": "12 + Dex modifier",
+      "weight": "13 lb.",
+      "cost": "45 GP",
+      "notes": "SRD item. Light armor. AC 12 + Dex modifier.",
+      "thingStub": {
+        "name": "Studded Leather Armor",
+        "kind": "armor",
+        "srdTemplate": "Studded Leather Armor",
+        "notes": "SRD item. Light armor. AC 12 + Dex modifier.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "tent",
+      "name": "Tent",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "20 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. gear · 2 GP · 20 lb..",
+      "thingStub": {
+        "name": "Tent",
+        "kind": "gear",
+        "srdTemplate": "Tent",
+        "notes": "SRD item. gear · 2 GP · 20 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "thieves-tools",
+      "name": "Thieves' Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "25 GP",
+      "notes": "SRD item. tool · 25 GP · 1 lb..",
+      "thingStub": {
+        "name": "Thieves' Tools",
+        "kind": "gear",
+        "srdTemplate": "Thieves' Tools",
+        "notes": "SRD item. tool · 25 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "tinderbox",
+      "name": "Tinderbox",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "5 SP",
+      "notes": "SRD item. gear · 5 SP · 1 lb..",
+      "thingStub": {
+        "name": "Tinderbox",
+        "kind": "gear",
+        "srdTemplate": "Tinderbox",
+        "notes": "SRD item. gear · 5 SP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "tinkers-tools",
+      "name": "Tinker's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "10 lb.",
+      "cost": "50 GP",
+      "notes": "SRD item. tool · 50 GP · 10 lb..",
+      "thingStub": {
+        "name": "Tinker's Tools",
+        "kind": "gear",
+        "srdTemplate": "Tinker's Tools",
+        "notes": "SRD item. tool · 50 GP · 10 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "torch",
+      "name": "Torch",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "1 CP",
+      "notes": "SRD item. gear · 1 CP · 1 lb..",
+      "thingStub": {
+        "name": "Torch",
+        "kind": "gear",
+        "srdTemplate": "Torch",
+        "notes": "SRD item. gear · 1 CP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "trident",
+      "name": "Trident",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Thrown (Range 20/60)",
+        "Versatile (1d10)"
+      ],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Piercing. Thrown (Range 20/60), Versatile (1d10).",
+      "thingStub": {
+        "name": "Trident",
+        "kind": "weapon",
+        "srdTemplate": "Trident",
+        "notes": "SRD item. Martial weapon. 1d8 Piercing. Thrown (Range 20/60), Versatile (1d10).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "untrained-hireling",
+      "name": "Untrained hireling",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": null,
+      "notes": "SRD item. service.",
+      "thingStub": {
+        "name": "Untrained hireling",
+        "kind": "gear",
+        "srdTemplate": "Untrained hireling",
+        "notes": "SRD item. service.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "vial",
+      "name": "Vial",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "1 GP",
+      "notes": "SRD item. gear · 1 GP.",
+      "thingStub": {
+        "name": "Vial",
+        "kind": "gear",
+        "srdTemplate": "Vial",
+        "notes": "SRD item. gear · 1 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "wagon",
+      "name": "Wagon",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "400 lb.",
+      "cost": "35 GP",
+      "notes": "SRD item. gear · 35 GP · 400 lb..",
+      "thingStub": {
+        "name": "Wagon",
+        "kind": "gear",
+        "srdTemplate": "Wagon",
+        "notes": "SRD item. gear · 35 GP · 400 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "wand",
+      "name": "Wand",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. focus · 10 GP · 1 lb..",
+      "thingStub": {
+        "name": "Wand",
+        "kind": "gear",
+        "srdTemplate": "Wand",
+        "notes": "SRD item. focus · 10 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "war-pick",
+      "name": "War Pick",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Piercing",
+      "damageType": "Piercing",
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "armorClass": null,
+      "weight": "2 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Piercing. Versatile (1d10).",
+      "thingStub": {
+        "name": "War Pick",
+        "kind": "weapon",
+        "srdTemplate": "War Pick",
+        "notes": "SRD item. Martial weapon. 1d8 Piercing. Versatile (1d10).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "warhammer",
+      "name": "Warhammer",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d8 Bludgeoning",
+      "damageType": "Bludgeoning",
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "15 GP",
+      "notes": "SRD item. Martial weapon. 1d8 Bludgeoning. Versatile (1d10).",
+      "thingStub": {
+        "name": "Warhammer",
+        "kind": "weapon",
+        "srdTemplate": "Warhammer",
+        "notes": "SRD item. Martial weapon. 1d8 Bludgeoning. Versatile (1d10).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "warhorse",
+      "name": "Warhorse",
+      "kind": "gear",
+      "equipmentType": "mount",
+      "category": "mount",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "400 GP",
+      "notes": "SRD item. mount · 400 GP.",
+      "thingStub": {
+        "name": "Warhorse",
+        "kind": "gear",
+        "srdTemplate": "Warhorse",
+        "notes": "SRD item. mount · 400 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "warship",
+      "name": "Warship",
+      "kind": "gear",
+      "equipmentType": "vehicle",
+      "category": "vehicle",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "25,000 GP",
+      "notes": "SRD item. vehicle · 25,000 GP.",
+      "thingStub": {
+        "name": "Warship",
+        "kind": "gear",
+        "srdTemplate": "Warship",
+        "notes": "SRD item. vehicle · 25,000 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "waterskin",
+      "name": "Waterskin",
+      "kind": "gear",
+      "equipmentType": "gear",
+      "category": "gear",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb. (full)",
+      "cost": "2 SP",
+      "notes": "SRD item. gear · 2 SP · 5 lb. (full).",
+      "thingStub": {
+        "name": "Waterskin",
+        "kind": "gear",
+        "srdTemplate": "Waterskin",
+        "notes": "SRD item. gear · 2 SP · 5 lb. (full).",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "wealthy",
+      "name": "Wealthy",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "2 GP",
+      "notes": "SRD item. service · 2 GP.",
+      "thingStub": {
+        "name": "Wealthy",
+        "kind": "gear",
+        "srdTemplate": "Wealthy",
+        "notes": "SRD item. service · 2 GP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "wealthy-2",
+      "name": "Wealthy",
+      "kind": "gear",
+      "equipmentType": "service",
+      "category": "service",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": null,
+      "cost": "3 SP",
+      "notes": "SRD item. service · 3 SP.",
+      "thingStub": {
+        "name": "Wealthy",
+        "kind": "gear",
+        "srdTemplate": "Wealthy",
+        "notes": "SRD item. service · 3 SP.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "weavers-tools",
+      "name": "Weaver's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. tool · 1 GP · 5 lb..",
+      "thingStub": {
+        "name": "Weaver's Tools",
+        "kind": "gear",
+        "srdTemplate": "Weaver's Tools",
+        "notes": "SRD item. tool · 1 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "whip",
+      "name": "Whip",
+      "kind": "weapon",
+      "equipmentType": "weapon",
+      "category": "Martial",
+      "damage": "1d4 Slashing",
+      "damageType": "Slashing",
+      "properties": [
+        "Finesse",
+        "Reach"
+      ],
+      "armorClass": null,
+      "weight": "3 lb.",
+      "cost": "2 GP",
+      "notes": "SRD item. Martial weapon. 1d4 Slashing. Finesse, Reach.",
+      "thingStub": {
+        "name": "Whip",
+        "kind": "weapon",
+        "srdTemplate": "Whip",
+        "notes": "SRD item. Martial weapon. 1d4 Slashing. Finesse, Reach.",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "woodcarvers-tools",
+      "name": "Woodcarver's Tools",
+      "kind": "gear",
+      "equipmentType": "tool",
+      "category": "tool",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "5 lb.",
+      "cost": "1 GP",
+      "notes": "SRD item. tool · 1 GP · 5 lb..",
+      "thingStub": {
+        "name": "Woodcarver's Tools",
+        "kind": "gear",
+        "srdTemplate": "Woodcarver's Tools",
+        "notes": "SRD item. tool · 1 GP · 5 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "wooden-staff-also-a-quarterstaff",
+      "name": "Wooden staff (also a Quarterstaff)",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "4 lb.",
+      "cost": "5 GP",
+      "notes": "SRD item. focus · 5 GP · 4 lb..",
+      "thingStub": {
+        "name": "Wooden staff (also a Quarterstaff)",
+        "kind": "gear",
+        "srdTemplate": "Wooden staff (also a Quarterstaff)",
+        "notes": "SRD item. focus · 5 GP · 4 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    },
+    {
+      "key": "yew-wand",
+      "name": "Yew wand",
+      "kind": "gear",
+      "equipmentType": "focus",
+      "category": "focus",
+      "damage": null,
+      "damageType": null,
+      "properties": [],
+      "armorClass": null,
+      "weight": "1 lb.",
+      "cost": "10 GP",
+      "notes": "SRD item. focus · 10 GP · 1 lb..",
+      "thingStub": {
+        "name": "Yew wand",
+        "kind": "gear",
+        "srdTemplate": "Yew wand",
+        "notes": "SRD item. focus · 10 GP · 1 lb..",
+        "parent": {
+          "type": "world"
+        }
+      }
+    }
+  ]
+}
