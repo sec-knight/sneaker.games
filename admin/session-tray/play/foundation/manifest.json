@@ -1,0 +1,43 @@
+{
+  "packId": "srd-foundation",
+  "version": "1.0.0",
+  "srd": "5.2.1",
+  "generatedAt": "2026-09-14T01:57:06.413Z",
+  "readOnly": true,
+  "attribution": "This work includes material from the System Reference Document 5.2.1 by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. Licensed under CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/). Foundation pack data is derived from klrkdekira/graph20 (MIT) and cocoajamworld/srd-5.2.1 (data: CC-BY-4.0).",
+  "sources": [
+    {
+      "name": "graph20",
+      "url": "https://github.com/klrkdekira/graph20",
+      "license": "MIT (code); SRD content CC-BY-4.0",
+      "usedFor": [
+        "classes",
+        "subclasses",
+        "items",
+        "spells"
+      ]
+    },
+    {
+      "name": "srd-5.2.1",
+      "url": "https://github.com/cocoajamworld/srd-5.2.1",
+      "license": "CC-BY-4.0",
+      "usedFor": [
+        "creatures"
+      ]
+    }
+  ],
+  "counts": {
+    "classes": 12,
+    "subclasses": 12,
+    "items": 227,
+    "creatures": 322,
+    "spells": 339
+  },
+  "files": [
+    "classes.json",
+    "subclasses.json",
+    "items.json",
+    "creatures.json",
+    "spells.json"
+  ]
+}
