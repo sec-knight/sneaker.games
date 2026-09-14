@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "name": "Hearthwatch sample",
+    "version": 1,
+    "srd": "5.2.1",
+    "notes": "Homebrew names plus SRD-template stubs only. No product-identity creatures."
+  },
+  "world": {
+    "id": "world",
+    "name": "Hearthwatch",
+    "map": null,
+    "grid": { "cols": 20, "rows": 20 }
+  },
+  "actors": [
+    {
+      "id": "pc-mira",
+      "kind": "pc",
+      "name": "Mira Reed",
+      "role": "Scout",
+      "srdTemplate": "Scout",
+      "hp": { "current": 16, "max": 16 },
+      "ac": 13,
+      "speed": 30,
+      "token": { "x": 4, "y": 16 },
+      "notes": "PC stub for the table — not a full character sheet."
+    },
+    {
+      "id": "pc-calden",
+      "kind": "pc",
+      "name": "Calden Moss",
+      "role": "Acolyte",
+      "srdTemplate": "Acolyte",
+      "hp": { "current": 9, "max": 9 },
+      "ac": 10,
+      "speed": 30,
+      "token": { "x": 6, "y": 16 },
+      "notes": "PC stub. Keeps the lantern prayers and the first-aid kit."
+    },
+    {
+      "id": "creature-wolf",
+      "kind": "creature",
+      "name": "Wolf",
+      "role": "Beast",
+      "srdTemplate": "Wolf",
+      "hp": { "current": 11, "max": 11 },
+      "ac": 13,
+      "speed": 40,
+      "token": { "x": 11, "y": 8 },
+      "notes": "SRD creature stub. Keen hearing and smell."
+    },
+    {
+      "id": "creature-guard",
+      "kind": "creature",
+      "name": "Guard",
+      "role": "Humanoid",
+      "srdTemplate": "Guard",
+      "hp": { "current": 11, "max": 11 },
+      "ac": 16,
+      "speed": 30,
+      "token": { "x": 15, "y": 4 },
+      "notes": "SRD creature stub. Mill-night watch, spear and shield."
+    }
+  ],
+  "things": [
+    {
+      "id": "thing-lantern",
+      "name": "Hearth Lantern",
+      "kind": "gear",
+      "srdTemplate": null,
+      "notes": "Homebrew lamp. Hooded tin, warm oil smell.",
+      "parent": { "type": "world" }
+    },
+    {
+      "id": "thing-key",
+      "name": "Iron Cellar Key",
+      "kind": "gear",
+      "srdTemplate": null,
+      "notes": "Homebrew key. Cold, slightly bent, stamped with a mill-wheel.",
+      "parent": { "type": "world" }
+    },
+    {
+      "id": "thing-potion",
+      "name": "Potion of Healing",
+      "kind": "potion",
+      "srdTemplate": "Potion of Healing",
+      "notes": "SRD item stub. A creature who drinks it regains 2d4 + 2 hit points.",
+      "parent": { "type": "actor", "actorId": "pc-mira" }
+    },
+    {
+      "id": "thing-shortsword",
+      "name": "Shortsword",
+      "kind": "weapon",
+      "srdTemplate": "Shortsword",
+      "notes": "SRD item stub. Melee weapon, 1d6 piercing, finesse, light.",
+      "parent": { "type": "actor", "actorId": "pc-calden" }
+    },
+    {
+      "id": "thing-torch",
+      "name": "Torch",
+      "kind": "gear",
+      "srdTemplate": "Torch",
+      "notes": "SRD item stub. Burns for 1 hour; 20-foot bright light.",
+      "parent": { "type": "world" }
+    }
+  ],
+  "events": [
+    {
+      "id": "event-cellar",
+      "name": "The Mill Cellar",
+      "kind": "room",
+      "notes": "Damp stone, one shuttered grate, a wet boot-print toward the stairs.",
+      "contents": [
+        { "ref": "actor", "id": "creature-wolf" },
+        { "ref": "thing", "id": "thing-lantern" },
+        { "ref": "thing", "id": "thing-key" }
+      ],
+      "loot": [
+        { "name": "Silver cup", "qty": 1, "notes": "Homebrew trinket. Dented rim." },
+        { "name": "Potion of Healing", "qty": 1, "notes": "SRD loot row — same template as Mira's vial." },
+        { "name": "Iron Cellar Key", "qty": 1, "notes": "Matches the world Thing of the same name." }
+      ]
+    }
+  ]
+}
