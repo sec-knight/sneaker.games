@@ -16,25 +16,40 @@
       "id": "pc-mira",
       "kind": "pc",
       "name": "Mira Reed",
-      "role": "Scout",
-      "srdTemplate": "Scout",
-      "hp": { "current": 16, "max": 16 },
+      "role": "Rogue · Thief",
+      "srdTemplate": "Rogue",
+      "hp": { "current": 9, "max": 9 },
       "ac": 13,
       "speed": 30,
       "token": { "x": 4, "y": 16 },
-      "notes": "PC stub for the table — not a full character sheet."
+      "attacks": [],
+      "notes": "Class chassis stub. Sneak Attack +1d6; keeps the first-aid kit."
     },
     {
       "id": "pc-calden",
       "kind": "pc",
       "name": "Calden Moss",
-      "role": "Acolyte",
-      "srdTemplate": "Acolyte",
-      "hp": { "current": 9, "max": 9 },
-      "ac": 10,
+      "role": "Fighter · Champion",
+      "srdTemplate": "Fighter",
+      "hp": { "current": 12, "max": 12 },
+      "ac": 16,
       "speed": 30,
       "token": { "x": 6, "y": 16 },
-      "notes": "PC stub. Keeps the lantern prayers and the first-aid kit."
+      "attacks": [],
+      "notes": "Class chassis stub. Fighting Style; Second Wind (1/rest)."
+    },
+    {
+      "id": "pc-eldra",
+      "kind": "pc",
+      "name": "Eldra Voss",
+      "role": "Wizard · Evocation School",
+      "srdTemplate": "Wizard",
+      "hp": { "current": 7, "max": 7 },
+      "ac": 12,
+      "speed": 30,
+      "token": { "x": 8, "y": 16 },
+      "attacks": [],
+      "notes": "Class chassis stub. Spellcasting (INT); Arcane Recovery. Not a spell database."
     },
     {
       "id": "creature-wolf",
@@ -46,7 +61,40 @@
       "ac": 13,
       "speed": 40,
       "token": { "x": 11, "y": 8 },
-      "notes": "SRD creature stub. Keen hearing and smell."
+      "attacks": ["Bite +4, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing."],
+      "notes": "Keen Hearing and Smell; Pack Tactics."
+    },
+    {
+      "id": "creature-goblin",
+      "kind": "creature",
+      "name": "Goblin",
+      "role": "Humanoid",
+      "srdTemplate": "Goblin",
+      "hp": { "current": 7, "max": 7 },
+      "ac": 15,
+      "speed": 30,
+      "token": { "x": 13, "y": 6 },
+      "attacks": [
+        "Scimitar +4, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing.",
+        "Shortbow +4, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing."
+      ],
+      "notes": "Nimble Escape (Disengage or Hide as a bonus action)."
+    },
+    {
+      "id": "creature-skeleton",
+      "kind": "creature",
+      "name": "Skeleton",
+      "role": "Undead",
+      "srdTemplate": "Skeleton",
+      "hp": { "current": 13, "max": 13 },
+      "ac": 13,
+      "speed": 30,
+      "token": { "x": 9, "y": 10 },
+      "attacks": [
+        "Shortsword +4, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing.",
+        "Shortbow +4, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing."
+      ],
+      "notes": "Vulnerable to bludgeoning. Immune to poison; exhaustion."
     },
     {
       "id": "creature-guard",
@@ -58,7 +106,24 @@
       "ac": 16,
       "speed": 30,
       "token": { "x": 15, "y": 4 },
-      "notes": "SRD creature stub. Mill-night watch, spear and shield."
+      "attacks": ["Spear +3, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing."],
+      "notes": "Mill-night watch. Spear and shield."
+    },
+    {
+      "id": "creature-ogre",
+      "kind": "creature",
+      "name": "Ogre",
+      "role": "Giant",
+      "srdTemplate": "Ogre",
+      "hp": { "current": 59, "max": 59 },
+      "ac": 11,
+      "speed": 40,
+      "token": { "x": 17, "y": 2 },
+      "attacks": [
+        "Greatclub +6, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning.",
+        "Javelin +6, range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing."
+      ],
+      "notes": "Large brute lurking past the mill road."
     }
   ],
   "things": [
@@ -92,7 +157,55 @@
       "kind": "weapon",
       "srdTemplate": "Shortsword",
       "notes": "SRD item stub. Melee weapon, 1d6 piercing, finesse, light.",
+      "parent": { "type": "actor", "actorId": "pc-mira" }
+    },
+    {
+      "id": "thing-longsword",
+      "name": "Longsword",
+      "kind": "weapon",
+      "srdTemplate": "Longsword",
+      "notes": "SRD item stub. Melee weapon, 1d8 slashing, versatile (1d10).",
       "parent": { "type": "actor", "actorId": "pc-calden" }
+    },
+    {
+      "id": "thing-dagger",
+      "name": "Dagger",
+      "kind": "weapon",
+      "srdTemplate": "Dagger",
+      "notes": "SRD item stub. Melee or ranged weapon, 1d4 piercing, finesse, light, thrown (range 20/60).",
+      "parent": { "type": "actor", "actorId": "pc-eldra" }
+    },
+    {
+      "id": "thing-club",
+      "name": "Club",
+      "kind": "weapon",
+      "srdTemplate": "Club",
+      "notes": "SRD item stub. Melee weapon, 1d4 bludgeoning, light.",
+      "parent": { "type": "world" }
+    },
+    {
+      "id": "thing-shortbow",
+      "name": "Shortbow",
+      "kind": "weapon",
+      "srdTemplate": "Shortbow",
+      "notes": "SRD item stub. Ranged weapon, 1d6 piercing, ammunition (range 80/320), two-handed.",
+      "parent": { "type": "world" }
+    },
+    {
+      "id": "thing-light-crossbow",
+      "name": "Light crossbow",
+      "kind": "weapon",
+      "srdTemplate": "Light crossbow",
+      "notes": "SRD item stub. Ranged weapon, 1d8 piercing, ammunition (range 80/320), loading, two-handed.",
+      "parent": { "type": "world" }
+    },
+    {
+      "id": "thing-javelin",
+      "name": "Javelin",
+      "kind": "weapon",
+      "srdTemplate": "Javelin",
+      "notes": "SRD item stub. Melee or ranged weapon, 1d6 piercing, thrown (range 30/120).",
+      "parent": { "type": "world" }
     },
     {
       "id": "thing-torch",
@@ -111,6 +224,7 @@
       "notes": "Damp stone, one shuttered grate, a wet boot-print toward the stairs.",
       "contents": [
         { "ref": "actor", "id": "creature-wolf" },
+        { "ref": "actor", "id": "creature-skeleton" },
         { "ref": "thing", "id": "thing-lantern" },
         { "ref": "thing", "id": "thing-key" }
       ],
@@ -118,6 +232,22 @@
         { "name": "Silver cup", "qty": 1, "notes": "Homebrew trinket. Dented rim." },
         { "name": "Potion of Healing", "qty": 1, "notes": "SRD loot row — same template as Mira's vial." },
         { "name": "Iron Cellar Key", "qty": 1, "notes": "Matches the world Thing of the same name." }
+      ]
+    },
+    {
+      "id": "event-ambush",
+      "name": "Mill Road Ambush",
+      "kind": "room",
+      "notes": "Two goblins in the brush; an ogre blocks the far bend.",
+      "contents": [
+        { "ref": "actor", "id": "creature-goblin" },
+        { "ref": "actor", "id": "creature-ogre" },
+        { "ref": "thing", "id": "thing-shortbow" },
+        { "ref": "thing", "id": "thing-javelin" }
+      ],
+      "loot": [
+        { "name": "Shortbow", "qty": 1, "notes": "SRD loot row — bent but usable." },
+        { "name": "Javelin", "qty": 2, "notes": "SRD loot row — ogre spare." }
       ]
     }
   ]
