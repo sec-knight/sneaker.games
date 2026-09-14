@@ -216,6 +216,70 @@
       "parent": { "type": "world" }
     }
   ],
+  "characterSheets": [
+    {
+      "id": "sheet-mira",
+      "name": "Mira Reed",
+      "classKey": "rogue",
+      "subclassKey": "thief",
+      "subclassSource": "foundation",
+      "level": 1,
+      "hp": { "current": 9, "max": 9 },
+      "ac": 13,
+      "speed": 30,
+      "attacks": [],
+      "unlockedFeatures": [
+        "class:1:Expertise",
+        "class:1:Sneak Attack",
+        "class:1:Thieves' Cant",
+        "class:1:Weapon Mastery"
+      ],
+      "thingIds": ["thing-shortsword", "thing-potion"],
+      "actorId": "pc-mira",
+      "notes": "Table sheet for Mira — chassis from SRD Rogue / Thief."
+    },
+    {
+      "id": "sheet-calden",
+      "name": "Calden Moss",
+      "classKey": "fighter",
+      "subclassKey": "champion",
+      "subclassSource": "foundation",
+      "level": 1,
+      "hp": { "current": 12, "max": 12 },
+      "ac": 16,
+      "speed": 30,
+      "attacks": [],
+      "unlockedFeatures": [
+        "class:1:Fighting Style",
+        "class:1:Second Wind",
+        "class:1:Weapon Mastery"
+      ],
+      "thingIds": ["thing-longsword"],
+      "actorId": "pc-calden",
+      "notes": "Table sheet for Calden — SRD Fighter / Champion chassis."
+    },
+    {
+      "id": "sheet-eldra",
+      "name": "Eldra Voss",
+      "classKey": "wizard",
+      "subclassKey": "evoker",
+      "subclassSource": "foundation",
+      "level": 1,
+      "hp": { "current": 7, "max": 7 },
+      "ac": 12,
+      "speed": 30,
+      "attacks": [],
+      "unlockedFeatures": [
+        "class:1:Arcane Recovery",
+        "class:1:Spellcasting",
+        "class:1:Weapon Mastery"
+      ],
+      "thingIds": ["thing-dagger"],
+      "actorId": "pc-eldra",
+      "notes": "Table sheet for Eldra — spell text stays off-card; not a spell database."
+    }
+  ],
+  "homebrewSubclasses": [],
   "events": [
     {
       "id": "event-cellar",
