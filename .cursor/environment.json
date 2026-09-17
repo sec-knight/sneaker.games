@@ -1,0 +1,21 @@
+{
+  "name": "sneaker.games",
+  "install": "npm ci",
+  "start": "npm run dev:setup",
+  "terminals": [
+    {
+      "name": "wrangler-dev",
+      "command": "npm run dev",
+      "description": "Local Cloudflare Worker + static site + local D1 on http://localhost:8787 (wrangler dev). Local D1 state is persisted outside the asset root via WRANGLER_PERSIST_DIR to avoid a file-watch reload loop."
+    }
+  ],
+  "ports": [
+    {
+      "name": "wrangler dev",
+      "port": 8787
+    }
+  ],
+  "repositoryDependencies": [
+    "github.com/sec-knight/avatars"
+  ]
+}
