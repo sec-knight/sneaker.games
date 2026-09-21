@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LootFeed · Mon Sep 21</title>
+<title>LootFeed</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23c40000' width='16' height='16'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="styles.css">
 <script type="importmap">
@@ -16,114 +16,20 @@
 <div class="app">
   <header class="mast">
     <h1 class="wordmark">LootFeed</h1>
-    <p class="edition"><time datetime="2026-09-21">Mon Sep 21</time> · trailers + art</p>
-    <p class="sample-flag">Sample edition · placeholder scoop</p>
+    <p class="edition" id="taste-line">loading tastes…</p>
   </header>
   <main class="panes">
     <section class="pane pane-trailers" aria-labelledby="trailers-h">
       <h2 id="trailers-h" class="pane-h">Trailers</h2>
-      <div class="pane-scroll">
-<a class="t-row" href="https://www.youtube.com/watch?v=6U5E3xGIAxw" target="_blank" rel="noopener">
-  <span class="t-thumb"><img src="https://i.ytimg.com/vi/6U5E3xGIAxw/hqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"></span>
-  <span class="t-copy"><span class="t-title">HELLDIVERS 2 rolls out Ironclad Democracy</span><span class="t-meta">Arrowhead Game Studios · youtube · warbond, 2 min</span></span>
-</a>
-<a class="t-row" href="https://www.youtube.com/watch?v=6XGeJwsUP9c" target="_blank" rel="noopener">
-  <span class="t-thumb"><img src="https://i.ytimg.com/vi/6XGeJwsUP9c/hqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"></span>
-  <span class="t-copy"><span class="t-title">Silksong starts the climb</span><span class="t-meta">Team Cherry · youtube · release trailer, 2 min</span></span>
-</a>
-<a class="t-row" href="https://www.youtube.com/watch?v=ejgW-upPMgk" target="_blank" rel="noopener">
-  <span class="t-thumb"><img src="https://i.ytimg.com/vi/ejgW-upPMgk/hqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"></span>
-  <span class="t-copy"><span class="t-title">Expedition 33 faces the Paintress</span><span class="t-meta">Sandfall Interactive · youtube · launch trailer, 2 min</span></span>
-</a>
-<a class="t-row" href="https://www.youtube.com/watch?v=ppEKFy83w-o" target="_blank" rel="noopener">
-  <span class="t-thumb"><img src="https://i.ytimg.com/vi/ppEKFy83w-o/hqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"></span>
-  <span class="t-copy"><span class="t-title">Hades II reaches consoles</span><span class="t-meta">Supergiant Games · youtube · consoles, 1 min</span></span>
-</a>
-<a class="t-row" href="https://www.youtube.com/watch?v=PW22jwFNxU8" target="_blank" rel="noopener">
-  <span class="t-thumb"><img src="https://i.ytimg.com/vi/PW22jwFNxU8/hqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"></span>
-  <span class="t-copy"><span class="t-title">Slay the Spire 2 shows the new climb</span><span class="t-meta">Mega Crit · youtube · early access, 2 min</span></span>
-</a>
-<a class="t-row" href="https://www.youtube.com/watch?v=4bUA3UHajXE" target="_blank" rel="noopener">
-  <span class="t-thumb"><img src="https://i.ytimg.com/vi/4bUA3UHajXE/hqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"></span>
-  <span class="t-copy"><span class="t-title">PEAK says go up</span><span class="t-meta">Aggro Crab · youtube · release trailer, 2 min</span></span>
-</a>
-<a class="t-row" href="https://www.youtube.com/watch?v=Yrgz3mPWMHg" target="_blank" rel="noopener">
-  <span class="t-thumb"><img src="https://i.ytimg.com/vi/Yrgz3mPWMHg/hqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"></span>
-  <span class="t-copy"><span class="t-title">Death Stranding 2 reaches PC</span><span class="t-meta">Kojima Productions · youtube · PC launch, 3 min</span></span>
-</a>
-<a class="t-row" href="https://store.steampowered.com/app/1569580/Blue_Prince/" target="_blank" rel="noopener">
-  <span class="t-thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1569580/header.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"></span>
-  <span class="t-copy"><span class="t-title">Blue Prince hides Room 46</span><span class="t-meta">Dogubomb · steam</span></span>
-</a>
-      </div>
+      <div class="pane-scroll" id="trailers-root"></div>
     </section>
     <section class="pane pane-art" aria-labelledby="art-h">
       <h2 id="art-h" class="pane-h">Art</h2>
-      <div class="pane-scroll art-grid">
-<a class="a-tile" href="https://bragato.artstation.com/projects/V24dPP" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(135deg,#1a0a2e,#c4005a 60%,#ff6b35)"><span class="sample">Sample</span></span>
-  <span class="a-title">The swamp mermaid, drawn</span>
-  <span class="a-credit">João Bragato · ArtStation</span>
-</a>
-<a class="a-tile" href="https://bragato.artstation.com/projects/qJJJDa" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(160deg,#0b1d3a,#1f6feb,#7ee787)"><span class="sample">Sample</span></span>
-  <span class="a-title">Illustrations for South of Midnight</span>
-  <span class="a-credit">João Bragato · ArtStation</span>
-</a>
-<a class="a-tile" href="https://reynaudalan.artstation.com/projects/DLoKdo" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(120deg,#2d0a0a,#ff0033,#ffaa00)"><span class="sample">Sample</span></span>
-  <span class="a-title">Expedition 33, Maelle in Act 3</span>
-  <span class="a-credit">Reynaud Alan · ArtStation</span>
-</a>
-<a class="a-tile" href="https://carleaf.artstation.com/projects/zxoo46" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(145deg,#0a2e1a,#00c2a8,#e0ffe8)"><span class="sample">Sample</span></span>
-  <span class="a-title">Expedition 33 builds the Monolith</span>
-  <span class="a-credit">Carla Devèze · ArtStation</span>
-</a>
-<a class="a-tile" href="https://brieucinisan.artstation.com/projects/Gvd0VV" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(130deg,#1a1028,#9b5de5,#f15bb5)"><span class="sample">Sample</span></span>
-  <span class="a-title">Battle HUD for Expedition 33</span>
-  <span class="a-credit">Brieuc Inisan · ArtStation</span>
-</a>
-<a class="a-tile" href="https://nicholas-maxson-francombe.artstation.com/projects/1xmQXK" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(150deg,#101820,#fee715,#00a3e0)"><span class="sample">Sample</span></span>
-  <span class="a-title">Expedition 33, from the art director</span>
-  <span class="a-credit">Nicholas Maxson-Francombe · ArtStation</span>
-</a>
-<a class="a-tile" href="https://magdalenakatanska.artstation.com/projects/nYkaoX" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(125deg,#220a1e,#ff006e,#8338ec)"><span class="sample">Sample</span></span>
-  <span class="a-title">It Takes Two puts Rose out of reach</span>
-  <span class="a-credit">Magdalena Katańska · ArtStation</span>
-</a>
-<a class="a-tile" href="https://nwseverin.artstation.com/projects/EVy0LK" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(140deg,#0d1b2a,#415a77,#e0e1dd)"><span class="sample">Sample</span></span>
-  <span class="a-title">Trailmakers key art opens the map</span>
-  <span class="a-credit">Nikolaj Mårbjerg Severin · ArtStation</span>
-</a>
-<a class="a-tile" href="https://jasjotsingh.artstation.com/projects/8BzmAx" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(155deg,#1b0a00,#f77f00,#fcf6bd)"><span class="sample">Sample</span></span>
-  <span class="a-title">South of Midnight, inside the clocktower</span>
-  <span class="a-credit">Jasjot Singh · ArtStation</span>
-</a>
-<a class="a-tile" href="https://tristesire.artstation.com/projects/0lOE24" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(135deg,#0a0a12,#4361ee,#4cc9f0)"><span class="sample">Sample</span></span>
-  <span class="a-title">Expedition 33 props from the Reacher</span>
-  <span class="a-credit">Lucile Fournié · ArtStation</span>
-</a>
-<a class="a-tile" href="https://xueelli.artstation.com/projects/qQ4qXN" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(160deg,#1a0612,#ef476f,#ffd166)"><span class="sample">Sample</span></span>
-  <span class="a-title">Typhon, father of monsters</span>
-  <span class="a-credit">Ang Xue Li · ArtStation</span>
-</a>
-<a class="a-tile" href="https://cjpilcher.artstation.com/projects/G3dO4" target="_blank" rel="noopener">
-  <span class="a-plate" style="background:linear-gradient(120deg,#061820,#06d6a0,#118ab2)"><span class="sample">Sample</span></span>
-  <span class="a-title">Charon on the river</span>
-  <span class="a-credit">Charity Pilcher · ArtStation</span>
-</a>
-      </div>
+      <div class="pane-scroll" id="art-root"></div>
     </section>
   </main>
 </div>
+<script type="module" src="feed.js"></script>
 <script type="module" src="scene.js"></script>
 </body>
 </html>
