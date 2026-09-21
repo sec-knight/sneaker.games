@@ -27,10 +27,12 @@ function artTile(a, i) {
     ? `<span class="a-plate has-img" style="background-image:url('${esc(a.imageUrl)}')"></span>`
     : `<span class="a-plate" style="background:${PLATES[i % PLATES.length]}"><span class="sample">Sample</span></span>`;
   const credit = a.creditLine || a.artist || '';
-  return `<a class="a-tile" href="${esc(a.sourceUrl)}" target="_blank" rel="noopener">
-  ${plate}
-  <span class="a-title">${esc(a.headline)}</span>
-  <span class="a-credit">${esc(credit)}</span>
+  const src = (a.source || '').toLowerCase();
+  const badge = src === 'fab' ? 'Fab 3D' : src === 'x' || src === 'twitter' ? 'X' : src === 'artstation' ? 'ArtStation' : '';
+  const badgeHtml = badge ? `<span class="a-badge">${esc(badge)}</span>` : '';
+  return `<a class="a-tile" href="${esc(a.sourceUrl)}" target="_blank" rel="noopener" title="${esc(a.headline)}">
+  ${plate}${badgeHtml}
+  <span class="a-meta"><span class="a-title">${esc(a.headline)}</span><span class="a-credit">${esc(credit)}</span></span>
 </a>`;
 }
 
@@ -44,7 +46,7 @@ function renderPane(root, days, kind) {
     if (kind === 'trailers') {
       parts.push(items.map(trailerRow).join(''));
     } else {
-      parts.push('<div class="art-grid">');
+      parts.push('<div class="art-grid seamless">');
       for (const a of items) {
         parts.push(artTile(a, artIdx++));
       }
