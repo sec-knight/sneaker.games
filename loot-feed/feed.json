@@ -179,232 +179,226 @@
       ],
       "art": [
         {
-          "id": "ar_steam_0",
-          "headline": "Tempest Rising key art on Steam",
-          "sourceUrl": "https://store.steampowered.com/app/1480020/Tempest_Rising/",
-          "artist": "3D Realms / Saber",
-          "source": "official",
-          "creditLine": "3D Realms \u00b7 Steam",
-          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1480020/header.jpg",
-          "game": "Tempest Rising",
+          "id": "ar_DLoKdo",
+          "headline": "Maelle in Act 3, still standing",
+          "sourceUrl": "https://reynaudalan.artstation.com/projects/DLoKdo",
+          "artist": "Reynaud Alan",
+          "source": "artstation",
+          "creditLine": "Reynaud Alan \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/087/531/741/medium/reynaud-alan-reynaud-alan-maelle-act3.jpg?1746028570",
+          "kind": "character",
+          "tier": "AAA",
           "tags": [
-            "RTS"
-          ],
-          "platforms": [
-            "PC"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_steam_1",
-          "headline": "Valheim still sells the North",
-          "sourceUrl": "https://store.steampowered.com/app/892970/Valheim/",
-          "artist": "Iron Gate",
-          "source": "official",
-          "creditLine": "Iron Gate \u00b7 Steam",
-          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
-          "game": "Valheim",
-          "tags": [
-            "survival",
+            "RPGs",
             "fantasy"
           ],
-          "platforms": [
-            "PC",
-            "console"
-          ],
           "status": "live"
         },
         {
-          "id": "ar_steam_2",
-          "headline": "Stardew keeps the farm warm",
-          "sourceUrl": "https://store.steampowered.com/app/413150/Stardew_Valley/",
-          "artist": "ConcernedApe",
-          "source": "official",
-          "creditLine": "ConcernedApe \u00b7 Steam",
-          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
-          "game": "Stardew Valley",
+          "id": "ar_8l1B0x",
+          "headline": "Ashen\u2019s highlands before the featherlands",
+          "sourceUrl": "https://hamish.artstation.com/projects/8l1B0x",
+          "artist": "Hamish Fraser",
+          "source": "artstation",
+          "creditLine": "Hamish Fraser \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/016/056/714/medium/hamish-fraser-hlands-forest01.jpg?1550724709",
+          "kind": "landscape",
+          "tier": "indie",
           "tags": [
-            "cosy",
-            "sim"
-          ],
-          "platforms": [
-            "PC",
-            "console",
-            "mobile"
+            "fantasy",
+            "RPGs"
           ],
           "status": "live"
         },
         {
-          "id": "ar_steam_3",
-          "headline": "Age of Mythology Retold on Steam",
-          "sourceUrl": "https://store.steampowered.com/app/1934680/Age_of_Mythology_Retold/",
-          "artist": "World's Edge / Xbox",
-          "source": "official",
-          "creditLine": "World's Edge \u00b7 Steam",
-          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1934680/header.jpg",
-          "game": "Age of Mythology: Retold",
-          "tags": [
-            "RTS",
-            "fantasy"
-          ],
-          "platforms": [
-            "PC",
-            "console"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_altamahaha",
+          "id": "ar_V24dPP",
           "headline": "South of Midnight\u2019s swamp mermaid",
           "sourceUrl": "https://bragato.artstation.com/projects/V24dPP",
           "artist": "Jo\u00e3o Bragato",
           "source": "artstation",
           "creditLine": "Jo\u00e3o Bragato \u00b7 ArtStation",
-          "studio": "Compulsion Games",
-          "game": "South of Midnight",
-          "status": "live",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/086/855/878/medium/bragato-altamahahalogo.jpg?1781551909",
+          "kind": "character",
+          "tier": "AAA",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_AqA6am",
+          "headline": "Kena\u2019s mountain meditation vista",
+          "sourceUrl": "https://chriskarbach.artstation.com/projects/AqA6am",
+          "artist": "Chris Karbach",
+          "source": "artstation",
+          "creditLine": "Chris Karbach \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/071/707/406/medium/chris-karbach-chris-karbach-the-mountain-logo.jpg?1705764324",
+          "kind": "landscape",
+          "tier": "indie",
           "tags": [
             "fantasy",
             "cosy"
           ],
-          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/086/855/878/medium/bragato-altamahahalogo.jpg?1781551909"
+          "status": "live"
         },
         {
-          "id": "ar_som-illustrations",
-          "headline": "South of Midnight, woven magic",
-          "sourceUrl": "https://bragato.artstation.com/projects/qJJJDa",
-          "artist": "Jo\u00e3o Bragato",
+          "id": "ar_8w9xWw",
+          "headline": "Warm-up fantasy character sheet",
+          "sourceUrl": "https://www.artstation.com/artwork/8w9xWw",
+          "artist": "Hue Teo",
           "source": "artstation",
-          "creditLine": "Jo\u00e3o Bragato \u00b7 ArtStation",
-          "studio": "Compulsion Games",
-          "game": "South of Midnight",
-          "status": "live",
+          "creditLine": "Hue Teo \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/057/947/046/medium/hue-teo-hue-teo-thumb.jpg?1673027292",
+          "kind": "character",
+          "tier": "indie",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_dyWBNw",
+          "headline": "A forest mountain built for light",
+          "sourceUrl": "https://olivertreyton.artstation.com/projects/dyWBNw",
+          "artist": "Treyton Oliver",
+          "source": "artstation",
+          "creditLine": "Treyton Oliver \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/089/966/625/medium/treyton-oliver-treyton-oliver-mountaionpics-0010-min.jpg?1752501342",
+          "kind": "landscape",
+          "tier": "indie",
+          "tags": [
+            "fantasy",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_elD5WJ",
+          "headline": "Pal\u2019s Workshop cozy cast",
+          "sourceUrl": "https://www.artstation.com/artwork/elD5WJ",
+          "artist": "Konrad Magiera",
+          "source": "artstation",
+          "creditLine": "Konrad Magiera \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/101/940/834/medium/konrx-magiera-konrx-magiera-thumb.jpg?1787839020",
+          "kind": "character",
+          "tier": "indie",
+          "tags": [
+            "cosy",
+            "sim"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_o9NJJ",
+          "headline": "Dragon Valley, Earthsea-soft",
+          "sourceUrl": "https://mattforsyth.artstation.com/projects/o9NJJ",
+          "artist": "Matt Forsyth",
+          "source": "artstation",
+          "creditLine": "Matt Forsyth \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/002/061/572/medium/matt-forsyth-dragonvalleystill.jpg?1457535498",
+          "kind": "landscape",
+          "tier": "indie",
           "tags": [
             "fantasy"
           ],
-          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/080/592/011/medium/joao-bragato-magicweave-illustration2psdfinal.jpg?1782947626"
+          "status": "live"
         },
         {
-          "id": "ar_maelle-act3",
-          "headline": "Maelle faces Act 3",
-          "sourceUrl": "https://reynaudalan.artstation.com/projects/DLoKdo",
-          "artist": "Reynaud Alan",
+          "id": "ar_x3La2Y",
+          "headline": "Brood Anchor unit for Gates of Pyre",
+          "sourceUrl": "https://www.artstation.com/artwork/x3La2Y",
+          "artist": "Immortal: Gates of Pyre concept",
           "source": "artstation",
-          "creditLine": "Reynaud Alan \u00b7 ArtStation",
-          "studio": "Sandfall Interactive",
-          "game": "Clair Obscur: Expedition 33",
-          "status": "live",
+          "creditLine": "Immortal: Gates of Pyre concept \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/711/828/medium/justus-sluijter-justus-sluijter-justussluijter-sunspear-concept-thumbnails-broodanchor.jpg?1748985226",
+          "kind": "character",
+          "tier": "indie",
           "tags": [
-            "RPGs",
-            "fantasy"
+            "RTS"
           ],
-          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/087/531/741/medium/reynaud-alan-reynaud-alan-maelle-act3.jpg?1746028570"
+          "status": "live"
         },
         {
-          "id": "ar_monolith",
+          "id": "ar_zxoo46",
           "headline": "Expedition 33 builds the Monolith",
           "sourceUrl": "https://carleaf.artstation.com/projects/zxoo46",
           "artist": "Carla Dev\u00e8ze",
           "source": "artstation",
           "creditLine": "Carla Dev\u00e8ze \u00b7 ArtStation",
-          "studio": "Sandfall Interactive",
-          "game": "Clair Obscur: Expedition 33",
-          "status": "live",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/024/056/medium/carla-deveze-carla-deveze-thumbnails-monolith.jpg?1747247186",
+          "kind": "landscape",
+          "tier": "AAA",
           "tags": [
             "RPGs",
             "fantasy"
           ],
-          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/024/056/medium/carla-deveze-carla-deveze-thumbnails-monolith.jpg?1747247186"
+          "status": "live"
         },
         {
-          "id": "ar_e33-hud",
-          "headline": "Expedition 33 battle HUD, sharp",
-          "sourceUrl": "https://brieucinisan.artstation.com/projects/Gvd0VV",
-          "artist": "Brieuc Inisan",
+          "id": "ar_64bdN",
+          "headline": "Dorf RTS Empire faction sketches",
+          "sourceUrl": "https://henskelion.artstation.com/projects/64bdN",
+          "artist": "J. W. (henskelion)",
           "source": "artstation",
-          "creditLine": "Brieuc Inisan \u00b7 ArtStation",
-          "studio": "Sandfall Interactive",
-          "game": "Clair Obscur: Expedition 33",
-          "status": "live",
+          "creditLine": "J. W. (henskelion) \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/008/931/731/medium/j-w-propaganda.jpg?1516164892",
+          "kind": "character",
+          "tier": "indie",
           "tags": [
-            "RPGs"
+            "RTS"
           ],
-          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/085/532/179/medium/brieuc-inisan-brieuc-inisan-vignette-artstation-hud.jpg?1741030445"
-        },
-        {
-          "id": "ar_e33-direction",
-          "headline": "Expedition 33 from the art director",
-          "sourceUrl": "https://nicholas-maxson-francombe.artstation.com/projects/1xmQXK",
-          "artist": "Nicholas Maxson-Francombe",
-          "source": "artstation",
-          "creditLine": "Nicholas Maxson-Francombe \u00b7 ArtStation",
-          "studio": "Sandfall Interactive",
-          "game": "Clair Obscur: Expedition 33",
-          "status": "live",
-          "tags": [
-            "RPGs",
-            "fantasy"
-          ],
-          "imageUrl": "https://cdna.artstation.com/p/assets/videos/images/076/859/906/medium/nicholas-maxson-francombe-maxresdefault.jpg?1718012729"
-        },
-        {
-          "id": "ar_itt-keyart",
-          "headline": "It Takes Two puts Rose out of reach",
-          "sourceUrl": "https://magdalenakatanska.artstation.com/projects/nYkaoX",
-          "artist": "Magdalena Kata\u0144ska",
-          "source": "artstation",
-          "creditLine": "Magdalena Kata\u0144ska \u00b7 ArtStation",
-          "studio": "Hazelight",
-          "game": "It Takes Two",
-          "status": "live",
-          "tags": [
-            "cosy"
-          ],
-          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/039/198/333/medium/magdalena-katanska-magdalena-katanska-x-402b2d5124bc333bbdba236524212cbe-a2181947-1280.jpg?1625232248"
-        },
-        {
-          "id": "ar_trailmakers-key",
-          "headline": "Trailmakers opens the map",
-          "sourceUrl": "https://nwseverin.artstation.com/projects/EVy0LK",
-          "artist": "Nikolaj M\u00e5rbjerg Severin",
-          "source": "artstation",
-          "creditLine": "Nikolaj M\u00e5rbjerg Severin \u00b7 ArtStation",
-          "studio": "Flashbulb Games",
-          "game": "Trailmakers",
-          "status": "live",
-          "tags": [
-            "sim",
-            "cosy"
-          ],
-          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/022/997/519/medium/nikolaj-marbjerg-severin-artstationthumb.jpg?1577651312"
+          "status": "live"
         },
         {
           "id": "ar_KrnQA4",
-          "headline": "Cozy cottage concept",
+          "headline": "Cottage concept, door ajar",
           "sourceUrl": "https://www.artstation.com/artwork/KrnQA4",
-          "artist": "ArtStation",
+          "artist": "Kayla Kosik",
           "source": "artstation",
-          "creditLine": "ArtStation \u00b7 ArtStation",
+          "creditLine": "Kayla Kosik \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/041/880/842/medium/kayla-kosik-kayla-kosik-07.jpg?1632954723",
+          "kind": "landscape",
+          "tier": "indie",
           "tags": [
             "cosy"
           ],
           "status": "live"
         },
         {
-          "id": "ar_Kax1Qr",
-          "headline": "A-frame cabin, soft light",
-          "sourceUrl": "https://www.artstation.com/artwork/Kax1Qr",
-          "artist": "ArtStation",
+          "id": "ar_9Eo95N",
+          "headline": "Planetfall Vanguard infantry concepts",
+          "sourceUrl": "https://www.artstation.com/artwork/9Eo95N",
+          "artist": "Triumph Studios alumni / Planetfall",
           "source": "artstation",
-          "creditLine": "ArtStation \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/025/397/106/medium/jr-eisma-cozy-cabin-12x18.jpg?1585670305",
+          "creditLine": "Triumph Studios alumni / Planetfall \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/072/887/881/medium/michal-kus-earthling-promo-defined-copy.jpg?1708439308",
+          "kind": "character",
+          "tier": "AAA",
           "tags": [
-            "cosy"
+            "RTS",
+            "sim"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_1xmQXK",
+          "headline": "Expedition 33 art-director frames",
+          "sourceUrl": "https://nicholas-maxson-francombe.artstation.com/projects/1xmQXK",
+          "artist": "Nicholas Maxson-Francombe",
+          "source": "artstation",
+          "creditLine": "Nicholas Maxson-Francombe \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/videos/images/076/859/906/medium/nicholas-maxson-francombe-maxresdefault.jpg?1718012729",
+          "kind": "landscape",
+          "tier": "AAA",
+          "tags": [
+            "RPGs",
+            "fantasy"
           ],
           "status": "live"
         }
       ]
     }
-  ]
+  ],
+  "artNotes": "Prefer character + landscape concept art; mix indie and AAA; avoid Steam/title-page key art."
 }
