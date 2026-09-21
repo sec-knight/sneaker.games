@@ -263,3 +263,30 @@ body { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   .wordmark { animation: none; }
 }
+
+
+.day-break {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0.85rem 0.35rem 0.55rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.day-break::before,
+.day-break::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,45,85,0.45), transparent);
+}
+.day-break:first-child { margin-top: 0.25rem; }
+
+.empty-pane {
+  padding: 1.25rem 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
