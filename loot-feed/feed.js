@@ -24,7 +24,7 @@ function trailerRow(t) {
 
 function artTile(a, i) {
   const plate = a.imageUrl
-    ? `<span class="a-plate" class="a-plate has-img" style="background-image:url('${esc(a.imageUrl)}')"></span>`
+    ? `<span class="a-plate has-img" style="background-image:url('${esc(a.imageUrl)}')"></span>`
     : `<span class="a-plate" style="background:${PLATES[i % PLATES.length]}"><span class="sample">Sample</span></span>`;
   const credit = a.creditLine || a.artist || '';
   return `<a class="a-tile" href="${esc(a.sourceUrl)}" target="_blank" rel="noopener">
