@@ -179,15 +179,44 @@
       ],
       "art": [
         {
-          "id": "ar_DLoKdo",
-          "headline": "Maelle in Act 3, still standing",
-          "sourceUrl": "https://reynaudalan.artstation.com/projects/DLoKdo",
-          "artist": "Reynaud Alan",
+          "id": "ar_8l1B0x",
+          "headline": "Ashen\u2019s highlands mood",
+          "sourceUrl": "https://hamish.artstation.com/projects/8l1B0x",
+          "artist": "Hamish Fraser",
           "source": "artstation",
-          "creditLine": "Reynaud Alan \u00b7 ArtStation",
-          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/087/531/741/medium/reynaud-alan-reynaud-alan-maelle-act3.jpg?1746028570",
-          "kind": "character",
-          "tier": "AAA",
+          "creditLine": "Hamish Fraser \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/016/056/714/medium/hamish-fraser-hlands-forest01.jpg?1550724709",
+          "kind": "concept",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_fab_4d1e4ac0",
+          "headline": "Stylized fantasy characters (rigged)",
+          "sourceUrl": "https://www.fab.com/listings/4d1e4ac0-a02b-4a6b-8562-db759bc395c7",
+          "artist": "JustCreate",
+          "source": "fab",
+          "creditLine": "JustCreate \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/fb6218f7-3695-44a4-8c14-d96f077d4321/ac35f521-6dee-42d2-bdfb-c8f180c8bd7f.png",
+          "kind": "3d",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_x_2098063668306935876",
+          "headline": "Pixel RPG battle scene",
+          "sourceUrl": "https://x.com/Ahvassa/status/2098063668306935876",
+          "artist": "@Ahvassa",
+          "source": "x",
+          "creditLine": "@Ahvassa \u00b7 X",
+          "imageUrl": "https://pbs.twimg.com/media/HR3RyJCaAAAi_sm.png",
+          "kind": "gameart",
           "tags": [
             "RPGs",
             "fantasy"
@@ -195,46 +224,14 @@
           "status": "live"
         },
         {
-          "id": "ar_8l1B0x",
-          "headline": "Ashen\u2019s highlands before the featherlands",
-          "sourceUrl": "https://hamish.artstation.com/projects/8l1B0x",
-          "artist": "Hamish Fraser",
-          "source": "artstation",
-          "creditLine": "Hamish Fraser \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/016/056/714/medium/hamish-fraser-hlands-forest01.jpg?1550724709",
-          "kind": "landscape",
-          "tier": "indie",
-          "tags": [
-            "fantasy",
-            "RPGs"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_V24dPP",
-          "headline": "South of Midnight\u2019s swamp mermaid",
-          "sourceUrl": "https://bragato.artstation.com/projects/V24dPP",
-          "artist": "Jo\u00e3o Bragato",
-          "source": "artstation",
-          "creditLine": "Jo\u00e3o Bragato \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/086/855/878/medium/bragato-altamahahalogo.jpg?1781551909",
-          "kind": "character",
-          "tier": "AAA",
-          "tags": [
-            "fantasy"
-          ],
-          "status": "live"
-        },
-        {
           "id": "ar_AqA6am",
-          "headline": "Kena\u2019s mountain meditation vista",
+          "headline": "Kena mountain vista",
           "sourceUrl": "https://chriskarbach.artstation.com/projects/AqA6am",
           "artist": "Chris Karbach",
           "source": "artstation",
           "creditLine": "Chris Karbach \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/071/707/406/medium/chris-karbach-chris-karbach-the-mountain-logo.jpg?1705764324",
-          "kind": "landscape",
-          "tier": "indie",
+          "kind": "concept",
           "tags": [
             "fantasy",
             "cosy"
@@ -242,15 +239,14 @@
           "status": "live"
         },
         {
-          "id": "ar_8w9xWw",
-          "headline": "Warm-up fantasy character sheet",
-          "sourceUrl": "https://www.artstation.com/artwork/8w9xWw",
-          "artist": "Hue Teo",
-          "source": "artstation",
-          "creditLine": "Hue Teo \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/057/947/046/medium/hue-teo-hue-teo-thumb.jpg?1673027292",
-          "kind": "character",
-          "tier": "indie",
+          "id": "ar_fab_df8194f9",
+          "headline": "Fantasy warriors pack",
+          "sourceUrl": "https://www.fab.com/listings/df8194f9-ec63-49f6-a885-6feb7a94fcb1",
+          "artist": "Fab creator",
+          "source": "fab",
+          "creditLine": "Fab creator \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/1c364c8a-396d-4f57-85e1-62443a051b3b/b2fbc9b1-7dc5-4e9b-bf7b-ffd67aee2f65.jpg",
+          "kind": "3d",
           "tags": [
             "fantasy",
             "RPGs"
@@ -258,31 +254,134 @@
           "status": "live"
         },
         {
-          "id": "ar_dyWBNw",
-          "headline": "A forest mountain built for light",
-          "sourceUrl": "https://olivertreyton.artstation.com/projects/dyWBNw",
-          "artist": "Treyton Oliver",
-          "source": "artstation",
-          "creditLine": "Treyton Oliver \u00b7 ArtStation",
-          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/089/966/625/medium/treyton-oliver-treyton-oliver-mountaionpics-0010-min.jpg?1752501342",
-          "kind": "landscape",
-          "tier": "indie",
+          "id": "ar_x_2097363931253690698",
+          "headline": "Fantasy character / environment WIP",
+          "sourceUrl": "https://x.com/MistDenzel/status/2097363931253690698",
+          "artist": "@MistDenzel",
+          "source": "x",
+          "creditLine": "@MistDenzel \u00b7 X",
+          "imageUrl": "https://pbs.twimg.com/media/HRtVX77WUAAs-Gp.jpg",
+          "kind": "gameart",
           "tags": [
             "fantasy",
-            "survival"
+            "RPGs"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_DLoKdo",
+          "headline": "Maelle Act 3 character",
+          "sourceUrl": "https://reynaudalan.artstation.com/projects/DLoKdo",
+          "artist": "Reynaud Alan",
+          "source": "artstation",
+          "creditLine": "Reynaud Alan \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/087/531/741/medium/reynaud-alan-reynaud-alan-maelle-act3.jpg?1746028570",
+          "kind": "concept",
+          "tags": [
+            "RPGs",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_fab_21adb011",
+          "headline": "Stylized fantasy NPC pack",
+          "sourceUrl": "https://www.fab.com/listings/21adb011-2a60-493c-9c6f-163e200f3676",
+          "artist": "Fab creator",
+          "source": "fab",
+          "creditLine": "Fab creator \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/9f335d11-6d63-49df-bf1b-2aeb13fd544a/39983f2f-ebd2-48f1-b725-0d267e338580.png",
+          "kind": "3d",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_x_2100990203770949730",
+          "headline": "CyberStrykers key art sketch",
+          "sourceUrl": "https://x.com/MichelSeguin2/status/2100990203770949730",
+          "artist": "@MichelSeguin2",
+          "source": "x",
+          "creditLine": "@MichelSeguin2 \u00b7 X",
+          "imageUrl": "https://pbs.twimg.com/media/HSg3IvTWoAA4As_.jpg",
+          "kind": "gameart",
+          "tags": [
+            "RPGs"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_V24dPP",
+          "headline": "Swamp mermaid character",
+          "sourceUrl": "https://bragato.artstation.com/projects/V24dPP",
+          "artist": "Jo\u00e3o Bragato",
+          "source": "artstation",
+          "creditLine": "Jo\u00e3o Bragato \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/086/855/878/medium/bragato-altamahahalogo.jpg?1781551909",
+          "kind": "concept",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_fab_44c5087f",
+          "headline": "Modular stylized fantasy village",
+          "sourceUrl": "https://www.fab.com/listings/44c5087f-31fd-418c-a7db-626c57e248b0",
+          "artist": "Polyart Studio",
+          "source": "fab",
+          "creditLine": "Polyart Studio \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/b8834483-3a03-4b45-b24f-b0d3f7082230/251e2ae6-7945-4fc0-ae51-4b047d96cc2d.png",
+          "kind": "3d",
+          "tags": [
+            "fantasy",
+            "cosy",
+            "sim"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_zxoo46",
+          "headline": "Monolith environment",
+          "sourceUrl": "https://carleaf.artstation.com/projects/zxoo46",
+          "artist": "Carla Dev\u00e8ze",
+          "source": "artstation",
+          "creditLine": "Carla Dev\u00e8ze \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/024/056/medium/carla-deveze-carla-deveze-thumbnails-monolith.jpg?1747247186",
+          "kind": "concept",
+          "tags": [
+            "RPGs",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_fab_77a8dfc4",
+          "headline": "Greenwood fantasy village (mobile-ready)",
+          "sourceUrl": "https://www.fab.com/listings/77a8dfc4-b0b3-4882-96a6-b454b2dc5747",
+          "artist": "NOTLonely",
+          "source": "fab",
+          "creditLine": "NOTLonely \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/99cbf61c-dbae-4fd3-a205-abd888ee5685/1b23f55f-5c41-4af9-851a-1fff5106a441.png",
+          "kind": "3d",
+          "tags": [
+            "fantasy",
+            "cosy",
+            "mobile"
           ],
           "status": "live"
         },
         {
           "id": "ar_elD5WJ",
-          "headline": "Pal\u2019s Workshop cozy cast",
+          "headline": "Pal\u2019s Workshop cast",
           "sourceUrl": "https://www.artstation.com/artwork/elD5WJ",
           "artist": "Konrad Magiera",
           "source": "artstation",
           "creditLine": "Konrad Magiera \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/101/940/834/medium/konrx-magiera-konrx-magiera-thumb.jpg?1787839020",
-          "kind": "character",
-          "tier": "indie",
+          "kind": "concept",
           "tags": [
             "cosy",
             "sim"
@@ -290,115 +389,22 @@
           "status": "live"
         },
         {
-          "id": "ar_o9NJJ",
-          "headline": "Dragon Valley, Earthsea-soft",
-          "sourceUrl": "https://mattforsyth.artstation.com/projects/o9NJJ",
-          "artist": "Matt Forsyth",
-          "source": "artstation",
-          "creditLine": "Matt Forsyth \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/002/061/572/medium/matt-forsyth-dragonvalleystill.jpg?1457535498",
-          "kind": "landscape",
-          "tier": "indie",
+          "id": "ar_fab_9c5894eb",
+          "headline": "Stylized village fatpack",
+          "sourceUrl": "https://www.fab.com/listings/9c5894eb-9f40-4e8b-98be-8471ae620c8b",
+          "artist": "Meshingun Studio",
+          "source": "fab",
+          "creditLine": "Meshingun Studio \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/309e3d93-7ffd-45d0-aecf-94fdb48d73d9/393e02d2-5e08-4a74-8ada-7974e7cd300d.jpg",
+          "kind": "3d",
           "tags": [
-            "fantasy"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_x3La2Y",
-          "headline": "Brood Anchor unit for Gates of Pyre",
-          "sourceUrl": "https://www.artstation.com/artwork/x3La2Y",
-          "artist": "Immortal: Gates of Pyre concept",
-          "source": "artstation",
-          "creditLine": "Immortal: Gates of Pyre concept \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/711/828/medium/justus-sluijter-justus-sluijter-justussluijter-sunspear-concept-thumbnails-broodanchor.jpg?1748985226",
-          "kind": "character",
-          "tier": "indie",
-          "tags": [
-            "RTS"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_zxoo46",
-          "headline": "Expedition 33 builds the Monolith",
-          "sourceUrl": "https://carleaf.artstation.com/projects/zxoo46",
-          "artist": "Carla Dev\u00e8ze",
-          "source": "artstation",
-          "creditLine": "Carla Dev\u00e8ze \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/024/056/medium/carla-deveze-carla-deveze-thumbnails-monolith.jpg?1747247186",
-          "kind": "landscape",
-          "tier": "AAA",
-          "tags": [
-            "RPGs",
-            "fantasy"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_64bdN",
-          "headline": "Dorf RTS Empire faction sketches",
-          "sourceUrl": "https://henskelion.artstation.com/projects/64bdN",
-          "artist": "J. W. (henskelion)",
-          "source": "artstation",
-          "creditLine": "J. W. (henskelion) \u00b7 ArtStation",
-          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/008/931/731/medium/j-w-propaganda.jpg?1516164892",
-          "kind": "character",
-          "tier": "indie",
-          "tags": [
-            "RTS"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_KrnQA4",
-          "headline": "Cottage concept, door ajar",
-          "sourceUrl": "https://www.artstation.com/artwork/KrnQA4",
-          "artist": "Kayla Kosik",
-          "source": "artstation",
-          "creditLine": "Kayla Kosik \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/041/880/842/medium/kayla-kosik-kayla-kosik-07.jpg?1632954723",
-          "kind": "landscape",
-          "tier": "indie",
-          "tags": [
-            "cosy"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_9Eo95N",
-          "headline": "Planetfall Vanguard infantry concepts",
-          "sourceUrl": "https://www.artstation.com/artwork/9Eo95N",
-          "artist": "Triumph Studios alumni / Planetfall",
-          "source": "artstation",
-          "creditLine": "Triumph Studios alumni / Planetfall \u00b7 ArtStation",
-          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/072/887/881/medium/michal-kus-earthling-promo-defined-copy.jpg?1708439308",
-          "kind": "character",
-          "tier": "AAA",
-          "tags": [
-            "RTS",
+            "fantasy",
             "sim"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_1xmQXK",
-          "headline": "Expedition 33 art-director frames",
-          "sourceUrl": "https://nicholas-maxson-francombe.artstation.com/projects/1xmQXK",
-          "artist": "Nicholas Maxson-Francombe",
-          "source": "artstation",
-          "creditLine": "Nicholas Maxson-Francombe \u00b7 ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/videos/images/076/859/906/medium/nicholas-maxson-francombe-maxresdefault.jpg?1718012729",
-          "kind": "landscape",
-          "tier": "AAA",
-          "tags": [
-            "RPGs",
-            "fantasy"
           ],
           "status": "live"
         }
       ]
     }
   ],
-  "artNotes": "Prefer character + landscape concept art; mix indie and AAA; avoid Steam/title-page key art."
+  "artNotes": "Seamless 3-wide rail. Sources: ArtStation concept, Fab 3D, fun game art from X. Prefer characters/landscapes over marketing key art."
 }
