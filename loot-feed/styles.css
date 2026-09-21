@@ -290,3 +290,8 @@ body { overflow: hidden; }
   font-size: 0.85rem;
   text-align: center;
 }
+
+.a-plate.has-img {
+  background-size: cover !important;
+  background-position: center !important;
+}
