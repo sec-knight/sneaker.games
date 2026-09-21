@@ -179,8 +179,83 @@
       ],
       "art": [
         {
+          "id": "ar_steam_0",
+          "headline": "Tempest Rising key art on Steam",
+          "sourceUrl": "https://store.steampowered.com/app/1480020/Tempest_Rising/",
+          "artist": "3D Realms / Saber",
+          "source": "official",
+          "creditLine": "3D Realms \u00b7 Steam",
+          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1480020/header.jpg",
+          "game": "Tempest Rising",
+          "tags": [
+            "RTS"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_steam_1",
+          "headline": "Valheim still sells the North",
+          "sourceUrl": "https://store.steampowered.com/app/892970/Valheim/",
+          "artist": "Iron Gate",
+          "source": "official",
+          "creditLine": "Iron Gate \u00b7 Steam",
+          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
+          "game": "Valheim",
+          "tags": [
+            "survival",
+            "fantasy"
+          ],
+          "platforms": [
+            "PC",
+            "console"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_steam_2",
+          "headline": "Stardew keeps the farm warm",
+          "sourceUrl": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+          "artist": "ConcernedApe",
+          "source": "official",
+          "creditLine": "ConcernedApe \u00b7 Steam",
+          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+          "game": "Stardew Valley",
+          "tags": [
+            "cosy",
+            "sim"
+          ],
+          "platforms": [
+            "PC",
+            "console",
+            "mobile"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_steam_3",
+          "headline": "Age of Mythology Retold on Steam",
+          "sourceUrl": "https://store.steampowered.com/app/1934680/Age_of_Mythology_Retold/",
+          "artist": "World's Edge / Xbox",
+          "source": "official",
+          "creditLine": "World's Edge \u00b7 Steam",
+          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1934680/header.jpg",
+          "game": "Age of Mythology: Retold",
+          "tags": [
+            "RTS",
+            "fantasy"
+          ],
+          "platforms": [
+            "PC",
+            "console"
+          ],
+          "status": "live"
+        },
+        {
           "id": "ar_altamahaha",
-          "headline": "The swamp mermaid, drawn",
+          "headline": "South of Midnight\u2019s swamp mermaid",
           "sourceUrl": "https://bragato.artstation.com/projects/V24dPP",
           "artist": "Jo\u00e3o Bragato",
           "source": "artstation",
@@ -189,12 +264,14 @@
           "game": "South of Midnight",
           "status": "live",
           "tags": [
-            "fantasy"
-          ]
+            "fantasy",
+            "cosy"
+          ],
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/086/855/878/medium/bragato-altamahahalogo.jpg?1781551909"
         },
         {
           "id": "ar_som-illustrations",
-          "headline": "Illustrations for South of Midnight",
+          "headline": "South of Midnight, woven magic",
           "sourceUrl": "https://bragato.artstation.com/projects/qJJJDa",
           "artist": "Jo\u00e3o Bragato",
           "source": "artstation",
@@ -204,11 +281,12 @@
           "status": "live",
           "tags": [
             "fantasy"
-          ]
+          ],
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/080/592/011/medium/joao-bragato-magicweave-illustration2psdfinal.jpg?1782947626"
         },
         {
           "id": "ar_maelle-act3",
-          "headline": "Expedition 33, Maelle in Act 3",
+          "headline": "Maelle faces Act 3",
           "sourceUrl": "https://reynaudalan.artstation.com/projects/DLoKdo",
           "artist": "Reynaud Alan",
           "source": "artstation",
@@ -217,8 +295,10 @@
           "game": "Clair Obscur: Expedition 33",
           "status": "live",
           "tags": [
+            "RPGs",
             "fantasy"
-          ]
+          ],
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/087/531/741/medium/reynaud-alan-reynaud-alan-maelle-act3.jpg?1746028570"
         },
         {
           "id": "ar_monolith",
@@ -231,12 +311,14 @@
           "game": "Clair Obscur: Expedition 33",
           "status": "live",
           "tags": [
+            "RPGs",
             "fantasy"
-          ]
+          ],
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/024/056/medium/carla-deveze-carla-deveze-thumbnails-monolith.jpg?1747247186"
         },
         {
           "id": "ar_e33-hud",
-          "headline": "Battle HUD for Expedition 33",
+          "headline": "Expedition 33 battle HUD, sharp",
           "sourceUrl": "https://brieucinisan.artstation.com/projects/Gvd0VV",
           "artist": "Brieuc Inisan",
           "source": "artstation",
@@ -245,12 +327,13 @@
           "game": "Clair Obscur: Expedition 33",
           "status": "live",
           "tags": [
-            "fantasy"
-          ]
+            "RPGs"
+          ],
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/085/532/179/medium/brieuc-inisan-brieuc-inisan-vignette-artstation-hud.jpg?1741030445"
         },
         {
           "id": "ar_e33-direction",
-          "headline": "Expedition 33, from the art director",
+          "headline": "Expedition 33 from the art director",
           "sourceUrl": "https://nicholas-maxson-francombe.artstation.com/projects/1xmQXK",
           "artist": "Nicholas Maxson-Francombe",
           "source": "artstation",
@@ -259,8 +342,10 @@
           "game": "Clair Obscur: Expedition 33",
           "status": "live",
           "tags": [
+            "RPGs",
             "fantasy"
-          ]
+          ],
+          "imageUrl": "https://cdna.artstation.com/p/assets/videos/images/076/859/906/medium/nicholas-maxson-francombe-maxresdefault.jpg?1718012729"
         },
         {
           "id": "ar_itt-keyart",
@@ -273,12 +358,13 @@
           "game": "It Takes Two",
           "status": "live",
           "tags": [
-            "fantasy"
-          ]
+            "cosy"
+          ],
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/039/198/333/medium/magdalena-katanska-magdalena-katanska-x-402b2d5124bc333bbdba236524212cbe-a2181947-1280.jpg?1625232248"
         },
         {
           "id": "ar_trailmakers-key",
-          "headline": "Trailmakers key art opens the map",
+          "headline": "Trailmakers opens the map",
           "sourceUrl": "https://nwseverin.artstation.com/projects/EVy0LK",
           "artist": "Nikolaj M\u00e5rbjerg Severin",
           "source": "artstation",
@@ -287,8 +373,36 @@
           "game": "Trailmakers",
           "status": "live",
           "tags": [
-            "fantasy"
-          ]
+            "sim",
+            "cosy"
+          ],
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/022/997/519/medium/nikolaj-marbjerg-severin-artstationthumb.jpg?1577651312"
+        },
+        {
+          "id": "ar_KrnQA4",
+          "headline": "Cozy cottage concept",
+          "sourceUrl": "https://www.artstation.com/artwork/KrnQA4",
+          "artist": "ArtStation",
+          "source": "artstation",
+          "creditLine": "ArtStation \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/041/880/842/medium/kayla-kosik-kayla-kosik-07.jpg?1632954723",
+          "tags": [
+            "cosy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_Kax1Qr",
+          "headline": "A-frame cabin, soft light",
+          "sourceUrl": "https://www.artstation.com/artwork/Kax1Qr",
+          "artist": "ArtStation",
+          "source": "artstation",
+          "creditLine": "ArtStation \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/025/397/106/medium/jr-eisma-cozy-cabin-12x18.jpg?1585670305",
+          "tags": [
+            "cosy"
+          ],
+          "status": "live"
         }
       ]
     }
