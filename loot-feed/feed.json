@@ -1,7 +1,7 @@
 {
   "version": 1,
   "tastes": {
-    "updated": "2026-09-21",
+    "updated": "2026-09-22",
     "genres": [
       "RPGs",
       "RTS",
@@ -15,7 +15,13 @@
       "PC",
       "mobile"
     ],
-    "notes": "Mark's LootFeed chase list. Scoop must match genres; platforms are all in scope."
+    "favoriteGames": [
+      "Zelda",
+      "Metroid",
+      "Halo",
+      "Lord of the Rings"
+    ],
+    "artVolume": "high"
   },
   "days": [
     {
@@ -142,9 +148,346 @@
           ],
           "status": "live",
           "featured": false
+        },
+        {
+          "id": "tr_toD8ud_HVhA",
+          "headline": "Dragon Shelter cooks with dragons",
+          "game": "Dragon Shelter",
+          "watchUrl": "https://www.youtube.com/watch?v=toD8ud_HVhA",
+          "source": "youtube",
+          "studio": "Curve Games",
+          "sourceId": "toD8ud_HVhA",
+          "thumbnailUrl": "https://i.ytimg.com/vi/toD8ud_HVhA/hqdefault.jpg",
+          "note": "cosy \u00b7 fantasy \u00b7 sim \u00b7 PC \u00b7 Sep 24",
+          "tags": [
+            "cosy",
+            "fantasy",
+            "sim"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "tr_cZlupDSLXRY",
+          "headline": "Flamecraft opens the dragon shops",
+          "game": "Flamecraft",
+          "watchUrl": "https://www.youtube.com/watch?v=cZlupDSLXRY",
+          "source": "youtube",
+          "studio": "Monster Couch",
+          "sourceId": "cZlupDSLXRY",
+          "thumbnailUrl": "https://i.ytimg.com/vi/cZlupDSLXRY/hqdefault.jpg",
+          "note": "cosy \u00b7 sim \u00b7 console+PC",
+          "tags": [
+            "cosy",
+            "sim"
+          ],
+          "platforms": [
+            "console",
+            "PC"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "tr__nKofPecyrM",
+          "headline": "Foundlings demo spells 12th-century England",
+          "game": "Foundlings",
+          "watchUrl": "https://www.youtube.com/watch?v=_nKofPecyrM",
+          "source": "youtube",
+          "studio": "IGN",
+          "sourceId": "_nKofPecyrM",
+          "thumbnailUrl": "https://i.ytimg.com/vi/_nKofPecyrM/hqdefault.jpg",
+          "note": "RPG \u00b7 fantasy \u00b7 PC demo",
+          "tags": [
+            "RPGs",
+            "fantasy"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live"
         }
       ],
       "art": [
+        {
+          "id": "ar_aYBXAk",
+          "headline": "BotW Link fanart",
+          "sourceUrl": "https://dzoho.artstation.com/projects/aYBXAk",
+          "artist": "Dzoan Ho",
+          "source": "artstation",
+          "creditLine": "Dzoan Ho \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/033/078/385/medium/dzoan-ho-link-wiiu-web.jpg?1610710768",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_oODZ6z",
+          "headline": "Anime BotW Link 3D fan model",
+          "sourceUrl": "https://www.artstation.com/artwork/oODZ6z",
+          "artist": "Yoolie",
+          "source": "artstation",
+          "creditLine": "Yoolie \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/024/455/784/medium/ulyses-bain-thumb.jpg?1582486797",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_QXoA4d",
+          "headline": "Child Link in TotK style",
+          "sourceUrl": "https://cbcosta.artstation.com/projects/QXoA4d",
+          "artist": "Carlos Costa",
+          "source": "artstation",
+          "creditLine": "Carlos Costa \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/064/637/302/medium/carlos-costa-carlos-costa-link-ocarina-of-time-totk-style-transparent.jpg?1688409653",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_lGkE9k",
+          "headline": "Samus Aran Metroid fan sculpt",
+          "sourceUrl": "https://lucaprevidi85.artstation.com/projects/lGkE9k",
+          "artist": "Luca Previdi",
+          "source": "artstation",
+          "creditLine": "Luca Previdi \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/094/356/430/medium/luca-previdi-samus-2025-intera.jpg?1765301908",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_q9V0yN",
+          "headline": "Samus Aran Metroid sculpt",
+          "sourceUrl": "https://www.artstation.com/artwork/q9V0yN",
+          "artist": "Yan Sculpts",
+          "source": "artstation",
+          "creditLine": "Yan Sculpts \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/037/828/084/medium/yan-sculpts-yan-sculpts-samus-c02.jpg?1621427603",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_3mXao",
+          "headline": "Samus and a little Metroid",
+          "sourceUrl": "https://protomonkey.artstation.com/projects/3mXao",
+          "artist": "Allan Lee",
+          "source": "artstation",
+          "creditLine": "Allan Lee \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/003/492/167/medium/allan-lee-icon.jpg?1474302586",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_4bBWG2",
+          "headline": "Super Metroid Samus, grounded armor",
+          "sourceUrl": "https://josephbramlett.artstation.com/projects/4bBWG2",
+          "artist": "Joseph Bramlett",
+          "source": "artstation",
+          "creditLine": "Joseph Bramlett \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/020/273/717/medium/joseph-bramlett-thumb-1.jpg?1567102756",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_rA4Qm5",
+          "headline": "Samus Aran high-tech fan take",
+          "sourceUrl": "https://justintphillips.artstation.com/projects/rA4Qm5",
+          "artist": "Justin T Phillips",
+          "source": "artstation",
+          "creditLine": "Justin T Phillips \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/034/918/324/medium/justin-t-phillips-screenshot-2021-02-17-140642.jpg?1613589727",
+          "kind": "fanart",
+          "tags": [
+            "Metroid"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_1bQb2",
+          "headline": "Halo fan painting",
+          "sourceUrl": "https://www.artstation.com/artwork/1bQb2",
+          "artist": "Ga\u00e9tan 'Spartan' Weltzer",
+          "source": "artstation",
+          "creditLine": "Ga\u00e9tan 'Spartan' Weltzer \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/001/743/295/medium/gaetan-weltzer-gaming-painting-1-halo-final-1920.jpg?1452089501",
+          "kind": "fanart",
+          "tags": [
+            "Halo",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_Z5Ly9N",
+          "headline": "Chief with a plasma rifle",
+          "sourceUrl": "https://glitch5970.artstation.com/projects/Z5Ly9N",
+          "artist": "Glitch5970",
+          "source": "artstation",
+          "creditLine": "Glitch5970 \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/027/350/757/medium/glitch-5970-333.jpg?1591282576",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_N5e5vJ",
+          "headline": "Halo Infinite Master Chief",
+          "sourceUrl": "https://abisv.artstation.com/projects/N5e5vJ",
+          "artist": "Abimael Salazar",
+          "source": "artstation",
+          "creditLine": "Abimael Salazar \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/019/356/307/medium/abimael-salazar-1.jpg?1563131687",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_1883g8",
+          "headline": "Chief with energy sword",
+          "sourceUrl": "https://glitch5970.artstation.com/projects/1883g8",
+          "artist": "Glitch5970",
+          "source": "artstation",
+          "creditLine": "Glitch5970 \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/028/240/884/medium/glitch-5970-0686fb7ee1ab7981def05409e0726d32.jpg?1593886213",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_zdGzw",
+          "headline": "Halo 3 Master Chief HD",
+          "sourceUrl": "https://abisv.artstation.com/projects/zdGzw",
+          "artist": "Abimael Salazar",
+          "source": "artstation",
+          "creditLine": "Abimael Salazar \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/019/815/138/medium/abimael-salazar-5.jpg?1565117479",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_dKADVA",
+          "headline": "Lord of the Rings ink fanart",
+          "sourceUrl": "https://mrest.artstation.com/projects/dKADVA",
+          "artist": "Marcello Restaldi",
+          "source": "artstation",
+          "creditLine": "Marcello Restaldi \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/076/863/544/medium/marcello-restaldi-lotr.jpg?1718020319",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_OolX1v",
+          "headline": "Arwen at Rivendell",
+          "sourceUrl": "https://aidasofia.artstation.com/projects/OolX1v",
+          "artist": "Aida Sof\u00eda Barba",
+          "source": "artstation",
+          "creditLine": "Aida Sof\u00eda Barba \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/036/486/257/medium/aida-sofia-barba-img-0504.jpg?1617804557",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_A9RJ1e",
+          "headline": "Sleepy Valley naps in the clouds",
+          "sourceUrl": "https://www.artstation.com/artwork/A9RJ1e",
+          "artist": "Jourdan Tuffan",
+          "source": "artstation",
+          "creditLine": "Jourdan Tuffan \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/020/858/900/medium/jourdan-tuffan-town-sketchu-16.jpg?1569440465",
+          "kind": "landscape",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_4XrVQk",
+          "headline": "Wood fairy drifts in green light",
+          "sourceUrl": "https://www.artstation.com/artwork/4XrVQk",
+          "artist": "Clara Martins da Silva",
+          "source": "artstation",
+          "creditLine": "Clara Martins da Silva \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/054/501/495/medium/clara-martins-da-silva-fee-fleur-verte-concept04.jpg?1664705198",
+          "kind": "character",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_BXnlnk",
+          "headline": "Tiger guardian holds the gate",
+          "sourceUrl": "https://www.artstation.com/artwork/BXnlnk",
+          "artist": "Nicoleta Stavarache",
+          "source": "artstation",
+          "creditLine": "Nicoleta Stavarache \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/065/337/682/medium/nicoleta-stavarache-tiger-guardian-nicoleta-stavarache.jpg?1690131147",
+          "kind": "character",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_101d8331-dab5-",
+          "headline": "Stylized log cabin in the pines",
+          "sourceUrl": "https://www.fab.com/listings/101d8331-dab5-4e11-b9c2-0a889c0ef3bb",
+          "artist": "Modularity",
+          "source": "fab",
+          "creditLine": "Modularity \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/beef83dd-858b-415d-80e4-325d83e053bb/acca8795-e66f-4ddf-9ce0-ca6e417aa1c6.jpg",
+          "kind": "3d",
+          "tags": [
+            "cosy",
+            "survival"
+          ],
+          "status": "live"
+        },
         {
           "id": "ar_meme_HSykru_akAAZ",
           "headline": "GrokBot faces: childhood Link energy",
@@ -711,5 +1054,5 @@
       ]
     }
   ],
-  "artNotes": "Seamless 3-wide. ArtStation + Fab 3D + X game art + GrokBot-face meme art. Prefer concept over marketing key art."
+  "artNotes": "Lots of art. Favorites fanart: Zelda, Metroid, Halo, LotR + genres. ArtStation/Fab preferred over X."
 }
