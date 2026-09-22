@@ -19,6 +19,311 @@
   },
   "days": [
     {
+      "date": "2026-09-22",
+      "label": "Tue Sep 22",
+      "trailers": [
+        {
+          "id": "tr_ac-c2InQQtY",
+          "headline": "Mega Man brings Proto Man",
+          "game": "Mega Man: Dual Override",
+          "watchUrl": "https://www.youtube.com/watch?v=ac-c2InQQtY",
+          "source": "youtube",
+          "studio": "Nintendo of America",
+          "sourceId": "ac-c2InQQtY",
+          "thumbnailUrl": "https://i.ytimg.com/vi/ac-c2InQQtY/hqdefault.jpg",
+          "note": "fantasy \u00b7 RTS-adjacent \u00b7 console",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "platforms": [
+            "console"
+          ],
+          "status": "live",
+          "featured": true
+        },
+        {
+          "id": "tr_iAMM22ZeklA",
+          "headline": "Persona 6 finally speaks",
+          "game": "Persona 6",
+          "watchUrl": "https://www.youtube.com/watch?v=iAMM22ZeklA",
+          "source": "youtube",
+          "studio": "Nintendo of America",
+          "sourceId": "iAMM22ZeklA",
+          "thumbnailUrl": "https://i.ytimg.com/vi/iAMM22ZeklA/hqdefault.jpg",
+          "note": "RPG \u00b7 console",
+          "tags": [
+            "RPGs",
+            "fantasy"
+          ],
+          "platforms": [
+            "console"
+          ],
+          "status": "live",
+          "featured": true
+        },
+        {
+          "id": "tr_ppEKFy83w-o",
+          "headline": "Hades II hits Xbox and PlayStation",
+          "game": "Hades II",
+          "watchUrl": "https://www.youtube.com/watch?v=ppEKFy83w-o",
+          "source": "youtube",
+          "studio": "Supergiant Games",
+          "sourceId": "ppEKFy83w-o",
+          "thumbnailUrl": "https://i.ytimg.com/vi/ppEKFy83w-o/hqdefault.jpg",
+          "note": "roguelike RPG \u00b7 console",
+          "tags": [
+            "RPGs",
+            "fantasy"
+          ],
+          "platforms": [
+            "console",
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_PW22jwFNxU8",
+          "headline": "Slay the Spire 2 starts early access",
+          "game": "Slay the Spire 2",
+          "watchUrl": "https://www.youtube.com/watch?v=PW22jwFNxU8",
+          "source": "youtube",
+          "studio": "Mega Crit",
+          "sourceId": "PW22jwFNxU8",
+          "thumbnailUrl": "https://i.ytimg.com/vi/PW22jwFNxU8/hqdefault.jpg",
+          "note": "deckbuilder \u00b7 PC",
+          "tags": [
+            "RPGs"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_rSvl2bRcO0c",
+          "headline": "Rivage loops the station",
+          "game": "Rivage",
+          "watchUrl": "https://www.youtube.com/watch?v=rSvl2bRcO0c",
+          "source": "youtube",
+          "studio": "Raw Fury",
+          "sourceId": "rSvl2bRcO0c",
+          "thumbnailUrl": "https://i.ytimg.com/vi/rSvl2bRcO0c/hqdefault.jpg",
+          "note": "puzzle \u00b7 survival vibes \u00b7 multi",
+          "tags": [
+            "survival",
+            "sim"
+          ],
+          "platforms": [
+            "PC",
+            "console"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_4bUA3UHajXE",
+          "headline": "PEAK says go up",
+          "game": "PEAK",
+          "watchUrl": "https://www.youtube.com/watch?v=4bUA3UHajXE",
+          "source": "youtube",
+          "studio": "Aggro Crab",
+          "sourceId": "4bUA3UHajXE",
+          "thumbnailUrl": "https://i.ytimg.com/vi/4bUA3UHajXE/hqdefault.jpg",
+          "note": "co-op climb \u00b7 multi",
+          "tags": [
+            "survival",
+            "cosy"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        }
+      ],
+      "art": [
+        {
+          "id": "ar_meme_HSykru_akAAZ",
+          "headline": "GrokBot faces: childhood Link energy",
+          "sourceUrl": "https://x.com/kloss_xyz/status/2102236201927544836",
+          "artist": "@kloss_xyz",
+          "source": "x",
+          "creditLine": "@kloss_xyz \u00b7 X \u00b7 GrokBot faces",
+          "imageUrl": "https://pbs.twimg.com/media/HSykru_akAAZgB0.jpg",
+          "kind": "meme",
+          "tags": [
+            "meme",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_meme_HSykrvEa0AA_",
+          "headline": "GrokBot faces: squad childhood drop",
+          "sourceUrl": "https://x.com/kloss_xyz/status/2102236201927544836",
+          "artist": "@kloss_xyz",
+          "source": "x",
+          "creditLine": "@kloss_xyz \u00b7 X \u00b7 GrokBot faces",
+          "imageUrl": "https://pbs.twimg.com/media/HSykrvEa0AA_Uwf.jpg",
+          "kind": "meme",
+          "tags": [
+            "meme",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_meme_HSykrv3aEAAc",
+          "headline": "GrokBot faces: another childhood bot",
+          "sourceUrl": "https://x.com/kloss_xyz/status/2102236201927544836",
+          "artist": "@kloss_xyz",
+          "source": "x",
+          "creditLine": "@kloss_xyz \u00b7 X \u00b7 GrokBot faces",
+          "imageUrl": "https://pbs.twimg.com/media/HSykrv3aEAAcfQW.jpg",
+          "kind": "meme",
+          "tags": [
+            "meme",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_meme_HSykrvHaMAAx",
+          "headline": "GrokBot faces: green-cap nostalgia",
+          "sourceUrl": "https://x.com/kloss_xyz/status/2102236201927544836",
+          "artist": "@kloss_xyz",
+          "source": "x",
+          "creditLine": "@kloss_xyz \u00b7 X \u00b7 GrokBot faces",
+          "imageUrl": "https://pbs.twimg.com/media/HSykrvHaMAAxGu7.jpg",
+          "kind": "meme",
+          "tags": [
+            "meme",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_meme_re",
+          "headline": "GrokBot faces: Resident Evil cast",
+          "sourceUrl": "https://x.com/valentinlulu/status/2102295830313255259",
+          "artist": "@valentinlulu",
+          "source": "x",
+          "creditLine": "@valentinlulu \u00b7 X \u00b7 GrokBot faces",
+          "imageUrl": "https://pbs.twimg.com/media/HSzaNfYbcAA3NuY.jpg",
+          "kind": "meme",
+          "tags": [
+            "meme",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_meme_renaiss",
+          "headline": "Renaiss unlocks the GrokBot look",
+          "sourceUrl": "https://x.com/renaissxyz/status/2102341731568197727",
+          "artist": "@renaissxyz",
+          "source": "x",
+          "creditLine": "@renaissxyz \u00b7 X \u00b7 GrokBot faces",
+          "imageUrl": "https://pbs.twimg.com/media/HS0EdxGbEAAZTXi.jpg",
+          "kind": "meme",
+          "tags": [
+            "meme"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_8w9xWw",
+          "headline": "Warm-up fantasy character sheet",
+          "sourceUrl": "https://www.artstation.com/artwork/8w9xWw",
+          "artist": "Hue Teo",
+          "source": "artstation",
+          "creditLine": "Hue Teo \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/057/947/046/medium/hue-teo-hue-teo-thumb.jpg?1673027292",
+          "kind": "concept",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_o9NJJ",
+          "headline": "Dragon Valley landscape",
+          "sourceUrl": "https://mattforsyth.artstation.com/projects/o9NJJ",
+          "artist": "Matt Forsyth",
+          "source": "artstation",
+          "creditLine": "Matt Forsyth \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/002/061/572/medium/matt-forsyth-dragonvalleystill.jpg?1457535498",
+          "kind": "concept",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_KrnQA4",
+          "headline": "Cottage concept, door ajar",
+          "sourceUrl": "https://www.artstation.com/artwork/KrnQA4",
+          "artist": "Kayla Kosik",
+          "source": "artstation",
+          "creditLine": "Kayla Kosik \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/041/880/842/medium/kayla-kosik-kayla-kosik-07.jpg?1632954723",
+          "kind": "concept",
+          "tags": [
+            "cosy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_1xmQXK",
+          "headline": "Expedition 33 art-director frames",
+          "sourceUrl": "https://nicholas-maxson-francombe.artstation.com/projects/1xmQXK",
+          "artist": "Nicholas Maxson-Francombe",
+          "source": "artstation",
+          "creditLine": "Nicholas Maxson-Francombe \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/videos/images/076/859/906/medium/nicholas-maxson-francombe-maxresdefault.jpg?1718012729",
+          "kind": "concept",
+          "tags": [
+            "RPGs",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_x3La2Y",
+          "headline": "Brood Anchor RTS unit concept",
+          "sourceUrl": "https://www.artstation.com/artwork/x3La2Y",
+          "artist": "Gates of Pyre concept",
+          "source": "artstation",
+          "creditLine": "Gates of Pyre concept \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/711/828/medium/justus-sluijter-justus-sluijter-justussluijter-sunspear-concept-thumbnails-broodanchor.jpg?1748985226",
+          "kind": "concept",
+          "tags": [
+            "RTS"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_5c3aa4b1-f84",
+          "headline": "Stylized fantasy modular kit",
+          "sourceUrl": "https://www.fab.com/listings/5c3aa4b1-f843-4505-a964-5fb2378b29f8",
+          "artist": "Fab creator",
+          "source": "fab",
+          "creditLine": "Fab creator \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/129fabf7-bef8-47dc-bddd-d96fb13f51e4/9575386e-239e-42fb-ba14-2db5b7d91fa4.png",
+          "kind": "3d",
+          "tags": [
+            "fantasy",
+            "sim"
+          ],
+          "status": "live"
+        }
+      ]
+    },
+    {
       "date": "2026-09-21",
       "label": "Mon Sep 21",
       "trailers": [
@@ -406,5 +711,5 @@
       ]
     }
   ],
-  "artNotes": "Seamless 3-wide rail. Sources: ArtStation concept, Fab 3D, fun game art from X. Prefer characters/landscapes over marketing key art."
+  "artNotes": "Seamless 3-wide. ArtStation + Fab 3D + X game art + GrokBot-face meme art. Prefer concept over marketing key art."
 }
