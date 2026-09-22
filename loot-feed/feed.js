@@ -28,7 +28,7 @@ function artTile(a, i) {
     : `<span class="a-plate" style="background:${PLATES[i % PLATES.length]}"><span class="sample">Sample</span></span>`;
   const credit = a.creditLine || a.artist || '';
   const src = (a.source || '').toLowerCase();
-  const badge = src === 'fab' ? 'Fab 3D' : src === 'x' || src === 'twitter' ? 'X' : src === 'artstation' ? 'ArtStation' : '';
+  const badge = a.kind === 'meme' ? 'Meme' : src === 'fab' ? 'Fab 3D' : src === 'x' || src === 'twitter' ? 'X' : src === 'artstation' ? 'ArtStation' : '';
   const badgeHtml = badge ? `<span class="a-badge">${esc(badge)}</span>` : '';
   return `<a class="a-tile" href="${esc(a.sourceUrl)}" target="_blank" rel="noopener" title="${esc(a.headline)}">
   ${plate}${badgeHtml}
