@@ -25,6 +25,465 @@
   },
   "days": [
     {
+      "date": "2026-09-24",
+      "label": "Thu Sep 24",
+      "trailers": [
+        {
+          "id": "tr_fXCQ1HCUvCo",
+          "headline": "Piper of Dawn opens the cute farm and the sanity check",
+          "game": "The Piper of Dawn",
+          "watchUrl": "https://www.youtube.com/watch?v=fXCQ1HCUvCo",
+          "source": "youtube",
+          "studio": "2P Games",
+          "sourceId": "fXCQ1HCUvCo",
+          "thumbnailUrl": "https://i.ytimg.com/vi/fXCQ1HCUvCo/hqdefault.jpg",
+          "note": "sim · cosy · RPG · PC live Sep 23",
+          "tags": [
+            "sim",
+            "cosy",
+            "RPGs"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": true
+        },
+        {
+          "id": "tr_-xjK6tQZvs8",
+          "headline": "Shroom and Gloom digs Early Access",
+          "game": "Shroom and Gloom",
+          "watchUrl": "https://www.youtube.com/watch?v=-xjK6tQZvs8",
+          "source": "youtube",
+          "studio": "Devolver Digital",
+          "sourceId": "-xjK6tQZvs8",
+          "thumbnailUrl": "https://i.ytimg.com/vi/-xjK6tQZvs8/hqdefault.jpg",
+          "note": "roguelike RPG · fungal decks · PC EA Sep 24",
+          "tags": [
+            "RPGs",
+            "survival"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": true
+        },
+        {
+          "id": "tr_HHpBCrFmxIg",
+          "headline": "Welcome to Elderfield farms the Old Gods",
+          "game": "Welcome to Elderfield",
+          "watchUrl": "https://www.youtube.com/watch?v=HHpBCrFmxIg",
+          "source": "youtube",
+          "studio": "Chris Cote / Kwalee",
+          "sourceId": "HHpBCrFmxIg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/HHpBCrFmxIg/hqdefault.jpg",
+          "note": "cosy horror · RPG · sim · PC live",
+          "tags": [
+            "cosy",
+            "RPGs",
+            "survival"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_gtHU6wLr6F0",
+          "headline": "Stormforge rides magic storms to Nov 10",
+          "game": "Stormforge",
+          "watchUrl": "https://www.youtube.com/watch?v=gtHU6wLr6F0",
+          "source": "youtube",
+          "studio": "Roboto Games",
+          "sourceId": "gtHU6wLr6F0",
+          "thumbnailUrl": "https://i.ytimg.com/vi/gtHU6wLr6F0/hqdefault.jpg",
+          "note": "survival · fantasy · co-op · PC EA Nov 10",
+          "tags": [
+            "survival",
+            "fantasy"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        }
+      ],
+      "art": [
+        {
+          "id": "ar_g2ZgVP",
+          "headline": "Life in Hyrule, round two",
+          "sourceUrl": "https://www.artstation.com/artwork/g2ZgVP",
+          "artist": "Alia Zhang",
+          "source": "artstation",
+          "creditLine": "Alia Zhang · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/042/412/724/medium/alia-zhang-fighting-with-bats.jpg?1634457729",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_k43y4K",
+          "headline": "Armored Zelda holds the line",
+          "sourceUrl": "https://www.artstation.com/artwork/k43y4K",
+          "artist": "Kumanz",
+          "source": "artstation",
+          "creditLine": "Kumanz · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/021/148/264/medium/kumanz-zelda-armor-body-forup.jpg?1570566233",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_YaoD9w",
+          "headline": "Travelling with you (BotW)",
+          "sourceUrl": "https://www.artstation.com/artwork/YaoD9w",
+          "artist": "ALZiMi",
+          "source": "artstation",
+          "creditLine": "ALZiMi · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/019/302/286/medium/alzi-yijiaw-rg0702-s.jpg?1562870086",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_mDq809",
+          "headline": "Zelda BotW, glazed bright",
+          "sourceUrl": "https://www.artstation.com/artwork/mDq809",
+          "artist": "Andrea Mackowiak",
+          "source": "artstation",
+          "creditLine": "Andrea Mackowiak · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/072/111/899/medium/andrea-mackowiak-zbotw-cunet-2x-s0-glazed-intensity-10-v1.jpg?1706643597",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_XB4P4w",
+          "headline": "Zelda stares down the wild",
+          "sourceUrl": "https://www.artstation.com/artwork/XB4P4w",
+          "artist": "Javier Guerrero Diaz",
+          "source": "artstation",
+          "creditLine": "Javier Guerrero Diaz · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/018/754/337/medium/javier-guerrero-diaz-zelda5.jpg?1560586179",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_g8b6Vm",
+          "headline": "Samus, hard lines",
+          "sourceUrl": "https://www.artstation.com/artwork/g8b6Vm",
+          "artist": "Sykosan",
+          "source": "artstation",
+          "creditLine": "Sykosan · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/056/495/126/medium/sykosan-web-by-sykosan-copy.jpg?1669381612",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_g2W5L8",
+          "headline": "Samus in the neon dark",
+          "sourceUrl": "https://www.artstation.com/artwork/g2W5L8",
+          "artist": "Hibren Art",
+          "source": "artstation",
+          "creditLine": "Hibren Art · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/035/752/178/medium/hibren-art-samus-n-post.jpg?1615816691",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_584d61",
+          "headline": "Samus Aran fan splash",
+          "sourceUrl": "https://www.artstation.com/artwork/584d61",
+          "artist": "Cédric \"Tyron\" Roux",
+          "source": "artstation",
+          "creditLine": "Cédric \"Tyron\" Roux · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/018/423/930/medium/cedric-roux-samus-aran.jpg?1559311826",
+          "kind": "fanart",
+          "tags": [
+            "Metroid"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_Nxy4xJ",
+          "headline": "Infinite Chief stares back",
+          "sourceUrl": "https://www.artstation.com/artwork/Nxy4xJ",
+          "artist": "Hugo Mougel",
+          "source": "artstation",
+          "creditLine": "Hugo Mougel · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/028/876/563/medium/hugo-mougel-major-halo-infinite-2.jpg?1595795491",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_rRNPJa",
+          "headline": "Chief, clean and iconic",
+          "sourceUrl": "https://www.artstation.com/artwork/rRNPJa",
+          "artist": "Chase Gray",
+          "source": "artstation",
+          "creditLine": "Chase Gray · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/022/596/146/medium/chase-gray-master-chief-new.jpg?1576014042",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_qQY49e",
+          "headline": "Master Chief fan cut",
+          "sourceUrl": "https://www.artstation.com/artwork/qQY49e",
+          "artist": "ApexArts",
+          "source": "artstation",
+          "creditLine": "ApexArts · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/067/425/092/medium/apexarts-asset.jpg?1695325023",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_xYQLA2",
+          "headline": "Gandalf in clay light",
+          "sourceUrl": "https://www.artstation.com/artwork/xYQLA2",
+          "artist": "Guillaume Tiberghien",
+          "source": "artstation",
+          "creditLine": "Guillaume Tiberghien · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/054/917/270/medium/guillaume-tiberghien-gtiber-gandalf-clay.jpg?1665668677",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_G8XrEd",
+          "headline": "Gandalf the Grey, concept-clean",
+          "sourceUrl": "https://www.artstation.com/artwork/G8XrEd",
+          "artist": "Lorenzo Colangeli",
+          "source": "artstation",
+          "creditLine": "Lorenzo Colangeli · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/043/438/531/medium/lorenzo-colangeli-gandalf.jpg?1637257744",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_bKnyyE",
+          "headline": "Balrog vs Gandalf, again",
+          "sourceUrl": "https://www.artstation.com/artwork/bKnyyE",
+          "artist": "Lorenzo Colangeli",
+          "source": "artstation",
+          "creditLine": "Lorenzo Colangeli · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/034/910/206/medium/lorenzo-colangeli-15-balrog.jpg?1613575114",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_B1EWok",
+          "headline": "Smoking Gandalf",
+          "sourceUrl": "https://www.artstation.com/artwork/B1EWok",
+          "artist": "Ozevito",
+          "source": "artstation",
+          "creditLine": "Ozevito · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/040/809/977/medium/jose-victor-garundalf.jpg?1629929565",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_PXnZyZ",
+          "headline": "Swamp nymph drifts in",
+          "sourceUrl": "https://www.artstation.com/artwork/PXnZyZ",
+          "artist": "Arina Babkina",
+          "source": "artstation",
+          "creditLine": "Arina Babkina · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/065/308/794/medium/arina-babkina-asset.jpg?1690042050",
+          "kind": "concept",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_oblqrJ",
+          "headline": "Stylized fantasy house stack",
+          "sourceUrl": "https://www.artstation.com/artwork/oblqrJ",
+          "artist": "Artificial Dimension",
+          "source": "artstation",
+          "creditLine": "Artificial Dimension · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/067/043/246/medium/ansar-soudkhah-art-stylized-fantasy-house-01.jpg?1694425084",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_WKozeE",
+          "headline": "Fae Hollow poster glow",
+          "sourceUrl": "https://www.artstation.com/artwork/WKozeE",
+          "artist": "Lauren Oien",
+          "source": "artstation",
+          "creditLine": "Lauren Oien · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/037/200/614/medium/lauren-oien-fea-hollow-poster.jpg?1619748867",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_x3LbnO",
+          "headline": "Mushroom cat, whimsy max",
+          "sourceUrl": "https://www.artstation.com/artwork/x3LbnO",
+          "artist": "DhruvM_003",
+          "source": "artstation",
+          "creditLine": "DhruvM_003 · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/088/558/335/medium/dhruvm_003-mushroom-cat.jpg?1748588015",
+          "kind": "concept",
+          "tags": [
+            "cosy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_qJwOWz",
+          "headline": "Tree fairy house concept",
+          "sourceUrl": "https://www.artstation.com/artwork/qJwOWz",
+          "artist": "Ruby Realm",
+          "source": "artstation",
+          "creditLine": "Ruby Realm · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/089/335/707/medium/ruby-realm-poster.jpg?1750703672",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_LRQZPP",
+          "headline": "Medieval village center kit",
+          "sourceUrl": "https://www.artstation.com/artwork/LRQZPP",
+          "artist": "Artificial Dimension",
+          "source": "artstation",
+          "creditLine": "Artificial Dimension · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/072/189/443/medium/artificial-dimension-0.jpg?1706800869",
+          "kind": "concept",
+          "tags": [
+            "fantasy",
+            "sim"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_BXX2L4",
+          "headline": "Slavic warrior stands ready",
+          "sourceUrl": "https://www.artstation.com/artwork/BXX2L4",
+          "artist": "Timofei Akimov",
+          "source": "artstation",
+          "creditLine": "Timofei Akimov · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/060/957/882/medium/timofei-akimov-1.jpg?1679680351",
+          "kind": "concept",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_ok63W",
+          "headline": "RTS character sheet energy",
+          "sourceUrl": "https://www.artstation.com/artwork/ok63W",
+          "artist": "Linda LE DREAU",
+          "source": "artstation",
+          "creditLine": "Linda LE DREAU · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/009/640/163/medium/linda-le-dreau-coruptseason-da4-part2-e.jpg?1527860893",
+          "kind": "concept",
+          "tags": [
+            "RTS"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_fab_40cbced4",
+          "headline": "Enterable medieval cottages",
+          "sourceUrl": "https://www.fab.com/listings/40cbced4-c5c7-4cf7-9d2f-a87c5f92580e",
+          "artist": "Enterables",
+          "source": "fab",
+          "creditLine": "Enterables · Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/7c74abcf-90b0-405e-afdb-e184bbae262e/0f06b877-f2b6-475a-9f7e-a7ac1b8ff999.png",
+          "kind": "3d",
+          "tags": [
+            "cosy",
+            "fantasy",
+            "sim"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_fab_f8b6394b",
+          "headline": "Stylized nature mega pack",
+          "sourceUrl": "https://www.fab.com/listings/f8b6394b-ce09-46b3-94f6-212d95804fff",
+          "artist": "So Stylized",
+          "source": "fab",
+          "creditLine": "So Stylized · Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/e41528d9-edb8-41ac-902e-7a87b54be03d/e78ab0ed-9b83-43ea-8d8c-3ecfc622bfb7.jpg",
+          "kind": "3d",
+          "tags": [
+            "fantasy",
+            "cosy"
+          ],
+          "status": "live"
+        }
+      ]
+    },
+    {
       "date": "2026-09-23",
       "label": "Wed Sep 23",
       "trailers": [
