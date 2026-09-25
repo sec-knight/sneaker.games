@@ -25,6 +25,562 @@
   },
   "days": [
     {
+      "date": "2026-09-25",
+      "label": "Fri Sep 25",
+      "trailers": [
+        {
+          "id": "tr_5FcYCLlS98c",
+          "headline": "Farming Simulator 26 hits Switch and mobile",
+          "game": "Farming Simulator 26",
+          "watchUrl": "https://www.youtube.com/watch?v=5FcYCLlS98c",
+          "source": "youtube",
+          "studio": "Giants Software",
+          "sourceId": "5FcYCLlS98c",
+          "thumbnailUrl": "https://i.ytimg.com/vi/5FcYCLlS98c/hqdefault.jpg",
+          "note": "sim \u00b7 cosy \u00b7 console \u00b7 mobile live",
+          "tags": [
+            "sim",
+            "cosy"
+          ],
+          "platforms": [
+            "console",
+            "mobile",
+            "PC"
+          ],
+          "status": "live",
+          "featured": true
+        },
+        {
+          "id": "tr_a9J0_wAyciU",
+          "headline": "Nothing Strange Here launches the cozy mystery",
+          "game": "Nothing Strange Here",
+          "watchUrl": "https://www.youtube.com/watch?v=a9J0_wAyciU",
+          "source": "youtube",
+          "studio": "Dandelion Developers",
+          "sourceId": "a9J0_wAyciU",
+          "thumbnailUrl": "https://i.ytimg.com/vi/a9J0_wAyciU/hqdefault.jpg",
+          "note": "cosy \u00b7 mystery \u00b7 PC",
+          "tags": [
+            "cosy",
+            "sim"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_ESHU227b4JM",
+          "headline": "Dragon Shelter takes flight on PC",
+          "game": "Dragon Shelter",
+          "watchUrl": "https://www.youtube.com/watch?v=ESHU227b4JM",
+          "source": "youtube",
+          "studio": "Curve Games",
+          "sourceId": "ESHU227b4JM",
+          "thumbnailUrl": "https://i.ytimg.com/vi/ESHU227b4JM/hqdefault.jpg",
+          "note": "cosy \u00b7 fantasy \u00b7 farm \u00b7 PC launch",
+          "tags": [
+            "cosy",
+            "fantasy",
+            "sim"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": true
+        },
+        {
+          "id": "tr_NQfJxR28DSY",
+          "headline": "Fourleaf Fields shrinks the farm to bug size",
+          "game": "Fourleaf Fields",
+          "watchUrl": "https://www.youtube.com/watch?v=NQfJxR28DSY",
+          "source": "youtube",
+          "studio": "HypeTrain Digital",
+          "sourceId": "NQfJxR28DSY",
+          "thumbnailUrl": "https://i.ytimg.com/vi/NQfJxR28DSY/hqdefault.jpg",
+          "note": "cosy \u00b7 sim \u00b7 farm \u00b7 PC",
+          "tags": [
+            "cosy",
+            "sim"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_1JOX4faJJwo",
+          "headline": "Kinstrife announces medieval strategy RPG",
+          "game": "Kinstrife",
+          "watchUrl": "https://www.youtube.com/watch?v=1JOX4faJJwo",
+          "source": "youtube",
+          "studio": "Hooded Horse",
+          "sourceId": "1JOX4faJJwo",
+          "thumbnailUrl": "https://i.ytimg.com/vi/1JOX4faJJwo/hqdefault.jpg",
+          "note": "RTS \u00b7 RPGs \u00b7 medieval \u00b7 PC",
+          "tags": [
+            "RTS",
+            "RPGs",
+            "fantasy"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        }
+      ],
+      "art": [
+        {
+          "id": "ar_rRBgVm",
+          "headline": "Zelda BOTW, soft and iconic",
+          "sourceUrl": "https://www.artstation.com/artwork/rRBgVm",
+          "artist": "sakimi chan",
+          "source": "artstation",
+          "creditLine": "sakimi chan \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/018/985/368/medium/sakimi-chan-zelda-short-hair-04.jpg?1561513077",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_QnkwE4",
+          "headline": "Short-hair Zelda, stylized scene",
+          "sourceUrl": "https://www.artstation.com/artwork/QnkwE4",
+          "artist": "Yingbo",
+          "source": "artstation",
+          "creditLine": "Yingbo \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/050/273/285/medium/bobo-untitled5.jpg?1654482492",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_OoXYNe",
+          "headline": "BOTW Zelda, clean fan cut",
+          "sourceUrl": "https://www.artstation.com/artwork/OoXYNe",
+          "artist": "Ernesto Ruiz Velasco",
+          "source": "artstation",
+          "creditLine": "Ernesto Ruiz Velasco \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/032/574/350/medium/ernesto-ruiz-velasco-zelda-final-3.jpg?1606841888",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_D5Q9EA",
+          "headline": "Link rides the wild again",
+          "sourceUrl": "https://www.artstation.com/artwork/D5Q9EA",
+          "artist": "JINWU",
+          "source": "artstation",
+          "creditLine": "JINWU \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/031/896/167/medium/jinwu-_-.jpg?1604923774",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_PoaKvL",
+          "headline": "Hyrule landscape, wide and bright",
+          "sourceUrl": "https://www.artstation.com/artwork/PoaKvL",
+          "artist": "Slawek Fedorczuk",
+          "source": "artstation",
+          "creditLine": "Slawek Fedorczuk \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/027/583/160/medium/slawek-fedorczuk-slawek-fedorczuk-artstationa-landscape.jpg?1591944911",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_L3Jz9A",
+          "headline": "Panzer Samus, alt-history hard",
+          "sourceUrl": "https://www.artstation.com/artwork/L3Jz9A",
+          "artist": "Marco Plouffe (Keos Masons)",
+          "source": "artstation",
+          "creditLine": "Marco Plouffe (Keos Masons) \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/033/522/500/medium/marco-plouffe-keos-masons-samus-panzer-02.jpg?1609855709",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_JllyVa",
+          "headline": "Samus Aran, classic stare",
+          "sourceUrl": "https://www.artstation.com/artwork/JllyVa",
+          "artist": "Julien Desroy",
+          "source": "artstation",
+          "creditLine": "Julien Desroy \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/013/781/680/medium/julien-desroy-metroid-beautyneutral-jdesroy.jpg?1541071755",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_zVaJ6",
+          "headline": "Samus Returns character line",
+          "sourceUrl": "https://www.artstation.com/artwork/zVaJ6",
+          "artist": "Odin Fernandez Moreno",
+          "source": "artstation",
+          "creditLine": "Odin Fernandez Moreno \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/012/966/803/medium/odin-fernandez-moreno-power-suit.jpg?1537400454",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_9dwyy",
+          "headline": "Samus Aran, painterly punch",
+          "sourceUrl": "https://www.artstation.com/artwork/9dwyy",
+          "artist": "Logan Cure",
+          "source": "artstation",
+          "creditLine": "Logan Cure \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/009/880/229/medium/logan-cure-samus-aran.jpg?1521389563",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_J9ogd",
+          "headline": "Samus Aran, helmet off energy",
+          "sourceUrl": "https://www.artstation.com/artwork/J9ogd",
+          "artist": "Alberto Camara",
+          "source": "artstation",
+          "creditLine": "Alberto Camara \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/000/472/985/medium/alberto-camara-samus1.jpg?1443928337",
+          "kind": "fanart",
+          "tags": [
+            "Metroid",
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_OyBR0w",
+          "headline": "Infinite Chief, model-clean",
+          "sourceUrl": "https://www.artstation.com/artwork/OyBR0w",
+          "artist": "Kolby Jukes",
+          "source": "artstation",
+          "creditLine": "Kolby Jukes \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/032/880/669/medium/kolby-jukes-halo-infinite-2020-ascension-demo-campaign-02-4k.jpg?1607732919",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_1lRK",
+          "headline": "Master Chief, silhouette strong",
+          "sourceUrl": "https://www.artstation.com/artwork/1lRK",
+          "artist": "Mathieu Aerni",
+          "source": "artstation",
+          "creditLine": "Mathieu Aerni \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/000/063/733/medium/mathieuAerni_Character54D.jpg?1418886756",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_d04ogJ",
+          "headline": "Infinite opening Chief moment",
+          "sourceUrl": "https://www.artstation.com/artwork/d04ogJ",
+          "artist": "Omid Moradi",
+          "source": "artstation",
+          "creditLine": "Omid Moradi \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/046/225/300/medium/omid-moradi-halo-infinite-om-ta1por-002.jpg?1644587426",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_B1V3g9",
+          "headline": "MCC Chief collection splash",
+          "sourceUrl": "https://www.artstation.com/artwork/B1V3g9",
+          "artist": "Isaac Oster",
+          "source": "artstation",
+          "creditLine": "Isaac Oster \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/031/176/987/medium/isaac-oster-spartan-hoplite-02.jpg?1602820542",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_ndoP6",
+          "headline": "Halo 5 Chief stands ready",
+          "sourceUrl": "https://www.artstation.com/artwork/ndoP6",
+          "artist": "Kyle Hefley",
+          "source": "artstation",
+          "creditLine": "Kyle Hefley \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/001/578/486/medium/kyle-hefley-chief-page-02.jpg?1448913224",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_lVNmNa",
+          "headline": "Gandalf head study, sculpt-tight",
+          "sourceUrl": "https://www.artstation.com/artwork/lVNmNa",
+          "artist": "Ivan Shavrin",
+          "source": "artstation",
+          "creditLine": "Ivan Shavrin \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/016/579/918/medium/ivan-shavrin-1.jpg?1552670552",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_XADw",
+          "headline": "Gandalf, quiet and gray",
+          "sourceUrl": "https://www.artstation.com/artwork/XADw",
+          "artist": "Bren Rodri",
+          "source": "artstation",
+          "creditLine": "Bren Rodri \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/000/152/743/medium/brenda-rodriguez-gandalf2smaller.jpg?1407015849",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_rA5Aoa",
+          "headline": "Gandalf concept, Colangeli clean",
+          "sourceUrl": "https://www.artstation.com/artwork/rA5Aoa",
+          "artist": "Lorenzo Colangeli",
+          "source": "artstation",
+          "creditLine": "Lorenzo Colangeli \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/034/310/171/medium/lorenzo-colangeli-2-gandalf.jpg?1611947568",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_0XlLxK",
+          "headline": "Ian McKellen as the Grey",
+          "sourceUrl": "https://www.artstation.com/artwork/0XlLxK",
+          "artist": "M Mars",
+          "source": "artstation",
+          "creditLine": "M Mars \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/016/612/901/medium/m-mars-01.jpg?1552826247",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_6NJ4Zn",
+          "headline": "Gandalf the White rises",
+          "sourceUrl": "https://www.artstation.com/artwork/6NJ4Zn",
+          "artist": "Tony",
+          "source": "artstation",
+          "creditLine": "Tony \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/075/572/116/medium/anthony-catillaz-anthony-catillaz-photo-output.jpg?1714920077",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_QK5dl8",
+          "headline": "Cozy fantasy cottage glow",
+          "sourceUrl": "https://www.artstation.com/artwork/QK5dl8",
+          "artist": "Trinh",
+          "source": "artstation",
+          "creditLine": "Trinh \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/092/749/787/medium/trinh-mainshot.webp?1760534566",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_Ozv5w",
+          "headline": "Fantasy village nestles in",
+          "sourceUrl": "https://www.artstation.com/artwork/Ozv5w",
+          "artist": "Apoorv Nigam",
+          "source": "artstation",
+          "creditLine": "Apoorv Nigam \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/005/455/101/medium/apoorv-nigam-7.jpg?1491156087",
+          "kind": "concept",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_WBJAzX",
+          "headline": "Survival key art, fog and grit",
+          "sourceUrl": "https://www.artstation.com/artwork/WBJAzX",
+          "artist": "BAND HUANG",
+          "source": "artstation",
+          "creditLine": "BAND HUANG \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/065/058/713/medium/band-huang-.jpg?1689411227",
+          "kind": "concept",
+          "tags": [
+            "survival"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_q0LnDn",
+          "headline": "Halo Wars unit sheet punch",
+          "sourceUrl": "https://www.artstation.com/artwork/q0LnDn",
+          "artist": "Don Gagen",
+          "source": "artstation",
+          "creditLine": "Don Gagen \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/100/311/094/medium/don-gagen-halo-wars-portfolio-2026-02.webp?1782487442",
+          "kind": "concept",
+          "tags": [
+            "RTS",
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_NqlgRd",
+          "headline": "Little Turnip Farm charm",
+          "sourceUrl": "https://www.artstation.com/artwork/NqlgRd",
+          "artist": "Erica Nascimento",
+          "source": "artstation",
+          "creditLine": "Erica Nascimento \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/099/076/714/medium/erica-nascimento-6.webp?1778858634",
+          "kind": "concept",
+          "tags": [
+            "sim",
+            "cosy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_0XLPKV",
+          "headline": "Lampyrii RPG hero light",
+          "sourceUrl": "https://www.artstation.com/artwork/0XLPKV",
+          "artist": "ROOM 8 STUDIO",
+          "source": "artstation",
+          "creditLine": "ROOM 8 STUDIO \u00b7 ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/018/320/092/medium/room-8-studio-room8-legendary-exposition-quadrate-3-1.jpg?1558954491",
+          "kind": "concept",
+          "tags": [
+            "RPGs",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_4Nn35k",
+          "headline": "Mushroom house in the woods",
+          "sourceUrl": "https://www.artstation.com/artwork/4Nn35k",
+          "artist": "Yevhenii Lytvynenko",
+          "source": "artstation",
+          "creditLine": "Yevhenii Lytvynenko \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/094/977/557/medium/yevhenii-lytvynenko-mushroom-final.webp?1767184318",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_g03ZoZ",
+          "headline": "Stylized fantasy landscape sweep",
+          "sourceUrl": "https://www.artstation.com/artwork/g03ZoZ",
+          "artist": "Elliott Castelle",
+          "source": "artstation",
+          "creditLine": "Elliott Castelle \u00b7 ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/099/219/219/medium/elliott-castelle-highresscreenshot00027.webp?1779292511",
+          "kind": "concept",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_fab_1d9cf00e",
+          "headline": "Modular medieval town kit",
+          "sourceUrl": "https://www.fab.com/listings/1d9cf00e-dd66-4fbe-a06e-e403af7a9860",
+          "artist": "Sugar Works.",
+          "source": "fab",
+          "creditLine": "Sugar Works. \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/bcb8926d-84c0-484a-9503-dd5dd4162f98/5f18fde6-3ed1-4319-b9f3-d14bb14e3c7d.png",
+          "kind": "3d",
+          "tags": [
+            "fantasy",
+            "cosy",
+            "sim"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_fab_f603149f",
+          "headline": "Stylized medieval village pack",
+          "sourceUrl": "https://www.fab.com/listings/f603149f-1452-41b0-a966-cdb338a9b9c0",
+          "artist": "AleksandrIvanov",
+          "source": "fab",
+          "creditLine": "AleksandrIvanov \u00b7 Fab",
+          "imageUrl": "https://media.fab.com/image_previews/gallery_images/25033b9f-83ce-40d0-bc57-451abcf3becd/cac84fd6-ad15-4ad9-a328-65651b5d9d16.png",
+          "kind": "3d",
+          "tags": [
+            "fantasy",
+            "cosy",
+            "sim"
+          ],
+          "status": "live"
+        }
+      ]
+    },
+    {
       "date": "2026-09-24",
       "label": "Thu Sep 24",
       "trailers": [
@@ -37,7 +593,7 @@
           "studio": "2P Games",
           "sourceId": "fXCQ1HCUvCo",
           "thumbnailUrl": "https://i.ytimg.com/vi/fXCQ1HCUvCo/hqdefault.jpg",
-          "note": "sim · cosy · RPG · PC live Sep 23",
+          "note": "sim \u00b7 cosy \u00b7 RPG \u00b7 PC live Sep 23",
           "tags": [
             "sim",
             "cosy",
@@ -58,7 +614,7 @@
           "studio": "Devolver Digital",
           "sourceId": "-xjK6tQZvs8",
           "thumbnailUrl": "https://i.ytimg.com/vi/-xjK6tQZvs8/hqdefault.jpg",
-          "note": "roguelike RPG · fungal decks · PC EA Sep 24",
+          "note": "roguelike RPG \u00b7 fungal decks \u00b7 PC EA Sep 24",
           "tags": [
             "RPGs",
             "survival"
@@ -78,7 +634,7 @@
           "studio": "Chris Cote / Kwalee",
           "sourceId": "HHpBCrFmxIg",
           "thumbnailUrl": "https://i.ytimg.com/vi/HHpBCrFmxIg/hqdefault.jpg",
-          "note": "cosy horror · RPG · sim · PC live",
+          "note": "cosy horror \u00b7 RPG \u00b7 sim \u00b7 PC live",
           "tags": [
             "cosy",
             "RPGs",
@@ -99,7 +655,7 @@
           "studio": "Roboto Games",
           "sourceId": "gtHU6wLr6F0",
           "thumbnailUrl": "https://i.ytimg.com/vi/gtHU6wLr6F0/hqdefault.jpg",
-          "note": "survival · fantasy · co-op · PC EA Nov 10",
+          "note": "survival \u00b7 fantasy \u00b7 co-op \u00b7 PC EA Nov 10",
           "tags": [
             "survival",
             "fantasy"
@@ -118,7 +674,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/g2ZgVP",
           "artist": "Alia Zhang",
           "source": "artstation",
-          "creditLine": "Alia Zhang · ArtStation",
+          "creditLine": "Alia Zhang \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/042/412/724/medium/alia-zhang-fighting-with-bats.jpg?1634457729",
           "kind": "fanart",
           "tags": [
@@ -133,7 +689,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/k43y4K",
           "artist": "Kumanz",
           "source": "artstation",
-          "creditLine": "Kumanz · ArtStation",
+          "creditLine": "Kumanz \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/021/148/264/medium/kumanz-zelda-armor-body-forup.jpg?1570566233",
           "kind": "fanart",
           "tags": [
@@ -148,7 +704,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/YaoD9w",
           "artist": "ALZiMi",
           "source": "artstation",
-          "creditLine": "ALZiMi · ArtStation",
+          "creditLine": "ALZiMi \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/019/302/286/medium/alzi-yijiaw-rg0702-s.jpg?1562870086",
           "kind": "fanart",
           "tags": [
@@ -163,7 +719,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/mDq809",
           "artist": "Andrea Mackowiak",
           "source": "artstation",
-          "creditLine": "Andrea Mackowiak · ArtStation",
+          "creditLine": "Andrea Mackowiak \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/072/111/899/medium/andrea-mackowiak-zbotw-cunet-2x-s0-glazed-intensity-10-v1.jpg?1706643597",
           "kind": "fanart",
           "tags": [
@@ -178,7 +734,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/XB4P4w",
           "artist": "Javier Guerrero Diaz",
           "source": "artstation",
-          "creditLine": "Javier Guerrero Diaz · ArtStation",
+          "creditLine": "Javier Guerrero Diaz \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/018/754/337/medium/javier-guerrero-diaz-zelda5.jpg?1560586179",
           "kind": "fanart",
           "tags": [
@@ -193,7 +749,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/g8b6Vm",
           "artist": "Sykosan",
           "source": "artstation",
-          "creditLine": "Sykosan · ArtStation",
+          "creditLine": "Sykosan \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/056/495/126/medium/sykosan-web-by-sykosan-copy.jpg?1669381612",
           "kind": "fanart",
           "tags": [
@@ -208,7 +764,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/g2W5L8",
           "artist": "Hibren Art",
           "source": "artstation",
-          "creditLine": "Hibren Art · ArtStation",
+          "creditLine": "Hibren Art \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/035/752/178/medium/hibren-art-samus-n-post.jpg?1615816691",
           "kind": "fanart",
           "tags": [
@@ -221,9 +777,9 @@
           "id": "ar_584d61",
           "headline": "Samus Aran fan splash",
           "sourceUrl": "https://www.artstation.com/artwork/584d61",
-          "artist": "Cédric \"Tyron\" Roux",
+          "artist": "C\u00e9dric \"Tyron\" Roux",
           "source": "artstation",
-          "creditLine": "Cédric \"Tyron\" Roux · ArtStation",
+          "creditLine": "C\u00e9dric \"Tyron\" Roux \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/018/423/930/medium/cedric-roux-samus-aran.jpg?1559311826",
           "kind": "fanart",
           "tags": [
@@ -237,7 +793,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/Nxy4xJ",
           "artist": "Hugo Mougel",
           "source": "artstation",
-          "creditLine": "Hugo Mougel · ArtStation",
+          "creditLine": "Hugo Mougel \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/028/876/563/medium/hugo-mougel-major-halo-infinite-2.jpg?1595795491",
           "kind": "fanart",
           "tags": [
@@ -251,7 +807,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/rRNPJa",
           "artist": "Chase Gray",
           "source": "artstation",
-          "creditLine": "Chase Gray · ArtStation",
+          "creditLine": "Chase Gray \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/022/596/146/medium/chase-gray-master-chief-new.jpg?1576014042",
           "kind": "fanart",
           "tags": [
@@ -265,7 +821,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/qQY49e",
           "artist": "ApexArts",
           "source": "artstation",
-          "creditLine": "ApexArts · ArtStation",
+          "creditLine": "ApexArts \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/067/425/092/medium/apexarts-asset.jpg?1695325023",
           "kind": "fanart",
           "tags": [
@@ -279,7 +835,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/xYQLA2",
           "artist": "Guillaume Tiberghien",
           "source": "artstation",
-          "creditLine": "Guillaume Tiberghien · ArtStation",
+          "creditLine": "Guillaume Tiberghien \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/054/917/270/medium/guillaume-tiberghien-gtiber-gandalf-clay.jpg?1665668677",
           "kind": "fanart",
           "tags": [
@@ -294,7 +850,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/G8XrEd",
           "artist": "Lorenzo Colangeli",
           "source": "artstation",
-          "creditLine": "Lorenzo Colangeli · ArtStation",
+          "creditLine": "Lorenzo Colangeli \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/043/438/531/medium/lorenzo-colangeli-gandalf.jpg?1637257744",
           "kind": "fanart",
           "tags": [
@@ -309,7 +865,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/bKnyyE",
           "artist": "Lorenzo Colangeli",
           "source": "artstation",
-          "creditLine": "Lorenzo Colangeli · ArtStation",
+          "creditLine": "Lorenzo Colangeli \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/034/910/206/medium/lorenzo-colangeli-15-balrog.jpg?1613575114",
           "kind": "fanart",
           "tags": [
@@ -324,7 +880,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/B1EWok",
           "artist": "Ozevito",
           "source": "artstation",
-          "creditLine": "Ozevito · ArtStation",
+          "creditLine": "Ozevito \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/040/809/977/medium/jose-victor-garundalf.jpg?1629929565",
           "kind": "fanart",
           "tags": [
@@ -339,7 +895,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/PXnZyZ",
           "artist": "Arina Babkina",
           "source": "artstation",
-          "creditLine": "Arina Babkina · ArtStation",
+          "creditLine": "Arina Babkina \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/065/308/794/medium/arina-babkina-asset.jpg?1690042050",
           "kind": "concept",
           "tags": [
@@ -353,7 +909,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/oblqrJ",
           "artist": "Artificial Dimension",
           "source": "artstation",
-          "creditLine": "Artificial Dimension · ArtStation",
+          "creditLine": "Artificial Dimension \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/067/043/246/medium/ansar-soudkhah-art-stylized-fantasy-house-01.jpg?1694425084",
           "kind": "concept",
           "tags": [
@@ -368,7 +924,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/WKozeE",
           "artist": "Lauren Oien",
           "source": "artstation",
-          "creditLine": "Lauren Oien · ArtStation",
+          "creditLine": "Lauren Oien \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/037/200/614/medium/lauren-oien-fea-hollow-poster.jpg?1619748867",
           "kind": "concept",
           "tags": [
@@ -383,7 +939,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/x3LbnO",
           "artist": "DhruvM_003",
           "source": "artstation",
-          "creditLine": "DhruvM_003 · ArtStation",
+          "creditLine": "DhruvM_003 \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/088/558/335/medium/dhruvm_003-mushroom-cat.jpg?1748588015",
           "kind": "concept",
           "tags": [
@@ -397,7 +953,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/qJwOWz",
           "artist": "Ruby Realm",
           "source": "artstation",
-          "creditLine": "Ruby Realm · ArtStation",
+          "creditLine": "Ruby Realm \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/089/335/707/medium/ruby-realm-poster.jpg?1750703672",
           "kind": "concept",
           "tags": [
@@ -412,7 +968,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/LRQZPP",
           "artist": "Artificial Dimension",
           "source": "artstation",
-          "creditLine": "Artificial Dimension · ArtStation",
+          "creditLine": "Artificial Dimension \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/072/189/443/medium/artificial-dimension-0.jpg?1706800869",
           "kind": "concept",
           "tags": [
@@ -427,7 +983,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/BXX2L4",
           "artist": "Timofei Akimov",
           "source": "artstation",
-          "creditLine": "Timofei Akimov · ArtStation",
+          "creditLine": "Timofei Akimov \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/060/957/882/medium/timofei-akimov-1.jpg?1679680351",
           "kind": "concept",
           "tags": [
@@ -442,7 +998,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/ok63W",
           "artist": "Linda LE DREAU",
           "source": "artstation",
-          "creditLine": "Linda LE DREAU · ArtStation",
+          "creditLine": "Linda LE DREAU \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/009/640/163/medium/linda-le-dreau-coruptseason-da4-part2-e.jpg?1527860893",
           "kind": "concept",
           "tags": [
@@ -456,7 +1012,7 @@
           "sourceUrl": "https://www.fab.com/listings/40cbced4-c5c7-4cf7-9d2f-a87c5f92580e",
           "artist": "Enterables",
           "source": "fab",
-          "creditLine": "Enterables · Fab",
+          "creditLine": "Enterables \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/7c74abcf-90b0-405e-afdb-e184bbae262e/0f06b877-f2b6-475a-9f7e-a7ac1b8ff999.png",
           "kind": "3d",
           "tags": [
@@ -472,7 +1028,7 @@
           "sourceUrl": "https://www.fab.com/listings/f8b6394b-ce09-46b3-94f6-212d95804fff",
           "artist": "So Stylized",
           "source": "fab",
-          "creditLine": "So Stylized · Fab",
+          "creditLine": "So Stylized \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/e41528d9-edb8-41ac-902e-7a87b54be03d/e78ab0ed-9b83-43ea-8d8c-3ecfc622bfb7.jpg",
           "kind": "3d",
           "tags": [
@@ -496,7 +1052,7 @@
           "studio": "Delverium / Sagestone Games",
           "sourceId": "akw4CHIAbfQ",
           "thumbnailUrl": "https://i.ytimg.com/vi/akw4CHIAbfQ/hqdefault.jpg",
-          "note": "survival · cosy farm · fantasy · PC EA Sep 22",
+          "note": "survival \u00b7 cosy farm \u00b7 fantasy \u00b7 PC EA Sep 22",
           "tags": [
             "survival",
             "cosy",
@@ -517,7 +1073,7 @@
           "studio": "Studio Origin",
           "sourceId": "r4IHez4GtTs",
           "thumbnailUrl": "https://i.ytimg.com/vi/r4IHez4GtTs/hqdefault.jpg",
-          "note": "sim · RPG · PC live",
+          "note": "sim \u00b7 RPG \u00b7 PC live",
           "tags": [
             "sim",
             "RPGs",
@@ -538,7 +1094,7 @@
           "studio": "PlayStation",
           "sourceId": "2w1Lo7kodDU",
           "thumbnailUrl": "https://i.ytimg.com/vi/2w1Lo7kodDU/hqdefault.jpg",
-          "note": "fantasy · puzzle exploration · console+PC · Oct 8",
+          "note": "fantasy \u00b7 puzzle exploration \u00b7 console+PC \u00b7 Oct 8",
           "tags": [
             "fantasy"
           ],
@@ -555,9 +1111,9 @@
           "id": "ar_zDmV5L",
           "headline": "BotW Temple of Time fan vista",
           "sourceUrl": "https://www.artstation.com/artwork/zDmV5L",
-          "artist": "Naïm Bonnot",
+          "artist": "Na\u00efm Bonnot",
           "source": "artstation",
-          "creditLine": "Naïm Bonnot · ArtStation",
+          "creditLine": "Na\u00efm Bonnot \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/046/968/815/medium/naim-bonnot-botw-templeoftime-003.jpg?1646414146",
           "kind": "fanart",
           "tags": [
@@ -572,7 +1128,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/D5Z9LE",
           "artist": "Alia Zhang",
           "source": "artstation",
-          "creditLine": "Alia Zhang · ArtStation",
+          "creditLine": "Alia Zhang \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/040/686/219/medium/alia-zhang-1.jpg?1629600968",
           "kind": "fanart",
           "tags": [
@@ -587,7 +1143,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/OoLv48",
           "artist": "Daniel Bruno",
           "source": "artstation",
-          "creditLine": "Daniel Bruno · ArtStation",
+          "creditLine": "Daniel Bruno \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/041/029/776/medium/daniel-bruno-01-danielbruno-aquaticmoonbotw2env-2k.jpg?1649015718",
           "kind": "fanart",
           "tags": [
@@ -602,7 +1158,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/8bBLLR",
           "artist": "Justin T Phillips",
           "source": "artstation",
-          "creditLine": "Justin T Phillips · ArtStation",
+          "creditLine": "Justin T Phillips \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/061/424/466/medium/justin-t-phillips-screen-shot-2023-04-05-at-11-15-06-pm.jpg?1680756924",
           "kind": "fanart",
           "tags": [
@@ -615,9 +1171,9 @@
           "id": "ar_4XkGmn",
           "headline": "Little Link's raft",
           "sourceUrl": "https://www.artstation.com/artwork/4XkGmn",
-          "artist": "Laurène Bonnet",
+          "artist": "Laur\u00e8ne Bonnet",
           "source": "artstation",
-          "creditLine": "Laurène Bonnet · ArtStation",
+          "creditLine": "Laur\u00e8ne Bonnet \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/048/093/822/medium/laurene-bonnet-link-sadventure3-middle.jpg?1649284091",
           "kind": "fanart",
           "tags": [
@@ -630,9 +1186,9 @@
           "id": "ar_14W2DX",
           "headline": "Zelda's meadow",
           "sourceUrl": "https://www.artstation.com/artwork/14W2DX",
-          "artist": "Laurène Bonnet",
+          "artist": "Laur\u00e8ne Bonnet",
           "source": "artstation",
-          "creditLine": "Laurène Bonnet · ArtStation",
+          "creditLine": "Laur\u00e8ne Bonnet \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/048/822/884/medium/laurene-bonnet-linkandzeldainthemeadow-02-middle.jpg?1651016129",
           "kind": "fanart",
           "tags": [
@@ -647,7 +1203,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/oeB2m",
           "artist": "Antoine Dupuis",
           "source": "artstation",
-          "creditLine": "Antoine Dupuis · ArtStation",
+          "creditLine": "Antoine Dupuis \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/007/446/421/medium/antoine-dupuis-01-reachingclose.jpg?1506196120",
           "kind": "fanart",
           "tags": [
@@ -658,11 +1214,11 @@
         },
         {
           "id": "ar_5XKqE8",
-          "headline": "Samus — grounded Metroid take",
+          "headline": "Samus \u2014 grounded Metroid take",
           "sourceUrl": "https://www.artstation.com/artwork/5XKqE8",
           "artist": "Andrew Domachowski",
           "source": "artstation",
-          "creditLine": "Andrew Domachowski · ArtStation",
+          "creditLine": "Andrew Domachowski \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/030/308/758/medium/andrew-domachowski-metroid-vert-01.jpg?1600211038",
           "kind": "fanart",
           "tags": [
@@ -676,7 +1232,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/kDqyd2",
           "artist": "Crista Lbr",
           "source": "artstation",
-          "creditLine": "Crista Lbr · ArtStation",
+          "creditLine": "Crista Lbr \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/040/561/187/medium/crista-lbr-cristalbr-fanart-neo-ridley.jpg?1629221940",
           "kind": "fanart",
           "tags": [
@@ -690,7 +1246,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/8lmb06",
           "artist": "Tony Holmsten",
           "source": "artstation",
-          "creditLine": "Tony Holmsten · ArtStation",
+          "creditLine": "Tony Holmsten \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/015/420/601/medium/tony-holmsten-metroid-transposure-01.jpg?1548264568",
           "kind": "fanart",
           "tags": [
@@ -705,7 +1261,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/1NZaoK",
           "artist": "Gabriel Walker",
           "source": "artstation",
-          "creditLine": "Gabriel Walker · ArtStation",
+          "creditLine": "Gabriel Walker \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/085/094/298/medium/gabriel-walker-main-render-1.jpg?1739962928",
           "kind": "fanart",
           "tags": [
@@ -719,7 +1275,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/GvqBXB",
           "artist": "Bulkamancer Sculpts",
           "source": "artstation",
-          "creditLine": "Bulkamancer Sculpts · ArtStation",
+          "creditLine": "Bulkamancer Sculpts \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/086/285/708/medium/bulkamancer-sculpts-samus-color-1.jpg?1742829962",
           "kind": "fanart",
           "tags": [
@@ -733,7 +1289,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/Qrred3",
           "artist": "Ja Mong",
           "source": "artstation",
-          "creditLine": "Ja Mong · ArtStation",
+          "creditLine": "Ja Mong \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/028/397/241/medium/ja-mong-117mc-w.jpg?1594343573",
           "kind": "fanart",
           "tags": [
@@ -747,7 +1303,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/Qrne9E",
           "artist": "Winston Eken",
           "source": "artstation",
-          "creditLine": "Winston Eken · ArtStation",
+          "creditLine": "Winston Eken \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/028/741/563/medium/winston-eken-masterchief-01.jpg?1595368275",
           "kind": "fanart",
           "tags": [
@@ -761,7 +1317,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/Eab6an",
           "artist": "Sam Bolotnikov",
           "source": "artstation",
-          "creditLine": "Sam Bolotnikov · ArtStation",
+          "creditLine": "Sam Bolotnikov \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/046/314/316/medium/sam-bolotnikov-preview-logo.jpg?1644834531",
           "kind": "fanart",
           "tags": [
@@ -775,7 +1331,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/YewBqq",
           "artist": "Astarer Mr",
           "source": "artstation",
-          "creditLine": "Astarer Mr · ArtStation",
+          "creditLine": "Astarer Mr \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/041/019/726/medium/zhoran-mr-practice01-c.jpg?1630523551",
           "kind": "fanart",
           "tags": [
@@ -790,7 +1346,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/x3rGqE",
           "artist": "Gabriel Varz",
           "source": "artstation",
-          "creditLine": "Gabriel Varz · ArtStation",
+          "creditLine": "Gabriel Varz \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/100/339/777/medium/gabriel-varz-gabv-gandalf-vs-balrog-fanart-1.webp?1782587740",
           "kind": "fanart",
           "tags": [
@@ -805,7 +1361,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/6NL53N",
           "artist": "Rafael Falconi",
           "source": "artstation",
-          "creditLine": "Rafael Falconi · ArtStation",
+          "creditLine": "Rafael Falconi \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/061/447/482/medium/rafael-falconi-final-low-4k.jpg?1680806079",
           "kind": "fanart",
           "tags": [
@@ -820,7 +1376,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/X1dk3L",
           "artist": "Berber Mijangos",
           "source": "artstation",
-          "creditLine": "Berber Mijangos · ArtStation",
+          "creditLine": "Berber Mijangos \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/045/948/297/medium/berber-mijangos-gandalf.jpg?1643915335",
           "kind": "fanart",
           "tags": [
@@ -835,7 +1391,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/AZbzkz",
           "artist": "HYL",
           "source": "artstation",
-          "creditLine": "HYL · ArtStation",
+          "creditLine": "HYL \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/093/703/498/medium/hyl-elf-hyl.webp?1763301996",
           "kind": "concept",
           "tags": [
@@ -850,7 +1406,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/98mgYa",
           "artist": "Miguel Nogueira - Concept Artist, Storyteller, Design Strategist",
           "source": "artstation",
-          "creditLine": "Miguel Nogueira - Concept Artist, Storyteller, Design Strategist · ArtStation",
+          "creditLine": "Miguel Nogueira - Concept Artist, Storyteller, Design Strategist \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/088/740/448/medium/miguel-nogueira-freelance-concept-artist-miguel-nogueira-concept.jpg?1749055845",
           "kind": "concept",
           "tags": [
@@ -861,11 +1417,11 @@
         },
         {
           "id": "ar_XJo3Z0",
-          "headline": "AoM Retold — Yasuko spear",
+          "headline": "AoM Retold \u2014 Yasuko spear",
           "sourceUrl": "https://www.artstation.com/artwork/XJo3Z0",
-          "artist": "Alexander Börner",
+          "artist": "Alexander B\u00f6rner",
           "source": "artstation",
-          "creditLine": "Alexander Börner · ArtStation",
+          "creditLine": "Alexander B\u00f6rner \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/093/434/441/medium/alexander-borner-yasuko.webp?1762519123",
           "kind": "concept",
           "tags": [
@@ -878,9 +1434,9 @@
           "id": "ar_6L4ZJw",
           "headline": "AoM Retold myth creatures",
           "sourceUrl": "https://www.artstation.com/artwork/6L4ZJw",
-          "artist": "Alexander Börner",
+          "artist": "Alexander B\u00f6rner",
           "source": "artstation",
-          "creditLine": "Alexander Börner · ArtStation",
+          "creditLine": "Alexander B\u00f6rner \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/093/434/674/medium/alexander-borner-draugr.webp?1762519258",
           "kind": "concept",
           "tags": [
@@ -895,7 +1451,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/A9Xkqz",
           "artist": "Emilie Vaccarini",
           "source": "artstation",
-          "creditLine": "Emilie Vaccarini · ArtStation",
+          "creditLine": "Emilie Vaccarini \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/017/652/635/medium/emilie-v-f-keyartcomp001.jpg?1556826448",
           "kind": "concept",
           "tags": [
@@ -910,7 +1466,7 @@
           "sourceUrl": "https://www.fab.com/listings/5ec1cddd-d4d8-455f-8feb-2354e811a315",
           "artist": "HowardCoates",
           "source": "fab",
-          "creditLine": "HowardCoates · Fab",
+          "creditLine": "HowardCoates \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/5883dfd2-3311-4e8b-90be-48b4228d9742/e29809eb-b3a9-4f39-a423-6bfd0a342b9c.png",
           "kind": "3d",
           "tags": [
@@ -926,7 +1482,7 @@
           "sourceUrl": "https://www.fab.com/listings/65074768-24fe-4b15-af67-1aa773db900d",
           "artist": "Sidearm Studios",
           "source": "fab",
-          "creditLine": "Sidearm Studios · Fab",
+          "creditLine": "Sidearm Studios \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/00cb8ab7-7160-4ccf-a7ea-32bcb1f7af50/b7bee89e-026b-4a7d-9512-2cc83a581415.png",
           "kind": "3d",
           "tags": [
@@ -942,7 +1498,7 @@
           "sourceUrl": "https://www.fab.com/listings/4121695a-563b-488b-911d-2a3fbda98634",
           "artist": "Hivemind",
           "source": "fab",
-          "creditLine": "Hivemind · Fab",
+          "creditLine": "Hivemind \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/5a62c40a-efdc-44f4-8eff-8560777c5f23/360acb11-569f-4392-850c-b04cad59781b.png",
           "kind": "3d",
           "tags": [
@@ -967,7 +1523,7 @@
           "studio": "Nintendo of America",
           "sourceId": "ac-c2InQQtY",
           "thumbnailUrl": "https://i.ytimg.com/vi/ac-c2InQQtY/hqdefault.jpg",
-          "note": "fantasy · RTS-adjacent · console",
+          "note": "fantasy \u00b7 RTS-adjacent \u00b7 console",
           "tags": [
             "fantasy",
             "RPGs"
@@ -987,7 +1543,7 @@
           "studio": "Nintendo of America",
           "sourceId": "iAMM22ZeklA",
           "thumbnailUrl": "https://i.ytimg.com/vi/iAMM22ZeklA/hqdefault.jpg",
-          "note": "RPG · console",
+          "note": "RPG \u00b7 console",
           "tags": [
             "RPGs",
             "fantasy"
@@ -1007,7 +1563,7 @@
           "studio": "Supergiant Games",
           "sourceId": "ppEKFy83w-o",
           "thumbnailUrl": "https://i.ytimg.com/vi/ppEKFy83w-o/hqdefault.jpg",
-          "note": "roguelike RPG · console",
+          "note": "roguelike RPG \u00b7 console",
           "tags": [
             "RPGs",
             "fantasy"
@@ -1028,7 +1584,7 @@
           "studio": "Mega Crit",
           "sourceId": "PW22jwFNxU8",
           "thumbnailUrl": "https://i.ytimg.com/vi/PW22jwFNxU8/hqdefault.jpg",
-          "note": "deckbuilder · PC",
+          "note": "deckbuilder \u00b7 PC",
           "tags": [
             "RPGs"
           ],
@@ -1047,7 +1603,7 @@
           "studio": "Raw Fury",
           "sourceId": "rSvl2bRcO0c",
           "thumbnailUrl": "https://i.ytimg.com/vi/rSvl2bRcO0c/hqdefault.jpg",
-          "note": "puzzle · survival vibes · multi",
+          "note": "puzzle \u00b7 survival vibes \u00b7 multi",
           "tags": [
             "survival",
             "sim"
@@ -1068,7 +1624,7 @@
           "studio": "Aggro Crab",
           "sourceId": "4bUA3UHajXE",
           "thumbnailUrl": "https://i.ytimg.com/vi/4bUA3UHajXE/hqdefault.jpg",
-          "note": "co-op climb · multi",
+          "note": "co-op climb \u00b7 multi",
           "tags": [
             "survival",
             "cosy"
@@ -1088,7 +1644,7 @@
           "studio": "Curve Games",
           "sourceId": "toD8ud_HVhA",
           "thumbnailUrl": "https://i.ytimg.com/vi/toD8ud_HVhA/hqdefault.jpg",
-          "note": "cosy · fantasy · sim · PC · Sep 24",
+          "note": "cosy \u00b7 fantasy \u00b7 sim \u00b7 PC \u00b7 Sep 24",
           "tags": [
             "cosy",
             "fantasy",
@@ -1108,7 +1664,7 @@
           "studio": "Monster Couch",
           "sourceId": "cZlupDSLXRY",
           "thumbnailUrl": "https://i.ytimg.com/vi/cZlupDSLXRY/hqdefault.jpg",
-          "note": "cosy · sim · console+PC",
+          "note": "cosy \u00b7 sim \u00b7 console+PC",
           "tags": [
             "cosy",
             "sim"
@@ -1128,7 +1684,7 @@
           "studio": "IGN",
           "sourceId": "_nKofPecyrM",
           "thumbnailUrl": "https://i.ytimg.com/vi/_nKofPecyrM/hqdefault.jpg",
-          "note": "RPG · fantasy · PC demo",
+          "note": "RPG \u00b7 fantasy \u00b7 PC demo",
           "tags": [
             "RPGs",
             "fantasy"
@@ -1146,7 +1702,7 @@
           "sourceUrl": "https://dzoho.artstation.com/projects/aYBXAk",
           "artist": "Dzoan Ho",
           "source": "artstation",
-          "creditLine": "Dzoan Ho · ArtStation",
+          "creditLine": "Dzoan Ho \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/033/078/385/medium/dzoan-ho-link-wiiu-web.jpg?1610710768",
           "kind": "fanart",
           "tags": [
@@ -1161,7 +1717,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/oODZ6z",
           "artist": "Yoolie",
           "source": "artstation",
-          "creditLine": "Yoolie · ArtStation",
+          "creditLine": "Yoolie \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/024/455/784/medium/ulyses-bain-thumb.jpg?1582486797",
           "kind": "fanart",
           "tags": [
@@ -1176,7 +1732,7 @@
           "sourceUrl": "https://cbcosta.artstation.com/projects/QXoA4d",
           "artist": "Carlos Costa",
           "source": "artstation",
-          "creditLine": "Carlos Costa · ArtStation",
+          "creditLine": "Carlos Costa \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/064/637/302/medium/carlos-costa-carlos-costa-link-ocarina-of-time-totk-style-transparent.jpg?1688409653",
           "kind": "fanart",
           "tags": [
@@ -1191,7 +1747,7 @@
           "sourceUrl": "https://lucaprevidi85.artstation.com/projects/lGkE9k",
           "artist": "Luca Previdi",
           "source": "artstation",
-          "creditLine": "Luca Previdi · ArtStation",
+          "creditLine": "Luca Previdi \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/094/356/430/medium/luca-previdi-samus-2025-intera.jpg?1765301908",
           "kind": "fanart",
           "tags": [
@@ -1206,7 +1762,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/q9V0yN",
           "artist": "Yan Sculpts",
           "source": "artstation",
-          "creditLine": "Yan Sculpts · ArtStation",
+          "creditLine": "Yan Sculpts \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/037/828/084/medium/yan-sculpts-yan-sculpts-samus-c02.jpg?1621427603",
           "kind": "fanart",
           "tags": [
@@ -1221,7 +1777,7 @@
           "sourceUrl": "https://protomonkey.artstation.com/projects/3mXao",
           "artist": "Allan Lee",
           "source": "artstation",
-          "creditLine": "Allan Lee · ArtStation",
+          "creditLine": "Allan Lee \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/003/492/167/medium/allan-lee-icon.jpg?1474302586",
           "kind": "fanart",
           "tags": [
@@ -1236,7 +1792,7 @@
           "sourceUrl": "https://josephbramlett.artstation.com/projects/4bBWG2",
           "artist": "Joseph Bramlett",
           "source": "artstation",
-          "creditLine": "Joseph Bramlett · ArtStation",
+          "creditLine": "Joseph Bramlett \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/020/273/717/medium/joseph-bramlett-thumb-1.jpg?1567102756",
           "kind": "fanart",
           "tags": [
@@ -1251,7 +1807,7 @@
           "sourceUrl": "https://justintphillips.artstation.com/projects/rA4Qm5",
           "artist": "Justin T Phillips",
           "source": "artstation",
-          "creditLine": "Justin T Phillips · ArtStation",
+          "creditLine": "Justin T Phillips \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/034/918/324/medium/justin-t-phillips-screenshot-2021-02-17-140642.jpg?1613589727",
           "kind": "fanart",
           "tags": [
@@ -1263,9 +1819,9 @@
           "id": "ar_1bQb2",
           "headline": "Halo fan painting",
           "sourceUrl": "https://www.artstation.com/artwork/1bQb2",
-          "artist": "Gaétan 'Spartan' Weltzer",
+          "artist": "Ga\u00e9tan 'Spartan' Weltzer",
           "source": "artstation",
-          "creditLine": "Gaétan 'Spartan' Weltzer · ArtStation",
+          "creditLine": "Ga\u00e9tan 'Spartan' Weltzer \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/001/743/295/medium/gaetan-weltzer-gaming-painting-1-halo-final-1920.jpg?1452089501",
           "kind": "fanart",
           "tags": [
@@ -1280,7 +1836,7 @@
           "sourceUrl": "https://glitch5970.artstation.com/projects/Z5Ly9N",
           "artist": "Glitch5970",
           "source": "artstation",
-          "creditLine": "Glitch5970 · ArtStation",
+          "creditLine": "Glitch5970 \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/027/350/757/medium/glitch-5970-333.jpg?1591282576",
           "kind": "fanart",
           "tags": [
@@ -1294,7 +1850,7 @@
           "sourceUrl": "https://abisv.artstation.com/projects/N5e5vJ",
           "artist": "Abimael Salazar",
           "source": "artstation",
-          "creditLine": "Abimael Salazar · ArtStation",
+          "creditLine": "Abimael Salazar \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/019/356/307/medium/abimael-salazar-1.jpg?1563131687",
           "kind": "fanart",
           "tags": [
@@ -1308,7 +1864,7 @@
           "sourceUrl": "https://glitch5970.artstation.com/projects/1883g8",
           "artist": "Glitch5970",
           "source": "artstation",
-          "creditLine": "Glitch5970 · ArtStation",
+          "creditLine": "Glitch5970 \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/028/240/884/medium/glitch-5970-0686fb7ee1ab7981def05409e0726d32.jpg?1593886213",
           "kind": "fanart",
           "tags": [
@@ -1322,7 +1878,7 @@
           "sourceUrl": "https://abisv.artstation.com/projects/zdGzw",
           "artist": "Abimael Salazar",
           "source": "artstation",
-          "creditLine": "Abimael Salazar · ArtStation",
+          "creditLine": "Abimael Salazar \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/019/815/138/medium/abimael-salazar-5.jpg?1565117479",
           "kind": "fanart",
           "tags": [
@@ -1336,7 +1892,7 @@
           "sourceUrl": "https://mrest.artstation.com/projects/dKADVA",
           "artist": "Marcello Restaldi",
           "source": "artstation",
-          "creditLine": "Marcello Restaldi · ArtStation",
+          "creditLine": "Marcello Restaldi \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/076/863/544/medium/marcello-restaldi-lotr.jpg?1718020319",
           "kind": "fanart",
           "tags": [
@@ -1349,9 +1905,9 @@
           "id": "ar_OolX1v",
           "headline": "Arwen at Rivendell",
           "sourceUrl": "https://aidasofia.artstation.com/projects/OolX1v",
-          "artist": "Aida Sofía Barba",
+          "artist": "Aida Sof\u00eda Barba",
           "source": "artstation",
-          "creditLine": "Aida Sofía Barba · ArtStation",
+          "creditLine": "Aida Sof\u00eda Barba \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/036/486/257/medium/aida-sofia-barba-img-0504.jpg?1617804557",
           "kind": "fanart",
           "tags": [
@@ -1366,7 +1922,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/A9RJ1e",
           "artist": "Jourdan Tuffan",
           "source": "artstation",
-          "creditLine": "Jourdan Tuffan · ArtStation",
+          "creditLine": "Jourdan Tuffan \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/020/858/900/medium/jourdan-tuffan-town-sketchu-16.jpg?1569440465",
           "kind": "landscape",
           "tags": [
@@ -1381,7 +1937,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/4XrVQk",
           "artist": "Clara Martins da Silva",
           "source": "artstation",
-          "creditLine": "Clara Martins da Silva · ArtStation",
+          "creditLine": "Clara Martins da Silva \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/054/501/495/medium/clara-martins-da-silva-fee-fleur-verte-concept04.jpg?1664705198",
           "kind": "character",
           "tags": [
@@ -1395,7 +1951,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/BXnlnk",
           "artist": "Nicoleta Stavarache",
           "source": "artstation",
-          "creditLine": "Nicoleta Stavarache · ArtStation",
+          "creditLine": "Nicoleta Stavarache \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/065/337/682/medium/nicoleta-stavarache-tiger-guardian-nicoleta-stavarache.jpg?1690131147",
           "kind": "character",
           "tags": [
@@ -1409,7 +1965,7 @@
           "sourceUrl": "https://www.fab.com/listings/101d8331-dab5-4e11-b9c2-0a889c0ef3bb",
           "artist": "Modularity",
           "source": "fab",
-          "creditLine": "Modularity · Fab",
+          "creditLine": "Modularity \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/beef83dd-858b-415d-80e4-325d83e053bb/acca8795-e66f-4ddf-9ce0-ca6e417aa1c6.jpg",
           "kind": "3d",
           "tags": [
@@ -1424,7 +1980,7 @@
           "sourceUrl": "https://x.com/kloss_xyz/status/2102236201927544836",
           "artist": "@kloss_xyz",
           "source": "x",
-          "creditLine": "@kloss_xyz · X · GrokBot faces",
+          "creditLine": "@kloss_xyz \u00b7 X \u00b7 GrokBot faces",
           "imageUrl": "https://pbs.twimg.com/media/HSykru_akAAZgB0.jpg",
           "kind": "meme",
           "tags": [
@@ -1439,7 +1995,7 @@
           "sourceUrl": "https://x.com/kloss_xyz/status/2102236201927544836",
           "artist": "@kloss_xyz",
           "source": "x",
-          "creditLine": "@kloss_xyz · X · GrokBot faces",
+          "creditLine": "@kloss_xyz \u00b7 X \u00b7 GrokBot faces",
           "imageUrl": "https://pbs.twimg.com/media/HSykrvEa0AA_Uwf.jpg",
           "kind": "meme",
           "tags": [
@@ -1454,7 +2010,7 @@
           "sourceUrl": "https://x.com/kloss_xyz/status/2102236201927544836",
           "artist": "@kloss_xyz",
           "source": "x",
-          "creditLine": "@kloss_xyz · X · GrokBot faces",
+          "creditLine": "@kloss_xyz \u00b7 X \u00b7 GrokBot faces",
           "imageUrl": "https://pbs.twimg.com/media/HSykrv3aEAAcfQW.jpg",
           "kind": "meme",
           "tags": [
@@ -1469,7 +2025,7 @@
           "sourceUrl": "https://x.com/kloss_xyz/status/2102236201927544836",
           "artist": "@kloss_xyz",
           "source": "x",
-          "creditLine": "@kloss_xyz · X · GrokBot faces",
+          "creditLine": "@kloss_xyz \u00b7 X \u00b7 GrokBot faces",
           "imageUrl": "https://pbs.twimg.com/media/HSykrvHaMAAxGu7.jpg",
           "kind": "meme",
           "tags": [
@@ -1484,7 +2040,7 @@
           "sourceUrl": "https://x.com/valentinlulu/status/2102295830313255259",
           "artist": "@valentinlulu",
           "source": "x",
-          "creditLine": "@valentinlulu · X · GrokBot faces",
+          "creditLine": "@valentinlulu \u00b7 X \u00b7 GrokBot faces",
           "imageUrl": "https://pbs.twimg.com/media/HSzaNfYbcAA3NuY.jpg",
           "kind": "meme",
           "tags": [
@@ -1499,7 +2055,7 @@
           "sourceUrl": "https://x.com/renaissxyz/status/2102341731568197727",
           "artist": "@renaissxyz",
           "source": "x",
-          "creditLine": "@renaissxyz · X · GrokBot faces",
+          "creditLine": "@renaissxyz \u00b7 X \u00b7 GrokBot faces",
           "imageUrl": "https://pbs.twimg.com/media/HS0EdxGbEAAZTXi.jpg",
           "kind": "meme",
           "tags": [
@@ -1513,7 +2069,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/8w9xWw",
           "artist": "Hue Teo",
           "source": "artstation",
-          "creditLine": "Hue Teo · ArtStation",
+          "creditLine": "Hue Teo \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/057/947/046/medium/hue-teo-hue-teo-thumb.jpg?1673027292",
           "kind": "concept",
           "tags": [
@@ -1528,7 +2084,7 @@
           "sourceUrl": "https://mattforsyth.artstation.com/projects/o9NJJ",
           "artist": "Matt Forsyth",
           "source": "artstation",
-          "creditLine": "Matt Forsyth · ArtStation",
+          "creditLine": "Matt Forsyth \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/002/061/572/medium/matt-forsyth-dragonvalleystill.jpg?1457535498",
           "kind": "concept",
           "tags": [
@@ -1542,7 +2098,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/KrnQA4",
           "artist": "Kayla Kosik",
           "source": "artstation",
-          "creditLine": "Kayla Kosik · ArtStation",
+          "creditLine": "Kayla Kosik \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/041/880/842/medium/kayla-kosik-kayla-kosik-07.jpg?1632954723",
           "kind": "concept",
           "tags": [
@@ -1556,7 +2112,7 @@
           "sourceUrl": "https://nicholas-maxson-francombe.artstation.com/projects/1xmQXK",
           "artist": "Nicholas Maxson-Francombe",
           "source": "artstation",
-          "creditLine": "Nicholas Maxson-Francombe · ArtStation",
+          "creditLine": "Nicholas Maxson-Francombe \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/videos/images/076/859/906/medium/nicholas-maxson-francombe-maxresdefault.jpg?1718012729",
           "kind": "concept",
           "tags": [
@@ -1571,7 +2127,7 @@
           "sourceUrl": "https://www.artstation.com/artwork/x3La2Y",
           "artist": "Gates of Pyre concept",
           "source": "artstation",
-          "creditLine": "Gates of Pyre concept · ArtStation",
+          "creditLine": "Gates of Pyre concept \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/711/828/medium/justus-sluijter-justus-sluijter-justussluijter-sunspear-concept-thumbnails-broodanchor.jpg?1748985226",
           "kind": "concept",
           "tags": [
@@ -1585,7 +2141,7 @@
           "sourceUrl": "https://www.fab.com/listings/5c3aa4b1-f843-4505-a964-5fb2378b29f8",
           "artist": "Fab creator",
           "source": "fab",
-          "creditLine": "Fab creator · Fab",
+          "creditLine": "Fab creator \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/129fabf7-bef8-47dc-bddd-d96fb13f51e4/9575386e-239e-42fb-ba14-2db5b7d91fa4.png",
           "kind": "3d",
           "tags": [
@@ -1609,7 +2165,7 @@
           "studio": "PlayStation",
           "sourceId": "1HTNSW1-POo",
           "thumbnailUrl": "https://i.ytimg.com/vi/1HTNSW1-POo/hqdefault.jpg",
-          "note": "RTS · fantasy · console",
+          "note": "RTS \u00b7 fantasy \u00b7 console",
           "tags": [
             "RTS",
             "fantasy"
@@ -1629,7 +2185,7 @@
           "studio": "3D Realms",
           "sourceId": "L_w9CLj8P5E",
           "thumbnailUrl": "https://i.ytimg.com/vi/L_w9CLj8P5E/hqdefault.jpg",
-          "note": "RTS · PC",
+          "note": "RTS \u00b7 PC",
           "tags": [
             "RTS",
             "survival"
@@ -1648,7 +2204,7 @@
           "studio": "Nintendo of America",
           "sourceId": "tUp_l5taUeY",
           "thumbnailUrl": "https://i.ytimg.com/vi/tUp_l5taUeY/hqdefault.jpg",
-          "note": "fantasy · console",
+          "note": "fantasy \u00b7 console",
           "tags": [
             "fantasy",
             "cosy"
@@ -1667,7 +2223,7 @@
           "studio": "Nintendo of America",
           "sourceId": "ku-vSTDNsT8",
           "thumbnailUrl": "https://i.ytimg.com/vi/ku-vSTDNsT8/hqdefault.jpg",
-          "note": "survival · exploration",
+          "note": "survival \u00b7 exploration",
           "tags": [
             "survival",
             "fantasy"
@@ -1686,7 +2242,7 @@
           "studio": "Nintendo of America",
           "sourceId": "pvjTOhXVSKY",
           "thumbnailUrl": "https://i.ytimg.com/vi/pvjTOhXVSKY/hqdefault.jpg",
-          "note": "RPG · console",
+          "note": "RPG \u00b7 console",
           "tags": [
             "RPGs",
             "fantasy"
@@ -1705,7 +2261,7 @@
           "studio": "Iron Gate",
           "sourceId": "eWULkdcaR5o",
           "thumbnailUrl": "https://i.ytimg.com/vi/eWULkdcaR5o/hqdefault.jpg",
-          "note": "survival · PC",
+          "note": "survival \u00b7 PC",
           "tags": [
             "survival",
             "fantasy"
@@ -1724,7 +2280,7 @@
           "studio": "ION LANDS",
           "sourceId": "BRZLg3M8lHs",
           "thumbnailUrl": "https://i.ytimg.com/vi/BRZLg3M8lHs/hqdefault.jpg",
-          "note": "sim · PC",
+          "note": "sim \u00b7 PC",
           "tags": [
             "sim",
             "cosy"
@@ -1743,7 +2299,7 @@
           "studio": "Team Cherry",
           "sourceId": "6XGeJwsUP9c",
           "thumbnailUrl": "https://i.ytimg.com/vi/6XGeJwsUP9c/hqdefault.jpg",
-          "note": "fantasy · multi",
+          "note": "fantasy \u00b7 multi",
           "tags": [
             "fantasy",
             "RPGs"
@@ -1758,11 +2314,11 @@
       "art": [
         {
           "id": "ar_8l1B0x",
-          "headline": "Ashen’s highlands mood",
+          "headline": "Ashen\u2019s highlands mood",
           "sourceUrl": "https://hamish.artstation.com/projects/8l1B0x",
           "artist": "Hamish Fraser",
           "source": "artstation",
-          "creditLine": "Hamish Fraser · ArtStation",
+          "creditLine": "Hamish Fraser \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/016/056/714/medium/hamish-fraser-hlands-forest01.jpg?1550724709",
           "kind": "concept",
           "tags": [
@@ -1777,7 +2333,7 @@
           "sourceUrl": "https://www.fab.com/listings/4d1e4ac0-a02b-4a6b-8562-db759bc395c7",
           "artist": "JustCreate",
           "source": "fab",
-          "creditLine": "JustCreate · Fab",
+          "creditLine": "JustCreate \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/fb6218f7-3695-44a4-8c14-d96f077d4321/ac35f521-6dee-42d2-bdfb-c8f180c8bd7f.png",
           "kind": "3d",
           "tags": [
@@ -1792,7 +2348,7 @@
           "sourceUrl": "https://x.com/Ahvassa/status/2098063668306935876",
           "artist": "@Ahvassa",
           "source": "x",
-          "creditLine": "@Ahvassa · X",
+          "creditLine": "@Ahvassa \u00b7 X",
           "imageUrl": "https://pbs.twimg.com/media/HR3RyJCaAAAi_sm.png",
           "kind": "gameart",
           "tags": [
@@ -1807,7 +2363,7 @@
           "sourceUrl": "https://chriskarbach.artstation.com/projects/AqA6am",
           "artist": "Chris Karbach",
           "source": "artstation",
-          "creditLine": "Chris Karbach · ArtStation",
+          "creditLine": "Chris Karbach \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/071/707/406/medium/chris-karbach-chris-karbach-the-mountain-logo.jpg?1705764324",
           "kind": "concept",
           "tags": [
@@ -1822,7 +2378,7 @@
           "sourceUrl": "https://www.fab.com/listings/df8194f9-ec63-49f6-a885-6feb7a94fcb1",
           "artist": "Fab creator",
           "source": "fab",
-          "creditLine": "Fab creator · Fab",
+          "creditLine": "Fab creator \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/1c364c8a-396d-4f57-85e1-62443a051b3b/b2fbc9b1-7dc5-4e9b-bf7b-ffd67aee2f65.jpg",
           "kind": "3d",
           "tags": [
@@ -1837,7 +2393,7 @@
           "sourceUrl": "https://x.com/MistDenzel/status/2097363931253690698",
           "artist": "@MistDenzel",
           "source": "x",
-          "creditLine": "@MistDenzel · X",
+          "creditLine": "@MistDenzel \u00b7 X",
           "imageUrl": "https://pbs.twimg.com/media/HRtVX77WUAAs-Gp.jpg",
           "kind": "gameart",
           "tags": [
@@ -1852,7 +2408,7 @@
           "sourceUrl": "https://reynaudalan.artstation.com/projects/DLoKdo",
           "artist": "Reynaud Alan",
           "source": "artstation",
-          "creditLine": "Reynaud Alan · ArtStation",
+          "creditLine": "Reynaud Alan \u00b7 ArtStation",
           "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/087/531/741/medium/reynaud-alan-reynaud-alan-maelle-act3.jpg?1746028570",
           "kind": "concept",
           "tags": [
@@ -1867,7 +2423,7 @@
           "sourceUrl": "https://www.fab.com/listings/21adb011-2a60-493c-9c6f-163e200f3676",
           "artist": "Fab creator",
           "source": "fab",
-          "creditLine": "Fab creator · Fab",
+          "creditLine": "Fab creator \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/9f335d11-6d63-49df-bf1b-2aeb13fd544a/39983f2f-ebd2-48f1-b725-0d267e338580.png",
           "kind": "3d",
           "tags": [
@@ -1882,7 +2438,7 @@
           "sourceUrl": "https://x.com/MichelSeguin2/status/2100990203770949730",
           "artist": "@MichelSeguin2",
           "source": "x",
-          "creditLine": "@MichelSeguin2 · X",
+          "creditLine": "@MichelSeguin2 \u00b7 X",
           "imageUrl": "https://pbs.twimg.com/media/HSg3IvTWoAA4As_.jpg",
           "kind": "gameart",
           "tags": [
@@ -1894,9 +2450,9 @@
           "id": "ar_V24dPP",
           "headline": "Swamp mermaid character",
           "sourceUrl": "https://bragato.artstation.com/projects/V24dPP",
-          "artist": "João Bragato",
+          "artist": "Jo\u00e3o Bragato",
           "source": "artstation",
-          "creditLine": "João Bragato · ArtStation",
+          "creditLine": "Jo\u00e3o Bragato \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/images/images/086/855/878/medium/bragato-altamahahalogo.jpg?1781551909",
           "kind": "concept",
           "tags": [
@@ -1910,7 +2466,7 @@
           "sourceUrl": "https://www.fab.com/listings/44c5087f-31fd-418c-a7db-626c57e248b0",
           "artist": "Polyart Studio",
           "source": "fab",
-          "creditLine": "Polyart Studio · Fab",
+          "creditLine": "Polyart Studio \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/b8834483-3a03-4b45-b24f-b0d3f7082230/251e2ae6-7945-4fc0-ae51-4b047d96cc2d.png",
           "kind": "3d",
           "tags": [
@@ -1924,9 +2480,9 @@
           "id": "ar_zxoo46",
           "headline": "Monolith environment",
           "sourceUrl": "https://carleaf.artstation.com/projects/zxoo46",
-          "artist": "Carla Devèze",
+          "artist": "Carla Dev\u00e8ze",
           "source": "artstation",
-          "creditLine": "Carla Devèze · ArtStation",
+          "creditLine": "Carla Dev\u00e8ze \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/088/024/056/medium/carla-deveze-carla-deveze-thumbnails-monolith.jpg?1747247186",
           "kind": "concept",
           "tags": [
@@ -1941,7 +2497,7 @@
           "sourceUrl": "https://www.fab.com/listings/77a8dfc4-b0b3-4882-96a6-b454b2dc5747",
           "artist": "NOTLonely",
           "source": "fab",
-          "creditLine": "NOTLonely · Fab",
+          "creditLine": "NOTLonely \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/99cbf61c-dbae-4fd3-a205-abd888ee5685/1b23f55f-5c41-4af9-851a-1fff5106a441.png",
           "kind": "3d",
           "tags": [
@@ -1953,11 +2509,11 @@
         },
         {
           "id": "ar_elD5WJ",
-          "headline": "Pal’s Workshop cast",
+          "headline": "Pal\u2019s Workshop cast",
           "sourceUrl": "https://www.artstation.com/artwork/elD5WJ",
           "artist": "Konrad Magiera",
           "source": "artstation",
-          "creditLine": "Konrad Magiera · ArtStation",
+          "creditLine": "Konrad Magiera \u00b7 ArtStation",
           "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/101/940/834/medium/konrx-magiera-konrx-magiera-thumb.jpg?1787839020",
           "kind": "concept",
           "tags": [
@@ -1972,7 +2528,7 @@
           "sourceUrl": "https://www.fab.com/listings/9c5894eb-9f40-4e8b-98be-8471ae620c8b",
           "artist": "Meshingun Studio",
           "source": "fab",
-          "creditLine": "Meshingun Studio · Fab",
+          "creditLine": "Meshingun Studio \u00b7 Fab",
           "imageUrl": "https://media.fab.com/image_previews/gallery_images/309e3d93-7ffd-45d0-aecf-94fdb48d73d9/393e02d2-5e08-4a74-8ada-7974e7cd300d.jpg",
           "kind": "3d",
           "tags": [
