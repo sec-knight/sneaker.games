@@ -45,6 +45,18 @@ html.horde-overlay-open,html.horde-overlay-open body{touch-action:auto!important
 .hero-stage.is-live img{display:none}
 .hero-stage-hint{position:absolute;left:0;right:0;bottom:14px;margin:0;text-align:center;font-weight:800;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;pointer-events:none;z-index:2}
 
+/* Real-cat hero banner */
+.hero-banner{margin:0;width:min(100%,420px);border:3px solid #111;border-radius:28px;background:#fff;box-shadow:12px 16px 0 #111;overflow:hidden}
+.hero-banner picture,.hero-banner img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:center 35%}
+.hero-banner figcaption{margin:0;padding:12px 16px 14px;text-align:center;font-weight:900;font-size:clamp(1rem,2.2vw,1.25rem);letter-spacing:.01em;border-top:3px solid #111;background:#f79be5}
+@media(max-width:900px){
+  .hero-art .hero-banner{width:min(72vw,330px)}
+}
+@media(max-width:620px){
+  .hero-art .hero-banner{width:min(86vw,330px)}
+}
+
+
 /* Family stage */
 .family-hero{padding-bottom:12px}
 .family-stage-section{padding-top:12px}
