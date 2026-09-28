@@ -180,13 +180,13 @@
           "status": "live"
         },
         {
-          "id": "ar_aY2GO9",
-          "headline": "Zelda fan portrait glow",
-          "sourceUrl": "https://www.artstation.com/artwork/aY2GO9",
-          "artist": "Massimo Di Leo",
+          "id": "ar_gJB8Kx",
+          "headline": "BotW sequel Zelda mood",
+          "sourceUrl": "https://www.artstation.com/artwork/gJB8Kx",
+          "artist": "SolKorra",
           "source": "artstation",
-          "creditLine": "Massimo Di Leo · ArtStation",
-          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/041/728/851/medium/massimo-di-leo-16.jpg?1632504767",
+          "creditLine": "SolKorra · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/018/726/511/medium/sol-ferrari-d85xvmfwkaecvvr.jpg?1560461372",
           "kind": "fanart",
           "tags": [
             "Zelda",
@@ -195,13 +195,13 @@
           "status": "live"
         },
         {
-          "id": "ar_gJB8Kx",
-          "headline": "BotW sequel Zelda mood",
-          "sourceUrl": "https://www.artstation.com/artwork/gJB8Kx",
-          "artist": "SolKorra",
+          "id": "ar_blJJ6E",
+          "headline": "Hyrule autumn path to the castle",
+          "sourceUrl": "https://www.artstation.com/artwork/blJJ6E",
+          "artist": "林菜鸡",
           "source": "artstation",
-          "creditLine": "SolKorra · ArtStation",
-          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/018/726/511/medium/sol-ferrari-d85xvmfwkaecvvr.jpg?1560461372",
+          "creditLine": "林菜鸡 · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/063/489/959/medium/-caijmik-1.jpg?1685639453",
           "kind": "fanart",
           "tags": [
             "Zelda",
@@ -225,46 +225,33 @@
           "status": "live"
         },
         {
-          "id": "ar_WK4neJ",
-          "headline": "Zero Suit Samus soft take",
-          "sourceUrl": "https://www.artstation.com/artwork/WK4neJ",
-          "artist": "Fadingz（ふわチーズ）",
+          "id": "ar_JeQv1Z",
+          "headline": "Spartan Samus, full power armor",
+          "sourceUrl": "https://www.artstation.com/artwork/JeQv1Z",
+          "artist": "Shane Roberson",
           "source": "artstation",
-          "creditLine": "Fadingz（ふわチーズ） · ArtStation",
-          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/042/659/943/medium/fadingz-samus-zero-1500.jpg?1635124269",
+          "creditLine": "Shane Roberson · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/050/637/907/medium/shane-roberson-screenshot106.jpg?1655314002",
           "kind": "fanart",
           "tags": [
             "Metroid",
+            "Halo",
             "survival"
           ],
           "status": "live"
         },
         {
-          "id": "ar_ZGE68x",
-          "headline": "Samus Aran, painterly armor",
-          "sourceUrl": "https://www.artstation.com/artwork/ZGE68x",
-          "artist": "Krystopher Decker",
+          "id": "ar_k4LwXz",
+          "headline": "Samus helmet in the grass",
+          "sourceUrl": "https://www.artstation.com/artwork/k4LwXz",
+          "artist": "Daniel Sánchez",
           "source": "artstation",
-          "creditLine": "Krystopher Decker · ArtStation",
-          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/052/148/924/medium/krystopher-decker-138-samus1.jpg?1659053897",
+          "creditLine": "Daniel Sánchez · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/018/413/017/medium/daniel-sanchez-001.jpg?1559267330",
           "kind": "fanart",
           "tags": [
             "Metroid",
             "survival"
-          ],
-          "status": "live"
-        },
-        {
-          "id": "ar_yb9Jd9",
-          "headline": "Samus Aran, clean stare",
-          "sourceUrl": "https://www.artstation.com/artwork/yb9Jd9",
-          "artist": "Shu Ra",
-          "source": "artstation",
-          "creditLine": "Shu Ra · ArtStation",
-          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/027/063/575/medium/shu-ra-samus.jpg?1590495604",
-          "kind": "fanart",
-          "tags": [
-            "Metroid"
           ],
           "status": "live"
         },
@@ -484,6 +471,51 @@
           "tags": [
             "RTS",
             "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_zx9kow",
+          "headline": "Cozy woodland cottage glow",
+          "sourceUrl": "https://www.artstation.com/artwork/zx9kow",
+          "artist": "Arzu Izkış",
+          "source": "artstation",
+          "creditLine": "Arzu Izkış · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/086/468/547/medium/arzu-izkis-ev2.jpg?1743267387",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_zPqnQL",
+          "headline": "Survival fantasy junkyard vista",
+          "sourceUrl": "https://www.artstation.com/artwork/zPqnQL",
+          "artist": "Red Hong",
+          "source": "artstation",
+          "creditLine": "Red Hong · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/069/137/970/medium/red-hong-survival-fdantasy-001.jpg?1699427805",
+          "kind": "concept",
+          "tags": [
+            "survival",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_o2ZoNB",
+          "headline": "Gandalf and the falling Balrog",
+          "sourceUrl": "https://www.artstation.com/artwork/o2ZoNB",
+          "artist": "MC dibujante",
+          "source": "artstation",
+          "creditLine": "MC dibujante · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/046/603/716/medium/mc-dibujante-balrog-falling-with-gandalf-claro.jpg?1645520162",
+          "kind": "fanart",
+          "tags": [
+            "LotR",
+            "fantasy"
           ],
           "status": "live"
         },
