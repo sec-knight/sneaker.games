@@ -33,6 +33,650 @@
   },
   "days": [
     {
+      "date": "2026-10-06",
+      "label": "Tue Oct 6",
+      "trailers": [
+        {
+          "id": "tr_XvvWBS2uMw8",
+          "headline": "Warhammer Survivors dates its 40k + Sigmar bullet heaven for Nov 10",
+          "game": "Warhammer Survivors",
+          "watchUrl": "https://www.youtube.com/watch?v=XvvWBS2uMw8",
+          "source": "youtube",
+          "studio": "Auroch Digital / Games Workshop",
+          "sourceId": "XvvWBS2uMw8",
+          "thumbnailUrl": "https://i.ytimg.com/vi/XvvWBS2uMw8/hqdefault.jpg",
+          "note": "Warhammer 40k + Age of Sigmar · roguelite survivors · free demo now · Nov 10",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "platforms": [
+            "console",
+            "PC",
+            "mobile"
+          ],
+          "status": "live",
+          "featured": true
+        },
+        {
+          "id": "tr_GmCSew3WWQo",
+          "headline": "WoW Forever introduces the Skyborne, High Elven exiles of the wind",
+          "game": "World of Warcraft: Forever",
+          "watchUrl": "https://www.youtube.com/watch?v=GmCSew3WWQo",
+          "source": "youtube",
+          "studio": "Blizzard Entertainment",
+          "sourceId": "GmCSew3WWQo",
+          "thumbnailUrl": "https://i.ytimg.com/vi/GmCSew3WWQo/hqdefault.jpg",
+          "note": "fantasy · MMORPG · new Skyborne race · lore + abilities · Nov 6",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_jMa6zU7tmA8",
+          "headline": "Conan Exiles Enhanced opens otherworldly Rifts in Giant-Kings Part Two",
+          "game": "Conan Exiles Enhanced",
+          "watchUrl": "https://www.youtube.com/watch?v=jMa6zU7tmA8",
+          "source": "youtube",
+          "studio": "Funcom",
+          "sourceId": "jMa6zU7tmA8",
+          "thumbnailUrl": "https://i.ytimg.com/vi/jMa6zU7tmA8/hqdefault.jpg",
+          "note": "survival · new sorcery spells · Rift arenas · Mi-Go return · live now",
+          "tags": [
+            "survival",
+            "fantasy"
+          ],
+          "platforms": [
+            "console",
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_gYP1K7ewpBM",
+          "headline": "Stolen Realm 2 announced: classless co-op fantasy RPG",
+          "game": "Stolen Realm 2",
+          "watchUrl": "https://www.youtube.com/watch?v=gYP1K7ewpBM",
+          "source": "youtube",
+          "studio": "Burst2Flame Games",
+          "sourceId": "gYP1K7ewpBM",
+          "thumbnailUrl": "https://i.ytimg.com/vi/gYP1K7ewpBM/hqdefault.jpg",
+          "note": "fantasy · turn-based RPG · co-op up to 6 · campaign + roguelike mode",
+          "tags": [
+            "RPGs",
+            "fantasy"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        },
+        {
+          "id": "tr_86-uQR5qp28",
+          "headline": "CottageCore lets you build cottages up to cloud-top castles",
+          "game": "CottageCore",
+          "watchUrl": "https://www.youtube.com/watch?v=86-uQR5qp28",
+          "source": "youtube",
+          "studio": "Deltakosh",
+          "sourceId": "86-uQR5qp28",
+          "thumbnailUrl": "https://i.ytimg.com/vi/86-uQR5qp28/hqdefault.jpg",
+          "note": "cosy · builder · timber framing + ivy · villagers move in",
+          "tags": [
+            "cosy",
+            "sim"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": false
+        }
+      ],
+      "art": [
+        {
+          "id": "ar_W294dN",
+          "headline": "Warhammer 40K nebula voyage",
+          "sourceUrl": "https://www.artstation.com/artwork/W294dN",
+          "artist": "jordi van hees",
+          "source": "artstation",
+          "creditLine": "jordi van hees · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/019/966/848/medium/jordi-van-hees-shot-1-beauty-render-004.jpg?1565783829",
+          "kind": "fanart",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_rlZ0oL",
+          "headline": "Titus stands ready, Space Marine 2",
+          "sourceUrl": "https://www.artstation.com/artwork/rlZ0oL",
+          "artist": "Caspersz Mode",
+          "source": "artstation",
+          "creditLine": "Caspersz Mode · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/083/097/093/medium/jackson-caspersz-464-titus-space-marine.jpg?1734743413",
+          "kind": "fanart",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_X1QaGY",
+          "headline": "Archaon the Everchosen rides to war",
+          "sourceUrl": "https://www.artstation.com/artwork/X1QaGY",
+          "artist": "Antonio J. Manzanedo",
+          "source": "artstation",
+          "creditLine": "Antonio J. Manzanedo · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/054/729/095/medium/antonio-j-manzanedo-archaon-the-everchosen-manzanedo.jpg?1665228780",
+          "kind": "fanart",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_x3QZlR",
+          "headline": "Mira of Darktide, spear in hand",
+          "sourceUrl": "https://www.artstation.com/artwork/x3QZlR",
+          "artist": "Esther Smisdom",
+          "source": "artstation",
+          "creditLine": "Esther Smisdom · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/093/893/921/medium/esther-smisdom-gummen-02.webp?1763849209",
+          "kind": "fanart",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_xZyPY",
+          "headline": "Whirlwind Mk2 rocket tank",
+          "sourceUrl": "https://www.artstation.com/artwork/xZyPY",
+          "artist": "Christian \"Gistold\" Le Roux",
+          "source": "artstation",
+          "creditLine": "Christian \"Gistold\" Le Roux · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/002/523/757/medium/christian-gistold-le-roux-ww-iray.jpg?1467754518",
+          "kind": "3d",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_YoQwK",
+          "headline": "Stormcast Eternals charge, Age of Sigmar",
+          "sourceUrl": "https://www.artstation.com/artwork/YoQwK",
+          "artist": "Igor Sid",
+          "source": "artstation",
+          "creditLine": "Igor Sid · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/065/774/458/medium/igor-sid-igor-sid-50.jpg?1691174008",
+          "kind": "fanart",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_Ga4B5a",
+          "headline": "Hastur Sejanus of the Luna Wolves",
+          "sourceUrl": "https://www.artstation.com/artwork/Ga4B5a",
+          "artist": "Daniel Irwin",
+          "source": "artstation",
+          "creditLine": "Daniel Irwin · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/042/370/318/medium/daniel-irwin-61878b05-d4d5-4916-b00b-82659ed628b6.jpg?1634308370",
+          "kind": "fanart",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_EvWkK4",
+          "headline": "Darktide-inspired bolter",
+          "sourceUrl": "https://www.artstation.com/artwork/EvWkK4",
+          "artist": "Peter Cimino",
+          "source": "artstation",
+          "creditLine": "Peter Cimino · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/070/722/031/medium/peter-cimino-peter-cimino-bolterthumbnail.jpg?1703273186",
+          "kind": "3d",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_qAnlN",
+          "headline": "Ryan Firehoof, tauren of the Horde",
+          "sourceUrl": "https://www.artstation.com/artwork/qAnlN",
+          "artist": "Kan Liu(666K信譞)",
+          "source": "artstation",
+          "creditLine": "Kan Liu(666K信譞) · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/000/249/224/medium/kan-liu-666k-ryan-firehoof.jpg?1443928655",
+          "kind": "fanart",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_49VRdn",
+          "headline": "Turbo-charged goblin flying machine",
+          "sourceUrl": "https://www.artstation.com/artwork/49VRdn",
+          "artist": "Phorge",
+          "source": "artstation",
+          "creditLine": "Phorge · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/069/608/097/medium/phorge-phorge-artstation-miniatures.jpg?1700561671",
+          "kind": "3d",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_wrlEmX",
+          "headline": "Antlered tauren warrior",
+          "sourceUrl": "https://www.artstation.com/artwork/wrlEmX",
+          "artist": "Andrey Pokomeda",
+          "source": "artstation",
+          "creditLine": "Andrey Pokomeda · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/097/767/791/medium/andrey-pokomeda-andrey-pokomeda-a14cc-crop2.webp?1775566623",
+          "kind": "fanart",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_J998wd",
+          "headline": "Orgrimmar game board, Hearthstone",
+          "sourceUrl": "https://www.artstation.com/artwork/J998wd",
+          "artist": "Ben Thompson",
+          "source": "artstation",
+          "creditLine": "Ben Thompson · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/028/245/636/medium/ben-thompson-hs-board-orgrimmar-final.jpg?1594224735",
+          "kind": "gameart",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_yxP4K",
+          "headline": "Tauren brave in red war paint",
+          "sourceUrl": "https://www.artstation.com/artwork/yxP4K",
+          "artist": "George Evangelista",
+          "source": "artstation",
+          "creditLine": "George Evangelista · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/006/542/749/medium/george-evangelista-tauren.jpg?1499381602",
+          "kind": "fanart",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_ZJ6km",
+          "headline": "Orc warriors of the Horde",
+          "sourceUrl": "https://www.artstation.com/artwork/ZJ6km",
+          "artist": "MG",
+          "source": "artstation",
+          "creditLine": "MG · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/049/298/395/medium/mg-33.jpg?1652176523",
+          "kind": "3d",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_xz0R84",
+          "headline": "Primal Zerg worm sculpt",
+          "sourceUrl": "https://www.artstation.com/artwork/xz0R84",
+          "artist": "Thuan Nguyen Minh Duong",
+          "source": "artstation",
+          "creditLine": "Thuan Nguyen Minh Duong · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/022/369/325/medium/thuan-nguyen-minh-duong-img-0510.jpg?1575201380",
+          "kind": "fanart",
+          "tags": [
+            "StarCraft",
+            "RTS"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_Wovmy",
+          "headline": "Dehaka and his minion nests",
+          "sourceUrl": "https://www.artstation.com/artwork/Wovmy",
+          "artist": "Travis Castillo",
+          "source": "artstation",
+          "creditLine": "Travis Castillo · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/008/139/503/medium/travis-castillo-units-building-dehakanest.jpg?1510724346",
+          "kind": "3d",
+          "tags": [
+            "StarCraft",
+            "RTS"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_oxd6O",
+          "headline": "Archon design, Legacy of the Void",
+          "sourceUrl": "https://www.artstation.com/artwork/oxd6O",
+          "artist": "Anthony Chong Jones",
+          "source": "artstation",
+          "creditLine": "Anthony Chong Jones · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/001/685/300/medium/anthony-jones-archon-orthos-v4body.jpg?1450823267",
+          "kind": "fanart",
+          "tags": [
+            "StarCraft",
+            "RTS"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_8wZyZR",
+          "headline": "Princess Zelda, Breath of the Wild portrait",
+          "sourceUrl": "https://www.artstation.com/artwork/8wZyZR",
+          "artist": "ElvellonArt",
+          "source": "artstation",
+          "creditLine": "ElvellonArt · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/047/973/078/medium/lukas-baumgartner-character-portraits-set-2-zelda.jpg?1648893812",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_1N8gD2",
+          "headline": "Stylized Link in his winter scarf",
+          "sourceUrl": "https://www.artstation.com/artwork/1N8gD2",
+          "artist": "Florian Cazes",
+          "source": "artstation",
+          "creditLine": "Florian Cazes · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/079/385/306/medium/florian-cazes-link-close.jpg?1724776104",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_OGDN8w",
+          "headline": "A Champion's Welcome in a Hylian town",
+          "sourceUrl": "https://www.artstation.com/artwork/OGDN8w",
+          "artist": "Nacho Rodriguez",
+          "source": "artstation",
+          "creditLine": "Nacho Rodriguez · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/062/754/383/medium/nacho-rodriguez-link.jpg?1686790184",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_5v1kkA",
+          "headline": "Twin Peaks over Hyrule fields",
+          "sourceUrl": "https://www.artstation.com/artwork/5v1kkA",
+          "artist": "Paulo Loveranes Galamgam",
+          "source": "artstation",
+          "creditLine": "Paulo Loveranes Galamgam · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/063/307/693/medium/paulo-loveranes-galamgam-zelda-05.jpg?1685225811",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_rJWxle",
+          "headline": "Samus visor glow, Metroid Dread pixel art",
+          "sourceUrl": "https://www.artstation.com/artwork/rJWxle",
+          "artist": "Bryan Heemskerk",
+          "source": "artstation",
+          "creditLine": "Bryan Heemskerk · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/063/360/704/medium/bryan-heemskerk-metroiddread3-polishfinal3.jpg?1685370073",
+          "kind": "fanart",
+          "tags": [
+            "Metroid"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_1k5mo",
+          "headline": "Samus boosts through the sky",
+          "sourceUrl": "https://www.artstation.com/artwork/1k5mo",
+          "artist": "Eric Basiletti - Kargall-",
+          "source": "artstation",
+          "creditLine": "Eric Basiletti - Kargall- · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/006/007/297/medium/eric-basiletti-perso-last-final-20.jpg?1495380660",
+          "kind": "fanart",
+          "tags": [
+            "Metroid"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_1LoJK",
+          "headline": "Halo 5 Guardian concept",
+          "sourceUrl": "https://www.artstation.com/artwork/1LoJK",
+          "artist": "Kory Lynn Hubbell",
+          "source": "artstation",
+          "creditLine": "Kory Lynn Hubbell · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/001/462/105/medium/kory-hubbell-kory-guardian-exploration-7.jpg?1447696840",
+          "kind": "concept",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_XnE5el",
+          "headline": "Halo: Humanity Spartan close-up",
+          "sourceUrl": "https://www.artstation.com/artwork/XnE5el",
+          "artist": "Zsolt Derka",
+          "source": "artstation",
+          "creditLine": "Zsolt Derka · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/034/945/193/medium/zsolt-derka-zsolt-derka-halohumanity-thumbnail.jpg?1613666205",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_gP2Ym",
+          "headline": "Spartan buddy-revive concept",
+          "sourceUrl": "https://www.artstation.com/artwork/gP2Ym",
+          "artist": "Eric Will",
+          "source": "artstation",
+          "creditLine": "Eric Will · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/001/601/574/medium/eric-will-revive-3d-frame-04.jpg?1449272286",
+          "kind": "concept",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_98PDR",
+          "headline": "Spartan visor substructure study",
+          "sourceUrl": "https://www.artstation.com/artwork/98PDR",
+          "artist": "Mike Hill",
+          "source": "artstation",
+          "creditLine": "Mike Hill · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/001/076/611/medium/mike-hill-visor-concept-copy.jpg?1443926990",
+          "kind": "concept",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_YKdk46",
+          "headline": "Smaug over the Lonely Mountain",
+          "sourceUrl": "https://www.artstation.com/artwork/YKdk46",
+          "artist": "Anato Finnstark",
+          "source": "artstation",
+          "creditLine": "Anato Finnstark · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/053/062/020/medium/anato-finnstark-anato-finnstark-weppti.jpg?1661333942",
+          "kind": "fanart",
+          "tags": [
+            "Lord of the Rings",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_rAAYzG",
+          "headline": "Gandalf of the Fellowship sculpt",
+          "sourceUrl": "https://www.artstation.com/artwork/rAAYzG",
+          "artist": "Litos Lopez",
+          "source": "artstation",
+          "creditLine": "Litos Lopez · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/034/007/867/medium/litos-lopez-litos-lopez-lord-of-the-rings-gandalf-copia.jpg?1611153624",
+          "kind": "fanart",
+          "tags": [
+            "Lord of the Rings",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_4XVnn",
+          "headline": "Strider at the Prancing Pony",
+          "sourceUrl": "https://www.artstation.com/artwork/4XVnn",
+          "artist": "Tony Foti",
+          "source": "artstation",
+          "creditLine": "Tony Foti · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/000/583/720/medium/tony-foti-lord-of-the-rings-tcg-strider-by-anthonyfoti-d4wikm1.jpg?1427525281",
+          "kind": "fanart",
+          "tags": [
+            "Lord of the Rings",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_vJLK46",
+          "headline": "Rings of Power: the Harfoots",
+          "sourceUrl": "https://www.artstation.com/artwork/vJLK46",
+          "artist": "Pablo Dominguez",
+          "source": "artstation",
+          "creditLine": "Pablo Dominguez · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/057/498/631/medium/pablo-dominguez-pablo-dominguez-untitled-1.jpg?1671745726",
+          "kind": "concept",
+          "tags": [
+            "Lord of the Rings",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_zxaBg6",
+          "headline": "Enchanted pumpkin cottage",
+          "sourceUrl": "https://www.artstation.com/artwork/zxaBg6",
+          "artist": "TÆNYA",
+          "source": "artstation",
+          "creditLine": "TÆNYA · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/098/335/402/medium/taenya-render-1.webp?1776781899",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_lERnge",
+          "headline": "Cozy apartment, warm lamplight",
+          "sourceUrl": "https://www.artstation.com/artwork/lERnge",
+          "artist": "ekorn studios",
+          "source": "artstation",
+          "creditLine": "ekorn studios · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/101/877/835/medium/ekorn-studios-ekorn-studios-artstation-env.webp?1787661618",
+          "kind": "3d",
+          "tags": [
+            "cosy",
+            "sim"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_V8om1g",
+          "headline": "Kiela's spellshop cottage",
+          "sourceUrl": "https://www.artstation.com/artwork/V8om1g",
+          "artist": "Georgina Ng",
+          "source": "artstation",
+          "creditLine": "Georgina Ng · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/100/464/030/medium/georgina-ng-spellshop.webp?1782986602",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_8PyJO",
+          "headline": "Viking cliff castle",
+          "sourceUrl": "https://www.artstation.com/artwork/8PyJO",
+          "artist": "Martin Deschambault",
+          "source": "artstation",
+          "creditLine": "Martin Deschambault · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/003/400/807/medium/martin-deschambault-cliff-castle-www.jpg?1473299248",
+          "kind": "concept",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_BkLlnl",
+          "headline": "MTG x Final Fantasy starting town",
+          "sourceUrl": "https://www.artstation.com/artwork/BkLlnl",
+          "artist": "Hristo Chukov",
+          "source": "artstation",
+          "creditLine": "Hristo Chukov · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/089/994/942/medium/hristo-chukov-hristo-chukov-asthumbnail.jpg?1752581320",
+          "kind": "concept",
+          "tags": [
+            "fantasy",
+            "RPGs"
+          ],
+          "status": "live"
+        }
+      ]
+    },
+    {
       "date": "2026-10-05",
       "label": "Mon Oct 5",
       "trailers": [
