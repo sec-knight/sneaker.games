@@ -1,0 +1,21 @@
+# Local development variables for `wrangler dev`.
+# Copy to `.dev.vars` (gitignored) to exercise the feedback + leaderboard
+# endpoints against a local D1 database.
+#
+# The Turnstile values below are Cloudflare's public, documented test keys.
+# The secret always passes verification, so no real Turnstile account is
+# needed for local development. Do NOT use these in production.
+# https://developers.cloudflare.com/turnstile/troubleshooting/testing/
+TURNSTILE_SITE_KEY="1x00000000000000000000AA"
+TURNSTILE_SECRET_KEY="1x0000000000000000000000000000000AA"
+
+# Any long random string. Used to derive non-reversible per-visitor rate-limit
+# keys; raw IPs are never stored.
+RATE_LIMIT_SALT="local-development-rate-limit-salt-change-me"
+
+# Admin (/api/admin/*) endpoints additionally require a real Cloudflare Access
+# assertion, so they cannot be exercised end-to-end in local dev. These are
+# only read to decide whether to attempt verification.
+# ADMIN_EMAIL="you@example.com"
+# TEAM_DOMAIN="https://your-team.cloudflareaccess.com"
+# POLICY_AUD="your-access-application-aud"
