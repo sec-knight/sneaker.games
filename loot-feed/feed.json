@@ -33,6 +33,545 @@
   },
   "days": [
     {
+      "date": "2026-10-09",
+      "label": "Fri Oct 9",
+      "trailers": [
+        {
+          "id": "tr_MqD9g43YRFg",
+          "headline": "Dawn of War 4 marches out the Space Marines",
+          "game": "Warhammer 40,000: Dawn of War 4",
+          "watchUrl": "https://www.youtube.com/watch?v=MqD9g43YRFg",
+          "source": "youtube",
+          "studio": "KING Art / Deep Silver",
+          "sourceId": "MqD9g43YRFg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/MqD9g43YRFg/hqdefault.jpg",
+          "note": "Space Marines faction trailer · via IGN",
+          "tags": [
+            "RTS"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live",
+          "featured": true
+        },
+        {
+          "id": "tr_hy9WGVnKCZ0",
+          "headline": "Aftergods reveals a post-Ragnarök god-building ARPG",
+          "game": "Aftergods",
+          "watchUrl": "https://www.youtube.com/watch?v=hy9WGVnKCZ0",
+          "source": "youtube",
+          "studio": "Norsfell",
+          "sourceId": "hy9WGVnKCZ0",
+          "thumbnailUrl": "https://i.ytimg.com/vi/hy9WGVnKCZ0/hqdefault.jpg",
+          "note": "Reveal trailer · survival ARPG from the Tribes of Midgard team · Triple-i",
+          "tags": [
+            "RPGs",
+            "survival",
+            "fantasy"
+          ],
+          "platforms": [
+            "PC",
+            "console"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "tr_LhFCP6dPBYA",
+          "headline": "Outward 2 sets a new release date",
+          "game": "Outward 2",
+          "watchUrl": "https://www.youtube.com/watch?v=LhFCP6dPBYA",
+          "source": "youtube",
+          "studio": "Nine Dots Studio",
+          "sourceId": "LhFCP6dPBYA",
+          "thumbnailUrl": "https://i.ytimg.com/vi/LhFCP6dPBYA/hqdefault.jpg",
+          "note": "New release date trailer",
+          "tags": [
+            "RPGs",
+            "survival",
+            "fantasy"
+          ],
+          "platforms": [
+            "PC",
+            "console"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "tr_HcscA49OjQo",
+          "headline": "Kingdom Two Crowns heads to the Pharaoh Lands",
+          "game": "Kingdom Two Crowns: Pharaoh Lands",
+          "watchUrl": "https://www.youtube.com/watch?v=HcscA49OjQo",
+          "source": "youtube",
+          "studio": "Raw Fury",
+          "sourceId": "HcscA49OjQo",
+          "thumbnailUrl": "https://i.ytimg.com/vi/HcscA49OjQo/hqdefault.jpg",
+          "note": "DLC announcement trailer · via Xbox",
+          "tags": [
+            "RTS",
+            "sim"
+          ],
+          "platforms": [
+            "PC",
+            "console",
+            "mobile"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "tr_SHCQ8okiclU",
+          "headline": "Calmaria: Wild Growth grows a cozy co-op survival builder",
+          "game": "Calmaria: Wild Growth",
+          "watchUrl": "https://www.youtube.com/watch?v=SHCQ8okiclU",
+          "source": "youtube",
+          "studio": "Calmaria",
+          "sourceId": "SHCQ8okiclU",
+          "thumbnailUrl": "https://i.ytimg.com/vi/SHCQ8okiclU/hqdefault.jpg",
+          "note": "Official trailer · cozy co-op survival & building",
+          "tags": [
+            "cosy",
+            "survival"
+          ],
+          "platforms": [
+            "PC"
+          ],
+          "status": "live"
+        }
+      ],
+      "art": [
+        {
+          "id": "ar_1nNzyq",
+          "headline": "Carcharodon Astra marine",
+          "sourceUrl": "https://www.artstation.com/artwork/1nNzyq",
+          "artist": "Andrey Nyarl",
+          "source": "artstation",
+          "creditLine": "Andrey Nyarl · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/015/014/488/medium/andrey-gris-carharodon-astra.jpg?1546716793",
+          "kind": "fanart",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_YGrvd6",
+          "headline": "Vermintide II knight",
+          "sourceUrl": "https://www.artstation.com/artwork/YGrvd6",
+          "artist": "Mike Terekhov",
+          "source": "artstation",
+          "creditLine": "Mike Terekhov · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/082/749/381/medium/mike-terekhov-mike-terekhov-minias-vermintide2-char-out-279-skin-es-knight-1001.jpg?1733838392",
+          "kind": "gameart",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_9NZ2PO",
+          "headline": "Kill Team Primus armor",
+          "sourceUrl": "https://www.artstation.com/artwork/9NZ2PO",
+          "artist": "Daniel Irwin",
+          "source": "artstation",
+          "creditLine": "Daniel Irwin · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/047/972/887/medium/daniel-irwin-254e0f71-5a4c-4f60-8063-48fd08735b7c.jpg?1648893142",
+          "kind": "3d",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_dyk8JX",
+          "headline": "Dragon forge interior",
+          "sourceUrl": "https://www.artstation.com/artwork/dyk8JX",
+          "artist": "Ethan Koss",
+          "source": "artstation",
+          "creditLine": "Ethan Koss · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/100/235/936/medium/ethan-koss-ethan-koss-shot06.webp?1782275724",
+          "kind": "concept",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_0ezEV",
+          "headline": "Imperial Guard Baneblade",
+          "sourceUrl": "https://www.artstation.com/artwork/0ezEV",
+          "artist": "Allan Dilks",
+          "source": "artstation",
+          "creditLine": "Allan Dilks · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/018/707/774/medium/allan-dilks-thumbnail-baneblade.jpg?1560395519",
+          "kind": "3d",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_0nQdL5",
+          "headline": "40k Dunerider",
+          "sourceUrl": "https://www.artstation.com/artwork/0nQdL5",
+          "artist": "Guillaume Bolis",
+          "source": "artstation",
+          "creditLine": "Guillaume Bolis · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/038/997/746/medium/guillaume-bolis-guillaume-bolis-dunerider-thumbnail.jpg?1624643306",
+          "kind": "3d",
+          "tags": [
+            "Warhammer",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_DY5Av0",
+          "headline": "The Last Templar",
+          "sourceUrl": "https://www.artstation.com/artwork/DY5Av0",
+          "artist": "JULIAN CALLE",
+          "source": "artstation",
+          "creditLine": "JULIAN CALLE · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/101/114/516/medium/julian-calle-concept001.webp?1785155682",
+          "kind": "fanart",
+          "tags": [
+            "StarCraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_dKA9YJ",
+          "headline": "Guard of Stormwind",
+          "sourceUrl": "https://www.artstation.com/artwork/dKA9YJ",
+          "artist": "Olga Jaworska",
+          "source": "artstation",
+          "creditLine": "Olga Jaworska · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/076/704/207/medium/olga-jaworska-stormwind2-copy.jpg?1717593948",
+          "kind": "fanart",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_YKz9Z3",
+          "headline": "Helya's Gaze fanart",
+          "sourceUrl": "https://www.artstation.com/artwork/YKz9Z3",
+          "artist": "Anna  Siebenhandl",
+          "source": "artstation",
+          "creditLine": "Anna  Siebenhandl · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/062/535/475/medium/anna-siebenhandl-cover.jpg?1683366257",
+          "kind": "fanart",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_z83yL",
+          "headline": "WoW hippo mount",
+          "sourceUrl": "https://www.artstation.com/artwork/z83yL",
+          "artist": "Matthew McKeown",
+          "source": "artstation",
+          "creditLine": "Matthew McKeown · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/012/730/007/medium/matthew-mckeown-thumbnail-hippo.jpg?1536222076",
+          "kind": "gameart",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_EV9Ao8",
+          "headline": "Zandalari Empire fan concept",
+          "sourceUrl": "https://www.artstation.com/artwork/EV9Ao8",
+          "artist": "Elena Yakovleva",
+          "source": "artstation",
+          "creditLine": "Elena Yakovleva · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/016/617/682/medium/elena-yakovleva-1-3-2.jpg?1552843145",
+          "kind": "concept",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_A3wqV",
+          "headline": "Rexxar concept",
+          "sourceUrl": "https://www.artstation.com/artwork/A3wqV",
+          "artist": "Matthew McKeown",
+          "source": "artstation",
+          "creditLine": "Matthew McKeown · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/012/802/010/medium/matthew-mckeown-thumbnail-rexxarconcept.jpg?1536602043",
+          "kind": "concept",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_EzNAeq",
+          "headline": "Troll sketch",
+          "sourceUrl": "https://www.artstation.com/artwork/EzNAeq",
+          "artist": "Nikolai Gorishnii",
+          "source": "artstation",
+          "creditLine": "Nikolai Gorishnii · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/082/430/542/medium/nikolai-gorishnii-nikolai-gorishnii-base-cube2.jpg?1732964049",
+          "kind": "fanart",
+          "tags": [
+            "Warcraft",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_oOxADW",
+          "headline": "Overgrown ruins",
+          "sourceUrl": "https://www.artstation.com/artwork/oOxADW",
+          "artist": "Cosmin Hrincu",
+          "source": "artstation",
+          "creditLine": "Cosmin Hrincu · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/covers/images/016/331/693/medium/cosmin-hrincu-overgrown-002.jpg?1551772176",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_W6YYD",
+          "headline": "Link, Breath of the Wild",
+          "sourceUrl": "https://www.artstation.com/artwork/W6YYD",
+          "artist": "Murilo Kleine",
+          "source": "artstation",
+          "creditLine": "Murilo Kleine · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/009/445/452/medium/murilo-kleine-ava.jpg?1519052398",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_xY43Nr",
+          "headline": "Link portrait, BotW",
+          "sourceUrl": "https://www.artstation.com/artwork/xY43Nr",
+          "artist": "chu",
+          "source": "artstation",
+          "creditLine": "chu · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/051/295/008/medium/chu-link04-1.jpg?1656946955",
+          "kind": "3d",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_EaZq2",
+          "headline": "His name is Link",
+          "sourceUrl": "https://www.artstation.com/artwork/EaZq2",
+          "artist": "Rodrigo Paulicchi",
+          "source": "artstation",
+          "creditLine": "Rodrigo Paulicchi · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/000/532/909/medium/rodrigo-paulicchi-comp-05-web.jpg?1443932344",
+          "kind": "fanart",
+          "tags": [
+            "Zelda",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_r9v05m",
+          "headline": "Spartan Locke",
+          "sourceUrl": "https://www.artstation.com/artwork/r9v05m",
+          "artist": "Christopher Frazier",
+          "source": "artstation",
+          "creditLine": "Christopher Frazier · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/047/520/900/medium/christopher-frazier-locke-closeup.jpg?1647801919",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_q9vYDy",
+          "headline": "Halo 2 pixel art",
+          "sourceUrl": "https://www.artstation.com/artwork/q9vYDy",
+          "artist": "Helen R. Sanchez",
+          "source": "artstation",
+          "creditLine": "Helen R. Sanchez · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/video_clips/images/031/993/029/medium/helen-quinlan-thumb.jpg?1605172757",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_EVQB5K",
+          "headline": "Spartan MKV armor",
+          "sourceUrl": "https://www.artstation.com/artwork/EVQB5K",
+          "artist": "McCarthy Bro's",
+          "source": "artstation",
+          "creditLine": "McCarthy Bro's · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/model3ds/images/020/564/865/medium/samuel-amp-joshua-mccarthy-b0a7ba9086eb449b9ecb326ca2e39519.jpg?1568268407",
+          "kind": "3d",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_LeRexR",
+          "headline": "Field Marshal, Halo Reach",
+          "sourceUrl": "https://www.artstation.com/artwork/LeRexR",
+          "artist": "Lukas Rios",
+          "source": "artstation",
+          "creditLine": "Lukas Rios · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/044/247/166/medium/lukas-rios-teste-render-1.jpg?1639488283",
+          "kind": "fanart",
+          "tags": [
+            "Halo"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_9mYnrW",
+          "headline": "Rivendell",
+          "sourceUrl": "https://www.artstation.com/artwork/9mYnrW",
+          "artist": "Edoardo Campagnolo",
+          "source": "artstation",
+          "creditLine": "Edoardo Campagnolo · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/041/590/194/medium/edoardo-salvej-campagnolo-rivendell-cleanup.jpg?1632145924",
+          "kind": "fanart",
+          "tags": [
+            "Lord of the Rings",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_rlBemO",
+          "headline": "Forest home",
+          "sourceUrl": "https://www.artstation.com/artwork/rlBemO",
+          "artist": "Helena E H Hansen",
+          "source": "artstation",
+          "creditLine": "Helena E H Hansen · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/086/537/064/medium/helena-e-h-hansen-helena-e-h-hansen-hobbit-hh-thumbnail.jpg?1743447083",
+          "kind": "concept",
+          "tags": [
+            "Lord of the Rings",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_v9vZD",
+          "headline": "Rivendell: The Riders",
+          "sourceUrl": "https://www.artstation.com/artwork/v9vZD",
+          "artist": "Donato Giancola",
+          "source": "artstation",
+          "creditLine": "Donato Giancola · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/001/796/830/medium/donato-giancola-rivendell-theriders-donato-1200.jpg?1452869431",
+          "kind": "fanart",
+          "tags": [
+            "Lord of the Rings",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_14v3nZ",
+          "headline": "Lord of the Rings book cover",
+          "sourceUrl": "https://www.artstation.com/artwork/14v3nZ",
+          "artist": "Anato Finnstark",
+          "source": "artstation",
+          "creditLine": "Anato Finnstark · ArtStation",
+          "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/054/440/847/medium/anato-finnstark-webpetit.jpg?1664542588",
+          "kind": "fanart",
+          "tags": [
+            "Lord of the Rings",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_3Ez98J",
+          "headline": "The Cottage",
+          "sourceUrl": "https://www.artstation.com/artwork/3Ez98J",
+          "artist": "Tonie Tran",
+          "source": "artstation",
+          "creditLine": "Tonie Tran · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/video_clips/images/091/265/772/medium/tonie-tran-thumb.jpg?1756307341",
+          "kind": "3d",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_NyLAg1",
+          "headline": "Granny's dinner",
+          "sourceUrl": "https://www.artstation.com/artwork/NyLAg1",
+          "artist": "Anzhelika Kasyanova",
+          "source": "artstation",
+          "creditLine": "Anzhelika Kasyanova · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/covers/images/070/740/224/medium/anzhelika-kasyanova-anzhelika-kasyanova.jpg?1703341327",
+          "kind": "concept",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_eRLWB6",
+          "headline": "Cozy village",
+          "sourceUrl": "https://www.artstation.com/artwork/eRLWB6",
+          "artist": "Roman Orlov",
+          "source": "artstation",
+          "creditLine": "Roman Orlov · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/092/540/768/medium/roman-orlov-untitled.webp?1759937929",
+          "kind": "3d",
+          "tags": [
+            "cosy",
+            "fantasy"
+          ],
+          "status": "live"
+        },
+        {
+          "id": "ar_Za9m2R",
+          "headline": "Sunken Hollow",
+          "sourceUrl": "https://www.artstation.com/artwork/Za9m2R",
+          "artist": "Calder Moore",
+          "source": "artstation",
+          "creditLine": "Calder Moore · ArtStation",
+          "imageUrl": "https://cdna.artstation.com/p/assets/images/images/067/913/434/medium/calder-moore-427648-sunkenhollow-final.jpg?1696522092",
+          "kind": "concept",
+          "tags": [
+            "fantasy"
+          ],
+          "status": "live"
+        }
+      ]
+    },
+    {
       "date": "2026-10-07",
       "label": "Wed Oct 7",
       "trailers": [
